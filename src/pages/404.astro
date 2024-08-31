@@ -13,11 +13,14 @@ const title = `Error 404`;
           <span class="sr-only">Error</span>
           <span class="text-primary">404</span>
         </h2>
-        <p class="text-3xl font-semibold md:text-3xl">Sorry, we couldn't find this page.</p>
+        <p class="text-3xl font-semibold md:text-3xl">Sorry, this page does not exist.</p>
         <p class="mt-4 mb-8 text-lg text-muted dark:text-slate-400">
-          But dont worry, you can find plenty of other things on our homepage.
+          <em>We can only see a short distance ahead, but we can see plenty there that needs to be done.</em>
         </p>
-        <a rel="noopener noreferrer" href={getHomePermalink()} class="btn ml-4">Back to homepage</a>
+        <p class="mt-4 mb-8 text-right text-muted dark:text-slate-400">
+          -Alan Turing, Computing Machinery and Intelligence 1950
+        </p>
+        <a rel="noopener noreferrer" href={getHomePermalink()} class="btn ml-4">Homepage</a>
       </div>
     </div>
   </section>

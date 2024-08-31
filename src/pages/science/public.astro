@@ -1,0 +1,26 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+import { getHomePermalink } from '~/utils/permalinks';
+
+const metadata = {
+  title: 'For Public',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- CallToAction Widget *********** -->
+
+  <CallToAction
+    id="Under construction"
+    title="Under construction"
+    subtitle="We are working on the content of this page. Stay tuned!"
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Home',
+        href: getHomePermalink(),
+      },
+    ]}
+  />
+</Layout>

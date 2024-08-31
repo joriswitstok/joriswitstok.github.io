@@ -1,0 +1,49 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import Hero2 from '~/components/widgets/Hero2.astro';
+import { getPermalink } from '~/utils/permalinks';
+
+const metadata = {
+  title: 'Science',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero2 Widget ******************* -->
+
+  <Hero2
+    id="main"
+    tagline="Science"
+    image={{
+      src: 'https://upload.wikimedia.org/wikipedia/commons/c/c3/NGC_4414_%28NASA-med%29.jpg',
+      alt: 'NGC 4414 spiral galaxy, taken in 1995 by Hubble Space Telescope',
+    }}
+    actions={[
+      {
+        variant: 'secondary',
+        text: `For Public`,
+        // description: `How do astronomers study the formation and evolution of the first galaxies in the Universe?`,
+        icon: 'tabler:star',
+        href: getPermalink('/science/public'),
+      },
+      {
+        variant: 'secondary',
+        text: `For Scientists`,
+        // description: `Specialist summaries of my research.`,
+        icon: 'tabler:whirl',
+        href: getPermalink('/science/research'),
+      },
+      {
+        variant: 'secondary',
+        text: `News & Media`,
+        // description: `Recent highlights and media coverage.`,
+        icon: 'tabler:device-tv',
+        href: getPermalink('/science/news'),
+      },
+    ]}
+  >
+  <Fragment slot="subtitle">
+    Follow the links below to learn more about the formation and evolution of the first galaxies in the Universe.
+  </Fragment>
+  </Hero2>
+</Layout>
