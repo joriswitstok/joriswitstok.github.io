@@ -1,6 +1,6 @@
 site:
   name: Joris Witstok
-  site: 'https://joriswitstok.github.io'
+  site: 'https://joriswitstok.com'
   base: '/'
   trailingSlash: false
 
