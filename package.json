@@ -22,7 +22,7 @@
     "@astrolib/analytics": "^0.5.0",
     "@astrolib/seo": "^1.0.0-beta.5",
     "@fontsource-variable/inter": "^5.0.18",
-    "astro": "^4.15.1",
+    "astro": "^4.15.8",
     "astro-embed": "^0.7.2",
     "astro-icon": "^1.1.0",
     "badge-maker": "^3.3.1",
@@ -32,9 +32,9 @@
     "unpic": "^3.18.0"
   },
   "devDependencies": {
-    "@astrojs/mdx": "^3.1.5",
+    "@astrojs/mdx": "^3.1.7",
     "@astrojs/partytown": "^2.1.2",
-    "@astrojs/tailwind": "5.1.0",
+    "@astrojs/tailwind": "^5.1.1",
     "@eslint/js": "^9.2.0",
     "@iconify-json/flat-color-icons": "^1.1.10",
     "@iconify-json/tabler": "^1.1.111",

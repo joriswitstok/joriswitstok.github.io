@@ -70,10 +70,9 @@ export const footerData = {
       title: 'External',
       links: [
         { text: 'Cosmic Dawn Center', href: 'https://cosmicdawn.dk', target: '_blank' },
+        { text: 'JADES Collaboration', href: 'https://jades-survey.github.io', target: '_blank' },
         { text: 'Kavli Institute for Cosmology', href: 'https://www.kicc.cam.ac.uk', target: '_blank' },
         { text: 'Cavendish Astrophysics', href: 'https://www.astro.phy.cam.ac.uk', target: '_blank' },
-        { text: 'Sidney Sussex College', href: 'https://www.sid.cam.ac.uk', target: '_blank' },
-        { text: 'JADES Collaboration', href: 'https://jades-survey.github.io', target: '_blank' },
       ],
     },
   ],
