@@ -1,0 +1,12 @@
+.all-contributorsrc
+.github/dependabot.yml
+README.md
+Dockerfile
+SECURITY.md
+docker-compose.yml
+Makefile
+.github/workflows/*
+src/assets/favicons/*
+src/assets/images/*
+src/content/post/*
+src/content/pages/*
