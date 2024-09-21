@@ -8,7 +8,11 @@ Makefile
 .github/workflows/*
 src/assets/favicons/*
 src/assets/images/*
+src/components/Logo.astro
+src/components/widgets/Announcement.astro
+src/components/widgets/Header.astro
+src/components/widgets/Footer.astro
 src/content/post/*
-src/pages/*
 src/layouts/*
+src/pages/*
 src/config.yaml
