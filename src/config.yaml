@@ -65,7 +65,7 @@ apps:
 
 analytics:
   vendors:
-    G:
+    googleAnalytics:
       id: null # or "G-XXXXXXXXXX"
 
 ui:
