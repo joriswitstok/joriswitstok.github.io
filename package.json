@@ -22,6 +22,7 @@
     "@astrolib/analytics": "^0.5.0",
     "@astrolib/seo": "^1.0.0-beta.5",
     "@fontsource-variable/inter": "^5.0.18",
+    "@jop-software/astro-cookieconsent": "^3.0.0",
     "astro": "^4.15.8",
     "astro-embed": "^0.7.2",
     "astro-icon": "^1.1.0",
@@ -29,7 +30,8 @@
     "limax": "4.1.0",
     "lodash.merge": "^4.6.2",
     "typescript": "^5.4.5",
-    "unpic": "^3.18.0"
+    "unpic": "^3.18.0",
+    "vanilla-cookieconsent": "^3.0.1"
   },
   "devDependencies": {
     "@astrojs/mdx": "^3.1.7",
