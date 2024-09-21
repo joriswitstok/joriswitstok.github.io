@@ -1,6 +1,6 @@
 site:
-  name: Joris Witstok
-  site: 'https://joriswitstok.github.io'
+  name: AstroWind
+  site: 'https://astrowind.vercel.app'
   base: '/'
   trailingSlash: false
 
@@ -9,22 +9,22 @@ site:
 # Default SEO metadata
 metadata:
   title:
-    default: Joris Witstok
-    template: '%s — Joris Witstok'
-  description: "\U0001F30C Personal website of Joris Witstok."
+    default: AstroWind
+    template: '%s — AstroWind'
+  description: "\U0001F680 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs."
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: Joris Witstok
+    site_name: AstroWind
     images:
       - url: '~/assets/images/default.png'
         width: 1200
         height: 628
     type: website
   twitter:
-    handle: '@JorisWitstok'
-    site: '@JorisWitstok'
+    handle: '@onwidget'
+    site: '@onwidget'
     cardType: summary_large_image
 
 i18n:
@@ -66,7 +66,7 @@ apps:
 analytics:
   vendors:
     googleAnalytics:
-      id: G-BLJ76WR8JE
+      id: null # or "G-XXXXXXXXXX"
 
 ui:
   theme: 'system' # Values: "system" | "light" | "dark" | "light:only" | "dark:only"
