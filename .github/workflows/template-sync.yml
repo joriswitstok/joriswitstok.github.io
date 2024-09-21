@@ -1,4 +1,4 @@
-# Workflow for automatically syncing updates to the AstroWind template as pull requests (https://github.com/AndreasAugustin/actions-template-sync?tab=readme-ov-file)
+# Workflow for automatically syncing updates to the AstroWind template as pull requests (https://github.com/AndreasAugustin/actions-template-sync)
 name: Sync template repository via pull request
 
 on:

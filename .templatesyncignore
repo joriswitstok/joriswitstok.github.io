@@ -16,3 +16,4 @@ src/content/post/*
 src/layouts/*
 src/pages/*
 src/config.yaml
+src/navigation.ts
