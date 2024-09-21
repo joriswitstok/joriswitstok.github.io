@@ -9,4 +9,6 @@ Makefile
 src/assets/favicons/*
 src/assets/images/*
 src/content/post/*
-src/content/pages/*
+src/pages/*
+src/layouts/*
+src/config.yaml
