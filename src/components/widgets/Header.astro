@@ -16,8 +16,6 @@ interface Link {
   icon?: string;
 }
 
-interface ActionLink extends CallToAction {}
-
 interface MenuLink extends Link {
   links?: Array<MenuLink>;
 }
@@ -25,7 +23,7 @@ interface MenuLink extends Link {
 export interface Props {
   id?: string;
   links?: Array<MenuLink>;
-  actions?: Array<ActionLink>;
+  actions?: Array<CallToAction>;
   isSticky?: boolean;
   isDark?: boolean;
   isFullWidth?: boolean;
@@ -92,12 +90,10 @@ const currentPath = `/${trimSlash(new URL(Astro.url).pathname)}`;
             <li class={links?.length ? 'dropdown' : ''}>
               {links?.length ? (
                 <>
-                  <a href={href}>
                   <button type="button" class="hover:text-link dark:hover:text-white px-4 py-3 flex items-center">
                     {text}{' '}
                     <Icon name="tabler:chevron-down" class="w-3.5 h-3.5 ml-0.5 rtl:ml-0 rtl:mr-0.5 hidden md:inline" />
                   </button>
-                  </a>
                   <ul class="dropdown-menu md:backdrop-blur-md dark:md:bg-dark rounded md:absolute pl-4 md:pl-0 md:hidden font-medium md:bg-white/90 md:min-w-[200px] drop-shadow-xl">
                     {links.map(({ text: text2, href: href2 }) => (
                       <li>
