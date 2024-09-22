@@ -10,7 +10,7 @@ This Policy describes the information we collect from you, how we use that infor
 
 ## Who we are
 
-My name is Joris Witstok, and this is my personal website. If you have any questions about this privacy policy, please [contact me](). On this page, I will use the aggregate ‘we’ for simplicity. We will never sell your personal data to anyone.
+My name is Joris Witstok, and this is my personal website. If you have any questions about this privacy policy, please [contact me](mailto:joris.witstok@nbi.ku.dk). On this page, I will use the aggregate ‘we’ for simplicity. We will never sell your personal data to anyone.
 
 ## What personal data we collect and why we collect it
 
