@@ -1,27 +1,156 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
-import CallToAction from '~/components/widgets/CallToAction.astro';
-import { getHomePermalink } from '~/utils/permalinks';
+import Content from '~/components/widgets/Content.astro';
 
 const metadata = {
   title: 'News & Media',
-  description: 'Research features in media outlets.',
+  description: 'Research summaries and features in media outlets.',
 };
 ---
 
 <Layout metadata={metadata}>
-  <!-- CallToAction Widget *********** -->
+  <!-- Content Widget **************** -->
 
-  <CallToAction
-    id="Under construction"
-    title="Under construction"
-    subtitle="We are working on the content of this page. Stay tuned!"
-    actions={[
+  <Content
+    title="News & Media highlights"
+    columns={2}
+    callToAction={{
+      text: 'Read more',
+      icon: 'tabler:chevron-right',
+      href: 'https://webbtelescope.org/contents/early-highlights/nasas-james-webb-space-telescope-finds-most-distant-known-galaxy',
+      target: '_blank',
+    }}
+    image={{
+      src: '~/assets/images/JADES-GS-z14-0.png',
+      alt: 'Distant galaxy seen in JADES',
+      loading: 'eager',
+    }}
+  >
+    <Fragment slot="content">
+      <h2 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">JWST finds most distant known galaxy</h2>
+      <p>
+        <em>With the discovery of the two most distant galaxies to date,
+        JADES broke the previous distance record (from just one year earlier).
+        These results were
+        <a href="https://webbtelescope.org/contents/early-highlights/nasas-james-webb-space-telescope-finds-most-distant-known-galaxy" target="_blank">highlighted on the NASA website of JWST</a>.</em>
+      </p>
+      <br/>
+      <p>
+        New measurements with JWST reveal the spectra of two record-breaking galaxies, the most distant of which is observed
+        only two hundred and ninety million years after the big bang. To call this galaxy surprising would be an understatement:
+        not only does it shatter the redshift record, but also all our expectations of what such early galaxies might look like.
+        The analysis is presented in
+        <a href="https://doi.org/10.1038/s41586-024-07860-9" target="_blank">Carniani et al. (2024), <em>Nature</em>, 633, 318</a>.
+      </p>
+    </Fragment>
+  </Content>
+
+  <!-- Content Widget **************** -->
+
+  <Content
+    columns={2}
+    isReversed
+    items={[
       {
-        variant: 'primary',
-        text: 'Home',
-        href: getHomePermalink(),
+        icon: 'tabler:news',
+        callToAction: {
+          text: 'ESA Press Release',
+          href: 'https://esawebb.org/news/weic2317/',
+          target: '_blank',
+        },
+      },
+      {
+        icon: 'tabler:radio',
+        callToAction: {
+          text: 'BNR Radio Interview (Dutch)',
+          href: 'https://omny.fm/shows/wetenschap-vandaag/james-webb-spot-bijzondere-stofdeeltjes-in-het-vro',
+          target: '_blank',
+        },
       },
     ]}
-  />
+    image={{
+      src: '~/assets/images/weic2317b.jpg',
+      width: 1000,
+      alt: 'Distant galaxy with carbon-rich dust grains',
+      loading: 'eager',
+    }}
+  >
+    <Fragment slot="content">
+      <h2 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">JWST sees carbon-rich dust grains in the first billion years of cosmic time</h2>
+      <p>
+        In July 2023, JADES announced the discovery of the absorption signature of carbon-rich dust grains at redshift ~ 7
+        (<a href="https://doi.org/10.1038/s41586-023-06413-w" target="_blank">Witstok et al. 2023, <em>Nature</em>, 621, 267</a>).
+        These results were highlighted in
+        <a href="https://esawebb.org/news/weic2317/" target="_blank">a press release on the ESA website of JWST</a>:
+      </p>
+      <br/>
+      <p>
+        <em>Joris Witstok of the University of Cambridge, the lead author of
+        this work, elaborates: “Carbon-rich dust grains can be
+        particularly efficient at absorbing ultraviolet light with a
+        wavelength around 217.5 nanometres, which for the first time we
+        have directly observed in the spectra of very early galaxies.”</em>
+      </p>
+      <br/>
+      <p>
+        Read the full press release and listen to a radio interview here:
+      </p>
+    </Fragment>
+
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
+
+  <!-- Content Widget **************** -->
+
+  <Content
+    columns={2}
+    callToAction={{
+      text: 'Read more',
+      icon: 'tabler:chevron-right',
+      href: 'https://esawebb.org/images/JADES1/',
+      target: '_blank',
+    }}
+    image={{
+      src: '~/assets/images/JADES1.jpg',
+      width: 700,
+      alt: 'Distant galaxies seen in JADES',
+      loading: 'eager',
+    }}
+  >
+    <Fragment slot="content">
+      <h2 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">JWST reaches new milestone in quest for distant galaxies</h2>
+      <p>
+        <em>In December 2022, JADES announced the discovery and
+        subsequent spectroscopic confirmation of four of the
+        most distant galaxies, including the two most distant galaxies to date.
+        These results were highlighted on the ESA website of JWST.
+        New measurements with JWST have discovered and unambiguously
+        confirmed the most distant galaxies known to date, representing a major
+        breakthrough in understanding our cosmic origins and promising a bright
+        future for further discoveries with JWST.</em>
+      </p>
+      <br/>
+      <p>
+        Previously, the first imaging surveys taken by JWST had revealed
+        candidate galaxies seen when the Universe was less than 2% of its
+        current age. Identifying and characterising these distant galaxies is
+        essential to our understanding of galaxy formation and, more broadly, of
+        the Universe as a whole. Preliminary analyses have indicated the
+        abundance of these candidates may violate prevailing cosmological
+        models of galaxy formation. Without spectroscopic confirmation of their
+        distances, however, these findings remain speculative.
+        New results from the JADES collaboration have now confirmed the nature
+        of four of the most distant galaxies, including the two most distant to date.
+        The NIRSpec instrument was able to provide spectroscopic confirmation
+        of four galaxies initially identified in one of the deepest NIRCam imaging
+        survey so far (see figure on the left). The analysis is presented in two
+        companion papers published in <em>Nature Astronomy</em>,
+        <a href="https://doi.org/10.1038/s41586-023-06413-w" target="_blank">Curtis-Lake & Carniani et al. 2023</a>
+        and <a href="https://doi.org/10.1038/s41586-023-06413-w" target="_blank">Robertson & Tacchella et al. 2023</a>.
+      </p>
+    </Fragment>
+  </Content>
+
 </Layout>

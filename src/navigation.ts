@@ -81,7 +81,7 @@ export const footerData = {
   ],
   socialLinks: [
     { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/joriswitstok', target: '_blank' },
-    { ariaLabel: 'X', icon: 'tabler:brand-x', href: 'https://x.com/JorisWitstok', target: '_blank' },
+    { ariaLabel: 'BlueSky', icon: 'tabler:brand-bluesky', href: 'https://bsky.app/profile/joriswitstok.bsky.social', target: '_blank' },
   ],
   footNote: `
     © ${currentYear} <a href=${getHomePermalink()}> Joris Witstok </a> · <a href="https://github.com/onwidget/astrowind/blob/main/LICENSE.md" target="_blank"> All rights reserved</a>.
