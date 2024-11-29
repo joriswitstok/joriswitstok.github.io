@@ -1,7 +1,9 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
+import Hero2 from '~/components/widgets/Hero2.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
-import { getHomePermalink } from '~/utils/permalinks';
+import Features2 from '~/components/widgets/Features2.astro';
+import { getPermalink } from '~/utils/permalinks';
 
 const metadata = {
   title: 'For Scientists',
@@ -10,17 +12,78 @@ const metadata = {
 ---
 
 <Layout metadata={metadata}>
+  <!-- Hero2 Widget ******************* -->
+
+  <Hero2
+    tagline="Dr Joris Witstok"
+    image={{
+      src: "~/assets/images/JWST_conception.png",
+      alt: 'JWST artist conception',
+      loading: 'eager',
+    }}
+  >
+    <Fragment slot="subtitle">
+      Research interests and project involvement
+    </Fragment>
+    <Fragment slot="content">
+      <p>
+        My research interests revolve around galaxy formation and evolution in the early Universe: how the first stars and galaxies
+        were formed, how they for the first time synthesised elements heavier than helium, and how they subsequently brought about
+        the Reionisation of the Universe, a major phase transition that turned the neutral Universe back to a (mostly) ionised state.
+      </p>
+      <br/>
+      <p>
+        In my current research, I am involved in multiple different projects with various collaborators throughout the world. I
+        mainly work on observational data of high-redshift star-forming galaxies from several major observatories. A few of the
+        projects I am involved in are outlined below.
+      </p>
+      <br/>
+      <p>
+        <span class="text-xs text-muted">Image credit: NASA-GSFC, Adriana M. Gutierrez (CI Lab).</span>
+      </p>
+    </Fragment>
+  </Hero2>
+
+  <!-- Features2 Widget ************** -->
+
+  <Features2
+    title="Scientific projects"
+    items={[
+      {
+        title: 'JWST NIRSpec instrument',
+        description:
+          'I am involved with the James Webb Space Telescope (JWST) Near-Infrared Spectrograph (NIRSpec) science team, particularly as an associate member of the JWST Advanced Deep Extragalactic Survey (JADES), an ambitious joint JWST NIRCam and NIRSpec Guaranteed Time Observations (GTO) programme. Allocated more than 800 hours of observing time, this has conducted the largest JWST extragalactic survey so far.',
+        icon: 'mdi:hexagon-multiple-outline',
+      },
+      {
+        title: 'ALMA, HST, and VLT',
+        description:
+          'I am also working extensively with the Atacama Large Millimeter/submillimeter Array (ALMA), the Hubble Space Telescope (HST) and the Very Large Telescope (VLT). By combining observations from these facilities and comparing them to theoretical models, we are exploring the physical conditions of star formation in the very early Universe, and its implications for the subsequent evolution of galaxies up to the present day.',
+        icon: 'tabler:telescope',
+      },
+      {
+        title: 'Sherwood cosmological simulations',
+        description:
+          'Together with Ewald Puchwein, Girish Kulkarni, Renske Smit, Martin Haehnelt, and Lewis Weinberger, I have been involved in analysing the Sherwood simulation suite, a set of large-scale cosmological hydrodynamical simulations aiming to accurately model the intergalactic medium. Specifically, we made theoretical predictions of the brightness of this vast reservoir of diffuse gas in the principle emission line of hydrogen, Lyman-alpha.',
+        icon: 'mdi:computer-classic',
+      },
+    ]}
+  >
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Features2>
+
   <!-- CallToAction Widget *********** -->
 
   <CallToAction
-    id="Under construction"
-    title="Under construction"
-    subtitle="We are working on the content of this page. Stay tuned!"
+    title="Research highlights"
+    subtitle="See the news page for a few short excerpts summarising work I am involved in."
     actions={[
       {
-        variant: 'primary',
-        text: 'Home',
-        href: getHomePermalink(),
+        variant: 'secondary',
+        text: 'News & Media',
+        href: getPermalink('/science/news'),
       },
     ]}
   />
