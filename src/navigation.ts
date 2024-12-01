@@ -67,12 +67,19 @@ export const footerData = {
       ],
     },
     {
-      title: 'External',
+      title: 'Affiliations',
       links: [
         { text: 'Cosmic Dawn Center', href: 'https://cosmicdawn.dk', target: '_blank' },
+        { text: 'Niels Bohr Institute', href: 'https://nbi.ku.dk/english/', target: '_blank' },
         { text: 'JADES Collaboration', href: 'https://jades-survey.github.io', target: '_blank' },
-        { text: 'Kavli Institute for Cosmology', href: 'https://www.kicc.cam.ac.uk', target: '_blank' },
-        { text: 'Cavendish Astrophysics', href: 'https://www.astro.phy.cam.ac.uk', target: '_blank' },
+      ],
+    },
+    {
+      title: 'Observatories',
+      links: [
+        { text: 'JWST', href: 'https://www.stsci.edu/jwst/', target: '_blank' },
+        { text: 'ALMA', href: 'https://almascience.eso.org', target: '_blank' },
+        { text: 'ESO', href: 'https://www.eso.org/sci.html', target: '_blank' },
       ],
     },
   ],
