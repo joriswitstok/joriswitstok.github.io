@@ -1,7 +1,8 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
-import CallToAction from '~/components/widgets/CallToAction.astro';
-import { getHomePermalink } from '~/utils/permalinks';
+import Content from '~/components/widgets/Content.astro';
+import Image from '~/components/common/Image.astro';
+import { getPermalink } from '~/utils/permalinks';
 
 const metadata = {
   title: 'For Public',
@@ -10,18 +11,554 @@ const metadata = {
 ---
 
 <Layout metadata={metadata}>
-  <!-- CallToAction Widget *********** -->
+  <!-- Content Widget **************** -->
 
-  <CallToAction
-    id="Under construction"
-    title="Under construction"
-    subtitle="We are working on the content of this page. Stay tuned!"
-    actions={[
-      {
-        variant: 'primary',
-        text: 'Home',
-        href: getHomePermalink(),
-      },
-    ]}
+  <Content
+    id="summary"
+    tagline="For the Public"
+    columns={2}
+    image={{
+      src: '~/assets/images/NGC_4414.jpg',
+      alt: 'NGC 4414 spiral galaxy, taken in 1995 by Hubble Space Telescope',
+      loading: 'eager',
+    }}
+  >
+    <Fragment slot="title">
+      What is a galaxy?
+    </Fragment>
+    <Fragment slot="subtitle">
+      <p>
+        <span class="text-sm text-stone-500"><em>This is a short overview of the field
+        of extragalactic astronomy, with a focus on observations of the first galaxies
+        in the Universe. It discusses some of our current best understanding, the
+        motivation behind studying these objects, and the basis of observational methods.</em></span>
+      </p>
+    </Fragment>
+    <Fragment slot="content">
+      <p>
+        The cosmos reveals a hierarchy of structures, where smaller building
+        blocks are combined to form larger ones. One of these cosmological
+        building blocks is a galaxy, as shown on the right. To be able to
+        introduce extragalactic astronomy, and our place in the cosmos, we
+        first have to understand the concept of galaxies. The question of
+        what we define to be a galaxy is easiest to approach if we start at
+        the surroundings of a place we all know: planet Earth.
+      </p>
+      <br/>
+      <p>
+        <span class="text-xs text-muted">Credit: Hubble Heritage Team (AURA/STScI/NASA).</span>
+      </p>
+    </Fragment>
+  </Content>
+
+  <!-- Content Widget **************** -->
+
+  <Content
+    id="solar-system-1"
+    tagline="Structures in the Universe"
+    subtitle="Solar System"
+    columns={1}
+    isReversed
+  >
+  <Fragment slot="image">
+    <span class="text-xs text-muted">Below: the planets of the Solar System. The image
+      is stretched out on purpose, to replicate relative distances to scale
+      (but the planets’ sizes are still highly out of proportion). Earth, one of the
+      terrestrial planets, is the third small speck as seen from the Sun (left), much
+      smaller than the gas giants further away from the Sun. Pluto is not
+      included. Credit: NASA.</span>
+  </Fragment>
+    <Fragment slot="content">
+      <p>
+        From Earth, the Sun is by far the brightest astronomical source in the sky,
+        across almost the entire range of <a class="text-sky-700" href="https://en.wikipedia.org/wiki/Electromagnetic_spectrum" target="_blank">wavelengths in the electromagnetic
+        spectrum</a>. As far as celestial objects go, many of us are probably most
+        familiar with this star. Perhaps it is even so pervasive in our daily lives that
+        we might forget to classify it as such. Deified and worshipped since
+        ancient times, it outshines all other objects, which we normally cannot
+        observe until nighttime.
+      </p>
+    </Fragment>
+  </Content>
+  
+  <Image
+    src='~/assets/images/Solar_System_planets.jpg'
+    class="w-full h-20 object-cover mx-auto bg-gray-500 shadow-lg"
+    width="auto"
+    height={20}
+    layout="fullWidth"
+    alt='Solar System, with size grossly exaggerated. Outward from the Sun, the objects are Mercury, Venus, Earth, Mars, Ceres (within Asteroid Belt), Jupiter, Saturn, Uranus, Neptune and Pluto-Charon System.'
+    loading="eager"
   />
+
+  <!-- Content Widget **************** -->
+
+  <Content
+    id="solar-system-2"
+    columns={1}
+    isReversed
+  >
+    <Fragment slot="content">
+      <p>
+        When night does come, the Earth is shading us from the Sun, and with the
+        naked eye we can start to make out other planets and stars. Earth and its
+        seven sister planets, plus many other smaller objects<sup>1</sup> orbiting the Sun,
+        make up the Solar System. The distance from Earth to the Sun,
+        approximately 150 million kilometres, is defined as an Astronomical Unit
+        (AU). For example, the outer-most known planet, Neptune, orbits the Sun
+        at about 30 AU. The image above faithfully replicates the relative
+        distances between the planets, but their sizes are enlarged on purpose: it
+        is almost impossible to replicate the Solar System to scale. When
+        imagining a scale model with the Sun shrunken to the size of a tennis ball,
+        Earth would be seven metres away, only the size of the tip of a sewing pin,
+        while Pluto can be up to 350 metres (just over the height of the Eiffel Tower)
+        away.
+      </p>
+      <br/>
+      <p class="text-xs text-muted">
+        <sup>1</sup> These objects, gravitationally bound to the Sun like the planets but
+        typically much lighter and smaller, include comets, asteroids, and of
+        course Pluto, which is currently classified as dwarf planet.
+      </p>
+    </Fragment>
+  </Content>
+
+  <!-- Content Widget **************** -->
+
+  <Content
+    id="nearby-stars"
+    subtitle="Nearby stars"
+    columns={2}
+    image={{
+      src: '~/assets/images/Main_interstellar-clouds-arrows_full.jpg',
+      width: 600,
+      alt: 'Schematic of the Solar neighbourhood, known as the Local Interstellar Cloud',
+      loading: 'eager',
+    }}
+  >
+    <Fragment slot="content">
+      <p>
+        Proxima Centauri, the closest star after the Sun, is 4.25 lightyears away,
+        meaning its light takes just over four years to reach us<sup>2</sup>. This astonishing
+        distance corresponds to nearly 40 trillion kilometres, which is roughly
+        266,940 AU – or about 2,000 kilometres in the scale model where the Sun is
+        a tennis ball! But it hardly stops there: other stars in the night sky can
+        easily be thousands of lightyears away. Only in the last few decades, we have
+        learnt that these distant stars can <a class="text-sky-700" href="https://www.nobelprize.org/prizes/physics/2019/summary/" target="_blank">harbour their own planets, too</a>.
+        Since they are not part of our Solar System, they are called extrasolar planets or
+        exoplanets in short.
+      </p>
+      <br/>
+      <p class="text-xs text-muted">
+        <sup>2</sup> The crucial fact that light requires a finite time to traverse space is
+        discussed in more detail below.
+      </p>
+      <br/>
+      <p>
+        <span class="text-xs text-muted">Right: the Solar neighbourhood, known as the
+          Local Interstellar Cloud. Apart from the Sun in the centre, the nearby
+          stars α Centauri and Sirius are shown. Credit: NASA/Goddard/Adler/U. Chicago/Wesleyan</span>
+      </p>
+    </Fragment>
+  </Content>
+
+  <!-- Content Widget **************** -->
+
+  <Content
+    id="milky-way"
+    subtitle="Milky Way"
+    columns={2}
+    isReversed
+    image={{
+      src: '~/assets/images/MilkyWay-full-annotated.jpg',
+      alt: 'Annotated map showing the structure of the Milky Way',
+      loading: 'eager',
+    }}
+  >
+    <Fragment slot="content">
+      <p>
+        Making another big jump in distance scales, we finally arrive at the
+        concept of a galaxy. The one our Solar system is contained in is the Milky
+        Way (see, for instance, <a class="text-sky-700" href="https://www.youtube.com/watch?v=N4y1WDl-WP8" target="_blank">this visualisation</a>).
+        To us, it is visible on clear nights as a hazy, white band of light<sup>3</sup>. By galaxy, we mean the complete
+        collection of stars, but also stellar remnants, gas, dust, and the underlying
+        <a class="text-sky-700" href="https://en.wikipedia.org/wiki/Dark_matter" target="_blank">dark matter</a>.
+        The atomic units on the hierarchical ladder of cosmological structures are
+        systems of stars, many of them with accompanying planets (or even other
+        stars, in so-called <a class="text-sky-700" href="https://en.wikipedia.org/wiki/Binary_star" target="_blank">binary-star systems</a>),
+        which in groups of millions, billions or sometimes even trillions together
+        form the greater gravitationally bound structure that is the galaxy. The Milky Way is
+        thought to have a total mass of about 1.5 trillion times that of the Sun,
+        <a class="text-sky-700" href="https://doi.org/10.3847/1538-4357/ab089f" target="_blank">according to recent estimates (roughly 90% in the form of dark matter)</a>.
+        Located in one of the spiral arms, the Solar system (in its entirety) orbits its centre
+        that is about 26,000 lightyears away (even in our scale model from before, this corresponds to an unfathomable
+        12 million kilometres), as shown in the artist’s impression on the left.
+      </p>
+      <br/>
+      <p class="text-xs text-muted">
+        <sup>3</sup> The name Milky Way traces back to the ancient Greek γαλαξίας
+        κύκλος or literally ‘Milky Circle’. This also reveals the origin of the generic term galaxy.
+      </p>
+      <br/>
+      <p>
+        <span class="text-xs text-muted">Left: this detailed annotated artist’s impression
+          shows the structure of the Milky Way, including the location of the spiral arms
+          and other components such as the bulge. This version of the image has been updated
+          to include the most recent mapping of the shape of the central bulge deduced from
+          survey data from ESO’s VISTA telescope at the Paranal Observatory.
+          Credit: NASA/JPL-Caltech/ESO/R. Hurt</span>
+      </p>
+    </Fragment>
+  </Content>
+
+  <!-- Content Widget **************** -->
+
+  <Content
+    id="spiral-nebulae"
+    subtitle="Spiral nebulae"
+    columns={2}
+    image={{
+      src: '~/assets/images/NGC_4414.jpg',
+      alt: 'NGC 4414 spiral galaxy, taken in 1995 by Hubble Space Telescope',
+      loading: 'eager',
+    }}
+  >
+    <Fragment slot="content">
+      <p>
+        The understanding behind the structure of the Milky Way, and our place
+        within it, has (in part) been established from studies of what were initially
+        called spiral nebulae, but we now recognise as distant galaxies<sup>4</sup>, many
+        containing billions of stars of their own. The field of extragalactic
+        astronomy, studying the Universe beyond our own Milky Way, emerged
+        about <a class="text-sky-700" href="https://doi.org/10.1086/142680" target="_blank">100 years ago</a>
+        and has identified a great number of them: in a few
+        years from now, astronomers are estimating to chart about 20 billion
+        (more than twice the number of people on Earth!) of them using the
+        <a class="text-sky-700" href="https://rubinobservatory.org" target="_blank">Vera C. Rubin telescope</a>.
+        Observations reveal a wealth of different types with
+        varying observed colours, shapes, and sizes. The nearest
+        galaxy is the Andromeda galaxy, at about 2.5 million lightyears away.
+      </p>
+      <br/>
+      <p class="text-xs text-muted">
+        <sup>4</sup> They are distinct from nebulae inside the Milky Way that
+        can be stellar nurseries or, in contrast, the signs of a dying star:
+        planetary nebulae can form near the end of its life, supernova remnants
+        are what remains after a violent explosion that marks the end of a
+        massive star's life cycle. Stellar formation and evolution are described
+        in more detail below.
+      </p>
+      <br/>
+      <p>
+        <span class="text-xs text-muted">Right: NGC 4414, a typical spiral galaxy.
+          Credit: Hubble Heritage Team (AURA/STScI/NASA)</span>
+      </p>
+    </Fragment>
+  </Content>
+  
+  <!-- Content Widget **************** -->
+
+  <Content
+    isReversed
+  >
+    <Fragment slot="image">
+      <Image
+        src='~/assets/images/Antennae_galaxies.jpg'
+        width="auto"
+        height={600}
+        layout="fullWidth"
+        alt='Antennae galaxies (NGC 4038 and 4039), taken in 2006 by Hubble Space Telescope'
+        loading="eager"
+      />
+      <p>
+        <span class="text-xs text-muted">The Antennae galaxy. Credit: Hubble Heritage Team (AURA/STScI/NASA/ESA)</span>
+      </p>
+    </Fragment>
+    <Fragment slot="content">
+      <Image
+        src='~/assets/images/M82_HST_ACS_2006.jpg'
+        width="auto"
+        height={600}
+        layout="fullWidth"
+        alt='Starburst galaxy, Messier 82 (M82), taken in 2006 by Hubble Space Telescope'
+        loading="eager"
+      />
+      <p>
+        <span class="text-xs text-muted">M82, a starburst galaxy. Credit: Hubble Heritage Team (AURA/STScI/NASA/ESA)</span>
+      </p>
+    </Fragment>
+  </Content>
+
+  <!-- Content Widget **************** -->
+
+  <Content
+    id="timeline"
+    tagline="A timeline of the Universe"
+    subtitle="Cosmic relics"
+    columns={2}
+    isReversed
+    image={{
+      src: '~/assets/images/CMB.jpg',
+      width: 1000,
+      alt: 'Projected map of the Cosmic Microwave Background radiation across the entire sky, as measured by the Planck satellite',
+      loading: 'eager',
+    }}
+  >
+    <Fragment slot="content">
+      <p>
+        The earliest image of the Universe is visible to us as the
+        <a class="text-sky-700" href="https://en.wikipedia.org/wiki/Cosmic_microwave_background" target="_blank">Cosmic Microwave Background (CMB)</a>,
+        in some sense the ‘afterglow’ radiation of
+        the <a class="text-sky-700" href="https://en.wikipedia.org/wiki/Big_Bang" target="_blank">Big Bang</a>,
+        the beginning of the Universe. This radiation is the oldest
+        detectable light signal, from when the Universe had just cooled down
+        enough for neutral atoms to form. Up to this point, it had been so dense
+        and hot that all matter formed a ‘primordial plasma’, neutral on the whole,
+        but microscopically consisting of electrically charged protons and
+        electrons (and neutrons which, as their name suggests, have zero
+        charge). Together, these <a class="text-sky-700" href="https://en.wikipedia.org/wiki/Subatomic_particle" target="_blank">subatomic particles</a>
+        can form atoms, and therefore make up all the elements such as hydrogen, carbon, and
+        oxygen. When separated, however, they interact strongly with light in a
+        process called <a class="text-sky-700" href="https://en.wikipedia.org/wiki/Thomson_scattering" target="_blank">(Thomson) scattering</a>.
+        When the Universe had cooled down sufficiently, pairs of a single proton (the atomic nucleus of hydrogen) and
+        a single electron could combine into stable hydrogen atoms, turning all
+        particles<sup>6</sup> neutral.
+      </p>
+      <br/>
+      <p class="text-xs text-muted">
+        <sup>6</sup> There was also a small fraction of helium (<a class="text-sky-700" href="https://en.wikipedia.org/wiki/Big_Bang_nucleosynthesis" target="_blank">about 8% of all atoms</a>),
+        which instead consists of a nucleus of two protons and two neutrons, and two electrons.
+      </p>
+      <br/>
+      <p>
+        <span class="text-xs text-muted">Left: a projected map of the Cosmic Microwave
+          Background radiation across the entire sky, as measured by the Planck
+          satellite. Red shows slightly higher temperatures, blue slightly lower.
+          Credit: Planck Collaboration/ESA</span>
+      </p>
+      <br/>
+      <p>
+        This drastic event called recombination happened just under 400,000
+        years after the Big Bang, the cosmic blink of an eye compared to
+        <a class="text-sky-700" href="https://doi.org/10.1051/0004-6361/201833910" target="_blank">the Universe’s current age of 13.8 billion years</a>.
+        Now that the Universe did not contain freely floating charged particles, photons (particles of light) could
+        travel without any obstacles, causing quite a sudden release of light. The
+        radiation itself, still red-hot when released (at around 3,000 Kelvin), has
+        since cooled down with the expansion of the Universe – a truly tricky
+        concept to wrap your head around, leading to other surprising effects<sup>7</sup> –
+        and is now brightest at microwave wavelengths, corresponding to a mere
+        <a class="text-sky-700" href="https://doi.org/10.1088/0004-637X/707/2/916" target="_blank">2.7 degrees above absolute zero</a>.
+      </p>
+      <br/>
+      <p class="text-xs text-muted">
+        <sup>7</sup> The Universe's expansion also caused it to cool in the first place.
+        Its other important effect, which is to ‘cool down’ radiation like the CMB,
+        astronomers refer to as cosmological redshift, and is discussed further below.
+      </p>
+      <br/>
+      <p>
+        Observed today as a pervasive background at microwave wavelengths, it
+        provides us a ‘snapshot’ of the Universe’s
+        thermal state at the time of recombination, when it was released. It shows
+        us that the entire Universe, even regions opposite each other in the sky,
+        had a remarkably similar temperature. Minuscule variations (see image
+        on the left) are thought to arise from <a class="text-sky-700" href="https://en.wikipedia.org/wiki/Quantum_fluctuation" target="_blank">quantum fluctuations</a>
+        imprinted during a process called <a class="text-sky-700" href="https://en.wikipedia.org/wiki/Inflation_(cosmology)" target="_blank">inflation</a>
+        just fractions after the Big Bang, and are
+        predicted to form the seeds of the largest cosmic structures in place
+        today – including the structure the Milky Way, and therefore our Solar
+        system and planet Earth, resides in.
+      </p>
+    </Fragment>
+  </Content>
+
+  <!-- Content Widget **************** -->
+
+  <Content
+    id="first-galaxies"
+    subtitle="First stars and galaxies"
+    image={{
+      src: '~/assets/images/Cosmic_timeline.jpg',
+      width: 1400,
+      alt: 'Schematic overview of the history of the Universe, starting from the Big Bang',
+      loading: 'eager',
+    }}
+  >
+    <Fragment slot="content">
+      <p>
+        After recombination, the Universe entered a period called the Dark Ages,
+        to highlight the contrast with the period to follow: Cosmic Dawn, which
+        saw the formation of the first stars, and subsequently the first galaxies.
+        Stars are formed when a gas cloud becomes sufficiently dense for it to
+        <a class="text-sky-700" href="https://en.wikipedia.org/wiki/Star_formation" target="_blank">collapse under its own gravity</a>.
+        The star is stabilised by the onset of
+        <a class="text-sky-700" href="https://en.wikipedia.org/wiki/Nuclear_fusion#Nuclear_fusion_in_stars" target="_blank">nuclear fusion</a>
+        in its incredibly dense and hot core, generating an
+        enormous amount energy that prevents its further collapse and is then
+        radiated away: this is what causes a star to shine. Stars like the Sun can
+        live billions of years, while more massive stars burn their fuel relatively
+        quickly. The most massive stars then end in
+        <a class="text-sky-700" href="https://en.wikipedia.org/wiki/Supernova" target="_blank">spectacular supernova explosions</a>,
+        polluting its surroundings with the products of its nuclear
+        fusion as well as newly produced heavy elements.
+      </p>
+      <br/>
+      <p>
+        <span class="text-xs text-muted">Right: diagram depicting major milestones
+          in the Universe's history (not to scale) starting from the Big Bang (left), about 13.8 billion years
+          ago. Credit: NAOJ</span>
+      </p>
+      <br/>
+      <p>
+        From this point, starlight would illuminate the Universe, partly as
+        <a class="text-sky-700" href="https://en.wikipedia.org/wiki/Ultraviolet" target="_blank">ultraviolet (UV) light</a>
+        energetic enough to ionise – which means to strip an electron from its atomic nucleus – neutral hydrogen.
+        After Cosmic Dawn, the Universe entered the so-called Epoch of Reionisation (see schematic overview on the right),
+        in which protons and electrons that had earlier formed neutral hydrogen atoms were split up once again by
+        these energetic UV photons. The completion of the Reionisation process forms another important cosmic milestone, as this
+        meant ultraviolet light could now (almost) travel unimpeded without being
+        absorbed by any intervening neutral hydrogen. In addition, the UV
+        photons that were energetic enough to ionise hydrogen often had some
+        excess energy, which significantly heated the intergalactic medium, the
+        enormous gas reservoirs between galaxies, that provides fuel for the
+        next generation of stars to form.
+      </p>
+      <br/>
+      <p>
+        Over the last few decades, astronomers have kept pushing the
+        observational boundaries with increasingly powerful telescopes, and
+        started collecting larger and larger samples of galaxies in the very early
+        Universe. The main reason for studying these galaxies is twofold. First,
+        they are tied to the process of Reionisation described above, whose main
+        contributors are thought to be star-forming galaxies<sup>8</sup>, but other exotic
+        objects like <a class="text-sky-700" href="https://en.wikipedia.org/wiki/Active_galactic_nucleus" target="_blank">Active Galactic Nuclei (AGN)</a>
+        could also be responsible for
+        emitting (part of) the required UV radiation. Second, the first galaxies form
+        the crucial link between two extremes: the CMB, the oldest light signal in
+        the Universe, and observations of local galaxies. The two ends show
+        strikingly different pictures, with one showing evidence for an almost
+        perfectly smooth Universe, while the other instead reveals incredibly rich
+        structures consisting of galaxies, the elemental cosmic building blocks.
+      </p>
+      <br/>
+      <p class="text-xs text-muted">
+        <sup>8</sup> Or, more specifically, their young, massive stars: remember that these
+        burn their fuel more quickly, and emit more energetic photons as they are
+        hotter.
+      </p>
+    </Fragment>
+  </Content>
+
+  <!-- Content Widget **************** -->
+
+  <Content
+    id="observational-methods"
+    tagline="Learning about the first galaxies in the Universe"
+    subtitle="Observational methods"
+    columns={2}
+    isReversed
+    image={{
+      src: '~/assets/images/Expansion.jpg',
+      width: 700,
+      alt: 'Graphical representation of the expansion of the Universe',
+      loading: 'eager',
+    }}
+  >
+    <Fragment slot="content">
+      <p>
+        There are two key laws of physics that help us to see and identify the light
+        of the first galaxies. First of all, the speed of light is
+        finite. Comparable to sound waves – if a lightning storm is 10 km away, the
+        crash of thunder takes 30 seconds to reach us – light waves travel at a
+        high, but finite, speed. Light from the Sun, for example, takes over 8
+        minutes to reach Earth, while light from the Andromeda galaxy (given its
+        distance of 2.5 million lightyears) travels for 2.5 million years. This implies
+        the more distant a source is, the further we are looking back in time, and it
+        is for this reason that, in principle, we can trace back the entire history of
+        the Universe if only we look at sufficiently faraway objects. (Naturally, this
+        is very challenging in the Dark Ages, before any stars had formed.)
+      </p>
+      <br/>
+      <p>
+        <span class="text-xs text-muted">Left: a schematic illustration of the expanding Universe
+          throughout its history, starting from the Big Bang on the left to the present on the right.
+          Credit: NASA/WMAP Science Team</span>
+      </p>
+      <br/>
+      <p>
+        Secondly, <a class="text-sky-700" href="https://en.wikipedia.org/wiki/Expansion_of_the_universe" target="_blank">the Universe is expanding</a>.
+        This causes distant objects to
+        appear to be moving away from us<sup>9</sup>, and their emitted light to shift in
+        colour, from blue to red wavelengths. This effect, called the cosmological
+        redshift, is precisely how the CMB has cooled. Comparing it to sound
+        waves again, this effect is not unlike the change in tone you hear when an
+        ambulance is driving away from you as opposed to moving towards you
+        (in that case called the <a class="text-sky-700" href="https://en.wikipedia.org/wiki/Doppler_effect" target="_blank">Doppler effect</a>).
+        Conveniently, the degree of
+        redshift in the emitted light of a given source can quite accurately be
+        established by certain redshifted spectral signatures<sup>10</sup>. This quantity is
+        itself called the redshift of an object and is denoted by <em>z</em>. If you know
+        how quickly the Universe has expanded since the light was emitted, it is
+        possible to work out the distance between us and the object from its
+        redshift.
+      </p>
+      <br/>
+      <p class="text-xs text-muted">
+        <sup>9</sup> This effect is only noticeable on the very largest distances, for example
+        when observing distant galaxies. From the perspective of a distant
+        observer in this other galaxy, we would be moving away from them
+        instead.
+      </p>
+      <br/>
+      <p class="text-xs text-muted">
+        <sup>10</sup> Usually, the signatures in the spectrum (the light across all
+        wavelengths) of a source used to determine its redshift are emission lines:
+        <a class="text-sky-700" href="https://en.wikipedia.org/wiki/Spectral_line" target="_blank">a spectral feature at one, very well-determined wavelength</a>.
+        For galaxies in
+        the Epoch of Reionisation, the absence of UV light below the ionisation
+        threshold of neutral hydrogen (due to its absorption, as discussed earlier)
+        is also used.
+      </p>
+    </Fragment>
+  </Content>
+
+  <!-- Content Widget **************** -->
+
+  <Content
+    id="ongoing-research"
+    subtitle="Ongoing research"
+    columns={2}
+    image={{
+      src: '~/assets/images/JADES-GS-z14-0.png',
+      alt: 'Distant galaxy seen in JADES',
+      loading: 'eager',
+    }}
+    callToAction={{
+      variant: 'secondary',
+      text: 'Go to News & Media',
+      href: getPermalink('/science/news'),
+    }}
+  >
+    <Fragment slot="content">
+      <p>
+        A redshift of <em>z</em> = 1, for instance, means that the wavelength has
+        doubled or equivalently, that the light was emitted when the Universe was
+        half its current size. Currently, some of the most distant galaxies known
+        <a class="text-sky-700" href="https://doi.org/10.1038/s41550-023-01918-w" target="_blank">have redshifts above 10</a>,
+        meaning we are detecting starlight from when
+        the Universe was more than ten times more compact, and only roughly 3% of its
+        current age!
+      </p>
+      <br/>
+      <p>
+        <span class="text-xs text-muted">Right: in 2024, new measurements with the James Webb Space Telescope (JWST) revealed the most distant galaxy known to date (JADES-GS-z14-0), observed
+          only two hundred and ninety million years after the Big Bang. Credit: NASA, ESA, CSA, STScI, B. Robertson (UC Santa Cruz), B. Johnson (CfA), S. Tacchella (Cambridge), P. Cargile (CfA)</span>
+      </p>
+      <br/>
+      <p>
+        In my research, I analyse both theory (analytical models or computer simulations) and observational data from several telescopes within the broad theme of galaxy formation and evolution.
+        On the news page linked below, a few short excerpts summarise ongoing research I am involved in.
+      </p>
+    </Fragment>
+  </Content>
 </Layout>
