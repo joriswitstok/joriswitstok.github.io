@@ -4,7 +4,9 @@ import CallToAction from '~/components/widgets/CallToAction.astro';
 import Steps from '~/components/widgets/Steps.astro';
 import Steps2 from '~/components/widgets/Steps2.astro';
 import Features3 from '~/components/widgets/Features3.astro';
+import Stats from '~/components/widgets/Stats.astro';
 import Layout from '~/layouts/PageLayout.astro';
+import { n_papers_tot, n_papers_ref, n_citations, h_index } from '~/utils/metrics';
 
 const metadata = {
   title: 'CV',
@@ -108,8 +110,13 @@ const metadata = {
     title="Selected Publications"
     items={[
       {
-        title: `<a href="https://ui.adsabs.harvard.edu/abs/2024MNRAS.tmp.2454W" target="_blank">JADES: Primeval Lyman-α emitting galaxies reveal early sites of reionisation out to redshift z ~ 9</a>`,
-        description: `<a href="https://ui.adsabs.harvard.edu/abs/2024MNRAS.tmp.2454W" target="_blank">Witstok, J., Maiolino, R., Smit, R., et al., 2024, MNRAS (in press)</a>`,
+        title: `<a href="https://ui.adsabs.harvard.edu/abs/2024arXiv240816608W/abstract" target="_blank">Witnessing the onset of reionisation via Lyman-α emission at redshift 13</a>`,
+        description: `<a href="https://ui.adsabs.harvard.edu/abs/2024arXiv240816608W/abstract" target="_blank">Witstok, J., Jakobsen, P., Maiolino, R., et al., 2025, Nature (in press)</a>`,
+        icon: 'tabler:notebook',
+      },
+      {
+        title: `<a href="https://ui.adsabs.harvard.edu/abs/2025MNRAS.536...27W/abstract" target="_blank">JADES: Primeval Lyman-α emitting galaxies reveal early sites of reionisation out to redshift z ~ 9</a>`,
+        description: `<a href="https://ui.adsabs.harvard.edu/abs/2025MNRAS.536...27W/abstract" target="_blank">Witstok, J., Maiolino, R., Smit, R., et al., 2024, MNRAS (in press)</a>`,
         icon: 'tabler:notebook',
       },
       {
@@ -156,17 +163,37 @@ const metadata = {
     classes={{ container: 'max-w-3xl' }}
   />
 
+  <!-- Stats Widget *********** -->
+
+  <Stats
+    id="metrics"
+    title="Publication metrics"
+    stats={[
+      { title: 'Refereed', amount: n_papers_ref },
+      { title: 'All', amount: n_papers_tot },
+      { title: 'Citations', amount: n_citations },
+      { title: 'h-index', amount: h_index },
+    ]}
+  />
+
   <!-- CallToAction Widget *********** -->
 
   <CallToAction
     id="publications"
     title="Full list of publications"
+    subtitle="Links to the SAO/NASA Astrophysics Data System (ADS):"
     actions={[
       {
         variant: 'tertiary',
-        text: 'SAO/NASA Astrophysics Data System (ADS)',
+        text: 'All',
         target: "_blank",
-        href: "https://ui.adsabs.harvard.edu/search/fq=%7B!type%3Daqp%20v%3D%24fq_bibstem_facet%7D&fq_bibstem_facet=(*%3A*%20NOT%20bibstem_facet%3A%22jwst.prop%22%20NOT%20bibstem_facet%3A%22AAS%22%20NOT%20bibstem_facet%3A%22hst..prop%22)&p_=0&q=author%3A%22Witstok%2C%20Joris%22&sort=date%20desc%2C%20bibcode%20desc",
+        href: "https://ui.adsabs.harvard.edu/search/fq=%7B!type%3Daqp%20v%3D%24fq_bibstem_facet%7D&fq_bibstem_facet=(*%3A*%20NOT%20bibstem_facet%3A%22jwst.prop%22%20NOT%20bibstem_facet%3A%22hst..prop%22%20NOT%20bibstem_facet%3A%22eas..conf%22%20NOT%20bibstem_facet%3A%22yCat%22%20NOT%20bibstem_facet%3A%22AAS%22)&p_=0&q=author%3A%22Witstok%2C%20Joris%22&sort=date%20desc%2C%20bibcode%20desc",
+      },
+      {
+        variant: 'tertiary',
+        text: 'Refereed',
+        target: "_blank",
+        href: "https://ui.adsabs.harvard.edu/search/filter_property_fq_property=AND&filter_property_fq_property=property%3A%22refereed%22&fq=%7B!type%3Daqp%20v%3D%24fq_property%7D&fq_property=(property%3A%22refereed%22)&p_=0&q=author%3A%22Witstok%2C%20Joris%22&sort=date%20desc%2C%20bibcode%20desc",
       },
     ]}
   />
@@ -277,6 +304,11 @@ const metadata = {
     id="teaching"
     title="Teaching & Supervision"
     items={[
+      {
+        title: `Niels Bohr Institute, University of Copenhagen <br /> <span class="text-sm font-normal">2025</span>`,
+        description: `Teaching one-week project-based graduate course Gravitational Dynamics and Galaxy Formation.`,
+        icon: 'tabler:chalkboard',
+      },
       {
         title: `Cavendish Laboratory, University of Cambridge <br /> <span class="text-sm font-normal">2019 - 2022</span>`,
         description: `Teaching assistant for (under)graduate courses in the Physics department at the University of Cambridge.`,

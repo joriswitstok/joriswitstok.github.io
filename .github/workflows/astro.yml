@@ -1,7 +1,11 @@
-# Workflow for building and deploying an Astro site to GitHub Pages (see: https://docs.astro.build/en/getting-started/)
+# Custom workflow to build and deploy an Astro site to GitHub Pages (see: https://docs.astro.build/en/getting-started/)
 name: Deploy Astro site to Pages
 
 on:
+  # cronjob trigger at 00:00 every day. https://crontab.guru/every-month
+  schedule:
+  - cron: "0 0 * * *"
+
   # Runs on pushes targeting the default branch
   push:
     branches: ["main"]
@@ -26,6 +30,26 @@ env:
   # BUILD_PATH: subfolder
 
 jobs:
+  update-ADS-metrics:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v5 
+        with:
+          python-version: '3.10'
+      
+      - name: Run python script
+        shell: bash
+        run: python ./get_ADS_metrics.py --token ${{ secrets.ADS_API_TOKEN }}
+
   build:
     name: Build
     runs-on: ubuntu-latest
