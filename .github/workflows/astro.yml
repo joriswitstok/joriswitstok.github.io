@@ -54,6 +54,16 @@ jobs:
       - name: Run python script
         shell: bash
         run: python ./get_ADS_metrics.py --token ${{ secrets.ADS_API_TOKEN }}
+      
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          # Commit message for the created commit.
+          commit_message: Update ADS metrics
+
+          # Optional glob pattern of files which should be added to the commit
+          # Defaults to all (.)
+          file_pattern: './src/utils/ADS_metrics.ts'
 
   build:
     name: Build

@@ -19,6 +19,7 @@ query.update(rows=n_papers_tot, fl="bibcode")
 bibcodes = [r["bibcode"] for r in requests.get(get_query_url(query), headers=headers).json()["response"]["docs"]]
 query['q'] += " property:refereed"
 n_papers_ref = requests.get(get_query_url(query), headers=headers).json()["response"]["numFound"]
+print("Found {:d} papers, of which {:d} refereed".format(n_papers_tot, n_papers_ref))
 
 # Retrieve metrics for selected bibcodes
 headers["Content-type"] = "application/json"
@@ -27,8 +28,9 @@ metrics = requests.post("https://api.adsabs.harvard.edu/v1/metrics",
                         data=json.dumps(dict(bibcodes=bibcodes))).json()
 n_citations = metrics["citation stats"]["total number of citations"]
 h_index = metrics["indicators"]['h']
+print("Total citations: {:d}, h-index: {:d}".format(n_citations, h_index))
 
-with open("./src/utils/metrics.ts", mode='w') as file:
+with open("./src/utils/ADS_metrics.ts", mode='w') as file:
     file.write("export const n_papers_tot = {:d};".format(n_papers_tot))
     file.write("\nexport const n_papers_ref = {:d};".format(n_papers_ref))
     file.write("\nexport const n_citations = {:d};".format(n_citations))
