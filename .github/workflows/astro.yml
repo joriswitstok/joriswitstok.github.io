@@ -49,7 +49,7 @@ jobs:
           cache: 'pip' # caching pip dependencies
       
       - name: Install dependencies
-        run: pip install argparse requests urllib json
+        run: pip install -r requirements.txt
       
       - name: Run python script
         shell: bash
