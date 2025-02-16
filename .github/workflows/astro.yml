@@ -30,7 +30,8 @@ env:
   # BUILD_PATH: subfolder
 
 jobs:
-  update-ADS-metrics:
+  metrics:
+    name: Update ADS metrics
     runs-on: ubuntu-latest
 
     permissions:
@@ -39,12 +40,16 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v5 
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.10'
+          python-version: '3.x'
+          cache: 'pip' # caching pip dependencies
+      
+      - name: Install dependencies
+        run: pip install argparse requests urllib json
       
       - name: Run python script
         shell: bash
@@ -52,6 +57,7 @@ jobs:
 
   build:
     name: Build
+    needs: metrics
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
