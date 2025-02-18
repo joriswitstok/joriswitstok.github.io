@@ -13,9 +13,9 @@ on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
-# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+# Sets permissions of the GITHUB_TOKEN to allow committing, pushing, and deploying to GitHub Pages
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -30,13 +30,9 @@ env:
   # BUILD_PATH: subfolder
 
 jobs:
-  metrics:
-    name: Update ADS metrics
+  build:
+    name: Update ADS metrics and build
     runs-on: ubuntu-latest
-
-    permissions:
-      contents: write
-      pull-requests: write
 
     steps:
       - name: Checkout code
@@ -76,15 +72,6 @@ jobs:
         if: steps.auto-commit-action.outputs.changes_detected == 'false'
         run: echo "No changes in ADS metrics detected!"
 
-  build:
-    name: Build
-    needs: metrics
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          ref: ${{ github.head_ref }}
       - name: Detect package manager
         id: detect-package-manager
         run: |
@@ -104,18 +91,22 @@ jobs:
             echo "Unable to determine package manager"
             exit 1
           fi
+      
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: "20"
           cache: ${{ steps.detect-package-manager.outputs.manager }}
           cache-dependency-path: ${{ env.BUILD_PATH }}/${{ steps.detect-package-manager.outputs.lockfile }}
+      
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
+      
       - name: Install dependencies
         run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
         working-directory: ${{ env.BUILD_PATH }}
+      
       - name: Build with Astro
         run: |
           ${{ steps.detect-package-manager.outputs.runner }} astro build \
