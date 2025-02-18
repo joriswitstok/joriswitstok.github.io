@@ -64,6 +64,16 @@ jobs:
           # Optional glob pattern of files which should be added to the commit
           # Defaults to all (.)
           file_pattern: './src/utils/ADS_metrics.ts'
+      
+      - name: If detected changes, output commit hash and pause for 30 seconds
+        if: steps.auto-commit-action.outputs.changes_detected == 'true'
+        run: |
+          echo "Updated ADS metrics in commit ${{ steps.auto-commit-action.outputs.commit_hash }}"
+          sleep 30
+
+      - name: No changes detected
+        if: steps.auto-commit-action.outputs.changes_detected == 'false'
+        run: echo "No changes in ADS metrics detected!"
 
   build:
     name: Build

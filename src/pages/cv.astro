@@ -6,7 +6,7 @@ import Steps2 from '~/components/widgets/Steps2.astro';
 import Features3 from '~/components/widgets/Features3.astro';
 import Stats from '~/components/widgets/Stats.astro';
 import Layout from '~/layouts/PageLayout.astro';
-import { n_papers_tot, n_papers_ref, n_citations, h_index } from '~/utils/ADS_metrics';
+import { n_papers_tot, n_papers_ref, n_reads, n_citations, h_index } from '~/utils/ADS_metrics';
 
 const metadata = {
   title: 'CV',
@@ -171,6 +171,7 @@ const metadata = {
     stats={[
       { title: 'Refereed', amount: n_papers_ref },
       { title: 'All', amount: n_papers_tot },
+      { title: 'Reads', amount: n_reads },
       { title: 'Citations', amount: n_citations },
       { title: 'h-index', amount: h_index },
     ]}
