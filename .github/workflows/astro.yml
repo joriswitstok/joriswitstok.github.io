@@ -2,9 +2,9 @@
 name: Deploy Astro site to Pages
 
 on:
-  # cronjob trigger at 00:00 every day. https://crontab.guru/every-month
+  # cronjob trigger at 08:00 every day. https://crontab.guru/every-month
   schedule:
-  - cron: "0 0 * * *"
+  - cron: "0 8 * * *"
 
   # Runs on pushes targeting the default branch
   push:
@@ -64,6 +64,12 @@ jobs:
           # Optional glob pattern of files which should be added to the commit
           # Defaults to all (.)
           file_pattern: './src/utils/ADS_metrics.ts'
+      
+      - name: Debug
+        run: |
+          echo "Changes detected: ${{ steps.auto-commit-action.outputs.changes_detected }}"
+          echo "Commit hash: ${{ steps.auto-commit-action.outputs.commit_hash }}"
+          sleep 30
       
       - name: If detected changes, output commit hash and pause for 30 seconds
         if: steps.auto-commit-action.outputs.changes_detected == 'true'
