@@ -38,14 +38,16 @@ headers["Content-type"] = "application/json"
 metrics = requests.post("https://api.adsabs.harvard.edu/v1/metrics",
                         headers=headers,
                         data=json.dumps(dict(types=["basic", "citations", "indicators"], bibcodes=bibcodes))).json()
+n_downloads = metrics["basic stats"]["total number of downloads"]
 n_reads = metrics["basic stats"]["total number of reads"]
 n_citations = metrics["citation stats"]["total number of citations"]
 h_index = metrics["indicators"]['h']
-print("Total reads: {:d}, total citations: {:d}, h-index: {:d}".format(n_reads, n_citations, h_index))
+print("Total reads: {:d}, total downloads: {:d}, total citations: {:d}, h-index: {:d}".format(n_reads, n_downloads, n_citations, h_index))
 
 with open("./src/utils/ADS_metrics.ts", mode='w') as file:
     file.write("export const n_papers_tot = {:d};".format(n_papers_tot))
     file.write("\nexport const n_papers_ref = {:d};".format(n_papers_ref))
     file.write("\nexport const n_reads = {:d};".format(n_reads))
+    file.write("\nexport const n_downloads = {:d};".format(n_downloads))
     file.write("\nexport const n_citations = {:d};".format(n_citations))
     file.write("\nexport const h_index = {:d};".format(h_index))

@@ -6,7 +6,7 @@ import Steps2 from '~/components/widgets/Steps2.astro';
 import Features3 from '~/components/widgets/Features3.astro';
 import Stats from '~/components/widgets/Stats.astro';
 import Layout from '~/layouts/PageLayout.astro';
-import { n_papers_tot, n_papers_ref, n_reads, n_citations, h_index } from '~/utils/ADS_metrics';
+import { n_papers_ref, n_reads, n_citations, h_index } from '~/utils/ADS_metrics';
 
 const metadata = {
   title: 'CV',
@@ -103,6 +103,20 @@ const metadata = {
     classes={{ container: 'max-w-3xl' }}
   />
 
+  <!-- Stats Widget *********** -->
+
+  <Stats
+    id="metrics"
+    title="Publication metrics"
+    subtitle='From the <a href="https://ui.adsabs.harvard.edu/" target="_blank">SAO/NASA Astrophysics Data System (ADS)</a>'
+    stats={[
+      { title: 'Publications (refereed)', amount: n_papers_ref },
+      { title: 'Reads', amount: n_reads },
+      { title: 'Citations', amount: n_citations },
+      { title: 'h-index', amount: h_index },
+    ]}
+  />
+
   <!-- Steps Widget ****************** -->
 
   <Steps
@@ -116,7 +130,7 @@ const metadata = {
       },
       {
         title: `<a href="https://ui.adsabs.harvard.edu/abs/2025MNRAS.536...27W/abstract" target="_blank">JADES: Primeval Lyman-α emitting galaxies reveal early sites of reionisation out to redshift z ~ 9</a>`,
-        description: `<a href="https://ui.adsabs.harvard.edu/abs/2025MNRAS.536...27W/abstract" target="_blank">Witstok, J., Maiolino, R., Smit, R., et al., 2024, MNRAS (in press)</a>`,
+        description: `<a href="https://ui.adsabs.harvard.edu/abs/2025MNRAS.536...27W/abstract" target="_blank">Witstok, J., Maiolino, R., Smit, R., et al., 2024, MNRAS, 536, 27</a>`,
         icon: 'tabler:notebook',
       },
       {
@@ -127,11 +141,6 @@ const metadata = {
       {
         title: `<a href="https://ui.adsabs.harvard.edu/abs/2023Natur.621..267W" target="_blank">Carbonaceous dust grains seen in the first billion years of cosmic time</a>`,
         description: `<a href="https://ui.adsabs.harvard.edu/abs/2023Natur.621..267W" target="_blank">Witstok, J., Shivaei, I., Smit, R., et al., 2023, Nature, 621, 267</a>`,
-        icon: 'tabler:notebook',
-      },
-      {
-        title: `<a href="https://ui.adsabs.harvard.edu/abs/2023MNRAS.523.3119W" target="_blank">An empirical study of dust properties at the earliest epochs</a>`,
-        description: `<a href="https://ui.adsabs.harvard.edu/abs/2023MNRAS.523.3119W" target="_blank">Witstok, J., Jones, G. C., Maiolino, R., Smit, R., & Schneider, R., 2023, MNRAS, 523, 3119</a>`,
         icon: 'tabler:notebook',
       },
       {
@@ -154,27 +163,8 @@ const metadata = {
         description: `<a href="https://ui.adsabs.harvard.edu/abs/2024Natur.627...59M" target="_blank">Maiolino, R., Scholtz, J., Witstok, J., et al., 2024, Nature, 627, 59</a>`,
         icon: 'tabler:notebook',
       },
-      {
-        title: `<a href="https://ui.adsabs.harvard.edu/abs/2024MNRAS.527...10V" target="_blank">Spatially resolved Kennicutt-Schmidt relation at z ≈ 7 and its connection with the interstellar medium properties</a>`,
-        description: `<a href="https://ui.adsabs.harvard.edu/abs/2024MNRAS.527...10V" target="_blank">Vallini, L., Witstok, J., et al., 2024, MNRAS, 527, 10</a>`,
-        icon: 'tabler:notebook',
-      },
     ]}
     classes={{ container: 'max-w-3xl' }}
-  />
-
-  <!-- Stats Widget *********** -->
-
-  <Stats
-    id="metrics"
-    title="Publication metrics"
-    stats={[
-      { title: 'Refereed', amount: n_papers_ref },
-      { title: 'All', amount: n_papers_tot },
-      { title: 'Reads', amount: n_reads },
-      { title: 'Citations', amount: n_citations },
-      { title: 'h-index', amount: h_index },
-    ]}
   />
 
   <!-- CallToAction Widget *********** -->

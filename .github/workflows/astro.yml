@@ -2,9 +2,9 @@
 name: Deploy Astro site to Pages
 
 on:
-  # cronjob trigger at 08:00 every day. https://crontab.guru/every-month
+  # cronjob trigger at 00:00 UTC every day. https://crontab.guru/
   schedule:
-  - cron: "0 8 * * *"
+  - cron: "0 0 * * *"
 
   # Runs on pushes targeting the default branch
   push:
