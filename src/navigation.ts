@@ -11,6 +11,16 @@ export const headerData = {
     {
       text: 'About',
       href: getPermalink('/about'),
+      links: [
+        {
+          text: 'CV',
+          href: getPermalink('/about/cv'),
+        },
+        {
+          text: 'Publications',
+          href: getPermalink('/about/publications'),
+        },
+      ]
     },
     {
       text: 'Science',
@@ -24,15 +34,11 @@ export const headerData = {
           text: 'For Scientists',
           href: getPermalink('/science/research'),
         },
-        {
-          text: 'News & Media',
-          href: getPermalink('/science/news'),
-        },
       ],
     },
     {
-      text: 'CV',
-      href: getPermalink('/cv'),
+      text: 'News',
+      href: getPermalink('/news'),
     },
   ],
   actions: [{ text: 'GitHub', href: 'https://github.com/joriswitstok', target: '_blank' }],
@@ -45,7 +51,8 @@ export const footerData = {
       href: getHomePermalink(),
       links: [
         { text: 'About', href: getPermalink('/about') },
-        { text: 'CV', href: getPermalink('/cv') },
+        { text: 'CV', href: getPermalink('/about/cv') },
+        { text: 'Publications', href: getPermalink('/about/publications') },
       ],
     },
     {
@@ -62,7 +69,7 @@ export const footerData = {
         },
         {
           text: 'News & Media',
-          href: getPermalink('/science/news'),
+          href: getPermalink('/news'),
         },
       ],
     },

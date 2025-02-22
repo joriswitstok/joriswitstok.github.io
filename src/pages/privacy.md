@@ -4,7 +4,7 @@ description: 'Privacy Policy for using this website'
 layout: '~/layouts/MarkdownLayout.astro'
 ---
 
-_Last updated_: 22 September, 2024
+Last updated: 22 September, 2024
 
 This Policy describes the information we collect from you, how we use that information and our legal basis for doing so. It also covers your choices regarding the information you provide to us. This Privacy Policy applies to the information that we obtain through your use of this website.
 
