@@ -1,5 +1,5 @@
 import { z, defineCollection } from 'astro:content';
-import { glob, file } from 'astro/loaders';
+import { glob } from 'astro/loaders';
 
 const metadataDefinition = () =>
   z
@@ -65,19 +65,6 @@ const postCollection = defineCollection({
   }),
 });
 
-const publicationCollection = defineCollection({
-  loader: file('src/data/publications.json'),
-  schema: z.object({
-    href: z.string(),
-    title: z.string(),
-    authors: z.string(),
-    year: z.string(),
-    journal: z.string(),
-    reference: z.string(),
-  }),
-});
-
 export const collections = {
   post: postCollection,
-  publicationCollection,
 };
