@@ -8,8 +8,9 @@ See the repositories of the [website template](https://github.com/onwidget/astro
 # Install dependencies
 npm install
 
-# Install cookieconsent 
-npx astro add @jop-software/astro-cookieconsent
+# Add MDI icons and install cookieconsent 
+npm i -D @iconify-json/mdi
+npm run astro add @jop-software/astro-cookieconsent
 
 # Start local dev server
 npm run dev

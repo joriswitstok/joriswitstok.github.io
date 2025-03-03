@@ -41,6 +41,7 @@
     "@astrojs/tailwind": "^5.1.5",
     "@eslint/js": "^9.18.0",
     "@iconify-json/flat-color-icons": "^1.2.1",
+    "@iconify-json/mdi": "^1.2.3",
     "@iconify-json/tabler": "^1.2.14",
     "@tailwindcss/typography": "^0.5.16",
     "@types/eslint__js": "^8.42.3",
