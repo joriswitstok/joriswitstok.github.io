@@ -14,7 +14,7 @@ src/components/widgets/Header.astro
 src/components/widgets/Footer.astro
 src/content/post/*
 src/content/config.ts
-src/data/posts/*
+src/data/post/*
 src/layouts/*
 src/pages/*
 src/config.yaml
