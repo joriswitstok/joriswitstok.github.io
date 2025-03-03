@@ -1,7 +1,7 @@
-export const latest_update = '03 March, 2025';
+export const latest_update = '3 March, 2025';
 export const n_papers_tot = 92;
 export const n_papers_ref = 68;
-export const n_reads = 91821;
-export const n_downloads = 48864;
-export const n_citations = 6073;
+export const n_reads = 91932;
+export const n_downloads = 48924;
+export const n_citations = 6074;
 export const h_index = 43;

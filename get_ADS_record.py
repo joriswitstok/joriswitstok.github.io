@@ -4,7 +4,7 @@ import requests
 from urllib.parse import urlencode
 import json
 from datetime import date
-current_date = date.today().strftime("%d %B, %Y")
+current_date = date.today().strftime("%-d %B, %Y")
 
 # Retrieve API token as argument
 parser = argparse.ArgumentParser()
@@ -57,7 +57,7 @@ for publication in publications["response"]["docs"]:
     
     if pub_dict["ai"] == 0:
         first_author_bibcodes.append(publication["bibcode"])
-    elif pub_dict["ai"] < 5 and len(publication["author"]) > 5:
+    elif pub_dict["ai"] < 3 or (pub_dict["ai"] < 5 and len(publication["author"]) > 5):
         major_contr_bibcodes.append(publication["bibcode"])
     
     pub_dict["authors"] = ", ".join(trim_first_names(publication["author"][slice(None, 4 if pub_dict["ai"] == 0 else pub_dict["ai"]+1)])) + ", et al." if pub_dict["ai"] < 5 and len(publication["author"]) > 5 else ", ".join(trim_first_names(publication["author"]))
