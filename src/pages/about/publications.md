@@ -8,11 +8,11 @@ layout: '~/layouts/MarkdownLayout.astro'
 93 publications (68 refereed), of which 8 as first author. Metrics:
 - 91999 reads, 48959 downloads, 6074 citations
 - h-index: 43, m-index: 8.6, g-index: 77
-- i10-index: 78, i100-index: 19, read10-index: 1350.5
+- i10-index: 78, i100-index: 19, read10-index: 1329.7
 - tori index: 1.6, riq index: 251.0
 
 Based on the [SAO/NASA Astrophysics Data System (ADS)](https://ui.adsabs.harvard.edu/).
-Last updated: 5 March, 2025.
+Last updated: 6 March, 2025.
 
 ## First author (8)
 
@@ -34,7 +34,7 @@ Last updated: 5 March, 2025.
 
 ## Major contributions (10)
 
-- Ormerod, K., Witstok, J., et al., 2025, arXiv e-prints, [2502.21119](https://ui.adsabs.harvard.edu/abs/2025arXiv250221119O): 'Detection of the 2175{\AA} UV Bump at z>7: Evidence for Rapid Dust Evolution in a Merging Reionisation-Era Galaxy'
+- Ormerod, K., Witstok, J., et al., 2025, arXiv e-prints, [2502.21119](https://doi.org/10.48550/arXiv.2502.21119): 'Detection of the 2175Å UV Bump at z&gt;7: Evidence for Rapid Dust Evolution in a Merging Reionisation-Era Galaxy'
 
 - Curti, M., Witstok, J., et al., 2024, arXiv e-prints, [2407.02575](https://doi.org/10.48550/arXiv.2407.02575): 'JADES: The star-formation and chemical enrichment history of a luminous galaxy at z~9.43 probed by ultra-deep JWST/NIRSpec spectroscopy'
 
