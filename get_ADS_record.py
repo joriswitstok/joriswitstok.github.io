@@ -67,7 +67,9 @@ for publication in publications["response"]["docs"]:
     else:
         print("Unknown bibstem: {}".format(publication["bibstem"][0]))
         pub_dict["journal"] = publication["bibstem"][0]
-    if "volume" in publication:
+    if "tmp" in publication["bibcode"]:
+        pub_dict["reference"] = "in press"
+    elif "volume" in publication:
         pub_dict["reference"] = "{}, {}".format(publication["volume"], publication["page"][0])
     else:
         pub_dict["reference"] = publication["page"][0].replace("arXiv:", '')
@@ -104,7 +106,7 @@ with open("./src/utils/ADS_metrics.ts", mode='w') as file:
 
 def write_line(pub_dict):
     return "\n\n- {}, {}, {}, [{}]({}): '{}'".format(pub_dict["authors"], pub_dict["year"], pub_dict["journal"],
-                                                    pub_dict["reference"], pub_dict["href"], pub_dict["title"])
+                                                     pub_dict["reference"], pub_dict["href"], pub_dict["title"])
 
 major_contr_bibcodes = sorted(major_contr_bibcodes, key=lambda b: [pub_dicts[b]["ai"], -int(pub_dicts[b]["year"])])
 
