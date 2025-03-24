@@ -6,13 +6,13 @@ layout: '~/layouts/MarkdownLayout.astro'
 
 ## Summary
 94 publications (70 refereed), of which 8 as first author. Metrics:
-- 94386 reads, 50173 downloads, 6366 citations
+- 94531 reads, 50230 downloads, 6413 citations
 - h-index: 43, m-index: 8.6, g-index: 79
-- i10-index: 80, i100-index: 20, read10-index: 1449.9
-- tori index: 1.6, riq index: 255.0
+- i10-index: 80, i100-index: 20, read10-index: 1454.6
+- tori index: 1.6, riq index: 256.0
 
 Based on the [SAO/NASA Astrophysics Data System (ADS)](https://ui.adsabs.harvard.edu/).
-Last updated: 23 March, 2025.
+Last updated: 24 March, 2025.
 
 ## First author (8)
 
@@ -72,9 +72,9 @@ Last updated: 23 March, 2025.
 
 - Witten, C., McClymont, W., Laporte, N., Roberts-Borsani, G., Sijacki, D., Tacchella, S., Simmonds, C., Katz, H., Ellis, R., Witstok, J., Maiolino, R., Ji, X., Hayes, B., Looser, T., D'Eugenio, F., 2025, _Monthly Notices of the Royal Astronomical Society_, [537, 112](https://doi.org/10.1093/mnras/staf001): 'Rising from the ashes: evidence of old stellar populations and rejuvenation events in the very early Universe'
 
-- Baker, W., Tacchella, S., Johnson, B., Nelson, E., Suess, K., D'Eugenio, F., Curti, M., de Graaff, A., Ji, Z., Maiolino, R., Robertson, B., Scholtz, J., Alberts, S., Arribas, S., Boyett, K., Bunker, A., Carniani, S., Charlot, S., Chen, Z., Chevallard, J., Curtis-Lake, E., Danhaive, A., DeCoursey, C., Egami, E., Eisenstein, D., Endsley, R., Hausen, R., Helton, J., Kumari, N., Looser, T., Maseda, M., Puskás, D., Rieke, M., Sandles, L., Sun, F., Übler, H., Williams, C., Willmer, C., Witstok, J., 2025, _Nature Astronomy_, [9, 141](https://doi.org/10.1038/s41550-024-02384-8): 'A core in a star-forming disc as evidence of inside-out growth in the early Universe'
-
 - Baker, W., D'Eugenio, F., Maiolino, R., Bunker, A., Simmonds, C., Tacchella, S., Witstok, J., Arribas, S., Carniani, S., Charlot, S., Chevallard, J., Curti, M., Curtis-Lake, E., Jones, G., Kumari, N., Rinaldi, P., Robertson, B., Williams, C., Willott, C., Zhu, Y., 2025, arXiv e-prints, [2501.09070](https://doi.org/10.48550/arXiv.2501.09070): 'Zapped then Napped? A rapidly quenched, remnant leaker candidate with a steep spectroscopic $\beta_{UV}$ slope at z=8.5'
+
+- Baker, W., Tacchella, S., Johnson, B., Nelson, E., Suess, K., D'Eugenio, F., Curti, M., de Graaff, A., Ji, Z., Maiolino, R., Robertson, B., Scholtz, J., Alberts, S., Arribas, S., Boyett, K., Bunker, A., Carniani, S., Charlot, S., Chen, Z., Chevallard, J., Curtis-Lake, E., Danhaive, A., DeCoursey, C., Egami, E., Eisenstein, D., Endsley, R., Hausen, R., Helton, J., Kumari, N., Looser, T., Maseda, M., Puskás, D., Rieke, M., Sandles, L., Sun, F., Übler, H., Williams, C., Willmer, C., Witstok, J., 2025, _Nature Astronomy_, [9, 141](https://doi.org/10.1038/s41550-024-02384-8): 'A core in a star-forming disc as evidence of inside-out growth in the early Universe'
 
 - Heintz, K., Brammer, G., Watson, D., Oesch, P., Keating, L., Hayes, M., Abdurro'uf, Arellano-Córdova, K., Carnall, A., Christiansen, C., Cullen, F., Davé, R., Dayal, P., Ferrara, A., Finlator, K., Fynbo, J., Flury, S., Gelli, V., Gillman, S., Gottumukkala, R., Gould, K., Greve, T., Hardin, S., Hsiao, T., Hutter, A., Jakobsson, P., Killi, M., Khosravaninezhad, N., Laursen, P., Lee, M., Magdis, G., Matthee, J., Naidu, R., Narayanan, D., Pollock, C., Prescott, M., Rusakov, V., Shuntov, M., Sneppen, A., Smit, R., Tanvir, N., Terp, C., Toft, S., Valentino, F., Vijayan, A., Weaver, J., Wise, J., Witstok, J., 2025, _Astronomy and Astrophysics_, [693, A60](https://doi.org/10.1051/0004-6361/202450243): 'The JWST-PRIMAL archival survey: A JWST/NIRSpec reference sample for the physical properties and Lyman-α absorption and emission of ∼600 galaxies at z = 5.0 ‑ 13.4'
 
@@ -116,9 +116,9 @@ Last updated: 23 March, 2025.
 
 - Terp, C., Heintz, K., Watson, D., Brammer, G., Carnall, A., Witstok, J., Smit, R., Vejlgaard, S., 2024, _Astronomy and Astrophysics_, [690, A70](https://doi.org/10.1051/0004-6361/202450375): 'Uncovering the physical origin of the prominent Lyman-α emission and absorption in GS9422 at z = 5.943'
 
-- Carniani, S., Hainline, K., D'Eugenio, F., Eisenstein, D., Jakobsen, P., Witstok, J., Johnson, B., Chevallard, J., Maiolino, R., Helton, J., Willott, C., Robertson, B., Alberts, S., Arribas, S., Baker, W., Bhatawdekar, R., Boyett, K., Bunker, A., Cameron, A., Cargile, P., Charlot, S., Curti, M., Curtis-Lake, E., Egami, E., Giardino, G., Isaak, K., Ji, Z., Jones, G., Kumari, N., Maseda, M., Parlanti, E., Pérez-González, P., Rawle, T., Rieke, G., Rieke, M., Del Pino, B., Saxena, A., Scholtz, J., Smit, R., Sun, F., Tacchella, S., Übler, H., Venturi, G., Williams, C., Willmer, C., 2024, _Nature_, [633, 318](https://doi.org/10.1038/s41586-024-07860-9): 'Spectroscopic confirmation of two luminous galaxies at a redshift of 14'
-
 - Carniani, S., D'Eugenio, F., Ji, X., Parlanti, E., Scholtz, J., Sun, F., Venturi, G., Bakx, T., Curti, M., Maiolino, R., Tacchella, S., Zavala, J., Hainline, K., Witstok, J., Johnson, B., Alberts, S., Bunker, A., Charlot, S., Eisenstein, D., Helton, J., Jakobsen, P., Kumari, N., Robertson, B., Saxena, A., Übler, H., Williams, C., Willmer, C., Willott, C., 2024, arXiv e-prints, [2409.20533](https://doi.org/10.48550/arXiv.2409.20533): 'The eventful life of a luminous galaxy at z = 14: metal enrichment, feedback, and low gas fraction?'
+
+- Carniani, S., Hainline, K., D'Eugenio, F., Eisenstein, D., Jakobsen, P., Witstok, J., Johnson, B., Chevallard, J., Maiolino, R., Helton, J., Willott, C., Robertson, B., Alberts, S., Arribas, S., Baker, W., Bhatawdekar, R., Boyett, K., Bunker, A., Cameron, A., Cargile, P., Charlot, S., Curti, M., Curtis-Lake, E., Egami, E., Giardino, G., Isaak, K., Ji, Z., Jones, G., Kumari, N., Maseda, M., Parlanti, E., Pérez-González, P., Rawle, T., Rieke, G., Rieke, M., Del Pino, B., Saxena, A., Scholtz, J., Smit, R., Sun, F., Tacchella, S., Übler, H., Venturi, G., Williams, C., Willmer, C., 2024, _Nature_, [633, 318](https://doi.org/10.1038/s41586-024-07860-9): 'Spectroscopic confirmation of two luminous galaxies at a redshift of 14'
 
 - D'Eugenio, F., Maiolino, R., Carniani, S., Chevallard, J., Curtis-Lake, E., Witstok, J., Charlot, S., Baker, W., Arribas, S., Boyett, K., Bunker, A., Curti, M., Eisenstein, D., Hainline, K., Ji, Z., Johnson, B., Kumari, N., Looser, T., Nakajima, K., Nelson, E., Rieke, M., Robertson, B., Scholtz, J., Smit, R., Sun, F., Venturi, G., Tacchella, S., Übler, H., Willmer, C., Willott, C., 2024, _Astronomy and Astrophysics_, [689, A152](https://doi.org/10.1051/0004-6361/202348636): 'JADES: Carbon enrichment 350 Myr after the Big Bang'
 
