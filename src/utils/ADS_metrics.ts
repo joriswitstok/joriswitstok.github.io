@@ -1,5 +1,5 @@
-export const latest_update = '3 April, 2025';
-export const n_papers_tot = 94;
+export const latest_update = '4 April, 2025';
+export const n_papers_tot = 96;
 export const n_papers_ref = 70;
 export const n_reads = 95595;
 export const n_downloads = 50831;
