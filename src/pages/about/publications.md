@@ -5,14 +5,14 @@ layout: '~/layouts/MarkdownLayout.astro'
 ---
 
 ## Summary
-96 publications (70 refereed), of which 8 as first author. Metrics:
-- 96071 reads, 51084 downloads, 6554 citations
+97 publications (71 refereed), of which 8 as first author. Metrics:
+- 96222 reads, 51167 downloads, 6571 citations
 - h-index: 43, m-index: 8.6, g-index: 80
-- i10-index: 80, i100-index: 21, read10-index: 1461.8
+- i10-index: 80, i100-index: 21, read10-index: 1470.6
 - tori index: 1.7, riq index: 259.0
 
 Based on the [SAO/NASA Astrophysics Data System (ADS)](https://ui.adsabs.harvard.edu/).
-Last updated: 6 April, 2025.
+Last updated: 7 April, 2025.
 
 ## First author (8)
 
@@ -54,7 +54,7 @@ Last updated: 6 April, 2025.
 
 - Jones, G., Bunker, A., Saxena, A., Witstok, J., et al., 2024, _Astronomy and Astrophysics_, [683, A238](https://doi.org/10.1051/0004-6361/202347099): 'JADES: The emergence and evolution of Lyα emission and constraints on the intergalactic medium neutral fraction'
 
-## Other (77)
+## Other (78)
 
 - Ji, Z., Alberts, S., Zhu, Y., Vanzella, E., Giavalisco, M., Hainline, K., Baker, W., Bunker, A., Helton, J., Lyu, J., Rinaldi, P., Robertson, B., Simmonds, C., Tacchella, S., Williams, C., Willmer, C., Witstok, J., 2025, arXiv e-prints, [2504.01067](https://doi.org/10.48550/arXiv.2504.01067): 'The Importance of Dust Distribution in Ionizing-photon Escape: NIRCam and MIRI Imaging of a Lyman Continuum-emitting Galaxy at z ~ 3.8'
 
@@ -66,6 +66,8 @@ Last updated: 6 April, 2025.
 
 - Helton, J., Rieke, G., Alberts, S., Wu, Z., Eisenstein, D., Hainline, K., Carniani, S., Ji, Z., Baker, W., Bhatawdekar, R., Bunker, A., Cargile, P., Charlot, S., Chevallard, J., D'Eugenio, F., Egami, E., Johnson, B., Jones, G., Lyu, J., Maiolino, R., Pérez-González, P., Rieke, M., Robertson, B., Saxena, A., Scholtz, J., Shivaei, I., Sun, F., Tacchella, S., Whitler, L., Williams, C., Willmer, C., Willott, C., Witstok, J., Zhu, Y., 2025, _Nature Astronomy_, [in press](https://doi.org/10.1038/s41550-025-02503-z): 'Photometric detection at 7.7 μm of a galaxy beyond redshift 14 with JWST/MIRI'
 
+- Scholtz, J., Curti, M., D'Eugenio, F., Übler, H., Maiolino, R., Marconcini, C., Smit, R., Perna, M., Witstok, J., Arribas, S., Böker, T., Bunker, A., Carniani, S., Charlot, S., Cresci, G., Lamperti, I., Parlanti, E., Pérez-González, P., Rodríguez Del Pino, B., Venturi, G., 2025, _Monthly Notices of the Royal Astronomical Society_, [in press](https://doi.org/10.1093/mnras/staf518): 'GA-NIFS: ISM properties and metal enrichment in a merger-driven starburst during the Epoch of Reionisation probed with JWST and ALMA'
+
 - Übler, H., Maiolino, R., Pérez-González, P., D'Eugenio, F., Perna, M., Curti, M., Arribas, S., Bunker, A., Carniani, S., Charlot, S., Rodríguez Del Pino, B., Baker, W., Böker, T., Cresci, G., Dunlop, J., Grogin, N., Jones, G., Kumari, N., Lamperti, I., Laporte, N., Marshall, M., Mazzolari, G., Parlanti, E., Rawle, T., Scholtz, J., Venturi, G., Witstok, J., 2025, _Monthly Notices of the Royal Astronomical Society_, [538, 280](https://doi.org/10.1093/mnras/staf320): 'Correction to: GA-NIFS: JWST discovers an offset AGN 740 million years after the big bang'
 
 - Isobe, Y., Maiolino, R., D'Eugenio, F., Curti, M., Ji, X., Juodžbalis, I., Scholtz, J., Feltre, A., Charlot, S., Übler, H., Bunker, A., Carniani, S., Curtis-Lake, E., Ji, Z., Kumari, N., Rinaldi, P., Robertson, B., Willott, C., Witstok, J., 2025, arXiv e-prints, [2502.12091](https://doi.org/10.48550/arXiv.2502.12091): 'JADES: Average Nitrogen Enhancement in High-Redshift Broad-Line Active Galactic Nuclei'
@@ -76,9 +78,9 @@ Last updated: 6 April, 2025.
 
 - Witten, C., McClymont, W., Laporte, N., Roberts-Borsani, G., Sijacki, D., Tacchella, S., Simmonds, C., Katz, H., Ellis, R., Witstok, J., Maiolino, R., Ji, X., Hayes, B., Looser, T., D'Eugenio, F., 2025, _Monthly Notices of the Royal Astronomical Society_, [537, 112](https://doi.org/10.1093/mnras/staf001): 'Rising from the ashes: evidence of old stellar populations and rejuvenation events in the very early Universe'
 
-- Baker, W., D'Eugenio, F., Maiolino, R., Bunker, A., Simmonds, C., Tacchella, S., Witstok, J., Arribas, S., Carniani, S., Charlot, S., Chevallard, J., Curti, M., Curtis-Lake, E., Jones, G., Kumari, N., Rinaldi, P., Robertson, B., Williams, C., Willott, C., Zhu, Y., 2025, arXiv e-prints, [2501.09070](https://doi.org/10.48550/arXiv.2501.09070): 'Zapped then Napped? A rapidly quenched remnant leaker candidate with a steep spectroscopic $\beta_{UV}$ slope at z=8.5'
-
 - Baker, W., Tacchella, S., Johnson, B., Nelson, E., Suess, K., D'Eugenio, F., Curti, M., de Graaff, A., Ji, Z., Maiolino, R., Robertson, B., Scholtz, J., Alberts, S., Arribas, S., Boyett, K., Bunker, A., Carniani, S., Charlot, S., Chen, Z., Chevallard, J., Curtis-Lake, E., Danhaive, A., DeCoursey, C., Egami, E., Eisenstein, D., Endsley, R., Hausen, R., Helton, J., Kumari, N., Looser, T., Maseda, M., Puskás, D., Rieke, M., Sandles, L., Sun, F., Übler, H., Williams, C., Willmer, C., Witstok, J., 2025, _Nature Astronomy_, [9, 141](https://doi.org/10.1038/s41550-024-02384-8): 'A core in a star-forming disc as evidence of inside-out growth in the early Universe'
+
+- Baker, W., D'Eugenio, F., Maiolino, R., Bunker, A., Simmonds, C., Tacchella, S., Witstok, J., Arribas, S., Carniani, S., Charlot, S., Chevallard, J., Curti, M., Curtis-Lake, E., Jones, G., Kumari, N., Rinaldi, P., Robertson, B., Williams, C., Willott, C., Zhu, Y., 2025, arXiv e-prints, [2501.09070](https://doi.org/10.48550/arXiv.2501.09070): 'Zapped then Napped? A rapidly quenched remnant leaker candidate with a steep spectroscopic $\beta_{UV}$ slope at z=8.5'
 
 - Heintz, K., Brammer, G., Watson, D., Oesch, P., Keating, L., Hayes, M., Abdurro'uf, Arellano-Córdova, K., Carnall, A., Christiansen, C., Cullen, F., Davé, R., Dayal, P., Ferrara, A., Finlator, K., Fynbo, J., Flury, S., Gelli, V., Gillman, S., Gottumukkala, R., Gould, K., Greve, T., Hardin, S., Hsiao, T., Hutter, A., Jakobsson, P., Killi, M., Khosravaninezhad, N., Laursen, P., Lee, M., Magdis, G., Matthee, J., Naidu, R., Narayanan, D., Pollock, C., Prescott, M., Rusakov, V., Shuntov, M., Sneppen, A., Smit, R., Tanvir, N., Terp, C., Toft, S., Valentino, F., Vijayan, A., Weaver, J., Wise, J., Witstok, J., 2025, _Astronomy and Astrophysics_, [693, A60](https://doi.org/10.1051/0004-6361/202450243): 'The JWST-PRIMAL archival survey: A JWST/NIRSpec reference sample for the physical properties and Lyman-α absorption and emission of ∼600 galaxies at z = 5.0 ‑ 13.4'
 
