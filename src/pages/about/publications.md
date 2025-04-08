@@ -5,14 +5,14 @@ layout: '~/layouts/MarkdownLayout.astro'
 ---
 
 ## Summary
-97 publications (71 refereed), of which 8 as first author. Metrics:
-- 96222 reads, 51167 downloads, 6571 citations
+96 publications (71 refereed), of which 8 as first author. Metrics:
+- 96177 reads, 51150 downloads, 6565 citations
 - h-index: 43, m-index: 8.6, g-index: 80
-- i10-index: 80, i100-index: 21, read10-index: 1470.6
-- tori index: 1.7, riq index: 259.0
+- i10-index: 80, i100-index: 21, read10-index: 1465.7
+- tori index: 1.7, riq index: 262.0
 
 Based on the [SAO/NASA Astrophysics Data System (ADS)](https://ui.adsabs.harvard.edu/).
-Last updated: 7 April, 2025.
+Last updated: 8 April, 2025.
 
 ## First author (8)
 
@@ -54,7 +54,7 @@ Last updated: 7 April, 2025.
 
 - Jones, G., Bunker, A., Saxena, A., Witstok, J., et al., 2024, _Astronomy and Astrophysics_, [683, A238](https://doi.org/10.1051/0004-6361/202347099): 'JADES: The emergence and evolution of Lyα emission and constraints on the intergalactic medium neutral fraction'
 
-## Other (78)
+## Other (77)
 
 - Ji, Z., Alberts, S., Zhu, Y., Vanzella, E., Giavalisco, M., Hainline, K., Baker, W., Bunker, A., Helton, J., Lyu, J., Rinaldi, P., Robertson, B., Simmonds, C., Tacchella, S., Williams, C., Willmer, C., Witstok, J., 2025, arXiv e-prints, [2504.01067](https://doi.org/10.48550/arXiv.2504.01067): 'The Importance of Dust Distribution in Ionizing-photon Escape: NIRCam and MIRI Imaging of a Lyman Continuum-emitting Galaxy at z ~ 3.8'
 
@@ -113,8 +113,6 @@ Last updated: 7 April, 2025.
 - Sandles, L., D'Eugenio, F., Maiolino, R., Looser, T., Arribas, S., Baker, W., Bonaventura, N., Bunker, A., Cameron, A., Carniani, S., Charlot, S., Chevallard, J., Curti, M., Curtis-Lake, E., de Graaff, A., Eisenstein, D., Hainline, K., Ji, Z., Johnson, B., Jones, G., Kumari, N., Nelson, E., Perna, M., Rawle, T., Rix, H., Robertson, B., Del Pino, B., Scholtz, J., Shivaei, I., Smit, R., Sun, F., Tacchella, S., Übler, H., Williams, C., Willott, C., Witstok, J., 2024, _Astronomy and Astrophysics_, [691, A305](https://doi.org/10.1051/0004-6361/202347119): 'JADES: Balmer decrement measurements at redshifts 4 &lt; z &lt; 7'
 
 - Saxena, A., Cameron, A., Katz, H., Bunker, A., Chevallard, J., D'Eugenio, F., Arribas, S., Bhatawdekar, R., Boyett, K., Cargile, P., Carniani, S., Charlot, S., Curti, M., Curtis-Lake, E., Hainline, K., Ji, Z., Johnson, B., Jones, G., Kumari, N., Laseter, I., Maseda, M., Robertson, B., Simmonds, C., Tacchella, S., Ubler, H., Williams, C., Willott, C., Witstok, J., Zhu, Y., 2024, arXiv e-prints, [2411.14532](https://doi.org/10.48550/arXiv.2411.14532): 'Hitting the slopes: A spectroscopic view of UV continuum slopes of galaxies reveals a reddening at z &gt; 9.5'
-
-- Scholtz, J., Curti, M., D'Eugenio, F., Übler, H., Maiolino, R., Marconcini, C., Smit, R., Perna, M., Witstok, J., Arribas, S., Böker, T., Bunker, A., Carniani, S., Charlot, S., Cresci, G., Pérez-González, P., Lamperti, I., Rodríguez Del Pino, B., Parlanti, E., Venturi, G., 2024, arXiv e-prints, [2411.07695](https://doi.org/10.48550/arXiv.2411.07695): 'GA-NIFS: ISM properties and metal enrichment in a merger-driven starburst during the Epoch of Reionisation probed with JWST and ALMA'
 
 - Bunker, A., Cameron, A., Curtis-Lake, E., Jakobsen, P., Carniani, S., Curti, M., Witstok, J., Maiolino, R., D'Eugenio, F., Looser, T., Willott, C., Bonaventura, N., Hainline, K., Übler, H., Willmer, C., Saxena, A., Smit, R., Alberts, S., Arribas, S., Baker, W., Baum, S., Bhatawdekar, R., Bowler, R., Boyett, K., Charlot, S., Chen, Z., Chevallard, J., Circosta, C., DeCoursey, C., de Graaff, A., Egami, E., Eisenstein, D., Endsley, R., Ferruit, P., Giardino, G., Hausen, R., Helton, J., Hviding, R., Ji, Z., Johnson, B., Jones, G., Kumari, N., Laseter, I., Lützgendorf, N., Maseda, M., Nelson, E., Parlanti, E., Perna, M., Rauscher, B., Rawle, T., Rix, H., Rieke, M., Robertson, B., Rodríguez Del Pino, B., Sandles, L., Scholtz, J., Sharpe, K., Skarbinski, M., Stark, D., Sun, F., Tacchella, S., Topping, M., Villanueva, N., Wallace, I., Williams, C., Woodrum, C., 2024, _Astronomy and Astrophysics_, [690, A288](https://doi.org/10.1051/0004-6361/202347094): 'JADES NIRSpec initial data release for the Hubble Ultra Deep Field: Redshifts and line fluxes of distant galaxies from the deepest JWST Cycle 1 NIRSpec multi-object spectroscopy'
 
