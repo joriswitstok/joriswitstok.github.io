@@ -5,14 +5,14 @@ layout: '~/layouts/MarkdownLayout.astro'
 ---
 
 ## Summary
-97 publications (72 refereed), of which 8 as first author. Metrics:
+99 publications (72 refereed), of which 8 as first author. Metrics:
 - 96352 reads, 51219 downloads, 6646 citations
 - h-index: 44, m-index: 8.8, g-index: 81
-- i10-index: 80, i100-index: 22, read10-index: 1443.4
+- i10-index: 80, i100-index: 22, read10-index: 1429.7
 - tori index: 1.7, riq index: 261.0
 
 Based on the [SAO/NASA Astrophysics Data System (ADS)](https://ui.adsabs.harvard.edu/).
-Last updated: 14 April, 2025.
+Last updated: 15 April, 2025.
 
 ## First author (8)
 
@@ -54,11 +54,15 @@ Last updated: 14 April, 2025.
 
 - Jones, G., Bunker, A., Saxena, A., Witstok, J., et al., 2024, _Astronomy and Astrophysics_, [683, A238](https://doi.org/10.1051/0004-6361/202347099): 'JADES: The emergence and evolution of Lyα emission and constraints on the intergalactic medium neutral fraction'
 
-## Other (78)
+## Other (80)
+
+- Carniani, S., D'Eugenio, F., Ji, X., Parlanti, E., Scholtz, J., Sun, F., Venturi, G., Bakx, T., Curti, M., Maiolino, R., Tacchella, S., Zavala, J., Hainline, K., Witstok, J., Johnson, B., Alberts, S., Bunker, A., Charlot, S., Eisenstein, D., Helton, J., Jakobsen, P., Kumari, N., Robertson, B., Saxena, A., Übler, H., Williams, C., Willmer, C., Willott, C., 2025, _Astronomy and Astrophysics_, [696, A87](https://doi.org/10.1051/0004-6361/202452451): 'The eventful life of a luminous galaxy at z = 14: metal enrichment, feedback, and low gas fraction?'
 
 - Fudamoto, Y., Inoue, A., Bouwens, R., Inami, H., Smit, R., Stark, D., Aravena, M., Pallottini, A., Hashimoto, T., Oguri, M., Bowler, R., da Cunha, E., Dayal, P., Ferrara, A., Fujimoto, S., Heintz, K., Hygate, A., van Leeuwen, I., De Looze, I., Rowland, L., Stefanon, M., Sugahara, Y., Witstok, J., van der Werf, P., 2025, arXiv e-prints, [2504.03831](https://doi.org/10.48550/arXiv.2504.03831): 'ALMA Observations of [OI]145um and [NII]205um Emission lines from Star-Forming Galaxies at $z\sim7$'
 
 - Ji, Z., Alberts, S., Zhu, Y., Vanzella, E., Giavalisco, M., Hainline, K., Baker, W., Bunker, A., Helton, J., Lyu, J., Rinaldi, P., Robertson, B., Simmonds, C., Tacchella, S., Williams, C., Willmer, C., Witstok, J., 2025, arXiv e-prints, [2504.01067](https://doi.org/10.48550/arXiv.2504.01067): 'The Importance of Dust Distribution in Ionizing-photon Escape: NIRCam and MIRI Imaging of a Lyman Continuum-emitting Galaxy at z ~ 3.8'
+
+- Perna, M., Arribas, S., Lamperti, I., Circosta, C., Bertola, E., Pérez-González, P., D'Eugenio, F., Übler, H., Cresci, G., Volonteri, M., Mannucci, F., Maiolino, R., Rodríguez Del Pino, B., Böker, T., Bunker, A., Charlot, S., Willott, C., Carniani, S., Curti, M., Jones, G., Kumari, N., Marshall, M., Venturi, G., Saxena, A., Scholtz, J., Witstok, J., 2025, _Astronomy and Astrophysics_, [696, A59](https://doi.org/10.1051/0004-6361/202453430): 'GA-NIFS: High number of dual active galactic nuclei at z ∼ 3'
 
 - Rinaldi, P., Pérez-González, P., Rieke, G., Lyu, J., D'Eugenio, F., Wu, Z., Carniani, S., Looser, T., Shivaei, I., Boogaard, L., Diaz-Santos, T., Colina, L., Östlin, G., Alberts, S., Álvarez-Márquez, J., Annuziatella, M., Aravena, M., Bhatawdekar, R., Bunker, A., Caputi, K., Charlot, S., Crespo Gómez, A., Curti, M., Eckart, A., Gillman, S., Hainline, K., Kumari, N., Hjorth, J., Iani, E., Inami, H., Ji, Z., Johnson, B., Jones, G., Labiano, Á., Maiolino, R., Melinder, J., Moutard, T., Peißker, F., Rieke, M., Robertson, B., Scholtz, J., Tacchella, S., van der Werf, P., Walter, F., Williams, C., Willott, C., Witstok, J., Übler, H., Zhu, Y., 2025, arXiv e-prints, [2504.01852](https://doi.org/10.48550/arXiv.2504.01852): 'Deciphering the Nature of Virgil: An Obscured AGN Lurking Within an Apparently Normal Lyman-α Emitter During Cosmic Reionization'
 
