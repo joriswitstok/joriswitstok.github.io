@@ -5,14 +5,14 @@ layout: '~/layouts/MarkdownLayout.astro'
 ---
 
 ## Summary
-97 publications (74 refereed), of which 8 as first author. Metrics:
-- 98561 reads, 52335 downloads, 6842 citations
+98 publications (74 refereed), of which 8 as first author. Metrics:
+- 98858 reads, 52480 downloads, 6792 citations
 - h-index: 44, m-index: 8.8, g-index: 82
-- i10-index: 81, i100-index: 23, read10-index: 1546.0
-- tori index: 1.9, riq index: 274.0
+- i10-index: 81, i100-index: 23, read10-index: 1580.2
+- tori index: 1.7, riq index: 263.0
 
 Based on the [SAO/NASA Astrophysics Data System (ADS)](https://ui.adsabs.harvard.edu/).
-Last updated: 23 April, 2025.
+Last updated: 24 April, 2025.
 
 ## First author (8)
 
@@ -54,7 +54,7 @@ Last updated: 23 April, 2025.
 
 - Jones, G., Bunker, A., Saxena, A., Witstok, J., et al., 2024, _Astronomy and Astrophysics_, [683, A238](https://doi.org/10.1051/0004-6361/202347099): 'JADES: The emergence and evolution of Lyα emission and constraints on the intergalactic medium neutral fraction'
 
-## Other (78)
+## Other (79)
 
 - Carniani, S., D'Eugenio, F., Ji, X., Parlanti, E., Scholtz, J., Sun, F., Venturi, G., Bakx, T., Curti, M., Maiolino, R., Tacchella, S., Zavala, J., Hainline, K., Witstok, J., Johnson, B., Alberts, S., Bunker, A., Charlot, S., Eisenstein, D., Helton, J., Jakobsen, P., Kumari, N., Robertson, B., Saxena, A., Übler, H., Williams, C., Willmer, C., Willott, C., 2025, _Astronomy and Astrophysics_, [696, A87](https://doi.org/10.1051/0004-6361/202452451): 'The eventful life of a luminous galaxy at z = 14: metal enrichment, feedback, and low gas fraction?'
 
@@ -71,6 +71,8 @@ Last updated: 23 April, 2025.
 - D'Eugenio, F., Maiolino, R., Perna, M., Uebler, H., Ji, X., McClymont, W., Koudmani, S., Sijacki, D., Juodžbalis, I., Scholtz, J., Bennett, J., Bunker, A., Carniani, S., Charlot, S., Cresci, G., Curtis-Lake, E., Dalla Bontà, E., Jones, G., Lyu, J., Marconi, A., Mazzolari, G., Nelson, E., Parlanti, E., Robertson, B., Schneider, R., Simmonds, C., Tacchella, S., Venturi, G., Willott, C., Witstok, J., Witten, C., 2025, arXiv e-prints, [2503.11752](https://doi.org/10.48550/arXiv.2503.11752): 'BlackTHUNDER strikes twice: rest-frame Balmer-line absorption and high Eddington accretion rate in a Little Red Dot at $z=7.04$'
 
 - Helton, J., Rieke, G., Alberts, S., Wu, Z., Eisenstein, D., Hainline, K., Carniani, S., Ji, Z., Baker, W., Bhatawdekar, R., Bunker, A., Cargile, P., Charlot, S., Chevallard, J., D'Eugenio, F., Egami, E., Johnson, B., Jones, G., Lyu, J., Maiolino, R., Pérez-González, P., Rieke, M., Robertson, B., Saxena, A., Scholtz, J., Shivaei, I., Sun, F., Tacchella, S., Whitler, L., Williams, C., Willmer, C., Willott, C., Witstok, J., Zhu, Y., 2025, _Nature Astronomy_, [in press](https://doi.org/10.1038/s41550-025-02503-z): 'Photometric detection at 7.7 μm of a galaxy beyond redshift 14 with JWST/MIRI'
+
+- Rusakov, V., Watson, D., Nikopoulos, G., Brammer, G., Gottumukkala, R., Harvey, T., Heintz, K., Nielsen, R., Sim, S., Sneppen, A., Vijayan, A., Adams, N., Austin, D., Conselice, C., Goolsby, C., Toft, S., Witstok, J., 2025, arXiv e-prints, [2503.16595](https://doi.org/10.48550/arXiv.2503.16595): 'JWST's little red dots: an emerging population of young, low-mass AGN cocooned in dense ionized gas'
 
 - Scholtz, J., Curti, M., D'Eugenio, F., Übler, H., Maiolino, R., Marconcini, C., Smit, R., Perna, M., Witstok, J., Arribas, S., Böker, T., Bunker, A., Carniani, S., Charlot, S., Cresci, G., Lamperti, I., Parlanti, E., Pérez-González, P., Rodríguez Del Pino, B., Venturi, G., 2025, _Monthly Notices of the Royal Astronomical Society_, [in press](https://doi.org/10.1093/mnras/staf518): 'GA-NIFS: ISM properties and metal enrichment in a merger-driven starburst during the Epoch of Reionisation probed with JWST and ALMA'
 
