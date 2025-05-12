@@ -5,14 +5,14 @@ layout: '~/layouts/MarkdownLayout.astro'
 ---
 
 ## Summary
-98 publications (75 refereed), of which 8 as first author. Metrics:
-- 101419 reads, 53682 downloads, 6965 citations
+100 publications (77 refereed), of which 8 as first author. Metrics:
+- 101570 reads, 53758 downloads, 7019 citations
 - h-index: 44, m-index: 8.8, g-index: 83
-- i10-index: 82, i100-index: 23, read10-index: 1641.9
-- tori index: 1.8, riq index: 270.0
+- i10-index: 83, i100-index: 23, read10-index: 1644.3
+- tori index: 1.8, riq index: 269.0
 
 Based on the [SAO/NASA Astrophysics Data System (ADS)](https://ui.adsabs.harvard.edu/).
-Last updated: 11 May, 2025.
+Last updated: 12 May, 2025.
 
 ## First author (8)
 
@@ -54,7 +54,11 @@ Last updated: 11 May, 2025.
 
 - Jones, G., Bunker, A., Saxena, A., Witstok, J., et al., 2024, _Astronomy and Astrophysics_, [683, A238](https://doi.org/10.1051/0004-6361/202347099): 'JADES: The emergence and evolution of Lyα emission and constraints on the intergalactic medium neutral fraction'
 
-## Other (79)
+## Other (81)
+
+- Looser, T., D'Eugenio, F., Maiolino, R., Tacchella, S., Curti, M., Arribas, S., Baker, W., Baum, S., Bonaventura, N., Boyett, K., Bunker, A., Carniani, S., Charlot, S., Chevallard, J., Curtis-Lake, E., Lola Danhaive, A., Eisenstein, D., de Graaff, A., Hainline, K., Ji, Z., Johnson, B., Kumari, N., Nelson, E., Parlanti, E., Rix, H., Robertson, B., Del Pino, B., Sandles, L., Scholtz, J., Smit, R., Stark, D., Übler, H., Williams, C., Willott, C., Witstok, J., 2025, _Astronomy and Astrophysics_, [697, A88](https://doi.org/10.1051/0004-6361/202347102): 'JADES: Differing assembly histories of galaxies: Observational evidence for bursty star formation histories and (mini-)quenching in the first billion years of the Universe'
+
+- McClymont, W., Tacchella, S., D'Eugenio, F., Witten, C., Ji, X., Smith, A., Maiolino, R., Arribas, S., Scholtz, J., Simmonds, C., Witstok, J., 2025, _Monthly Notices of the Royal Astronomical Society_, [in press](https://doi.org/10.1093/mnras/staf745): 'The density-bounded twilight of starbursts in the early Universe'
 
 - Scholtz, J., Curti, M., D'Eugenio, F., Übler, H., Maiolino, R., Marconcini, C., Smit, R., Perna, M., Witstok, J., Arribas, S., Böker, T., Bunker, A., Carniani, S., Charlot, S., Cresci, G., Lamperti, I., Parlanti, E., Pérez-González, P., Rodríguez Del Pino, B., Venturi, G., 2025, _Monthly Notices of the Royal Astronomical Society_, [539, 2463](https://doi.org/10.1093/mnras/staf518): 'GA-NIFS: ISM properties and metal enrichment in a merger-driven starburst during the epoch of reionization probed with JWST and ALMA'
 
@@ -70,9 +74,9 @@ Last updated: 11 May, 2025.
 
 - Rinaldi, P., Pérez-González, P., Rieke, G., Lyu, J., D'Eugenio, F., Wu, Z., Carniani, S., Looser, T., Shivaei, I., Boogaard, L., Diaz-Santos, T., Colina, L., Östlin, G., Alberts, S., Álvarez-Márquez, J., Annuziatella, M., Aravena, M., Bhatawdekar, R., Bunker, A., Caputi, K., Charlot, S., Crespo Gómez, A., Curti, M., Eckart, A., Gillman, S., Hainline, K., Kumari, N., Hjorth, J., Iani, E., Inami, H., Ji, Z., Johnson, B., Jones, G., Labiano, Á., Maiolino, R., Melinder, J., Moutard, T., Peißker, F., Rieke, M., Robertson, B., Scholtz, J., Tacchella, S., van der Werf, P., Walter, F., Williams, C., Willott, C., Witstok, J., Übler, H., Zhu, Y., 2025, arXiv e-prints, [2504.01852](https://doi.org/10.48550/arXiv.2504.01852): 'Deciphering the Nature of Virgil: An Obscured AGN Lurking Within an Apparently Normal Lyman-α Emitter During Cosmic Reionization'
 
-- D'Eugenio, F., Cameron, A., Scholtz, J., Carniani, S., Willott, C., Curtis-Lake, E., Bunker, A., Parlanti, E., Maiolino, R., Willmer, C., Jakobsen, P., Robertson, B., Johnson, B., Tacchella, S., Cargile, P., Rawle, T., Arribas, S., Chevallard, J., Curti, M., Egami, E., Eisenstein, D., Kumari, N., Looser, T., Rieke, M., Rodríguez Del Pino, B., Saxena, A., Übler, H., Venturi, G., Witstok, J., Baker, W., Bhatawdekar, R., Bonaventura, N., Boyett, K., Charlot, S., Danhaive, A., Hainline, K., Hausen, R., Helton, J., Ji, X., Ji, Z., Jones, G., Juodžbalis, I., Maseda, M., Pérez-González, P., Perna, M., Puskás, D., Shivaei, I., Silcock, M., Simmonds, C., Smit, R., Sun, F., Villanueva, N., Williams, C., Zhu, Y., 2025, _The Astrophysical Journal Supplement Series_, [277, 4](https://doi.org/10.3847/1538-4365/ada148): 'JADES Data Release 3: NIRSpec/Microshutter Assembly Spectroscopy for 4000 Galaxies in the GOODS Fields'
-
 - D'Eugenio, F., Maiolino, R., Perna, M., Uebler, H., Ji, X., McClymont, W., Koudmani, S., Sijacki, D., Juodžbalis, I., Scholtz, J., Bennett, J., Bunker, A., Carniani, S., Charlot, S., Cresci, G., Curtis-Lake, E., Dalla Bontà, E., Jones, G., Lyu, J., Marconi, A., Mazzolari, G., Nelson, E., Parlanti, E., Robertson, B., Schneider, R., Simmonds, C., Tacchella, S., Venturi, G., Willott, C., Witstok, J., Witten, C., 2025, arXiv e-prints, [2503.11752](https://doi.org/10.48550/arXiv.2503.11752): 'BlackTHUNDER strikes twice: rest-frame Balmer-line absorption and high Eddington accretion rate in a Little Red Dot at $z=7.04$'
+
+- D'Eugenio, F., Cameron, A., Scholtz, J., Carniani, S., Willott, C., Curtis-Lake, E., Bunker, A., Parlanti, E., Maiolino, R., Willmer, C., Jakobsen, P., Robertson, B., Johnson, B., Tacchella, S., Cargile, P., Rawle, T., Arribas, S., Chevallard, J., Curti, M., Egami, E., Eisenstein, D., Kumari, N., Looser, T., Rieke, M., Rodríguez Del Pino, B., Saxena, A., Übler, H., Venturi, G., Witstok, J., Baker, W., Bhatawdekar, R., Bonaventura, N., Boyett, K., Charlot, S., Danhaive, A., Hainline, K., Hausen, R., Helton, J., Ji, X., Ji, Z., Jones, G., Juodžbalis, I., Maseda, M., Pérez-González, P., Perna, M., Puskás, D., Shivaei, I., Silcock, M., Simmonds, C., Smit, R., Sun, F., Villanueva, N., Williams, C., Zhu, Y., 2025, _The Astrophysical Journal Supplement Series_, [277, 4](https://doi.org/10.3847/1538-4365/ada148): 'JADES Data Release 3: NIRSpec/Microshutter Assembly Spectroscopy for 4000 Galaxies in the GOODS Fields'
 
 - Helton, J., Rieke, G., Alberts, S., Wu, Z., Eisenstein, D., Hainline, K., Carniani, S., Ji, Z., Baker, W., Bhatawdekar, R., Bunker, A., Cargile, P., Charlot, S., Chevallard, J., D'Eugenio, F., Egami, E., Johnson, B., Jones, G., Lyu, J., Maiolino, R., Pérez-González, P., Rieke, M., Robertson, B., Saxena, A., Scholtz, J., Shivaei, I., Sun, F., Tacchella, S., Whitler, L., Williams, C., Willmer, C., Willott, C., Witstok, J., Zhu, Y., 2025, _Nature Astronomy_, [in press](https://doi.org/10.1038/s41550-025-02503-z): 'Photometric detection at 7.7 μm of a galaxy beyond redshift 14 with JWST/MIRI'
 
@@ -88,9 +92,9 @@ Last updated: 11 May, 2025.
 
 - Witten, C., McClymont, W., Laporte, N., Roberts-Borsani, G., Sijacki, D., Tacchella, S., Simmonds, C., Katz, H., Ellis, R., Witstok, J., Maiolino, R., Ji, X., Hayes, B., Looser, T., D'Eugenio, F., 2025, _Monthly Notices of the Royal Astronomical Society_, [537, 112](https://doi.org/10.1093/mnras/staf001): 'Rising from the ashes: evidence of old stellar populations and rejuvenation events in the very early Universe'
 
-- Baker, W., Tacchella, S., Johnson, B., Nelson, E., Suess, K., D'Eugenio, F., Curti, M., de Graaff, A., Ji, Z., Maiolino, R., Robertson, B., Scholtz, J., Alberts, S., Arribas, S., Boyett, K., Bunker, A., Carniani, S., Charlot, S., Chen, Z., Chevallard, J., Curtis-Lake, E., Danhaive, A., DeCoursey, C., Egami, E., Eisenstein, D., Endsley, R., Hausen, R., Helton, J., Kumari, N., Looser, T., Maseda, M., Puskás, D., Rieke, M., Sandles, L., Sun, F., Übler, H., Williams, C., Willmer, C., Witstok, J., 2025, _Nature Astronomy_, [9, 141](https://doi.org/10.1038/s41550-024-02384-8): 'A core in a star-forming disc as evidence of inside-out growth in the early Universe'
-
 - Baker, W., D'Eugenio, F., Maiolino, R., Bunker, A., Simmonds, C., Tacchella, S., Witstok, J., Arribas, S., Carniani, S., Charlot, S., Chevallard, J., Curti, M., Curtis-Lake, E., Jones, G., Kumari, N., Rinaldi, P., Robertson, B., Williams, C., Willott, C., Zhu, Y., 2025, arXiv e-prints, [2501.09070](https://doi.org/10.48550/arXiv.2501.09070): 'Zapped then Napped? A rapidly quenched remnant leaker candidate with a steep spectroscopic $\beta_{UV}$ slope at z=8.5'
+
+- Baker, W., Tacchella, S., Johnson, B., Nelson, E., Suess, K., D'Eugenio, F., Curti, M., de Graaff, A., Ji, Z., Maiolino, R., Robertson, B., Scholtz, J., Alberts, S., Arribas, S., Boyett, K., Bunker, A., Carniani, S., Charlot, S., Chen, Z., Chevallard, J., Curtis-Lake, E., Danhaive, A., DeCoursey, C., Egami, E., Eisenstein, D., Endsley, R., Hausen, R., Helton, J., Kumari, N., Looser, T., Maseda, M., Puskás, D., Rieke, M., Sandles, L., Sun, F., Übler, H., Williams, C., Willmer, C., Witstok, J., 2025, _Nature Astronomy_, [9, 141](https://doi.org/10.1038/s41550-024-02384-8): 'A core in a star-forming disc as evidence of inside-out growth in the early Universe'
 
 - Heintz, K., Brammer, G., Watson, D., Oesch, P., Keating, L., Hayes, M., Abdurro'uf, Arellano-Córdova, K., Carnall, A., Christiansen, C., Cullen, F., Davé, R., Dayal, P., Ferrara, A., Finlator, K., Fynbo, J., Flury, S., Gelli, V., Gillman, S., Gottumukkala, R., Gould, K., Greve, T., Hardin, S., Hsiao, T., Hutter, A., Jakobsson, P., Killi, M., Khosravaninezhad, N., Laursen, P., Lee, M., Magdis, G., Matthee, J., Naidu, R., Narayanan, D., Pollock, C., Prescott, M., Rusakov, V., Shuntov, M., Sneppen, A., Smit, R., Tanvir, N., Terp, C., Toft, S., Valentino, F., Vijayan, A., Weaver, J., Wise, J., Witstok, J., 2025, _Astronomy and Astrophysics_, [693, A60](https://doi.org/10.1051/0004-6361/202450243): 'The JWST-PRIMAL archival survey: A JWST/NIRSpec reference sample for the physical properties and Lyman-α absorption and emission of ∼600 galaxies at z = 5.0 ‑ 13.4'
 
