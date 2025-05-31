@@ -6,13 +6,13 @@ layout: '~/layouts/MarkdownLayout.astro'
 
 ## Summary
 100 publications (81 refereed), of which 8 as first author. Metrics:
-- 103923 reads, 54977 downloads, 7275 citations
-- h-index: 46, m-index: 9.2, g-index: 84
-- i10-index: 87, i100-index: 24, read10-index: 1673.1
+- 104100 reads, 55063 downloads, 7311 citations
+- h-index: 46, m-index: 9.2, g-index: 85
+- i10-index: 87, i100-index: 24, read10-index: 1677.4
 - tori index: 1.9, riq index: 276.0
 
 Based on the [SAO/NASA Astrophysics Data System (ADS)](https://ui.adsabs.harvard.edu/).
-Last updated: 30 May, 2025.
+Last updated: 31 May, 2025.
 
 ## First author (8)
 
@@ -66,7 +66,7 @@ Last updated: 30 May, 2025.
 
 - Looser, T., D'Eugenio, F., Maiolino, R., Tacchella, S., Curti, M., Arribas, S., Baker, W., Baum, S., Bonaventura, N., Boyett, K., Bunker, A., Carniani, S., Charlot, S., Chevallard, J., Curtis-Lake, E., Lola Danhaive, A., Eisenstein, D., de Graaff, A., Hainline, K., Ji, Z., Johnson, B., Kumari, N., Nelson, E., Parlanti, E., Rix, H., Robertson, B., Del Pino, B., Sandles, L., Scholtz, J., Smit, R., Stark, D., Übler, H., Williams, C., Willott, C., Witstok, J., 2025, _Astronomy and Astrophysics_, [697, A88](https://doi.org/10.1051/0004-6361/202347102): 'JADES: Differing assembly histories of galaxies: Observational evidence for bursty star formation histories and (mini-)quenching in the first billion years of the Universe'
 
-- Maiolino, R., Uebler, H., D'Eugenio, F., Scholtz, J., Juodzbalis, I., Perna, M., Bromm, V., Dayal, P., Koudmani, S., Liu, B., Schneider, R., Sijacki, D., Valiante, R., Trinca, A., Zhang, S., Volonteri, M., Inayoshi, K., Carniani, S., Nakajima, K., Isobe, Y., Witstok, J., Jones, G., Tacchella, S., Arribas, S., Bunker, A., Cataldi, E., Charlot, S., Cresci, G., Curti, M., Fabian, A., Katz, H., Kumari, N., Laporte, N., Mazzolari, G., Robertson, B., Sun, F., Rodriguez Del Pino, B., Venturi, G., 2025, arXiv e-prints, [2505.22567](https://ui.adsabs.harvard.edu/abs/2025arXiv250522567M): 'A black hole in a near-pristine galaxy 700 million years after the Big Bang'
+- Maiolino, R., Uebler, H., D'Eugenio, F., Scholtz, J., Juodzbalis, I., Ji, X., Perna, M., Bromm, V., Dayal, P., Koudmani, S., Liu, B., Schneider, R., Sijacki, D., Valiante, R., Trinca, A., Zhang, S., Volonteri, M., Inayoshi, K., Carniani, S., Nakajima, K., Isobe, Y., Witstok, J., Jones, G., Tacchella, S., Arribas, S., Bunker, A., Cataldi, E., Charlot, S., Cresci, G., Curti, M., Fabian, A., Katz, H., Kumari, N., Laporte, N., Mazzolari, G., Robertson, B., Sun, F., Rodriguez Del Pino, B., Venturi, G., 2025, arXiv e-prints, [2505.22567](https://doi.org/10.48550/arXiv.2505.22567): 'A black hole in a near-pristine galaxy 700 million years after the Big Bang'
 
 - Puskás, D., Tacchella, S., Simmonds, C., Hainline, K., D'Eugenio, F., Alberts, S., Arribas, S., Baker, W., Bunker, A., Carniani, S., Charlot, S., Duan, Q., Eisenstein, D., Ji, Z., Johnson, B., Jones, G., Maiolino, R., McClymont, W., Rieke, M., Rinaldi, P., Robertson, B., Übler, H., Williams, C., Willmer, C., Willott, C., Witstok, J., 2025, _Monthly Notices of the Royal Astronomical Society_, [in press](https://doi.org/10.1093/mnras/staf813): 'Constraining the major merger history of z ~ 3 - 9 galaxies using JADES: dominant in-situ star formation'
 
