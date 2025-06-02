@@ -5,14 +5,14 @@ layout: '~/layouts/MarkdownLayout.astro'
 ---
 
 ## Summary
-100 publications (81 refereed), of which 8 as first author. Metrics:
+102 publications (82 refereed), of which 8 as first author. Metrics:
 - 104026 reads, 55052 downloads, 7297 citations
 - h-index: 46, m-index: 9.2, g-index: 85
-- i10-index: 86, i100-index: 24, read10-index: 1687.5
+- i10-index: 86, i100-index: 24, read10-index: 1676.5
 - tori index: 1.9, riq index: 276.0
 
 Based on the [SAO/NASA Astrophysics Data System (ADS)](https://ui.adsabs.harvard.edu/).
-Last updated: 1 June, 2025.
+Last updated: 2 June, 2025.
 
 ## First author (8)
 
@@ -56,9 +56,11 @@ Last updated: 1 June, 2025.
 
 - Jones, G., Bunker, A., Saxena, A., Witstok, J., et al., 2024, _Astronomy and Astrophysics_, [683, A238](https://doi.org/10.1051/0004-6361/202347099): 'JADES: The emergence and evolution of Lyα emission and constraints on the intergalactic medium neutral fraction'
 
-## Other (80)
+## Other (82)
 
 - McClymont, W., Tacchella, S., D'Eugenio, F., Witten, C., Ji, X., Smith, A., Maiolino, R., Arribas, S., Scholtz, J., Simmonds, C., Witstok, J., 2025, _Monthly Notices of the Royal Astronomical Society_, [540, 190](https://doi.org/10.1093/mnras/staf745): 'The density-bounded twilight of starbursts in the early Universe'
+
+- Tacchella, S., McClymont, W., Scholtz, J., Maiolino, R., Ji, X., Villanueva, N., Charlot, S., D'Eugenio, F., Helton, J., Williams, C., Witstok, J., Bhatawdekar, R., Carniani, S., Chevallard, J., Curti, M., Hainline, K., Ji, Z., Johnson, B., Leja, J., Li, Y., Maseda, M., Puskás, D., Rieke, M., Robertson, B., Shivaei, I., Silcock, M., Simmonds, C., Übler, H., Willmer, C., Willott, C., 2025, _Monthly Notices of the Royal Astronomical Society_, [540, 851](https://doi.org/10.1093/mnras/staf718): 'Resolving the nature and putative nebular emission of GS9422: an obscured AGN without exotic stars'
 
 - Baker, W., D'Eugenio, F., Maiolino, R., Bunker, A., Simmonds, C., Tacchella, S., Witstok, J., Arribas, S., Carniani, S., Charlot, S., Chevallard, J., Curti, M., Curtis-Lake, E., Jones, G., Kumari, N., Rinaldi, P., Robertson, B., Williams, C., Willott, C., Zhu, Y., 2025, _Astronomy and Astrophysics_, [697, A90](https://doi.org/10.1051/0004-6361/202553766): 'Zapped then napped? A rapidly quenched remnant leaker candidate with a steep spectroscopic β<SUB>UV</SUB> slope at z = 8.5'
 
@@ -70,11 +72,11 @@ Last updated: 1 June, 2025.
 
 - Puskás, D., Tacchella, S., Simmonds, C., Hainline, K., D'Eugenio, F., Alberts, S., Arribas, S., Baker, W., Bunker, A., Carniani, S., Charlot, S., Duan, Q., Eisenstein, D., Ji, Z., Johnson, B., Jones, G., Maiolino, R., McClymont, W., Rieke, M., Rinaldi, P., Robertson, B., Übler, H., Williams, C., Willmer, C., Willott, C., Witstok, J., 2025, _Monthly Notices of the Royal Astronomical Society_, [in press](https://doi.org/10.1093/mnras/staf813): 'Constraining the major merger history of z ~ 3 - 9 galaxies using JADES: dominant in-situ star formation'
 
+- Puskás, D., Tacchella, S., Simmonds, C., Hainline, K., D'Eugenio, F., Alberts, S., Arribas, S., Baker, W., Bunker, A., Carniani, S., Charlot, S., Duan, Q., Eisenstein, D., Ji, Z., Johnson, B., Jones, G., Maiolino, R., McClymont, W., Rieke, M., Rinaldi, P., Robertson, B., Übler, H., Williams, C., Willmer, C., Willott, C., Witstok, J., 2025, _Monthly Notices of the Royal Astronomical Society_, [in press](https://doi.org/10.1093/mnras/staf813): 'Constraining the major merger history of z ~ 3 - 9 galaxies using JADES: dominant in-situ star formation'
+
 - Scholtz, J., Curti, M., D'Eugenio, F., Übler, H., Maiolino, R., Marconcini, C., Smit, R., Perna, M., Witstok, J., Arribas, S., Böker, T., Bunker, A., Carniani, S., Charlot, S., Cresci, G., Lamperti, I., Parlanti, E., Pérez-González, P., Rodríguez Del Pino, B., Venturi, G., 2025, _Monthly Notices of the Royal Astronomical Society_, [539, 2463](https://doi.org/10.1093/mnras/staf518): 'GA-NIFS: ISM properties and metal enrichment in a merger-driven starburst during the epoch of reionization probed with JWST and ALMA'
 
 - Scholtz, J., Maiolino, R., D'Eugenio, F., Curtis-Lake, E., Carniani, S., Charlot, S., Curti, M., Silcock, M., Arribas, S., Baker, W., Bhatawdekar, R., Boyett, K., Bunker, A., Chevallard, J., Circosta, C., Eisenstein, D., Hainline, K., Hausen, R., Ji, X., Ji, Z., Johnson, B., Kumari, N., Looser, T., Lyu, J., Maseda, M., Parlanti, E., Perna, M., Rieke, M., Robertson, B., Del Pino, B., Sun, F., Tacchella, S., Übler, H., Venturi, G., Williams, C., Willmer, C., Willott, C., Witstok, J., 2025, _Astronomy and Astrophysics_, [697, A175](https://doi.org/10.1051/0004-6361/202348804): 'JADES: A large population of obscured, narrow-line active galactic nuclei at high redshift'
-
-- Tacchella, S., McClymont, W., Scholtz, J., Maiolino, R., Ji, X., Villanueva, N., Charlot, S., D'Eugenio, F., Helton, J., Williams, C., Witstok, J., Bhatawdekar, R., Carniani, S., Chevallard, J., Curti, M., Hainline, K., Ji, Z., Johnson, B., Leja, J., Li, Y., Maseda, M., Puskás, D., Rieke, M., Robertson, B., Shivaei, I., Silcock, M., Simmonds, C., Übler, H., Willmer, C., Willott, C., 2025, _Monthly Notices of the Royal Astronomical Society_, [in press](https://doi.org/10.1093/mnras/staf718): 'Resolving the nature and putative nebular emission of GS9422: an obscured AGN without exotic stars'
 
 - Carniani, S., D'Eugenio, F., Ji, X., Parlanti, E., Scholtz, J., Sun, F., Venturi, G., Bakx, T., Curti, M., Maiolino, R., Tacchella, S., Zavala, J., Hainline, K., Witstok, J., Johnson, B., Alberts, S., Bunker, A., Charlot, S., Eisenstein, D., Helton, J., Jakobsen, P., Kumari, N., Robertson, B., Saxena, A., Übler, H., Williams, C., Willmer, C., Willott, C., 2025, _Astronomy and Astrophysics_, [696, A87](https://doi.org/10.1051/0004-6361/202452451): 'The eventful life of a luminous galaxy at z = 14: metal enrichment, feedback, and low gas fraction?'
 
@@ -169,6 +171,8 @@ Last updated: 1 June, 2025.
 - Curti, M., Maiolino, R., Curtis-Lake, E., Chevallard, J., Carniani, S., D'Eugenio, F., Looser, T., Scholtz, J., Charlot, S., Cameron, A., Übler, H., Witstok, J., Boyett, K., Laseter, I., Sandles, L., Arribas, S., Bunker, A., Giardino, G., Maseda, M., Rawle, T., Rodríguez Del Pino, B., Smit, R., Willott, C., Eisenstein, D., Hausen, R., Johnson, B., Rieke, M., Robertson, B., Tacchella, S., Williams, C., Willmer, C., Baker, W., Bhatawdekar, R., Egami, E., Helton, J., Ji, Z., Kumari, N., Perna, M., Shivaei, I., Sun, F., 2024, _Astronomy and Astrophysics_, [684, A75](https://doi.org/10.1051/0004-6361/202346698): 'JADES: Insights into the low-mass end of the mass-metallicity-SFR relation at 3 &lt; z &lt; 10 from deep JWST/NIRSpec spectroscopy'
 
 - Saxena, A., Bunker, A., Jones, G., Stark, D., Cameron, A., Witstok, J., Arribas, S., Baker, W., Baum, S., Bhatawdekar, R., Bowler, R., Boyett, K., Carniani, S., Charlot, S., Chevallard, J., Curti, M., Curtis-Lake, E., Eisenstein, D., Endsley, R., Hainline, K., Helton, J., Johnson, B., Kumari, N., Looser, T., Maiolino, R., Rieke, M., Rix, H., Robertson, B., Sandles, L., Simmonds, C., Smit, R., Tacchella, S., Williams, C., Willmer, C., Willott, C., 2024, _Astronomy and Astrophysics_, [684, A84](https://doi.org/10.1051/0004-6361/202347132): 'JADES: The production and escape of ionizing photons from faint Lyman-alpha emitters in the epoch of reionization'
+
+- Tacchella, S., McClymont, W., Scholtz, J., Maiolino, R., Ji, X., Villanueva, N., Charlot, S., D'Eugenio, F., Helton, J., Williams, C., Witstok, J., Bhatawdekar, R., Carniani, S., Chevallard, J., Curti, M., Hainline, K., Ji, Z., Johnson, B., Leja, J., Li, Y., Maseda, M., Puskás, D., Rieke, M., Robertson, B., Shivaei, I., Silcock, M., Simmonds, C., Übler, H., Willmer, C., Willott, C., 2024, arXiv e-prints, [2404.02194](https://doi.org/10.48550/arXiv.2404.02194): 'Resolving the nature and putative nebular emission of GS9422: an obscured AGN without exotic stars'
 
 - Topping, M., Stark, D., Endsley, R., Whitler, L., Hainline, K., Johnson, B., Robertson, B., Tacchella, S., Chen, Z., Alberts, S., Baker, W., Bunker, A., Carniani, S., Charlot, S., Chevallard, J., Curtis-Lake, E., DeCoursey, C., Egami, E., Eisenstein, D., Ji, Z., Maiolino, R., Williams, C., Willmer, C., Willott, C., Witstok, J., 2024, _Monthly Notices of the Royal Astronomical Society_, [529, 4087](https://doi.org/10.1093/mnras/stae800): 'The UV continuum slopes of early star-forming galaxies in JADES'
 
