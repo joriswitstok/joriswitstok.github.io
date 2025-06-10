@@ -6,13 +6,13 @@ layout: '~/layouts/MarkdownLayout.astro'
 
 ## Summary
 103 publications (83 refereed), of which 8 as first author. Metrics:
-- 105321 reads, 55780 downloads, 7468 citations
+- 105361 reads, 55800 downloads, 7470 citations
 - h-index: 46, m-index: 9.2, g-index: 86
-- i10-index: 87, i100-index: 24, read10-index: 1682.1
-- tori index: 1.9, riq index: 278.0
+- i10-index: 87, i100-index: 24, read10-index: 1675.2
+- tori index: 2.0, riq index: 280.0
 
 Based on the [SAO/NASA Astrophysics Data System (ADS)](https://ui.adsabs.harvard.edu/).
-Last updated: 9 June, 2025.
+Last updated: 10 June, 2025.
 
 ## First author (8)
 
