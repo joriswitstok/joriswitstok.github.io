@@ -5,14 +5,14 @@ layout: '~/layouts/MarkdownLayout.astro'
 ---
 
 ## Summary
-102 publications (83 refereed), of which 8 as first author. Metrics:
-- 106433 reads, 56398 downloads, 7507 citations
-- h-index: 46, m-index: 9.2, g-index: 86
-- i10-index: 87, i100-index: 24, read10-index: 1668.6
-- tori index: 2.0, riq index: 279.0
+103 publications (83 refereed), of which 8 as first author. Metrics:
+- 106587 reads, 56480 downloads, 7537 citations
+- h-index: 47, m-index: 9.4, g-index: 86
+- i10-index: 88, i100-index: 24, read10-index: 1669.6
+- tori index: 2.0, riq index: 280.0
 
 Based on the [SAO/NASA Astrophysics Data System (ADS)](https://ui.adsabs.harvard.edu/).
-Last updated: 19 June, 2025.
+Last updated: 20 June, 2025.
 
 ## First author (8)
 
@@ -56,11 +56,13 @@ Last updated: 19 June, 2025.
 
 - Jones, G., Bunker, A., Saxena, A., Witstok, J., et al., 2024, _Astronomy and Astrophysics_, [683, A238](https://doi.org/10.1051/0004-6361/202347099): 'JADES: The emergence and evolution of Lyα emission and constraints on the intergalactic medium neutral fraction'
 
-## Other (82)
+## Other (83)
 
 - Isobe, Y., Maiolino, R., D'Eugenio, F., Curti, M., Ji, X., Juodžbalis, I., Scholtz, J., Feltre, A., Charlot, S., Übler, H., J. Bunker, A., Carniani, S., Curtis-Lake, E., Ji, Z., Kumari, N., Rinaldi, P., Robertson, B., Willott, C., Witstok, J., 2025, _Monthly Notices of the Royal Astronomical Society_, [541, L71](https://doi.org/10.1093/mnrasl/slaf056): 'JADES: nitrogen enhancement in high-redshift broad-line active galactic nuclei'
 
 - Puskás, D., Tacchella, S., Simmonds, C., Hainline, K., D'Eugenio, F., Alberts, S., Arribas, S., Baker, W., Bunker, A., Carniani, S., Charlot, S., Duan, Q., Eisenstein, D., Ji, Z., Johnson, B., Jones, G., Maiolino, R., McClymont, W., Rieke, M., Rinaldi, P., Robertson, B., Übler, H., Williams, C., Willmer, C., Willott, C., Witstok, J., 2025, _Monthly Notices of the Royal Astronomical Society_, [540, 2146](https://doi.org/10.1093/mnras/staf813): 'Constraining the major merger history of z ~ 3-9 galaxies using JADES: dominant in situ star formation'
+
+- D'Eugenio, F., Juodžbalis, I., Ji, X., Scholtz, J., Maiolino, R., Carniani, S., Perna, M., Mazzolari, G., Übler, H., Arribas, S., Bhatawdekar, R., Bunker, A., Cresci, G., Curtis-Lake, E., Hainline, K., Inayoshi, K., Isobe, Y., Johnson, B., Jones, G., Looser, T., Nelson, E., Parlanti, E., Puskás, D., Rinaldi, P., Robertson, B., Rodríguez Del Pino, B., Shivaei, I., Sun, F., Tacchella, S., Venturi, G., Volonteri, M., Williams, C., Willmer, C., Willott, C., Witstok, J., 2025, arXiv e-prints, [2506.14870](https://ui.adsabs.harvard.edu/abs/2025arXiv250614870D): 'JADES and BlackTHUNDER: rest-frame Balmer-line absorption and the local environment in a Little Red Dot at z = 5'
 
 - Helton, J., Alberts, S., Rieke, G., Hainline, K., Ji, Z., Rieke, M., Johnson, B., Robertson, B., Tacchella, S., Whitler, L., Baker, W., Bhatawdekar, R., Boyett, K., Bunker, A., Cargile, P., Carniani, S., Charlot, S., Chevallard, J., Curtis-Lake, E., Egami, E., Eisenstein, D., Hausen, R., Lyu, J., Maiolino, R., Nelson, E., Pérez-González, P., Rinaldi, P., Stone, M., Sun, F., Williams, C., Willmer, C., Willott, C., Witstok, J., 2025, arXiv e-prints, [2506.02099](https://doi.org/10.48550/arXiv.2506.02099): 'The Stellar Populations and Rest-Frame Colors of Star-Forming Galaxies at $z \approx 8$: Exploring the Impact of Filter Choice and Star Formation History Assumption with JADES'
 
