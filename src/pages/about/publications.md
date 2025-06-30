@@ -5,14 +5,14 @@ layout: '~/layouts/MarkdownLayout.astro'
 ---
 
 ## Summary
-104 publications (83 refereed), of which 8 as first author. Metrics:
-- 107730 reads, 57071 downloads, 7608 citations
+105 publications (82 refereed), of which 8 as first author. Metrics:
+- 107830 reads, 57126 downloads, 7608 citations
 - h-index: 47, m-index: 9.4, g-index: 86
-- i10-index: 88, i100-index: 24, read10-index: 1673.2
+- i10-index: 88, i100-index: 24, read10-index: 1671.7
 - tori index: 2.0, riq index: 281.0
 
 Based on the [SAO/NASA Astrophysics Data System (ADS)](https://ui.adsabs.harvard.edu/).
-Last updated: 29 June, 2025.
+Last updated: 30 June, 2025.
 
 ## First author (8)
 
@@ -32,7 +32,7 @@ Last updated: 29 June, 2025.
 
 - Witstok, J., Puchwein, E., Kulkarni, G., Smit, R., Haehnelt, M., 2021, _Astronomy and Astrophysics_, [650, A98](https://doi.org/10.1051/0004-6361/202040187): 'Prospects for observing the low-density cosmic web in Lyman-α emission'
 
-## Major contributions (11)
+## Major contributions (12)
 
 - Curti, M., Witstok, J., et al., 2025, _Astronomy and Astrophysics_, [697, A89](https://doi.org/10.1051/0004-6361/202451410): 'JADES: The star formation and chemical enrichment history of a luminous galaxy at z ∼ 9.43 probed by ultra-deep JWST/NIRSpec spectroscopy'
 
@@ -41,6 +41,8 @@ Last updated: 29 June, 2025.
 - Jones, G., Witstok, J., Concas, A., Laporte, N., 2024, _Monthly Notices of the Royal Astronomical Society_, [529, L1](https://doi.org/10.1093/mnrasl/slad189): 'New constraints on the molecular gas content of a z 8 galaxy from JVLA CO(J = 2-1) observations'
 
 - Vallini, L., Witstok, J., et al., 2024, _Monthly Notices of the Royal Astronomical Society_, [527, 10](https://doi.org/10.1093/mnras/stad3150): 'Spatially resolved Kennicutt-Schmidt relation at z ≈ 7 and its connection with the interstellar medium properties'
+
+- Heintz, K., Pollock, C., Witstok, J., et al., 2025, _The Astrophysical Journal Letters_, [987, L2](https://doi.org/10.3847/2041-8213/ade393): 'Dissecting the Massive Pristine, Neutral Gas Reservoir of a Remarkably Bright Galaxy at z = 14.179'
 
 - Heintz, K., Pollock, C., Witstok, J., et al., 2025, arXiv e-prints, [2502.06016](https://doi.org/10.48550/arXiv.2502.06016): 'Dissecting the massive pristine, neutral gas reservoir of a remarkably bright galaxy at z = 14.179'
 
