@@ -5,14 +5,14 @@ layout: '~/layouts/MarkdownLayout.astro'
 ---
 
 ## Summary
-105 publications (82 refereed), of which 8 as first author. Metrics:
-- 107830 reads, 57126 downloads, 7608 citations
+104 publications (82 refereed), of which 8 as first author. Metrics:
+- 107635 reads, 56948 downloads, 7601 citations
 - h-index: 47, m-index: 9.4, g-index: 86
-- i10-index: 88, i100-index: 24, read10-index: 1671.7
-- tori index: 2.0, riq index: 281.0
+- i10-index: 87, i100-index: 24, read10-index: 1621.7
+- tori index: 2.5, riq index: 315.0
 
 Based on the [SAO/NASA Astrophysics Data System (ADS)](https://ui.adsabs.harvard.edu/).
-Last updated: 30 June, 2025.
+Last updated: 1 July, 2025.
 
 ## First author (8)
 
@@ -32,7 +32,7 @@ Last updated: 30 June, 2025.
 
 - Witstok, J., Puchwein, E., Kulkarni, G., Smit, R., Haehnelt, M., 2021, _Astronomy and Astrophysics_, [650, A98](https://doi.org/10.1051/0004-6361/202040187): 'Prospects for observing the low-density cosmic web in Lyman-α emission'
 
-## Major contributions (12)
+## Major contributions (11)
 
 - Curti, M., Witstok, J., et al., 2025, _Astronomy and Astrophysics_, [697, A89](https://doi.org/10.1051/0004-6361/202451410): 'JADES: The star formation and chemical enrichment history of a luminous galaxy at z ∼ 9.43 probed by ultra-deep JWST/NIRSpec spectroscopy'
 
@@ -43,8 +43,6 @@ Last updated: 30 June, 2025.
 - Vallini, L., Witstok, J., et al., 2024, _Monthly Notices of the Royal Astronomical Society_, [527, 10](https://doi.org/10.1093/mnras/stad3150): 'Spatially resolved Kennicutt-Schmidt relation at z ≈ 7 and its connection with the interstellar medium properties'
 
 - Heintz, K., Pollock, C., Witstok, J., et al., 2025, _The Astrophysical Journal Letters_, [987, L2](https://doi.org/10.3847/2041-8213/ade393): 'Dissecting the Massive Pristine, Neutral Gas Reservoir of a Remarkably Bright Galaxy at z = 14.179'
-
-- Heintz, K., Pollock, C., Witstok, J., et al., 2025, arXiv e-prints, [2502.06016](https://doi.org/10.48550/arXiv.2502.06016): 'Dissecting the massive pristine, neutral gas reservoir of a remarkably bright galaxy at z = 14.179'
 
 - Kumari, N., Smit, R., Witstok, J., et al., 2024, arXiv e-prints, [2406.11997](https://doi.org/10.48550/arXiv.2406.11997): 'JADES: Physical properties of Lyα and non-Lyα emitters at z ~ 4.8-9.6'
 
@@ -66,6 +64,8 @@ Last updated: 30 June, 2025.
 
 - D'Eugenio, F., Juodžbalis, I., Ji, X., Scholtz, J., Maiolino, R., Carniani, S., Perna, M., Mazzolari, G., Übler, H., Arribas, S., Bhatawdekar, R., Bunker, A., Cresci, G., Curtis-Lake, E., Hainline, K., Inayoshi, K., Isobe, Y., Johnson, B., Jones, G., Looser, T., Nelson, E., Parlanti, E., Puskás, D., Rinaldi, P., Robertson, B., Rodríguez Del Pino, B., Shivaei, I., Sun, F., Tacchella, S., Venturi, G., Volonteri, M., Williams, C., Willmer, C., Willott, C., Witstok, J., 2025, arXiv e-prints, [2506.14870](https://doi.org/10.48550/arXiv.2506.14870): 'JADES and BlackTHUNDER: rest-frame Balmer-line absorption and the local environment in a Little Red Dot at z = 5'
 
+- Geris, S., Maiolino, R., Isobe, Y., Scholtz, J., D'Eugenio, F., Ji, X., Juodzbalis, I., Simmonds, C., Dayal, P., Trinca, A., Schneider, R., Arribas, S., Bhatawdekar, R., Bunker, A., Carniani, S., Charlot, S., Chevallard, J., Curtis-Lake, E., Johnson, B., Parlanti, E., Rinaldi, P., Robertson, B., Tacchella, S., Uebler, H., Venturi, G., Williams, C., Witstok, J., 2025, arXiv e-prints, [2506.22147](https://ui.adsabs.harvard.edu/abs/2025arXiv250622147G): 'JADES reveals a large population of low mass black holes at high redshift'
+
 - Helton, J., Alberts, S., Rieke, G., Hainline, K., Ji, Z., Rieke, M., Johnson, B., Robertson, B., Tacchella, S., Whitler, L., Baker, W., Bhatawdekar, R., Boyett, K., Bunker, A., Cargile, P., Carniani, S., Charlot, S., Chevallard, J., Curtis-Lake, E., Egami, E., Eisenstein, D., Hausen, R., Lyu, J., Maiolino, R., Nelson, E., Pérez-González, P., Rinaldi, P., Stone, M., Sun, F., Williams, C., Willmer, C., Willott, C., Witstok, J., 2025, arXiv e-prints, [2506.02099](https://doi.org/10.48550/arXiv.2506.02099): 'The Stellar Populations and Rest-Frame Colors of Star-Forming Galaxies at $z \approx 8$: Exploring the Impact of Filter Choice and Star Formation History Assumption with JADES'
 
 - McClymont, W., Tacchella, S., D'Eugenio, F., Witten, C., Ji, X., Smith, A., Maiolino, R., Arribas, S., Scholtz, J., Simmonds, C., Witstok, J., 2025, _Monthly Notices of the Royal Astronomical Society_, [540, 190](https://doi.org/10.1093/mnras/staf745): 'The density-bounded twilight of starbursts in the early Universe'
@@ -81,8 +81,6 @@ Last updated: 30 June, 2025.
 - Looser, T., D'Eugenio, F., Maiolino, R., Tacchella, S., Curti, M., Arribas, S., Baker, W., Baum, S., Bonaventura, N., Boyett, K., Bunker, A., Carniani, S., Charlot, S., Chevallard, J., Curtis-Lake, E., Lola Danhaive, A., Eisenstein, D., de Graaff, A., Hainline, K., Ji, Z., Johnson, B., Kumari, N., Nelson, E., Parlanti, E., Rix, H., Robertson, B., Del Pino, B., Sandles, L., Scholtz, J., Smit, R., Stark, D., Übler, H., Williams, C., Willott, C., Witstok, J., 2025, _Astronomy and Astrophysics_, [697, A88](https://doi.org/10.1051/0004-6361/202347102): 'JADES: Differing assembly histories of galaxies: Observational evidence for bursty star formation histories and (mini-)quenching in the first billion years of the Universe'
 
 - Maiolino, R., Uebler, H., D'Eugenio, F., Scholtz, J., Juodzbalis, I., Ji, X., Perna, M., Bromm, V., Dayal, P., Koudmani, S., Liu, B., Schneider, R., Sijacki, D., Valiante, R., Trinca, A., Zhang, S., Volonteri, M., Inayoshi, K., Carniani, S., Nakajima, K., Isobe, Y., Witstok, J., Jones, G., Tacchella, S., Arribas, S., Bunker, A., Cataldi, E., Charlot, S., Cresci, G., Curti, M., Fabian, A., Katz, H., Kumari, N., Laporte, N., Mazzolari, G., Robertson, B., Sun, F., Rodriguez Del Pino, B., Venturi, G., 2025, arXiv e-prints, [2505.22567](https://doi.org/10.48550/arXiv.2505.22567): 'A black hole in a near-pristine galaxy 700 million years after the Big Bang'
-
-- Puskás, D., Tacchella, S., Simmonds, C., Hainline, K., D'Eugenio, F., Alberts, S., Arribas, S., Baker, W., Bunker, A., Carniani, S., Charlot, S., Duan, Q., Eisenstein, D., Ji, Z., Johnson, B., Jones, G., Maiolino, R., McClymont, W., Rieke, M., Rinaldi, P., Robertson, B., Übler, H., Williams, C., Willmer, C., Willott, C., Witstok, J., 2025, _Monthly Notices of the Royal Astronomical Society_, [in press](https://doi.org/10.1093/mnras/staf813): 'Constraining the major merger history of z ~ 3 - 9 galaxies using JADES: dominant in-situ star formation'
 
 - Scholtz, J., Curti, M., D'Eugenio, F., Übler, H., Maiolino, R., Marconcini, C., Smit, R., Perna, M., Witstok, J., Arribas, S., Böker, T., Bunker, A., Carniani, S., Charlot, S., Cresci, G., Lamperti, I., Parlanti, E., Pérez-González, P., Rodríguez Del Pino, B., Venturi, G., 2025, _Monthly Notices of the Royal Astronomical Society_, [539, 2463](https://doi.org/10.1093/mnras/staf518): 'GA-NIFS: ISM properties and metal enrichment in a merger-driven starburst during the epoch of reionization probed with JWST and ALMA'
 
