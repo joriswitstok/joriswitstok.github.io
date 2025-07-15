@@ -5,14 +5,14 @@ layout: '~/layouts/MarkdownLayout.astro'
 ---
 
 ## Summary
-105 publications (83 refereed), of which 8 as first author. Metrics:
-- 109581 reads, 58006 downloads, 7816 citations
+104 publications (83 refereed), of which 8 as first author. Metrics:
+- 109276 reads, 57877 downloads, 7805 citations
 - h-index: 47, m-index: 9.4, g-index: 88
-- i10-index: 88, i100-index: 24, read10-index: 1679.7
-- tori index: 2.0, riq index: 286.0
+- i10-index: 87, i100-index: 24, read10-index: 1669.4
+- tori index: 2.1, riq index: 286.0
 
 Based on the [SAO/NASA Astrophysics Data System (ADS)](https://ui.adsabs.harvard.edu/).
-Last updated: 14 July, 2025.
+Last updated: 15 July, 2025.
 
 ## First author (8)
 
@@ -56,7 +56,7 @@ Last updated: 14 July, 2025.
 
 - Jones, G., Bunker, A., Saxena, A., Witstok, J., et al., 2024, _Astronomy and Astrophysics_, [683, A238](https://doi.org/10.1051/0004-6361/202347099): 'JADES: The emergence and evolution of Lyα emission and constraints on the intergalactic medium neutral fraction'
 
-## Other (85)
+## Other (84)
 
 - Isobe, Y., Maiolino, R., D'Eugenio, F., Curti, M., Ji, X., Juodžbalis, I., Scholtz, J., Feltre, A., Charlot, S., Übler, H., J. Bunker, A., Carniani, S., Curtis-Lake, E., Ji, Z., Kumari, N., Rinaldi, P., Robertson, B., Willott, C., Witstok, J., 2025, _Monthly Notices of the Royal Astronomical Society_, [541, L71](https://doi.org/10.1093/mnrasl/slaf056): 'JADES: nitrogen enhancement in high-redshift broad-line active galactic nuclei'
 
@@ -171,8 +171,6 @@ Last updated: 14 July, 2025.
 - Tang, M., Stark, D., Ellis, R., Sun, F., Topping, M., Robertson, B., Tacchella, S., Arribas, S., Baker, W., Bhatawdekar, R., Boyett, K., Bunker, A., Charlot, S., Chen, Z., Chevallard, J., Jones, G., Kumari, N., Lyu, J., Maiolino, R., Maseda, M., Saxena, A., Whitler, L., Williams, C., Willott, C., Witstok, J., 2024, _Monthly Notices of the Royal Astronomical Society_, [531, 2701](https://doi.org/10.1093/mnras/stae1338): 'Lyα emission in galaxies at z ≃ 5-6: new insight from JWST into the statistical distributions of Lyα properties at the end of reionization'
 
 - Carniani, S., Venturi, G., Parlanti, E., de Graaff, A., Maiolino, R., Arribas, S., Bonaventura, N., Boyett, K., Bunker, A., Cameron, A., Charlot, S., Chevallard, J., Curti, M., Curtis-Lake, E., Eisenstein, D., Giardino, G., Hausen, R., Kumari, N., Maseda, M., Nelson, E., Perna, M., Rix, H., Robertson, B., Del Pino, B., Sandles, L., Scholtz, J., Simmonds, C., Smit, R., Tacchella, S., Übler, H., Williams, C., Willott, C., Witstok, J., 2024, _Astronomy and Astrophysics_, [685, A99](https://doi.org/10.1051/0004-6361/202347230): 'JADES: The incidence rate and properties of galactic outflows in low-mass galaxies across 3 &lt; z &lt; 9'
-
-- Ji, X., Maiolino, R., Ferland, G., D'Eugenio, F., Bhatawdekar, R., Charlot, S., Chevallard, J., Curti, M., Curtis-Lake, E., Hainline, K., Ji, Z., Robertson, B., Rodríguez Del Pino, B., Scholtz, J., Tacchella, S., Williams, C., Witstok, J., 2024, arXiv e-prints, [2405.05772](https://doi.org/10.48550/arXiv.2405.05772): 'JADES -- The small blue bump in GN-z11: insights into the nuclear region of a galaxy at z=10.6'
 
 - Scholtz, J., D'Eugenio, F., Maiolino, R., Pérez-González, P., Circosta, C., Tacchella, S., Williams, C., Alberts, S., Arribas, S., Baker, W., Bertola, E., Bunker, A., Carniani, S., Charlot, S., Cresci, G., Jones, G., Kumari, N., Lamperti, I., Looser, T., Rodríguez Del Pino, B., Robertson, B., Parlanti, E., Perna, M., Übler, H., Venturi, G., Witstok, J., 2024, arXiv e-prints, [2405.19401](https://doi.org/10.48550/arXiv.2405.19401): 'Net-zero gas inflow: deconstructing the gas consumption history of a massive quiescent galaxy with JWST and ALMA'
 
