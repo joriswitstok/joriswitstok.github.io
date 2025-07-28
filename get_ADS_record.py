@@ -111,7 +111,7 @@ with open("./src/utils/ADS_metrics.ts", mode='w') as file:
 def write_line(pub_dict):
     return "\n\n- {}, {}, {}, [{}]({}). _{}_{}".format(pub_dict["authors"], pub_dict["year"], pub_dict["journal"],
                                                         pub_dict["reference"], pub_dict["href"], pub_dict["title"],
-                                                        " ({} citations)".format(pub_dict["citation_count"]) if pub_dict["citation_count"] else '')
+                                                        " ({} citation{})".format(pub_dict["citation_count"], '' if pub_dict["citation_count"] == 1 else 's') if pub_dict["citation_count"] else '')
 
 major_contr_bibcodes = sorted(major_contr_bibcodes, key=lambda b: [pub_dicts[b]["ai"], -int(pub_dicts[b]["year"])])
 
