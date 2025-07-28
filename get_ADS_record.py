@@ -28,7 +28,7 @@ bibcodes = [r["bibcode"] for r in requests.get(get_query_url(query_bib), headers
 # Retrieve total number of publication records
 pub_query = query_all.copy()
 pub_query['q'] += " bibstem:(-jwst.prop) (-yCat) (-AAS) (-eas..conf) (-hst..prop) (-Obs)"
-pub_query["fl"] = "bibcode,author,title,bibstem,volume,page,year,doi"
+pub_query["fl"] = "bibcode,author,title,bibstem,volume,page,year,doi,citation_count"
 pub_query["sort"] = "date desc,first_author asc"
 publications = requests.get(get_query_url(pub_query), headers=headers).json()
 n_papers_tot = publications["response"]["numFound"]
@@ -60,7 +60,10 @@ for publication in publications["response"]["docs"]:
     elif pub_dict["ai"] < 3 or (pub_dict["ai"] < 5 and len(publication["author"]) > 5):
         major_contr_bibcodes.append(publication["bibcode"])
     
-    pub_dict["authors"] = ", ".join(trim_first_names(publication["author"][slice(None, 4 if pub_dict["ai"] == 0 else pub_dict["ai"]+1)])) + ", et al." if pub_dict["ai"] < 5 and len(publication["author"]) > 5 else ", ".join(trim_first_names(publication["author"]))
+    if pub_dict["ai"] < 5 and len(publication["author"]) > 5:
+        pub_dict["authors"] = ", ".join(trim_first_names(publication["author"][slice(None, 4 if pub_dict["ai"] == 0 else pub_dict["ai"]+1)])) + ", et al."
+    else:
+        pub_dict["authors"] = ", ".join(trim_first_names(publication["author"]))
     pub_dict["year"] = publication["year"]
     if publication["bibstem"][0] in journal_bibstems:
         pub_dict["journal"] = journal_bibstems[publication["bibstem"][0]]
@@ -73,6 +76,7 @@ for publication in publications["response"]["docs"]:
         pub_dict["reference"] = "{}, {}".format(publication["volume"], publication["page"][0])
     else:
         pub_dict["reference"] = publication["page"][0].replace("arXiv:", '')
+    pub_dict["citation_count"] = publication["citation_count"]
     pub_dicts[publication["bibcode"]] = pub_dict
 
 with open("./src/data/publications.json", mode='w') as f:
@@ -105,8 +109,9 @@ with open("./src/utils/ADS_metrics.ts", mode='w') as file:
     file.write("\nexport const h_index = {:d};".format(h_index))
 
 def write_line(pub_dict):
-    return "\n\n- {}, {}, {}, [{}]({}): '{}'".format(pub_dict["authors"], pub_dict["year"], pub_dict["journal"],
-                                                     pub_dict["reference"], pub_dict["href"], pub_dict["title"])
+    return "\n\n- {}, {}, {}, [{}]({}). _{}_{}".format(pub_dict["authors"], pub_dict["year"], pub_dict["journal"],
+                                                        pub_dict["reference"], pub_dict["href"], pub_dict["title"],
+                                                        " ({} citations)".format(pub_dict["citation_count"]) if pub_dict["citation_count"] else '')
 
 major_contr_bibcodes = sorted(major_contr_bibcodes, key=lambda b: [pub_dicts[b]["ai"], -int(pub_dicts[b]["year"])])
 
