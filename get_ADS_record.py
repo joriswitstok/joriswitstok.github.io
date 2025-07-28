@@ -109,7 +109,7 @@ with open("./src/utils/ADS_metrics.ts", mode='w') as file:
     file.write("\nexport const h_index = {:d};".format(h_index))
 
 def write_line(pub_dict):
-    return "\n\n- {}, {}, {}, [{}]({}). _{}_{}".format(pub_dict["authors"], pub_dict["year"], pub_dict["journal"],
+    return "\n\n- {}, {}, {}, [{}]({}). '{}'{}.".format(pub_dict["authors"], pub_dict["year"], pub_dict["journal"],
                                                         pub_dict["reference"], pub_dict["href"], pub_dict["title"],
                                                         " ({} citation{})".format(pub_dict["citation_count"], '' if pub_dict["citation_count"] == 1 else 's') if pub_dict["citation_count"] else '')
 
