@@ -6,9 +6,9 @@ layout: '~/layouts/MarkdownLayout.astro'
 
 ## Summary
 105 publications (85 refereed), of which 8 as first author. Metrics:
-- 110903 reads, 58659 downloads, 8018 citations
+- 110928 reads, 58672 downloads, 8018 citations
 - h-index: 49, m-index: 9.8, g-index: 89
-- i10-index: 88, i100-index: 24, read10-index: 1673.0
+- i10-index: 88, i100-index: 24, read10-index: 1675.5
 - tori index: 2.3, riq index: 302.0
 
 Based on the [SAO/NASA Astrophysics Data System (ADS)](https://ui.adsabs.harvard.edu/).
@@ -36,7 +36,7 @@ Last updated: 28 July, 2025.
 
 - Curti, M., Witstok, J., et al., 2025, _Astronomy and Astrophysics_, [697, A89](https://doi.org/10.1051/0004-6361/202451410). _JADES: The star formation and chemical enrichment history of a luminous galaxy at z ∼ 9.43 probed by ultra-deep JWST/NIRSpec spectroscopy_ (42 citations)
 
-- Ormerod, K., Witstok, J., et al., 2025, arXiv e-prints, [2502.21119](https://doi.org/10.48550/arXiv.2502.21119). _Detection of the 2175Å UV Bump at z&gt;7: Evidence for Rapid Dust Evolution in a Merging Reionisation-Era Galaxy_ (1 citations)
+- Ormerod, K., Witstok, J., et al., 2025, arXiv e-prints, [2502.21119](https://doi.org/10.48550/arXiv.2502.21119). _Detection of the 2175Å UV Bump at z&gt;7: Evidence for Rapid Dust Evolution in a Merging Reionisation-Era Galaxy_ (1 citation)
 
 - Jones, G., Witstok, J., Concas, A., Laporte, N., 2024, _Monthly Notices of the Royal Astronomical Society_, [529, L1](https://doi.org/10.1093/mnrasl/slad189). _New constraints on the molecular gas content of a z 8 galaxy from JVLA CO(J = 2-1) observations_ (6 citations)
 
@@ -48,7 +48,7 @@ Last updated: 28 July, 2025.
 
 - Maiolino, R., Scholtz, J., Witstok, J., et al., 2024, _Nature_, [627, 59](https://doi.org/10.1038/s41586-024-07052-5). _A small and vigorous black hole in the early Universe_ (341 citations)
 
-- Nanni, A., Romano, M., Donevski, D., Witstok, J., et al., 2025, _The Astrophysical Journal Letters_, [988, L5](https://doi.org/10.3847/2041-8213/ade2e5). _Origins of Carbon Dust in a JWST-observed Primeval Galaxy at z ∼ 6.7_ (1 citations)
+- Nanni, A., Romano, M., Donevski, D., Witstok, J., et al., 2025, _The Astrophysical Journal Letters_, [988, L5](https://doi.org/10.3847/2041-8213/ade2e5). _Origins of Carbon Dust in a JWST-observed Primeval Galaxy at z ∼ 6.7_ (1 citation)
 
 - Looser, T., D'Eugenio, F., Maiolino, R., Witstok, J., et al., 2024, _Nature_, [629, 53](https://doi.org/10.1038/s41586-024-07227-0). _A recently quenched galaxy 700 million years after the Big Bang_ (136 citations)
 
