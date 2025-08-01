@@ -76,7 +76,7 @@ for publication in publications["response"]["docs"]:
         pub_dict["reference"] = "{}, {}".format(publication["volume"], publication["page"][0])
     else:
         pub_dict["reference"] = publication["page"][0].replace("arXiv:", '')
-    pub_dict["citation_count"] = publication["citation_count"]
+    pub_dict["citation_count"] = publication.get("citation_count", 0)
     pub_dicts[publication["bibcode"]] = pub_dict
 
 with open("./src/data/publications.json", mode='w') as f:
