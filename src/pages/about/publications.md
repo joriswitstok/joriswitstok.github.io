@@ -8,11 +8,11 @@ layout: '~/layouts/MarkdownLayout.astro'
 107 publications (85 refereed), of which 9 as first author. Metrics:
 - 111714 reads, 59052 downloads, 7986 citations
 - h-index: 49, m-index: 9.8, g-index: 88
-- i10-index: 89, i100-index: 24, read10-index: 1674.9
+- i10-index: 89, i100-index: 24, read10-index: 1667.1
 - tori index: 2.2, riq index: 296.0
 
 Based on the [SAO/NASA Astrophysics Data System (ADS)](https://ui.adsabs.harvard.edu/).
-Last updated: 1 August, 2025.
+Last updated: 2 August, 2025.
 
 ## First author (9)
 
@@ -70,7 +70,7 @@ Last updated: 1 August, 2025.
 
 - Scholtz, J., Silcock, M., Curtis-Lake, E., Maiolino, R., Carniani, S., D'Eugenio, F., Ji, X., Jakobsen, P., Hainline, K., Arribas, S., Baker, W., Bhatawdekar, R., Bunker, A., Charlot, S., Chevallard, J., Curti, M., Eisenstein, D., Isobe, Y., Jones, G., Parlanti, E., Pérez-González, P., Rinaldi, P., Robertson, B., Tacchella, S., Übler, H., Williams, C., Willott, C., Witstok, J., 2025, arXiv e-prints, [2507.17809](https://doi.org/10.48550/arXiv.2507.17809). 'JADES: Carbon-enhanced, Nitrogen-normal compact galaxy at z=11.2'.
 
-- Wu, Z., Eisenstein, D., Johnson, B., Jakobsen, P., Alberts, S., Arribas, S., Baker, W., Bunker, A., Carniani, S., Charlot, S., Chevallard, J., Curti, M., Curtis-Lake, E., D'Eugenio, F., Hainline, K., Helton, J., Hsiao, T., Ji, X., Ji, Z., Looser, T., Rieke, G., Rinaldi, P., Robertson, B., Scholtz, J., Sun, F., Tacchella, S., Trussler, J., Williams, C., Willmer, C., Willott, C., Witstok, J., Zhu, Y., 2025, arXiv e-prints, [2507.22858](https://ui.adsabs.harvard.edu/abs/2025arXiv250722858W). 'JADES-GS-z14-1: A Compact, Faint Galaxy at $z\approx14$ with Weak Metal Lines from Extremely Deep JWST MIRI, NIRCam, and NIRSpec Observations'.
+- Wu, Z., Eisenstein, D., Johnson, B., Jakobsen, P., Alberts, S., Arribas, S., Baker, W., Bunker, A., Carniani, S., Charlot, S., Chevallard, J., Curti, M., Curtis-Lake, E., D'Eugenio, F., Hainline, K., Helton, J., Hsiao, T., Ji, X., Ji, Z., Looser, T., Rieke, G., Rinaldi, P., Robertson, B., Scholtz, J., Sun, F., Tacchella, S., Trussler, J., Williams, C., Willmer, C., Willott, C., Witstok, J., Zhu, Y., 2025, arXiv e-prints, [2507.22858](https://doi.org/10.48550/arXiv.2507.22858). 'JADES-GS-z14-1: A Compact, Faint Galaxy at $z\approx14$ with Weak Metal Lines from Extremely Deep JWST MIRI, NIRCam, and NIRSpec Observations'.
 
 - D'Eugenio, F., Juodžbalis, I., Ji, X., Scholtz, J., Maiolino, R., Carniani, S., Perna, M., Mazzolari, G., Übler, H., Arribas, S., Bhatawdekar, R., Bunker, A., Cresci, G., Curtis-Lake, E., Hainline, K., Inayoshi, K., Isobe, Y., Johnson, B., Jones, G., Looser, T., Nelson, E., Parlanti, E., Puskás, D., Rinaldi, P., Robertson, B., Rodríguez Del Pino, B., Shivaei, I., Sun, F., Tacchella, S., Venturi, G., Volonteri, M., Williams, C., Willmer, C., Willott, C., Witstok, J., 2025, arXiv e-prints, [2506.14870](https://doi.org/10.48550/arXiv.2506.14870). 'JADES and BlackTHUNDER: rest-frame Balmer-line absorption and the local environment in a Little Red Dot at z = 5' (3 citations).
 
