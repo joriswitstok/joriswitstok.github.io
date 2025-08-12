@@ -5,14 +5,14 @@ layout: '~/layouts/MarkdownLayout.astro'
 ---
 
 ## Summary
-109 publications (88 refereed), of which 9 as first author. Metrics:
-- 112717 reads, 59559 downloads, 8009 citations
+107 publications (88 refereed), of which 9 as first author. Metrics:
+- 112461 reads, 59432 downloads, 8003 citations
 - h-index: 49, m-index: 9.8, g-index: 89
-- i10-index: 89, i100-index: 24, read10-index: 1658.3
+- i10-index: 89, i100-index: 24, read10-index: 1617.2
 - tori index: 2.1, riq index: 290.0
 
 Based on the [SAO/NASA Astrophysics Data System (ADS)](https://ui.adsabs.harvard.edu/).
-Last updated: 11 August, 2025.
+Last updated: 12 August, 2025.
 
 ## First author (9)
 
@@ -58,7 +58,7 @@ Last updated: 11 August, 2025.
 
 - Jones, G., Bunker, A., Saxena, A., Witstok, J., et al., 2024, _Astronomy and Astrophysics_, [683, A238](https://doi.org/10.1051/0004-6361/202347099). 'JADES: The emergence and evolution of Lyα emission and constraints on the intergalactic medium neutral fraction' (49 citations).
 
-## Other (88)
+## Other (86)
 
 - Ji, X., Maiolino, R., Ferland, G., D'Eugenio, F., Bhatawdekar, R., Charlot, S., Chevallard, J., Curti, M., Curtis-Lake, E., Hainline, K., Ji, Z., Robertson, B., Rodríguez Del Pino, B., Scholtz, J., Tacchella, S., Williams, C., Witstok, J., 2025, _Monthly Notices of the Royal Astronomical Society_, [541, 2134](https://doi.org/10.1093/mnras/staf1083). 'JADES – the small blue bump in GN-z11: insights into the nuclear region of a galaxy at z = 10.6' (11 citations).
 
@@ -104,8 +104,6 @@ Last updated: 11 August, 2025.
 
 - Fudamoto, Y., Inoue, A., Bouwens, R., Inami, H., Smit, R., Stark, D., Aravena, M., Pallottini, A., Hashimoto, T., Oguri, M., Bowler, R., da Cunha, E., Dayal, P., Ferrara, A., Fujimoto, S., Heintz, K., Hygate, A., van Leeuwen, I., De Looze, I., Rowland, L., Stefanon, M., Sugahara, Y., Witstok, J., van der Werf, P., 2025, arXiv e-prints, [2504.03831](https://doi.org/10.48550/arXiv.2504.03831). 'ALMA Observations of [OI]145um and [NII]205um Emission lines from Star-Forming Galaxies at $z\sim7$' (3 citations).
 
-- Ji, Z., Alberts, S., Zhu, Y., Vanzella, E., Giavalisco, M., Hainline, K., Baker, W., Bunker, A., Helton, J., Lyu, J., Rinaldi, P., Robertson, B., Simmonds, C., Tacchella, S., Williams, C., Willmer, C., Witstok, J., 2025, arXiv e-prints, [2504.01067](https://doi.org/10.48550/arXiv.2504.01067). 'The Importance of Dust Distribution in Ionizing-photon Escape: NIRCam and MIRI Imaging of a Lyman Continuum-emitting Galaxy at z ~ 3.8' (3 citations).
-
 - Perna, M., Arribas, S., Lamperti, I., Circosta, C., Bertola, E., Pérez-González, P., D'Eugenio, F., Übler, H., Cresci, G., Volonteri, M., Mannucci, F., Maiolino, R., Rodríguez Del Pino, B., Böker, T., Bunker, A., Charlot, S., Willott, C., Carniani, S., Curti, M., Jones, G., Kumari, N., Marshall, M., Venturi, G., Saxena, A., Scholtz, J., Witstok, J., 2025, _Astronomy and Astrophysics_, [696, A59](https://doi.org/10.1051/0004-6361/202453430). 'GA-NIFS: High number of dual active galactic nuclei at z ∼ 3' (41 citations).
 
 - Rinaldi, P., Pérez-González, P., Rieke, G., Lyu, J., D'Eugenio, F., Wu, Z., Carniani, S., Looser, T., Shivaei, I., Boogaard, L., Diaz-Santos, T., Colina, L., Östlin, G., Alberts, S., Álvarez-Márquez, J., Annuziatella, M., Aravena, M., Bhatawdekar, R., Bunker, A., Caputi, K., Charlot, S., Crespo Gómez, A., Curti, M., Eckart, A., Gillman, S., Hainline, K., Kumari, N., Hjorth, J., Iani, E., Inami, H., Ji, Z., Johnson, B., Jones, G., Labiano, Á., Maiolino, R., Melinder, J., Moutard, T., Peißker, F., Rieke, M., Robertson, B., Scholtz, J., Tacchella, S., van der Werf, P., Walter, F., Williams, C., Willott, C., Witstok, J., Übler, H., Zhu, Y., 2025, arXiv e-prints, [2504.01852](https://doi.org/10.48550/arXiv.2504.01852). 'Deciphering the Nature of Virgil: An Obscured AGN Lurking Within an Apparently Normal Lyman-α Emitter During Cosmic Reionization' (4 citations).
@@ -143,8 +141,6 @@ Last updated: 11 August, 2025.
 - Simmonds, C., Tacchella, S., Hainline, K., Johnson, B., Puskás, D., Robertson, B., Baker, W., Bhatawdekar, R., Boyett, K., Bunker, A., Cargile, P., Carniani, S., Chevallard, J., Curti, M., Curtis-Lake, E., Ji, Z., Jones, G., Kumari, N., Laseter, I., Maiolino, R., Maseda, M., Rinaldi, P., Stoffers, A., Übler, H., Villanueva, N., Williams, C., Willott, C., Witstok, J., Zhu, Y., 2024, _Monthly Notices of the Royal Astronomical Society_, [535, 2998](https://doi.org/10.1093/mnras/stae2537). 'Ionizing properties of galaxies in JADES for a stellar mass complete sample: resolving the cosmic ionizing photon budget crisis at the Epoch of Reionization' (53 citations).
 
 - Tripodi, R., D'Eugenio, F., Maiolino, R., Curti, M., Scholtz, J., Tacchella, S., Marconcini, C., Bunker, A., Trussler, J., Cameron, A., Arribas, S., Baker, W., Bradač, M., Carniani, S., Charlot, S., Ji, X., Ji, Z., Robertson, B., Übler, H., Venturi, G., Willmer, C., Witstok, J., 2024, _Astronomy and Astrophysics_, [692, A184](https://doi.org/10.1051/0004-6361/202449980). 'Spatially resolved emission lines in galaxies at 4 ≤ z &lt; 10 from the JADES survey: Evidence for enhanced central star formation' (14 citations).
-
-- Yuan, Y., Martin-Alvarez, S., Haehnelt, M., Garel, T., Keating, L., Witstok, J., Sijacki, D., 2024, arXiv e-prints, [2412.07970](https://doi.org/10.48550/arXiv.2412.07970). 'Extended red wings and the visibility of reionization-epoch Lyman-$α$ emitters' (3 citations).
 
 - Juodžbalis, I., Ji, X., Maiolino, R., D'Eugenio, F., Scholtz, J., Risaliti, G., Fabian, A., Mazzolari, G., Gilli, R., Prandoni, I., Arribas, S., Bunker, A., Carniani, S., Charlot, S., Curtis-Lake, E., de Graaff, A., Hainline, K., Parlanti, E., Perna, M., Pérez-González, P., Robertson, B., Tacchella, S., Übler, H., Williams, C., Willott, C., Witstok, J., 2024, _Monthly Notices of the Royal Astronomical Society_, [535, 853](https://doi.org/10.1093/mnras/stae2367). 'JADES - the Rosetta stone of JWST-discovered AGN: deciphering the intriguing nature of early AGN' (49 citations).
 
