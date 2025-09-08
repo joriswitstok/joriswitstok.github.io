@@ -6,6 +6,8 @@ import json
 from datetime import date
 current_date = date.today().strftime("%-d %B, %Y")
 
+exclude_bibcodes = ["2024Natur.630E...2M", "2025MNRAS.538..280U"]
+
 # Retrieve API token as argument
 parser = argparse.ArgumentParser()
 parser.add_argument('-t', "--token", help="API token for ADS")
@@ -24,20 +26,20 @@ query_all.update(rows=n_records)
 query_bib = query_all.copy()
 query_bib["fl"] = "bibcode"
 bibcodes = [r["bibcode"] for r in requests.get(get_query_url(query_bib), headers=headers).json()["response"]["docs"]]
+assert all([bibcode in bibcodes for bibcode in exclude_bibcodes])
 
 # Retrieve total number of publication records
-pub_query = query_all.copy()
-pub_query['q'] += " bibstem:(-jwst.prop) (-yCat) (-AAS) (-eas..conf) (-hst..prop) (-Obs)"
-pub_query["fl"] = "bibcode,author,title,bibstem,volume,page,year,doi,citation_count"
-pub_query["sort"] = "date desc,first_author asc"
-publications = requests.get(get_query_url(pub_query), headers=headers).json()
+query_pub = query_all.copy()
+query_pub['q'] += " bibstem:(-jwst.prop) (-yCat) (-AAS) (-eas..conf) (-hst..prop) (-Obs)"
+query_pub["fl"] = "bibcode,author,title,bibstem,volume,page,year,doi,citation_count"
+query_pub["sort"] = "date desc,first_author asc"
+publications = requests.get(get_query_url(query_pub), headers=headers).json()
 n_papers_tot = publications["response"]["numFound"]
 
 pub_dicts = {}
 first_author_bibcodes = []
 major_contr_bibcodes = []
 
-exclude_bibcodes = ["2024Natur.630E...2M"]
 title_replacements = {"z   ": "z ~ ", r"$\alpha$": 'α'}
 journal_bibstems = {"arXiv": "arXiv e-prints", "A&A": "_Astronomy and Astrophysics_", "ARA&A": "_Annual Review of Astronomy and Astrophysics_",
                     "ApJ": "_The Astrophysical Journal_", "ApJL": "_The Astrophysical Journal Letters_", "ApJS": "_The Astrophysical Journal Supplement Series_",
@@ -46,6 +48,7 @@ journal_bibstems = {"arXiv": "arXiv e-prints", "A&A": "_Astronomy and Astrophysi
 trim_first_names = lambda authors: [", ".join([a if ai == 0 else a[0] + '.' for ai, a in enumerate(a.split(", "))]) for a in authors]
 for publication in publications["response"]["docs"]:
     if publication["bibcode"] in exclude_bibcodes:
+        n_papers_tot -= 1
         continue
     pub_dict = {"ai": ["Witstok" in a for a in publication["author"]].index(True)}
 
@@ -83,9 +86,14 @@ with open("./src/data/publications.json", mode='w') as f:
     json.dump(pub_dicts, f)
 
 # Retrieve total number of refereed publications
-ref_query = query_all.copy()
-ref_query['q'] += " property:refereed"
-n_papers_ref = requests.get(get_query_url(ref_query), headers=headers).json()["response"]["numFound"]
+query_ref = query_all.copy()
+query_ref["fl"] = "bibcode"
+query_ref['q'] += " property:refereed"
+publications_ref = requests.get(get_query_url(query_ref), headers=headers).json()
+n_papers_ref = publications_ref["response"]["numFound"]
+for publication in publications_ref["response"]["docs"]:
+    if publication["bibcode"] in exclude_bibcodes:
+        n_papers_ref -= 1
 print("Found {:d} papers, of which {:d} refereed".format(n_papers_tot, n_papers_ref))
 
 # Retrieve metrics for all bibcodes
