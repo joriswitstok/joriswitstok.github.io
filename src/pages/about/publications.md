@@ -6,13 +6,13 @@ layout: '~/layouts/MarkdownLayout.astro'
 
 ## Summary
 109 publications (87 refereed), of which 9 as first author. Metrics:
-- 117567 reads, 61924 downloads, 9021 citations
+- 117713 reads, 61996 downloads, 9026 citations
 - h-index: 52, m-index: 10.4, g-index: 94
-- i10-index: 93, i100-index: 27, read10-index: 1641.0
-- tori index: 2.4, riq index: 306.0
+- i10-index: 93, i100-index: 27, read10-index: 1641.5
+- tori index: 2.4, riq index: 307.0
 
 Based on the [SAO/NASA Astrophysics Data System (ADS)](https://ui.adsabs.harvard.edu/).
-Last updated: 25 September, 2025.
+Last updated: 26 September, 2025.
 
 ## First author (9)
 
@@ -26,7 +26,7 @@ Last updated: 25 September, 2025.
 
 - Witstok, J., Shivaei, I., Smit, R., Maiolino, R., et al., 2023, _Nature_, [621, 267](https://doi.org/10.1038/s41586-023-06413-w). 'Carbonaceous dust grains seen in the first billion years of cosmic time' (93 citations).
 
-- Witstok, J., Jones, G., Maiolino, R., Smit, R., Schneider, R., 2023, _Monthly Notices of the Royal Astronomical Society_, [523, 3119](https://doi.org/10.1093/mnras/stad1470). 'An empirical study of dust properties at the earliest epochs' (44 citations).
+- Witstok, J., Jones, G., Maiolino, R., Smit, R., Schneider, R., 2023, _Monthly Notices of the Royal Astronomical Society_, [523, 3119](https://doi.org/10.1093/mnras/stad1470). 'An empirical study of dust properties at the earliest epochs' (45 citations).
 
 - Witstok, J., Smit, R., Maiolino, R., Kumari, N., et al., 2022, _Monthly Notices of the Royal Astronomical Society_, [515, 1751](https://doi.org/10.1093/mnras/stac1905). 'Dual constraints with ALMA: new [O III] 88-μm and dust-continuum observations reveal the ISM conditions of luminous LBGs at z ~ 7' (87 citations).
 
@@ -144,11 +144,11 @@ Last updated: 25 September, 2025.
 
 - Nelson, E., Brammer, G., Giménez-Arteaga, C., Oesch, P., Naidu, R., Übler, H., Matharu, J., Shapley, A., Whitaker, K., Wisnioski, E., Förster Schreiber, N., Smit, R., van Dokkum, P., Chisholm, J., Endsley, R., Hartley, A., Gibson, J., Giovinazzo, E., Illingworth, G., Labbe, I., Maseda, M., Matthee, J., Covelo Paz, A., Price, S., Reddy, N., Shivaei, I., Weibel, A., Wuyts, S., Xiao, M., Alberts, S., Baker, W., Bunker, A., Cameron, A., Charlot, S., Eisenstein, D., de Graaff, A., Ji, Z., Johnson, B., Jones, G., Maiolino, R., Robertson, B., Sandles, L., Suess, K., Tacchella, S., Williams, C., Witstok, J., 2024, _The Astrophysical Journal Letters_, [976, L27](https://doi.org/10.3847/2041-8213/ad7b17). 'Ionized Gas Kinematics with FRESCO: An Extended, Massive, Rapidly Rotating Galaxy at z = 5.4' (37 citations).
 
-- Simmonds, C., Tacchella, S., Hainline, K., Johnson, B., Puskás, D., Robertson, B., Baker, W., Bhatawdekar, R., Boyett, K., Bunker, A., Cargile, P., Carniani, S., Chevallard, J., Curti, M., Curtis-Lake, E., Ji, Z., Jones, G., Kumari, N., Laseter, I., Maiolino, R., Maseda, M., Rinaldi, P., Stoffers, A., Übler, H., Villanueva, N., Williams, C., Willott, C., Witstok, J., Zhu, Y., 2024, _Monthly Notices of the Royal Astronomical Society_, [535, 2998](https://doi.org/10.1093/mnras/stae2537). 'Ionizing properties of galaxies in JADES for a stellar mass complete sample: resolving the cosmic ionizing photon budget crisis at the Epoch of Reionization' (63 citations).
+- Simmonds, C., Tacchella, S., Hainline, K., Johnson, B., Puskás, D., Robertson, B., Baker, W., Bhatawdekar, R., Boyett, K., Bunker, A., Cargile, P., Carniani, S., Chevallard, J., Curti, M., Curtis-Lake, E., Ji, Z., Jones, G., Kumari, N., Laseter, I., Maiolino, R., Maseda, M., Rinaldi, P., Stoffers, A., Übler, H., Villanueva, N., Williams, C., Willott, C., Witstok, J., Zhu, Y., 2024, _Monthly Notices of the Royal Astronomical Society_, [535, 2998](https://doi.org/10.1093/mnras/stae2537). 'Ionizing properties of galaxies in JADES for a stellar mass complete sample: resolving the cosmic ionizing photon budget crisis at the Epoch of Reionization' (64 citations).
 
 - Tripodi, R., D'Eugenio, F., Maiolino, R., Curti, M., Scholtz, J., Tacchella, S., Marconcini, C., Bunker, A., Trussler, J., Cameron, A., Arribas, S., Baker, W., Bradač, M., Carniani, S., Charlot, S., Ji, X., Ji, Z., Robertson, B., Übler, H., Venturi, G., Willmer, C., Witstok, J., 2024, _Astronomy and Astrophysics_, [692, A184](https://doi.org/10.1051/0004-6361/202449980). 'Spatially resolved emission lines in galaxies at 4 ≤ z &lt; 10 from the JADES survey: Evidence for enhanced central star formation' (17 citations).
 
-- Juodžbalis, I., Ji, X., Maiolino, R., D'Eugenio, F., Scholtz, J., Risaliti, G., Fabian, A., Mazzolari, G., Gilli, R., Prandoni, I., Arribas, S., Bunker, A., Carniani, S., Charlot, S., Curtis-Lake, E., de Graaff, A., Hainline, K., Parlanti, E., Perna, M., Pérez-González, P., Robertson, B., Tacchella, S., Übler, H., Williams, C., Willott, C., Witstok, J., 2024, _Monthly Notices of the Royal Astronomical Society_, [535, 853](https://doi.org/10.1093/mnras/stae2367). 'JADES - the Rosetta stone of JWST-discovered AGN: deciphering the intriguing nature of early AGN' (61 citations).
+- Juodžbalis, I., Ji, X., Maiolino, R., D'Eugenio, F., Scholtz, J., Risaliti, G., Fabian, A., Mazzolari, G., Gilli, R., Prandoni, I., Arribas, S., Bunker, A., Carniani, S., Charlot, S., Curtis-Lake, E., de Graaff, A., Hainline, K., Parlanti, E., Perna, M., Pérez-González, P., Robertson, B., Tacchella, S., Übler, H., Williams, C., Willott, C., Witstok, J., 2024, _Monthly Notices of the Royal Astronomical Society_, [535, 853](https://doi.org/10.1093/mnras/stae2367). 'JADES - the Rosetta stone of JWST-discovered AGN: deciphering the intriguing nature of early AGN' (62 citations).
 
 - Maiolino, R., Scholtz, J., Curtis-Lake, E., Carniani, S., Baker, W., de Graaff, A., Tacchella, S., Übler, H., D'Eugenio, F., Witstok, J., Curti, M., Arribas, S., Bunker, A., Charlot, S., Chevallard, J., Eisenstein, D., Egami, E., Ji, Z., Jones, G., Lyu, J., Rawle, T., Robertson, B., Rujopakarn, W., Perna, M., Sun, F., Venturi, G., Williams, C., Willott, C., 2024, _Astronomy and Astrophysics_, [691, A145](https://doi.org/10.1051/0004-6361/202347640). 'JADES: The diverse population of infant black holes at 4 &lt; z &lt; 11: Merging, tiny, poor, but mighty' (466 citations).
 
@@ -162,7 +162,7 @@ Last updated: 25 September, 2025.
 
 - Terp, C., Heintz, K., Watson, D., Brammer, G., Carnall, A., Witstok, J., Smit, R., Vejlgaard, S., 2024, _Astronomy and Astrophysics_, [690, A70](https://doi.org/10.1051/0004-6361/202450375). 'Uncovering the physical origin of the prominent Lyman-α emission and absorption in GS9422 at z = 5.943' (14 citations).
 
-- Carniani, S., Hainline, K., D'Eugenio, F., Eisenstein, D., Jakobsen, P., Witstok, J., Johnson, B., Chevallard, J., Maiolino, R., Helton, J., Willott, C., Robertson, B., Alberts, S., Arribas, S., Baker, W., Bhatawdekar, R., Boyett, K., Bunker, A., Cameron, A., Cargile, P., Charlot, S., Curti, M., Curtis-Lake, E., Egami, E., Giardino, G., Isaak, K., Ji, Z., Jones, G., Kumari, N., Maseda, M., Parlanti, E., Pérez-González, P., Rawle, T., Rieke, G., Rieke, M., Del Pino, B., Saxena, A., Scholtz, J., Smit, R., Sun, F., Tacchella, S., Übler, H., Venturi, G., Williams, C., Willmer, C., 2024, _Nature_, [633, 318](https://doi.org/10.1038/s41586-024-07860-9). 'Spectroscopic confirmation of two luminous galaxies at a redshift of 14' (219 citations).
+- Carniani, S., Hainline, K., D'Eugenio, F., Eisenstein, D., Jakobsen, P., Witstok, J., Johnson, B., Chevallard, J., Maiolino, R., Helton, J., Willott, C., Robertson, B., Alberts, S., Arribas, S., Baker, W., Bhatawdekar, R., Boyett, K., Bunker, A., Cameron, A., Cargile, P., Charlot, S., Curti, M., Curtis-Lake, E., Egami, E., Giardino, G., Isaak, K., Ji, Z., Jones, G., Kumari, N., Maseda, M., Parlanti, E., Pérez-González, P., Rawle, T., Rieke, G., Rieke, M., Del Pino, B., Saxena, A., Scholtz, J., Smit, R., Sun, F., Tacchella, S., Übler, H., Venturi, G., Williams, C., Willmer, C., 2024, _Nature_, [633, 318](https://doi.org/10.1038/s41586-024-07860-9). 'Spectroscopic confirmation of two luminous galaxies at a redshift of 14' (220 citations).
 
 - D'Eugenio, F., Maiolino, R., Carniani, S., Chevallard, J., Curtis-Lake, E., Witstok, J., Charlot, S., Baker, W., Arribas, S., Boyett, K., Bunker, A., Curti, M., Eisenstein, D., Hainline, K., Ji, Z., Johnson, B., Kumari, N., Looser, T., Nakajima, K., Nelson, E., Rieke, M., Robertson, B., Scholtz, J., Smit, R., Sun, F., Venturi, G., Tacchella, S., Übler, H., Willmer, C., Willott, C., 2024, _Astronomy and Astrophysics_, [689, A152](https://doi.org/10.1051/0004-6361/202348636). 'JADES: Carbon enrichment 350 Myr after the Big Bang' (97 citations).
 
@@ -182,7 +182,7 @@ Last updated: 25 September, 2025.
 
 - Tang, M., Stark, D., Ellis, R., Sun, F., Topping, M., Robertson, B., Tacchella, S., Arribas, S., Baker, W., Bhatawdekar, R., Boyett, K., Bunker, A., Charlot, S., Chen, Z., Chevallard, J., Jones, G., Kumari, N., Lyu, J., Maiolino, R., Maseda, M., Saxena, A., Whitler, L., Williams, C., Willott, C., Witstok, J., 2024, _Monthly Notices of the Royal Astronomical Society_, [531, 2701](https://doi.org/10.1093/mnras/stae1338). 'Lyα emission in galaxies at z ≃ 5-6: new insight from JWST into the statistical distributions of Lyα properties at the end of reionization' (35 citations).
 
-- Carniani, S., Venturi, G., Parlanti, E., de Graaff, A., Maiolino, R., Arribas, S., Bonaventura, N., Boyett, K., Bunker, A., Cameron, A., Charlot, S., Chevallard, J., Curti, M., Curtis-Lake, E., Eisenstein, D., Giardino, G., Hausen, R., Kumari, N., Maseda, M., Nelson, E., Perna, M., Rix, H., Robertson, B., Del Pino, B., Sandles, L., Scholtz, J., Simmonds, C., Smit, R., Tacchella, S., Übler, H., Williams, C., Willott, C., Witstok, J., 2024, _Astronomy and Astrophysics_, [685, A99](https://doi.org/10.1051/0004-6361/202347230). 'JADES: The incidence rate and properties of galactic outflows in low-mass galaxies across 3 &lt; z &lt; 9' (75 citations).
+- Carniani, S., Venturi, G., Parlanti, E., de Graaff, A., Maiolino, R., Arribas, S., Bonaventura, N., Boyett, K., Bunker, A., Cameron, A., Charlot, S., Chevallard, J., Curti, M., Curtis-Lake, E., Eisenstein, D., Giardino, G., Hausen, R., Kumari, N., Maseda, M., Nelson, E., Perna, M., Rix, H., Robertson, B., Del Pino, B., Sandles, L., Scholtz, J., Simmonds, C., Smit, R., Tacchella, S., Übler, H., Williams, C., Willott, C., Witstok, J., 2024, _Astronomy and Astrophysics_, [685, A99](https://doi.org/10.1051/0004-6361/202347230). 'JADES: The incidence rate and properties of galactic outflows in low-mass galaxies across 3 &lt; z &lt; 9' (76 citations).
 
 - Scholtz, J., D'Eugenio, F., Maiolino, R., Pérez-González, P., Circosta, C., Tacchella, S., Williams, C., Alberts, S., Arribas, S., Baker, W., Bertola, E., Bunker, A., Carniani, S., Charlot, S., Cresci, G., Jones, G., Kumari, N., Lamperti, I., Looser, T., Rodríguez Del Pino, B., Robertson, B., Parlanti, E., Perna, M., Übler, H., Venturi, G., Witstok, J., 2024, arXiv e-prints, [2405.19401](https://doi.org/10.48550/arXiv.2405.19401). 'Net-zero gas inflow: deconstructing the gas consumption history of a massive quiescent galaxy with JWST and ALMA' (14 citations).
 
