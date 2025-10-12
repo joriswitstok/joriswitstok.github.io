@@ -5,14 +5,14 @@ layout: '~/layouts/MarkdownLayout.astro'
 ---
 
 ## Summary
-113 publications (87 refereed), of which 9 as first author. Metrics:
+114 publications (87 refereed), of which 9 as first author. Metrics:
 - 119423 reads, 62748 downloads, 9368 citations
 - h-index: 53, m-index: 10.6, g-index: 96
-- i10-index: 95, i100-index: 29, read10-index: 1633.8
+- i10-index: 95, i100-index: 29, read10-index: 1628.1
 - tori index: 2.5, riq index: 313.0
 
 Based on the [SAO/NASA Astrophysics Data System (ADS)](https://ui.adsabs.harvard.edu/).
-Last updated: 11 October, 2025.
+Last updated: 12 October, 2025.
 
 ## First author (9)
 
@@ -60,13 +60,15 @@ Last updated: 11 October, 2025.
 
 - Jones, G., Bunker, A., Saxena, A., Witstok, J., et al., 2024, _Astronomy and Astrophysics_, [683, A238](https://doi.org/10.1051/0004-6361/202347099). 'JADES: The emergence and evolution of Lyα emission and constraints on the intergalactic medium neutral fraction' (53 citations).
 
-## Other (92)
+## Other (93)
 
-- Nikopoulos, G., Watson, D., Sneppen, A., Rusakov, V., Heintz, K., Witstok, J., Brammer, G., 2025, arXiv e-prints, [2510.06362](https://ui.adsabs.harvard.edu/abs/2025arXiv251006362N). 'Evidence of violation of Case B recombination in Little Red Dots'.
+- Heintz, K., Watson, D., Valentino, F., Gottumukkala, R., Narayanan, D., Yates, R., Terp, C., Nezhad, N., Weaver, J., Witstok, J., Brammer, G., Andersen, A., Sneppen, A., Pollock, C., Algera, H., Rowland, L., Oesch, P., Magdis, G., Nikopoulos, G., Knudsen, K., 2025, arXiv e-prints, [2510.07936](https://ui.adsabs.harvard.edu/abs/2025arXiv251007936H). 'Inefficient dust production in a massive, metal-rich galaxy at $z=7.13$ uncovered by JWST and ALMA'.
+
+- Nikopoulos, G., Watson, D., Sneppen, A., Rusakov, V., Heintz, K., Witstok, J., Brammer, G., 2025, arXiv e-prints, [2510.06362](https://doi.org/10.48550/arXiv.2510.06362). 'Evidence of violation of Case B recombination in Little Red Dots'.
 
 - Scholtz, J., Carniani, S., Parlanti, E., D'Eugenio, F., Curtis-Lake, E., Jakobsen, P., Bunker, A., Cameron, A., Arribas, S., Baker, W., Charlot, S., Chevellard, J., Circosta, C., Curti, M., Duan, Q., Eisenstein, D., Hainline, K., Ji, Z., Johnson, B., Jones, G., Kumari, N., Maiolino, R., Maseda, M., Perna, M., Pérez-González, P., Rawle, T., Rieke, M., Rinaldi, P., Robertson, B., Saxena, A., Shivaei, I., Silcock, M., Sun, Y., Rodríguez Del Pino, B., Tacchella, S., Übler, H., Venturi, G., Williams, C., Willmer, C., Willott, C., Witstok, J., 2025, arXiv e-prints, [2510.01034](https://doi.org/10.48550/arXiv.2510.01034). 'JADES Data Release 4 -- Paper II: Data reduction, analysis and emission-line fluxes of the complete spectroscopic sample'.
 
-- Sokoliuk, O., Webb, J., Lanzetta, K., Shara, M., Gromoll, S., Bolton, J., Carswell, R., Galaz, G., Ledoux, C., Lo Curto, G., Smette, A., Valls-Gabaud, D., von der Linden, A., Walter, F., Witstok, J., 2025, arXiv e-prints, [2510.07259](https://ui.adsabs.harvard.edu/abs/2025arXiv251007259S). 'The cosmic web's Lyman-$α$ glow at $z \approx 2.5$; varying hydrodynamic models, dust, and wide-field, narrow-band imaging detection'.
+- Sokoliuk, O., Webb, J., Lanzetta, K., Shara, M., Gromoll, S., Bolton, J., Carswell, R., Galaz, G., Ledoux, C., Lo Curto, G., Smette, A., Valls-Gabaud, D., von der Linden, A., Walter, F., Witstok, J., 2025, arXiv e-prints, [2510.07259](https://doi.org/10.48550/arXiv.2510.07259). 'The cosmic web's Lyman-$α$ glow at $z \approx 2.5$; varying hydrodynamic models, dust, and wide-field, narrow-band imaging detection'.
 
 - Algera, H., Rowland, L., Smit, R., Fisher, R., Ramambason, L., Kumari, N., Vallini, L., Inami, H., Nanayakkara, T., Stefanon, M., Aravena, M., Bakx, T., Bouwens, R., Bowler, R., Cescon, K., Chen, C., Dayal, P., De Looze, I., Ferrara, A., Fudamoto, Y., Komarova, L., van Leeuwen, I., Ormerod, K., Schouws, S., Sommovigo, L., Vijayan, A., Wang, W., van der Werf, P., Witstok, J., 2025, arXiv e-prints, [2509.16071](https://doi.org/10.48550/arXiv.2509.16071). 'REBELS-IFU: on the origin of the elevated [OIII]/[CII] ratios in the early Universe'.
 
@@ -124,9 +126,9 @@ Last updated: 11 October, 2025.
 
 - Rinaldi, P., Pérez-González, P., Rieke, G., Lyu, J., D'Eugenio, F., Wu, Z., Carniani, S., Looser, T., Shivaei, I., Boogaard, L., Diaz-Santos, T., Colina, L., Östlin, G., Alberts, S., Álvarez-Márquez, J., Annuziatella, M., Aravena, M., Bhatawdekar, R., Bunker, A., Caputi, K., Charlot, S., Crespo Gómez, A., Curti, M., Eckart, A., Gillman, S., Hainline, K., Kumari, N., Hjorth, J., Iani, E., Inami, H., Ji, Z., Johnson, B., Jones, G., Labiano, Á., Maiolino, R., Melinder, J., Moutard, T., Peißker, F., Rieke, M., Robertson, B., Scholtz, J., Tacchella, S., van der Werf, P., Walter, F., Williams, C., Willott, C., Witstok, J., Übler, H., Zhu, Y., 2025, arXiv e-prints, [2504.01852](https://doi.org/10.48550/arXiv.2504.01852). 'Deciphering the Nature of Virgil: An Obscured AGN Lurking Within an Apparently Normal Lyman-α Emitter During Cosmic Reionization' (10 citations).
 
-- D'Eugenio, F., Maiolino, R., Perna, M., Uebler, H., Ji, X., McClymont, W., Koudmani, S., Sijacki, D., Juodžbalis, I., Scholtz, J., Bennett, J., Bunker, A., Carniani, S., Charlot, S., Cresci, G., Curtis-Lake, E., Dalla Bontà, E., Jones, G., Lyu, J., Marconi, A., Mazzolari, G., Nelson, E., Parlanti, E., Robertson, B., Schneider, R., Simmonds, C., Tacchella, S., Venturi, G., Willott, C., Witstok, J., Witten, C., 2025, arXiv e-prints, [2503.11752](https://doi.org/10.48550/arXiv.2503.11752). 'BlackTHUNDER strikes twice: rest-frame Balmer-line absorption and high Eddington accretion rate in a Little Red Dot at $z=7.04$' (35 citations).
-
 - D'Eugenio, F., Cameron, A., Scholtz, J., Carniani, S., Willott, C., Curtis-Lake, E., Bunker, A., Parlanti, E., Maiolino, R., Willmer, C., Jakobsen, P., Robertson, B., Johnson, B., Tacchella, S., Cargile, P., Rawle, T., Arribas, S., Chevallard, J., Curti, M., Egami, E., Eisenstein, D., Kumari, N., Looser, T., Rieke, M., Rodríguez Del Pino, B., Saxena, A., Übler, H., Venturi, G., Witstok, J., Baker, W., Bhatawdekar, R., Bonaventura, N., Boyett, K., Charlot, S., Danhaive, A., Hainline, K., Hausen, R., Helton, J., Ji, X., Ji, Z., Jones, G., Juodžbalis, I., Maseda, M., Pérez-González, P., Perna, M., Puskás, D., Shivaei, I., Silcock, M., Simmonds, C., Smit, R., Sun, F., Villanueva, N., Williams, C., Zhu, Y., 2025, _The Astrophysical Journal Supplement Series_, [277, 4](https://doi.org/10.3847/1538-4365/ada148). 'JADES Data Release 3: NIRSpec/Microshutter Assembly Spectroscopy for 4000 Galaxies in the GOODS Fields' (170 citations).
+
+- D'Eugenio, F., Maiolino, R., Perna, M., Uebler, H., Ji, X., McClymont, W., Koudmani, S., Sijacki, D., Juodžbalis, I., Scholtz, J., Bennett, J., Bunker, A., Carniani, S., Charlot, S., Cresci, G., Curtis-Lake, E., Dalla Bontà, E., Jones, G., Lyu, J., Marconi, A., Mazzolari, G., Nelson, E., Parlanti, E., Robertson, B., Schneider, R., Simmonds, C., Tacchella, S., Venturi, G., Willott, C., Witstok, J., Witten, C., 2025, arXiv e-prints, [2503.11752](https://doi.org/10.48550/arXiv.2503.11752). 'BlackTHUNDER strikes twice: rest-frame Balmer-line absorption and high Eddington accretion rate in a Little Red Dot at $z=7.04$' (35 citations).
 
 - Rusakov, V., Watson, D., Nikopoulos, G., Brammer, G., Gottumukkala, R., Harvey, T., Heintz, K., Nielsen, R., Sim, S., Sneppen, A., Vijayan, A., Adams, N., Austin, D., Conselice, C., Goolsby, C., Toft, S., Witstok, J., 2025, arXiv e-prints, [2503.16595](https://doi.org/10.48550/arXiv.2503.16595). 'JWST's little red dots: an emerging population of young, low-mass AGN cocooned in dense ionized gas' (59 citations).
 
@@ -170,7 +172,7 @@ Last updated: 11 October, 2025.
 
 - Terp, C., Heintz, K., Watson, D., Brammer, G., Carnall, A., Witstok, J., Smit, R., Vejlgaard, S., 2024, _Astronomy and Astrophysics_, [690, A70](https://doi.org/10.1051/0004-6361/202450375). 'Uncovering the physical origin of the prominent Lyman-α emission and absorption in GS9422 at z = 5.943' (15 citations).
 
-- Carniani, S., Hainline, K., D'Eugenio, F., Eisenstein, D., Jakobsen, P., Witstok, J., Johnson, B., Chevallard, J., Maiolino, R., Helton, J., Willott, C., Robertson, B., Alberts, S., Arribas, S., Baker, W., Bhatawdekar, R., Boyett, K., Bunker, A., Cameron, A., Cargile, P., Charlot, S., Curti, M., Curtis-Lake, E., Egami, E., Giardino, G., Isaak, K., Ji, Z., Jones, G., Kumari, N., Maseda, M., Parlanti, E., Pérez-González, P., Rawle, T., Rieke, G., Rieke, M., Del Pino, B., Saxena, A., Scholtz, J., Smit, R., Sun, F., Tacchella, S., Übler, H., Venturi, G., Williams, C., Willmer, C., 2024, _Nature_, [633, 318](https://doi.org/10.1038/s41586-024-07860-9). 'Spectroscopic confirmation of two luminous galaxies at a redshift of 14' (230 citations).
+- Carniani, S., Hainline, K., D'Eugenio, F., Eisenstein, D., Jakobsen, P., Witstok, J., Johnson, B., Chevallard, J., Maiolino, R., Helton, J., Willott, C., Robertson, B., Alberts, S., Arribas, S., Baker, W., Bhatawdekar, R., Boyett, K., Bunker, A., Cameron, A., Cargile, P., Charlot, S., Curti, M., Curtis-Lake, E., Egami, E., Giardino, G., Isaak, K., Ji, Z., Jones, G., Kumari, N., Maseda, M., Parlanti, E., Pérez-González, P., Rawle, T., Rieke, G., Rieke, M., Del Pino, B., Saxena, A., Scholtz, J., Smit, R., Sun, F., Tacchella, S., Übler, H., Venturi, G., Williams, C., Willmer, C., 2024, _Nature_, [633, 318](https://doi.org/10.1038/s41586-024-07860-9). 'Spectroscopic confirmation of two luminous galaxies at a redshift of 14' (231 citations).
 
 - D'Eugenio, F., Maiolino, R., Carniani, S., Chevallard, J., Curtis-Lake, E., Witstok, J., Charlot, S., Baker, W., Arribas, S., Boyett, K., Bunker, A., Curti, M., Eisenstein, D., Hainline, K., Ji, Z., Johnson, B., Kumari, N., Looser, T., Nakajima, K., Nelson, E., Rieke, M., Robertson, B., Scholtz, J., Smit, R., Sun, F., Venturi, G., Tacchella, S., Übler, H., Willmer, C., Willott, C., 2024, _Astronomy and Astrophysics_, [689, A152](https://doi.org/10.1051/0004-6361/202348636). 'JADES: Carbon enrichment 350 Myr after the Big Bang' (101 citations).
 
@@ -184,7 +186,7 @@ Last updated: 11 October, 2025.
 
 - Maiolino, R., Übler, H., Perna, M., Scholtz, J., D'Eugenio, F., Witten, C., Laporte, N., Witstok, J., Carniani, S., Tacchella, S., Baker, W., Arribas, S., Nakajima, K., Eisenstein, D., Bunker, A., Charlot, S., Cresci, G., Curti, M., Curtis-Lake, E., de Graaff, A., Egami, E., Ji, Z., Johnson, B., Kumari, N., Looser, T., Maseda, M., Nelson, E., Robertson, B., Rodríguez Del Pino, B., Sandles, L., Simmonds, C., Smit, R., Sun, F., Venturi, G., Williams, C., Willmer, C., 2024, _Astronomy and Astrophysics_, [687, A67](https://doi.org/10.1051/0004-6361/202347087). 'JADES. Possible Population III signatures at z = 10.6 in the halo of GN-z11' (94 citations).
 
-- Robertson, B., Johnson, B., Tacchella, S., Eisenstein, D., Hainline, K., Arribas, S., Baker, W., Bunker, A., Carniani, S., Cargile, P., Carreira, C., Charlot, S., Chevallard, J., Curti, M., Curtis-Lake, E., D'Eugenio, F., Egami, E., Hausen, R., Helton, J., Jakobsen, P., Ji, Z., Jones, G., Maiolino, R., Maseda, M., Nelson, E., Pérez-González, P., Puskás, D., Rieke, M., Smit, R., Sun, F., Übler, H., Whitler, L., Williams, C., Willmer, C., Willott, C., Witstok, J., 2024, _The Astrophysical Journal_, [970, 31](https://doi.org/10.3847/1538-4357/ad463d). 'Earliest Galaxies in the JADES Origins Field: Luminosity Function and Cosmic Star Formation Rate Density 300 Myr after the Big Bang' (134 citations).
+- Robertson, B., Johnson, B., Tacchella, S., Eisenstein, D., Hainline, K., Arribas, S., Baker, W., Bunker, A., Carniani, S., Cargile, P., Carreira, C., Charlot, S., Chevallard, J., Curti, M., Curtis-Lake, E., D'Eugenio, F., Egami, E., Hausen, R., Helton, J., Jakobsen, P., Ji, Z., Jones, G., Maiolino, R., Maseda, M., Nelson, E., Pérez-González, P., Puskás, D., Rieke, M., Smit, R., Sun, F., Übler, H., Whitler, L., Williams, C., Willmer, C., Willott, C., Witstok, J., 2024, _The Astrophysical Journal_, [970, 31](https://doi.org/10.3847/1538-4357/ad463d). 'Earliest Galaxies in the JADES Origins Field: Luminosity Function and Cosmic Star Formation Rate Density 300 Myr after the Big Bang' (135 citations).
 
 - Scholtz, J., Witten, C., Laporte, N., Übler, H., Perna, M., Maiolino, R., Arribas, S., Baker, W., Bennett, J., D'Eugenio, F., Simmonds, C., Tacchella, S., Witstok, J., Bunker, A., Carniani, S., Charlot, S., Cresci, G., Curtis-Lake, E., Eisenstein, D., Kumari, N., Robertson, B., Rodríguez Del Pino, B., Smit, R., Venturi, G., Williams, C., Willmer, C., 2024, _Astronomy and Astrophysics_, [687, A283](https://doi.org/10.1051/0004-6361/202347187). 'GN-z11: The environment of an active galactic nucleus at z = 10.603. New insights into the most distant Lyα detection' (52 citations).
 
