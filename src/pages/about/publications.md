@@ -5,14 +5,14 @@ layout: '~/layouts/MarkdownLayout.astro'
 ---
 
 ## Summary
-114 publications (87 refereed), of which 9 as first author. Metrics:
+115 publications (88 refereed), of which 9 as first author. Metrics:
 - 119423 reads, 62748 downloads, 9368 citations
 - h-index: 53, m-index: 10.6, g-index: 96
-- i10-index: 95, i100-index: 29, read10-index: 1628.1
+- i10-index: 95, i100-index: 29, read10-index: 1622.4
 - tori index: 2.5, riq index: 313.0
 
 Based on the [SAO/NASA Astrophysics Data System (ADS)](https://ui.adsabs.harvard.edu/).
-Last updated: 12 October, 2025.
+Last updated: 13 October, 2025.
 
 ## First author (9)
 
@@ -60,7 +60,7 @@ Last updated: 12 October, 2025.
 
 - Jones, G., Bunker, A., Saxena, A., Witstok, J., et al., 2024, _Astronomy and Astrophysics_, [683, A238](https://doi.org/10.1051/0004-6361/202347099). 'JADES: The emergence and evolution of Lyα emission and constraints on the intergalactic medium neutral fraction' (53 citations).
 
-## Other (93)
+## Other (94)
 
 - Heintz, K., Watson, D., Valentino, F., Gottumukkala, R., Narayanan, D., Yates, R., Terp, C., Nezhad, N., Weaver, J., Witstok, J., Brammer, G., Andersen, A., Sneppen, A., Pollock, C., Algera, H., Rowland, L., Oesch, P., Magdis, G., Nikopoulos, G., Knudsen, K., 2025, arXiv e-prints, [2510.07936](https://ui.adsabs.harvard.edu/abs/2025arXiv251007936H). 'Inefficient dust production in a massive, metal-rich galaxy at $z=7.13$ uncovered by JWST and ALMA'.
 
@@ -69,6 +69,8 @@ Last updated: 12 October, 2025.
 - Scholtz, J., Carniani, S., Parlanti, E., D'Eugenio, F., Curtis-Lake, E., Jakobsen, P., Bunker, A., Cameron, A., Arribas, S., Baker, W., Charlot, S., Chevellard, J., Circosta, C., Curti, M., Duan, Q., Eisenstein, D., Hainline, K., Ji, Z., Johnson, B., Jones, G., Kumari, N., Maiolino, R., Maseda, M., Perna, M., Pérez-González, P., Rawle, T., Rieke, M., Rinaldi, P., Robertson, B., Saxena, A., Shivaei, I., Silcock, M., Sun, Y., Rodríguez Del Pino, B., Tacchella, S., Übler, H., Venturi, G., Williams, C., Willmer, C., Willott, C., Witstok, J., 2025, arXiv e-prints, [2510.01034](https://doi.org/10.48550/arXiv.2510.01034). 'JADES Data Release 4 -- Paper II: Data reduction, analysis and emission-line fluxes of the complete spectroscopic sample'.
 
 - Sokoliuk, O., Webb, J., Lanzetta, K., Shara, M., Gromoll, S., Bolton, J., Carswell, R., Galaz, G., Ledoux, C., Lo Curto, G., Smette, A., Valls-Gabaud, D., von der Linden, A., Walter, F., Witstok, J., 2025, arXiv e-prints, [2510.07259](https://doi.org/10.48550/arXiv.2510.07259). 'The cosmic web's Lyman-$α$ glow at $z \approx 2.5$; varying hydrodynamic models, dust, and wide-field, narrow-band imaging detection'.
+
+- Whitler, L., Stark, D., Topping, M., Robertson, B., Rieke, M., Hainline, K., Endsley, R., Chen, Z., Baker, W., Bhatawdekar, R., Bunker, A., Carniani, S., Charlot, S., Chevallard, J., Curtis-Lake, E., Egami, E., Eisenstein, D., Helton, J., Ji, Z., Johnson, B., Pérez-González, P., Rinaldi, P., Tacchella, S., Williams, C., Willmer, C., Willott, C., Witstok, J., 2025, _The Astrophysical Journal_, [992, 63](https://doi.org/10.3847/1538-4357/adfddc). 'The z ≳ 9 Galaxy UV Luminosity Function from the JWST Advanced Deep Extragalactic Survey: Insights into Early Galaxy Evolution and Reionization'.
 
 - Algera, H., Rowland, L., Smit, R., Fisher, R., Ramambason, L., Kumari, N., Vallini, L., Inami, H., Nanayakkara, T., Stefanon, M., Aravena, M., Bakx, T., Bouwens, R., Bowler, R., Cescon, K., Chen, C., Dayal, P., De Looze, I., Ferrara, A., Fudamoto, Y., Komarova, L., van Leeuwen, I., Ormerod, K., Schouws, S., Sommovigo, L., Vijayan, A., Wang, W., van der Werf, P., Witstok, J., 2025, arXiv e-prints, [2509.16071](https://doi.org/10.48550/arXiv.2509.16071). 'REBELS-IFU: on the origin of the elevated [OIII]/[CII] ratios in the early Universe'.
 
