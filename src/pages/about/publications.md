@@ -34,7 +34,7 @@ Last updated: 29 October, 2025.
 
 - Witstok, J., Puchwein, E., Kulkarni, G., Smit, R., Haehnelt, M., 2021, _Astronomy and Astrophysics_, [650, A98](https://doi.org/10.1051/0004-6361/202040187). 'Prospects for observing the low-density cosmic web in Lyman-α emission' (23 citations).
 
-## Major contributions (12)
+## Major contributions (11)
 
 - Ormerod, K., Witstok, J., et al., 2025, _Monthly Notices of the Royal Astronomical Society_, [542, 1136](https://doi.org/10.1093/mnras/staf1228). 'Detection of the 2175 Å UV bump at z &gt; 7: evidence for rapid dust evolution in a merging reionization-era galaxy' (9 citations).
 
@@ -52,15 +52,13 @@ Last updated: 29 October, 2025.
 
 - Maiolino, R., Scholtz, J., Witstok, J., et al., 2024, _Nature_, [627, 59](https://doi.org/10.1038/s41586-024-07052-5). 'A small and vigorous black hole in the early Universe' (397 citations).
 
-- Nanni, A., Romano, M., Donevski, D., Witstok, J., et al., 2025, _The Astrophysical Journal Letters_, [988, L5](https://doi.org/10.3847/2041-8213/ade2e5). 'Origins of Carbon Dust in a JWST-observed Primeval Galaxy at z ∼ 6.7' (4 citations).
-
 - Looser, T., D'Eugenio, F., Maiolino, R., Witstok, J., et al., 2024, _Nature_, [629, 53](https://doi.org/10.1038/s41586-024-07227-0). 'A recently quenched galaxy 700 million years after the Big Bang' (168 citations).
 
 - Kumari, N., Smit, R., Leitherer, C., Witstok, J., et al., 2024, _Monthly Notices of the Royal Astronomical Society_, [529, 781](https://doi.org/10.1093/mnras/stae252). 'A study of extreme C III]1908 &amp; [O III]88/[C II]157 emission in Pox 186: implications for JWST+ALMA (FUV + FIR) studies of distant galaxies' (14 citations).
 
 - Jones, G., Bunker, A., Saxena, A., Witstok, J., et al., 2024, _Astronomy and Astrophysics_, [683, A238](https://doi.org/10.1051/0004-6361/202347099). 'JADES: The emergence and evolution of Lyα emission and constraints on the intergalactic medium neutral fraction' (55 citations).
 
-## Other (96)
+## Other (97)
 
 - D'Eugenio, F., Nelson, E., Eisenstein, D., Maiolino, R., Carniani, S., Scholtz, J., Curti, M., Willmer, C., Bunker, A., Helton, J., Juodžbalis, I., Sun, F., Tacchella, S., Arribas, S., Cameron, A., Charlot, S., Curtis-Lake, E., Hainline, K., Johnson, B., Robertson, B., Williams, C., Willott, C., Baker, W., Chevallard, J., Danhaive, A., Isobe, Y., Ji, X., Ji, Z., Jones, G., Kumari, N., Looser, T., Lyu, J., Parlanti, E., Perna, M., Puskás, D., Rinaldi, P., Simmonds, C., Sun, Y., Venturi, G., Witstok, J., Wu, Z., Zhu, Y., 2025, arXiv e-prints, [2510.11626](https://doi.org/10.48550/arXiv.2510.11626). 'JADES Dark Horse: demonstrating high-multiplex observations with JWST/NIRSpec dense-shutter spectroscopy in the JADES Origins Field'.
 
@@ -97,6 +95,8 @@ Last updated: 29 October, 2025.
 - Isobe, Y., Maiolino, R., D'Eugenio, F., Curti, M., Ji, X., Juodžbalis, I., Scholtz, J., Feltre, A., Charlot, S., Übler, H., J. Bunker, A., Carniani, S., Curtis-Lake, E., Ji, Z., Kumari, N., Rinaldi, P., Robertson, B., Willott, C., Witstok, J., 2025, _Monthly Notices of the Royal Astronomical Society_, [541, L71](https://doi.org/10.1093/mnrasl/slaf056). 'JADES: nitrogen enhancement in high-redshift broad-line active galactic nuclei' (24 citations).
 
 - Laseter, I., Maseda, M., Simmonds, C., Endsley, R., Stark, D., Bunker, A., Bhatawdekar, R., Boyett, K., Cameron, A., Carniani, S., Curti, M., Ji, Z., Rinaldi, P., Saxena, A., Tacchella, S., Willott, C., Witstok, J., Zhu, Y., 2025, _The Astrophysical Journal_, [988, 73](https://doi.org/10.3847/1538-4357/adddb5). 'Efficient Ionizers with Low Hβ + [O III] Equivalent Widths: JADES Spectroscopy of a Peculiar High-redshift Population' (8 citations).
+
+- Nanni, A., Romano, M., Donevski, D., Witstok, J., et al., 2025, _The Astrophysical Journal Letters_, [988, L5](https://doi.org/10.3847/2041-8213/ade2e5). 'Origins of Carbon Dust in a JWST-observed Primeval Galaxy at z ∼ 6.7' (4 citations).
 
 - Puskás, D., Tacchella, S., Simmonds, C., Hainline, K., D'Eugenio, F., Alberts, S., Arribas, S., Baker, W., Bunker, A., Carniani, S., Charlot, S., Duan, Q., Eisenstein, D., Ji, Z., Johnson, B., Jones, G., Maiolino, R., McClymont, W., Rieke, M., Rinaldi, P., Robertson, B., Übler, H., Williams, C., Willmer, C., Willott, C., Witstok, J., 2025, _Monthly Notices of the Royal Astronomical Society_, [540, 2146](https://doi.org/10.1093/mnras/staf813). 'Constraining the major merger history of z ~ 3-9 galaxies using JADES: dominant in situ star formation' (38 citations).
 
