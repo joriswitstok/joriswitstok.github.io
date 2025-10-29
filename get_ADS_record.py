@@ -7,6 +7,7 @@ from datetime import date
 current_date = date.today().strftime("%-d %B, %Y")
 
 exclude_bibcodes = ["2024Natur.630E...2M", "2025MNRAS.538..280U"]
+exclude_major_contr_bibcodes = ["2025ApJ...988L...5N"]
 
 # Retrieve API token as argument
 parser = argparse.ArgumentParser()
@@ -60,7 +61,7 @@ for publication in publications["response"]["docs"]:
     
     if pub_dict["ai"] == 0:
         first_author_bibcodes.append(publication["bibcode"])
-    elif pub_dict["ai"] < 3 or (pub_dict["ai"] < 5 and len(publication["author"]) > 5):
+    elif pub_dict["ai"] < 3 or (pub_dict["ai"] < 5 and len(publication["author"]) > 5) and publication["bibcode"] not in exclude_major_contr_bibcodes:
         major_contr_bibcodes.append(publication["bibcode"])
     
     if pub_dict["ai"] < 5 and len(publication["author"]) > 5:
