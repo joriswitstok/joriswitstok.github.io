@@ -6,13 +6,13 @@ layout: '~/layouts/MarkdownLayout.astro'
 
 ## Summary
 117 publications (90 refereed), of which 9 as first author. Metrics:
-- 124758 reads, 65025 downloads, 10008 citations
+- 124769 reads, 65030 downloads, 10010 citations
 - h-index: 55, m-index: 11.0, g-index: 99
-- i10-index: 97, i100-index: 31, read10-index: 1719.1
+- i10-index: 97, i100-index: 31, read10-index: 1714.0
 - tori index: 2.6, riq index: 322.0
 
 Based on the [SAO/NASA Astrophysics Data System (ADS)](https://ui.adsabs.harvard.edu/).
-Last updated: 10 November, 2025.
+Last updated: 11 November, 2025.
 
 ## First author (9)
 
@@ -226,7 +226,7 @@ Last updated: 10 November, 2025.
 
 - Saxena, A., Robertson, B., Bunker, A., Endsley, R., Cameron, A., Charlot, S., Simmonds, C., Tacchella, S., Witstok, J., Willott, C., Carniani, S., Curtis-Lake, E., Ferruit, P., Jakobsen, P., Arribas, S., Chevallard, J., Curti, M., D'Eugenio, F., De Graaff, A., Jones, G., Looser, T., Maseda, M., Rawle, T., Rix, H., Del Pino, B., Smit, R., Übler, H., Eisenstein, D., Hainline, K., Hausen, R., Johnson, B., Rieke, M., Williams, C., Willmer, C., Baker, W., Bhatawdekar, R., Bowler, R., Boyett, K., Chen, Z., Egami, E., Ji, Z., Kumari, N., Nelson, E., Perna, M., Sandles, L., Scholtz, J., Shivaei, I., 2023, _Astronomy and Astrophysics_, [678, A68](https://doi.org/10.1051/0004-6361/202346245). 'JADES: Discovery of extremely high equivalent width Lyman-α emission from a faint galaxy within an ionized bubble at z = 7.3' (84 citations).
 
-- Williams, C., Tacchella, S., Maseda, M., Robertson, B., Johnson, B., Willott, C., Eisenstein, D., Willmer, C., Ji, Z., Hainline, K., Helton, J., Alberts, S., Baum, S., Bhatawdekar, R., Boyett, K., Bunker, A., Carniani, S., Charlot, S., Chevallard, J., Curtis-Lake, E., de Graaff, A., Egami, E., Franx, M., Kumari, N., Maiolino, R., Nelson, E., Rieke, M., Sandles, L., Shivaei, I., Simmonds, C., Smit, R., Suess, K., Sun, F., Übler, H., Witstok, J., 2023, _The Astrophysical Journal Supplement Series_, [268, 64](https://doi.org/10.3847/1538-4365/acf130). 'JEMS: A Deep Medium-band Imaging Survey in the Hubble Ultra Deep Field with JWST NIRCam and NIRISS' (166 citations).
+- Williams, C., Tacchella, S., Maseda, M., Robertson, B., Johnson, B., Willott, C., Eisenstein, D., Willmer, C., Ji, Z., Hainline, K., Helton, J., Alberts, S., Baum, S., Bhatawdekar, R., Boyett, K., Bunker, A., Carniani, S., Charlot, S., Chevallard, J., Curtis-Lake, E., de Graaff, A., Egami, E., Franx, M., Kumari, N., Maiolino, R., Nelson, E., Rieke, M., Sandles, L., Shivaei, I., Simmonds, C., Smit, R., Suess, K., Sun, F., Übler, H., Witstok, J., 2023, _The Astrophysical Journal Supplement Series_, [268, 64](https://doi.org/10.3847/1538-4365/acf130). 'JEMS: A Deep Medium-band Imaging Survey in the Hubble Ultra Deep Field with JWST NIRCam and NIRISS' (167 citations).
 
 - Bunker, A., Saxena, A., Cameron, A., Willott, C., Curtis-Lake, E., Jakobsen, P., Carniani, S., Smit, R., Maiolino, R., Witstok, J., Curti, M., D'Eugenio, F., Jones, G., Ferruit, P., Arribas, S., Charlot, S., Chevallard, J., Giardino, G., de Graaff, A., Looser, T., Lützgendorf, N., Maseda, M., Rawle, T., Rix, H., Del Pino, B., Alberts, S., Egami, E., Eisenstein, D., Endsley, R., Hainline, K., Hausen, R., Johnson, B., Rieke, G., Rieke, M., Robertson, B., Shivaei, I., Stark, D., Sun, F., Tacchella, S., Tang, M., Williams, C., Willmer, C., Baker, W., Baum, S., Bhatawdekar, R., Bowler, R., Boyett, K., Chen, Z., Circosta, C., Helton, J., Ji, Z., Kumari, N., Lyu, J., Nelson, E., Parlanti, E., Perna, M., Sandles, L., Scholtz, J., Suess, K., Topping, M., Übler, H., Wallace, I., Whitler, L., 2023, _Astronomy and Astrophysics_, [677, A88](https://doi.org/10.1051/0004-6361/202346159). 'JADES NIRSpec Spectroscopy of GN-z11: Lyman-α emission and possible enhanced nitrogen abundance in a z = 10.60 luminous galaxy' (455 citations).
 
