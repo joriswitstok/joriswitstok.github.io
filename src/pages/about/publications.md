@@ -5,14 +5,14 @@ layout: '~/layouts/MarkdownLayout.astro'
 ---
 
 ## Summary
-118 publications (91 refereed), of which 9 as first author. Metrics:
-- 125729 reads, 65510 downloads, 10208 citations
+117 publications (91 refereed), of which 9 as first author. Metrics:
+- 125729 reads, 65510 downloads, 10191 citations
 - h-index: 55, m-index: 11.0, g-index: 100
-- i10-index: 98, i100-index: 31, read10-index: 1716.2
+- i10-index: 97, i100-index: 31, read10-index: 1710.9
 - tori index: 3.1, riq index: 350.0
 
 Based on the [SAO/NASA Astrophysics Data System (ADS)](https://ui.adsabs.harvard.edu/).
-Last updated: 18 November, 2025.
+Last updated: 19 November, 2025.
 
 ## First author (9)
 
@@ -58,7 +58,7 @@ Last updated: 18 November, 2025.
 
 - Jones, G., Bunker, A., Saxena, A., Witstok, J., et al., 2024, _Astronomy and Astrophysics_, [683, A238](https://doi.org/10.1051/0004-6361/202347099). 'JADES: The emergence and evolution of Lyα emission and constraints on the intergalactic medium neutral fraction' (55 citations).
 
-## Other (98)
+## Other (97)
 
 - Geris, S., Maiolino, R., Isobe, Y., Scholtz, J., D'Eugenio, F., Ji, X., Juodžbalis, I., Simmonds, C., Dayal, P., Trinca, A., Schneider, R., Arribas, S., Bhatawdekar, R., Bunker, A., Carniani, S., Charlot, S., Chevallard, J., Curtis-Lake, E., Johnson, B., Parlanti, E., Rinaldi, P., Robertson, B., Tacchella, S., Übler, H., Venturi, G., Williams, C., Witstok, J., 2025, _Monthly Notices of the Royal Astronomical Society_, [in press](https://doi.org/10.1093/mnras/staf1979). 'JADES reveals a large population of low mass black holes at high redshift'.
 
@@ -107,8 +107,6 @@ Last updated: 18 November, 2025.
 - Scholtz, J., Silcock, M., Curtis-Lake, E., Maiolino, R., Carniani, S., D'Eugenio, F., Ji, X., Jakobsen, P., Hainline, K., Arribas, S., Baker, W., Bhatawdekar, R., Bunker, A., Charlot, S., Chevallard, J., Curti, M., Eisenstein, D., Isobe, Y., Jones, G., Parlanti, E., Pérez-González, P., Rinaldi, P., Robertson, B., Tacchella, S., Übler, H., Williams, C., Willott, C., Witstok, J., 2025, arXiv e-prints, [2507.17809](https://doi.org/10.48550/arXiv.2507.17809). 'JADES: Carbon-enhanced, Nitrogen-normal compact galaxy at z=11.2' (4 citations).
 
 - D'Eugenio, F., Juodžbalis, I., Ji, X., Scholtz, J., Maiolino, R., Carniani, S., Perna, M., Mazzolari, G., Übler, H., Arribas, S., Bhatawdekar, R., Bunker, A., Cresci, G., Curtis-Lake, E., Hainline, K., Inayoshi, K., Isobe, Y., Johnson, B., Jones, G., Looser, T., Nelson, E., Parlanti, E., Puskás, D., Rinaldi, P., Robertson, B., Rodríguez Del Pino, B., Shivaei, I., Sun, F., Tacchella, S., Venturi, G., Volonteri, M., Williams, C., Willmer, C., Willott, C., Witstok, J., 2025, arXiv e-prints, [2506.14870](https://doi.org/10.48550/arXiv.2506.14870). 'JADES and BlackTHUNDER: rest-frame Balmer-line absorption and the local environment in a Little Red Dot at z = 5' (23 citations).
-
-- Geris, S., Maiolino, R., Isobe, Y., Scholtz, J., D'Eugenio, F., Ji, X., Juodzbalis, I., Simmonds, C., Dayal, P., Trinca, A., Schneider, R., Arribas, S., Bhatawdekar, R., Bunker, A., Carniani, S., Charlot, S., Chevallard, J., Curtis-Lake, E., Johnson, B., Parlanti, E., Rinaldi, P., Robertson, B., Tacchella, S., Uebler, H., Venturi, G., Williams, C., Witstok, J., 2025, arXiv e-prints, [2506.22147](https://doi.org/10.48550/arXiv.2506.22147). 'JADES reveals a large population of low mass black holes at high redshift' (17 citations).
 
 - Helton, J., Alberts, S., Rieke, G., Hainline, K., Ji, Z., Rieke, M., Johnson, B., Robertson, B., Tacchella, S., Whitler, L., Baker, W., Bhatawdekar, R., Boyett, K., Bunker, A., Cargile, P., Carniani, S., Charlot, S., Chevallard, J., Curtis-Lake, E., Egami, E., Eisenstein, D., Hausen, R., Lyu, J., Maiolino, R., Nelson, E., Pérez-González, P., Rinaldi, P., Stone, M., Sun, F., Williams, C., Willmer, C., Willott, C., Witstok, J., 2025, arXiv e-prints, [2506.02099](https://doi.org/10.48550/arXiv.2506.02099). 'The Stellar Populations and Rest-Frame Colors of Star-Forming Galaxies at $z \approx 8$: Exploring the Impact of Filter Choice and Star Formation History Assumption with JADES' (1 citation).
 
