@@ -6,13 +6,13 @@ layout: '~/layouts/MarkdownLayout.astro'
 
 ## Summary
 120 publications (95 refereed), of which 9 as first author. Metrics:
-- 0 reads, 0 downloads, 10827 citations
+- 0 reads, 0 downloads, 10830 citations
 - h-index: 57, m-index: 9.5, g-index: 103
 - i10-index: 103, i100-index: 34, read10-index: 0.0
 - tori index: 2.8, riq index: 280.0
 
 Based on the [SAO/NASA Astrophysics Data System (ADS)](https://ui.adsabs.harvard.edu/).
-Last updated: 1 January, 2026.
+Last updated: 2 January, 2026.
 
 ## First author (9)
 
@@ -84,7 +84,7 @@ Last updated: 1 January, 2026.
 
 - Nikopoulos, G., Watson, D., Sneppen, A., Rusakov, V., Heintz, K., Witstok, J., Brammer, G., 2025, arXiv e-prints, [2510.06362](https://doi.org/10.48550/arXiv.2510.06362). 'Evidence of violation of Case B recombination in Little Red Dots' (5 citations).
 
-- Puskás, D., Tacchella, S., Simmonds, C., Jones, G., Juodžbalis, I., Scholtz, J., Baker, W., Bunker, A., Carniani, S., Curtis-Lake, E., Duan, Q., Eisenstein, D., Hainline, K., Johnson, B., Maiolino, R., Rieke, M., Robertson, B., Williams, C., Witstok, J., 2025, arXiv e-prints, [2510.14743](https://doi.org/10.48550/arXiv.2510.14743). 'Mergers lighting the early Universe: enhanced star formation, AGN triggering, and Ly$α$ emission in close pairs at $z=3-9$'.
+- Puskás, D., Tacchella, S., Simmonds, C., Jones, G., Juodžbalis, I., Scholtz, J., Baker, W., Bunker, A., Carniani, S., Curtis-Lake, E., Duan, Q., Eisenstein, D., Hainline, K., Johnson, B., Maiolino, R., Rieke, M., Robertson, B., Williams, C., Witstok, J., 2025, arXiv e-prints, [2510.14743](https://doi.org/10.48550/arXiv.2510.14743). 'Mergers lighting the early Universe: enhanced star formation, AGN triggering, and Ly$α$ emission in close pairs at $z=3-9$' (1 citation).
 
 - Rowland, L., Heintz, K., Algera, H., Stefanon, M., Hodge, J., Bouwens, R., Aravena, M., da Cunha, E., Dayal, P., Ferrara, A., Fisher, R., González, V., Inami, H., Komarova, O., de Looze, I., Nanayakkara, T., Ormerod, K., Pallottini, A., Pollock, C., Smit, R., van der Werf, P., Witstok, J., 2025, arXiv e-prints, [2510.11351](https://doi.org/10.48550/arXiv.2510.11351). 'REBELS-IFU: Linking damped Lyman-$α$ absorption to [CII] emission and dust content in the EoR' (3 citations).
 
@@ -106,7 +106,7 @@ Last updated: 1 January, 2026.
 
 - Ji, X., Maiolino, R., Ferland, G., D'Eugenio, F., Bhatawdekar, R., Charlot, S., Chevallard, J., Curti, M., Curtis-Lake, E., Hainline, K., Ji, Z., Robertson, B., Rodríguez Del Pino, B., Scholtz, J., Tacchella, S., Williams, C., Witstok, J., 2025, _Monthly Notices of the Royal Astronomical Society_, [541, 2134](https://doi.org/10.1093/mnras/staf1083). 'JADES – the small blue bump in GN-z11: insights into the nuclear region of a galaxy at z = 10.6' (22 citations).
 
-- Ji, Z., Alberts, S., Zhu, Y., Vanzella, E., Giavalisco, M., Hainline, K., Baker, W., Bunker, A., Helton, J., Lyu, J., Rinaldi, P., Robertson, B., Simmonds, C., Tacchella, S., Williams, C., Willmer, C., Witstok, J., 2025, _The Astrophysical Journal Letters_, [988, L69](https://doi.org/10.3847/2041-8213/adf194). 'The Importance of Dust Distribution in Ionizing-photon Escape: NIRCam and MIRI Imaging of a Lyman Continuum-emitting Galaxy at z ∼ 3.8' (6 citations).
+- Ji, Z., Alberts, S., Zhu, Y., Vanzella, E., Giavalisco, M., Hainline, K., Baker, W., Bunker, A., Helton, J., Lyu, J., Rinaldi, P., Robertson, B., Simmonds, C., Tacchella, S., Williams, C., Willmer, C., Witstok, J., 2025, _The Astrophysical Journal Letters_, [988, L69](https://doi.org/10.3847/2041-8213/adf194). 'The Importance of Dust Distribution in Ionizing-photon Escape: NIRCam and MIRI Imaging of a Lyman Continuum-emitting Galaxy at z ∼ 3.8' (7 citations).
 
 - Juodžbalis, I., Marconcini, C., D'Eugenio, F., Maiolino, R., Marconi, A., Übler, H., Scholtz, J., Ji, X., Arribas, S., Bennett, J., Bromm, V., Bunker, A., Carniani, S., Charlot, S., Cresci, G., Dayal, P., Egami, E., Fabian, A., Inayoshi, K., Isobe, Y., Ivey, L., Jones, G., Koudmani, S., Laporte, N., Liu, B., Lyu, J., Mazzolari, G., Monty, S., Parlanti, E., Pérez-González, P., Perna, M., Robertson, B., Schneider, R., Sijacki, D., Tacchella, S., Trinca, A., Valiante, R., Volonteri, M., Witstok, J., Zhang, S., 2025, arXiv e-prints, [2508.21748](https://doi.org/10.48550/arXiv.2508.21748). 'A direct black hole mass measurement in a Little Red Dot at the Epoch of Reionization' (31 citations).
 
@@ -138,15 +138,15 @@ Last updated: 1 January, 2026.
 
 - Scholtz, J., Maiolino, R., D'Eugenio, F., Curtis-Lake, E., Carniani, S., Charlot, S., Curti, M., Silcock, M., Arribas, S., Baker, W., Bhatawdekar, R., Boyett, K., Bunker, A., Chevallard, J., Circosta, C., Eisenstein, D., Hainline, K., Hausen, R., Ji, X., Ji, Z., Johnson, B., Kumari, N., Looser, T., Lyu, J., Maseda, M., Parlanti, E., Perna, M., Rieke, M., Robertson, B., Del Pino, B., Sun, F., Tacchella, S., Übler, H., Venturi, G., Williams, C., Willmer, C., Willott, C., Witstok, J., 2025, _Astronomy and Astrophysics_, [697, A175](https://doi.org/10.1051/0004-6361/202348804). 'JADES: A large population of obscured, narrow-line active galactic nuclei at high redshift' (167 citations).
 
-- Carniani, S., D'Eugenio, F., Ji, X., Parlanti, E., Scholtz, J., Sun, F., Venturi, G., Bakx, T., Curti, M., Maiolino, R., Tacchella, S., Zavala, J., Hainline, K., Witstok, J., Johnson, B., Alberts, S., Bunker, A., Charlot, S., Eisenstein, D., Helton, J., Jakobsen, P., Kumari, N., Robertson, B., Saxena, A., Übler, H., Williams, C., Willmer, C., Willott, C., 2025, _Astronomy and Astrophysics_, [696, A87](https://doi.org/10.1051/0004-6361/202452451). 'The eventful life of a luminous galaxy at z = 14: metal enrichment, feedback, and low gas fraction?' (74 citations).
+- Carniani, S., D'Eugenio, F., Ji, X., Parlanti, E., Scholtz, J., Sun, F., Venturi, G., Bakx, T., Curti, M., Maiolino, R., Tacchella, S., Zavala, J., Hainline, K., Witstok, J., Johnson, B., Alberts, S., Bunker, A., Charlot, S., Eisenstein, D., Helton, J., Jakobsen, P., Kumari, N., Robertson, B., Saxena, A., Übler, H., Williams, C., Willmer, C., Willott, C., 2025, _Astronomy and Astrophysics_, [696, A87](https://doi.org/10.1051/0004-6361/202452451). 'The eventful life of a luminous galaxy at z = 14: metal enrichment, feedback, and low gas fraction?' (75 citations).
 
 - Fudamoto, Y., Inoue, A., Bouwens, R., Inami, H., Smit, R., Stark, D., Aravena, M., Pallottini, A., Hashimoto, T., Oguri, M., Bowler, R., da Cunha, E., Dayal, P., Ferrara, A., Fujimoto, S., Heintz, K., Hygate, A., van Leeuwen, I., De Looze, I., Rowland, L., Stefanon, M., Sugahara, Y., Witstok, J., van der Werf, P., 2025, arXiv e-prints, [2504.03831](https://doi.org/10.48550/arXiv.2504.03831). 'ALMA Observations of [OI]145um and [NII]205um Emission lines from Star-Forming Galaxies at $z\sim7$' (9 citations).
 
 - Perna, M., Arribas, S., Lamperti, I., Circosta, C., Bertola, E., Pérez-González, P., D'Eugenio, F., Übler, H., Cresci, G., Volonteri, M., Mannucci, F., Maiolino, R., Rodríguez Del Pino, B., Böker, T., Bunker, A., Charlot, S., Willott, C., Carniani, S., Curti, M., Jones, G., Kumari, N., Marshall, M., Venturi, G., Saxena, A., Scholtz, J., Witstok, J., 2025, _Astronomy and Astrophysics_, [696, A59](https://doi.org/10.1051/0004-6361/202453430). 'GA-NIFS: High number of dual active galactic nuclei at z ∼ 3' (57 citations).
 
-- D'Eugenio, F., Cameron, A., Scholtz, J., Carniani, S., Willott, C., Curtis-Lake, E., Bunker, A., Parlanti, E., Maiolino, R., Willmer, C., Jakobsen, P., Robertson, B., Johnson, B., Tacchella, S., Cargile, P., Rawle, T., Arribas, S., Chevallard, J., Curti, M., Egami, E., Eisenstein, D., Kumari, N., Looser, T., Rieke, M., Rodríguez Del Pino, B., Saxena, A., Übler, H., Venturi, G., Witstok, J., Baker, W., Bhatawdekar, R., Bonaventura, N., Boyett, K., Charlot, S., Danhaive, A., Hainline, K., Hausen, R., Helton, J., Ji, X., Ji, Z., Jones, G., Juodžbalis, I., Maseda, M., Pérez-González, P., Perna, M., Puskás, D., Shivaei, I., Silcock, M., Simmonds, C., Smit, R., Sun, F., Villanueva, N., Williams, C., Zhu, Y., 2025, _The Astrophysical Journal Supplement Series_, [277, 4](https://doi.org/10.3847/1538-4365/ada148). 'JADES Data Release 3: NIRSpec/Microshutter Assembly Spectroscopy for 4000 Galaxies in the GOODS Fields' (208 citations).
-
 - D'Eugenio, F., Maiolino, R., Perna, M., Uebler, H., Ji, X., McClymont, W., Koudmani, S., Sijacki, D., Juodžbalis, I., Scholtz, J., Bennett, J., Bunker, A., Carniani, S., Charlot, S., Cresci, G., Curtis-Lake, E., Dalla Bontà, E., Jones, G., Lyu, J., Marconi, A., Mazzolari, G., Nelson, E., Parlanti, E., Robertson, B., Schneider, R., Simmonds, C., Tacchella, S., Venturi, G., Willott, C., Witstok, J., Witten, C., 2025, arXiv e-prints, [2503.11752](https://doi.org/10.48550/arXiv.2503.11752). 'BlackTHUNDER strikes twice: rest-frame Balmer-line absorption and high Eddington accretion rate in a Little Red Dot at $z=7.04$' (50 citations).
+
+- D'Eugenio, F., Cameron, A., Scholtz, J., Carniani, S., Willott, C., Curtis-Lake, E., Bunker, A., Parlanti, E., Maiolino, R., Willmer, C., Jakobsen, P., Robertson, B., Johnson, B., Tacchella, S., Cargile, P., Rawle, T., Arribas, S., Chevallard, J., Curti, M., Egami, E., Eisenstein, D., Kumari, N., Looser, T., Rieke, M., Rodríguez Del Pino, B., Saxena, A., Übler, H., Venturi, G., Witstok, J., Baker, W., Bhatawdekar, R., Bonaventura, N., Boyett, K., Charlot, S., Danhaive, A., Hainline, K., Hausen, R., Helton, J., Ji, X., Ji, Z., Jones, G., Juodžbalis, I., Maseda, M., Pérez-González, P., Perna, M., Puskás, D., Shivaei, I., Silcock, M., Simmonds, C., Smit, R., Sun, F., Villanueva, N., Williams, C., Zhu, Y., 2025, _The Astrophysical Journal Supplement Series_, [277, 4](https://doi.org/10.3847/1538-4365/ada148). 'JADES Data Release 3: NIRSpec/Microshutter Assembly Spectroscopy for 4000 Galaxies in the GOODS Fields' (208 citations).
 
 - Rusakov, V., Watson, D., Nikopoulos, G., Brammer, G., Gottumukkala, R., Harvey, T., Heintz, K., Nielsen, R., Sim, S., Sneppen, A., Vijayan, A., Adams, N., Austin, D., Conselice, C., Goolsby, C., Toft, S., Witstok, J., 2025, arXiv e-prints, [2503.16595](https://doi.org/10.48550/arXiv.2503.16595). 'JWST's little red dots: an emerging population of young, low-mass AGN cocooned in dense ionized gas' (91 citations).
 
