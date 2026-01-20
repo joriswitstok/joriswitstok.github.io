@@ -10,9 +10,55 @@ const metadata = {
 
 <Layout metadata={metadata}>
   <!-- Content Widget **************** -->
-
   <Content
     title="News & Media highlights"
+    id="Electron-scattering"
+    columns={2}
+    items={[
+      {
+        icon: 'tabler:news',
+        callToAction: {
+          text: 'Niels Bohr Institute press release',
+          href: 'https://nbi.ku.dk/english/news/news26/copenhagen-researchers-make-the-front-page-of-nature-solving-the-mystery-of-the-universes-little-red-dots/',
+          target: '_blank',
+        },
+      },
+      {
+        icon: 'tabler:notebook',
+        callToAction: {
+          text: 'Publication (open access)',
+          href: 'https://doi.org/10.1038/s41586-025-09900-4',
+          target: '_blank',
+        },
+      },
+    ]}
+    image={{
+      src: '~/assets/images/Nature_cover.jpg',
+      alt: 'Nature-cover',
+      loading: 'eager',
+    }}
+  >
+    <Fragment slot="content">
+      <h2 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">A new perspective on the mysterious 'little red dots'</h2>
+      <p>
+        <em>Enigmatic small red sources, thought to be infant supermassive black holes, are slowly starting to be unveiled by JWST.</em>
+      </p>
+      <br/>
+      <p>
+        A study led by Vadim Rusakov, which features on the cover of Nature Magazine, presents a new interpretation of their unusual characteristics. It
+        reinforces the view that supermassive black holes are in fact the engines behind little red dots, but also implies that they are 'cocooned' in a hot,
+        dense plasma. This fuzzy curtain of free electrons may be misleading us into thinking the black holes could be as much as 100 times more massive. The
+        results are published in <a href="https://doi.org/10.1038/s41586-025-08779-5" target="_blank">Rusakov et al. (2026), <em>Nature</em>, 649, 574</a>.
+      </p>
+      <br/>
+      <p>
+        <span class="text-xs text-muted">Image credit: V. Rusakov/Nature/The CEERS Survey/The JADES Survey/PRIMER/The UNCOVER survey/DAWN JWST Archive.</span>
+      </p>
+    </Fragment>
+  </Content>
+
+  <!-- Content Widget **************** -->
+  <Content
     id="GS-z13-1"
     columns={2}
     isReversed
@@ -100,6 +146,10 @@ const metadata = {
       <p>
         <span class="text-xs text-muted">Image credit: ESA/Webb, NASA, STScI, CSA, JADES Collaboration, Brant Robertson (UC Santa Cruz), Ben Johnson (CfA), Sandro Tacchella (Cambridge), Phill Cargile (CfA), J. Witstok (DAWN), P. Jakobsen (DAWN), A. Pagan (STScI), M. Zamani (ESA/Webb).</span>
       </p>
+    </Fragment>
+
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
     </Fragment>
   </Content>
 
