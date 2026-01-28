@@ -5,14 +5,14 @@ layout: '~/layouts/MarkdownLayout.astro'
 ---
 
 ## Summary
-128 publications (100 refereed), of which 10 as first author. Metrics:
-- 135767 reads, 70225 downloads, 11273 citations
+127 publications (100 refereed), of which 10 as first author. Metrics:
+- 135829 reads, 70245 downloads, 11273 citations
 - h-index: 59, m-index: 9.8, g-index: 105
-- i10-index: 105, i100-index: 36, read10-index: 1303.8
-- tori index: 3.2, riq index: 299.0
+- i10-index: 105, i100-index: 36, read10-index: 1282.7
+- tori index: 4.1, riq index: 338.0
 
 Based on the [SAO/NASA Astrophysics Data System (ADS)](https://ui.adsabs.harvard.edu/).
-Last updated: 27 January, 2026.
+Last updated: 28 January, 2026.
 
 ## First author (10)
 
@@ -60,7 +60,7 @@ Last updated: 27 January, 2026.
 
 - Jones, G., Bunker, A., Saxena, A., Witstok, J., et al., 2024, _Astronomy and Astrophysics_, [683, A238](https://doi.org/10.1051/0004-6361/202347099). 'JADES: The emergence and evolution of Lyα emission and constraints on the intergalactic medium neutral fraction' (59 citations).
 
-## Other (107)
+## Other (106)
 
 - Cameron, A., Carreira, C., Simmonds, C., Bunker, A., Saxena, A., Carniani, S., Charlot, S., Chevallard, J., Curtis-Lake, E., Hainline, K., Hausen, R., Ji, X., Ji, Z., Johnson, B., Rinaldi, P., Robertson, B., Scholtz, J., Silcock, M., Tacchella, S., Trussler, J., Übler, H., Williams, C., Willmer, C., Willott, C., Witstok, J., 2026, arXiv e-prints, [2601.15964](https://doi.org/10.48550/arXiv.2601.15964). 'JADES: Evolution of nitrogen abundances in star-forming galaxies from z ~ 1.5-7'.
 
@@ -72,7 +72,7 @@ Last updated: 27 January, 2026.
 
 - Heintz, K., Bennett, J., Oesch, P., Sneppen, A., Rennehan, D., Pollock, C., Witstok, J., Smit, R., Vejlgaard, S., Terp, C., Koca, U., Brammer, G., Finlator, K., Hayes, M., Sijacki, D., Naidu, R., Matthee, J., Valentino, F., Tanvir, N., Jakobsson, P., Laursen, P., Watson, D., Davé, R., Keating, L., Covelo-Paz, A., 2026, _Nature Astronomy_, [in press](https://doi.org/10.1038/s41550-025-02745-x). 'A dense web of neutral gas in a galaxy proto-cluster post-reionization'.
 
-- Isobe, Y., Maiolino, R., Ji, X., D'Eugenio, F., Simmonds, C., Scholtz, J., Juodžbalis, I., Saxena, A., Witstok, J., Kobayashi, C., Vanni, I., Salvadori, S., Watanabe, K., Monty, S., Belokurov, V., Feltre, A., McClymont, W., Tacchella, S., Curti, M., Übler, H., Charlot, S., Bunker, A., Chevallard, J., Curtis-Lake, E., Kumari, N., Rinaldi, P., Robertson, B., Williams, C., Willott, C., 2026, _Monthly Notices of the Royal Astronomical Society_, [in press](https://doi.org/10.1093/mnras/stag123). 'JADES: the chemical enrichment pattern of distant galaxies - α enhancement, silicon depletion, and iron enhancement'.
+- Isobe, Y., Maiolino, R., Ji, X., D'Eugenio, F., Simmonds, C., Scholtz, J., Juodžbalis, I., Saxena, A., Witstok, J., Kobayashi, C., Vanni, I., Salvadori, S., Watanabe, K., Monty, S., Belokurov, V., Feltre, A., McClymont, W., Tacchella, S., Curti, M., Übler, H., Charlot, S., Bunker, A., Chevallard, J., Curtis-Lake, E., Kumari, N., Rinaldi, P., Robertson, B., Williams, C., Willott, C., 2026, _Monthly Notices of the Royal Astronomical Society_, [in press](https://doi.org/10.1093/mnras/stag123). 'JADES: the chemical enrichment pattern of distant galaxies - α enhancement, silicon depletion, and iron enhancement' (5 citations).
 
 - Rusakov, V., Watson, D., Nikopoulos, G., Brammer, G., Gottumukkala, R., Harvey, T., Heintz, K., Damgaard, R., Sim, S., Sneppen, A., Vijayan, A., Adams, N., Austin, D., Conselice, C., Goolsby, C., Toft, S., Witstok, J., 2026, _Nature_, [649, 574](https://doi.org/10.1038/s41586-025-09900-4). 'Little red dots as young supermassive black holes in dense ionized cocoons' (1 citation).
 
@@ -115,8 +115,6 @@ Last updated: 27 January, 2026.
 - Wu, Z., Eisenstein, D., Johnson, B., Jakobsen, P., Alberts, S., Arribas, S., Baker, W., Bunker, A., Carniani, S., Charlot, S., Chevallard, J., Curti, M., Curtis-Lake, E., D'Eugenio, F., Hainline, K., Helton, J., Hsiao, T., Ji, X., Ji, Z., Looser, T., Rieke, G., Rinaldi, P., Robertson, B., Scholtz, J., Sun, F., Tacchella, S., Trussler, J., Williams, C., Willmer, C., Willott, C., Witstok, J., Zhu, Y., 2025, _The Astrophysical Journal_, [992, 212](https://doi.org/10.3847/1538-4357/ae01a1). 'JADES-GS-z14-1: A Compact, Faint Galaxy at z ≈ 14 with Weak Metal Lines from Extremely Deep JWST MIRI, NIRCam, and NIRSpec Observations' (10 citations).
 
 - Algera, H., Rowland, L., Smit, R., Fisher, R., Ramambason, L., Kumari, N., Vallini, L., Inami, H., Nanayakkara, T., Stefanon, M., Aravena, M., Bakx, T., Bouwens, R., Bowler, R., Cescon, K., Chen, C., Dayal, P., De Looze, I., Ferrara, A., Fudamoto, Y., Komarova, L., van Leeuwen, I., Ormerod, K., Schouws, S., Sommovigo, L., Vijayan, A., Wang, W., van der Werf, P., Witstok, J., 2025, arXiv e-prints, [2509.16071](https://doi.org/10.48550/arXiv.2509.16071). 'REBELS-IFU: on the origin of the elevated [OIII]/[CII] ratios in the early Universe' (4 citations).
-
-- Isobe, Y., Maiolino, R., Ji, X., D'Eugenio, F., Simmonds, C., Scholtz, J., Juodžbalis, I., Saxena, A., Witstok, J., Kobayashi, C., Vanni, I., Salvadori, S., Watanabe, K., Monty, S., Belokurov, V., Feltre, A., McClymont, W., Tacchella, S., Curti, M., Übler, H., Charlot, S., Bunker, A., Chevallard, J., Curtis-Lake, E., Kumari, N., Rinaldi, P., Robertson, B., Williams, C., Willott, C., 2025, arXiv e-prints, [2509.18055](https://doi.org/10.48550/arXiv.2509.18055). 'JADES: the chemical enrichment pattern of distant galaxies -- $α$ enhancement, silicon depletion, and iron enhancement' (5 citations).
 
 - Shivaei, I., Naidu, R., Rodríguez Montero, F., Matsumoto, K., Leja, J., Matthee, J., Johnson, B., Oesch, P., Chevallard, J., Adamo, A., Bodansky, S., Bunker, A., Covelo Paz, A., Di Cesare, C., Egami, E., Furtak, L., Heintz, K., Kramarenko, I., Meyer, R., Reddy, N., Rinaldi, P., Tacchella, S., Torralba, A., Witstok, J., Wozniak, M., Xiao, M., 2025, arXiv e-prints, [2509.01795](https://doi.org/10.48550/arXiv.2509.01795). 'The Diversity and Evolution of Dust Attenuation Curves from Redshift z ~ 1 to 9' (14 citations).
 
@@ -258,9 +256,9 @@ Last updated: 27 January, 2026.
 
 - Simmonds, C., Tacchella, S., Maseda, M., Williams, C., Baker, W., Witten, C., Johnson, B., Robertson, B., Saxena, A., Sun, F., Witstok, J., Bhatawdekar, R., Boyett, K., Bunker, A., Charlot, S., Curtis-Lake, E., Egami, E., Eisenstein, D., Ji, Z., Maiolino, R., Sandles, L., Smit, R., Übler, H., Willott, C., 2023, _Monthly Notices of the Royal Astronomical Society_, [523, 5468](https://doi.org/10.1093/mnras/stad1749). 'The ionizing photon production efficiency at z ~ 6 for Lyman-alpha emitters using JEMS and MUSE' (72 citations).
 
-- Tacchella, S., Johnson, B., Robertson, B., Carniani, S., D'Eugenio, F., Kumari, N., Maiolino, R., Nelson, E., Suess, K., Übler, H., Williams, C., Adebusola, A., Alberts, S., Arribas, S., Bhatawdekar, R., Bonaventura, N., Bowler, R., Bunker, A., Cameron, A., Curti, M., Egami, E., Eisenstein, D., Frye, B., Hainline, K., Helton, J., Ji, Z., Looser, T., Lyu, J., Perna, M., Rawle, T., Rieke, G., Rieke, M., Saxena, A., Sandles, L., Shivaei, I., Simmonds, C., Sun, F., Willmer, C., Willott, C., Witstok, J., 2023, _Monthly Notices of the Royal Astronomical Society_, [522, 6236](https://doi.org/10.1093/mnras/stad1408). 'JWST NIRCam + NIRSpec: interstellar medium and stellar populations of young galaxies with rising star formation and evolving gas reservoirs' (170 citations).
-
 - Tacchella, S., Eisenstein, D., Hainline, K., Johnson, B., Baker, W., Helton, J., Robertson, B., Suess, K., Chen, Z., Nelson, E., Puskás, D., Sun, F., Alberts, S., Egami, E., Hausen, R., Rieke, G., Rieke, M., Shivaei, I., Williams, C., Willmer, C., Bunker, A., Cameron, A., Carniani, S., Charlot, S., Curti, M., Curtis-Lake, E., Looser, T., Maiolino, R., Maseda, M., Rawle, T., Rix, H., Smit, R., Übler, H., Willott, C., Witstok, J., Baum, S., Bhatawdekar, R., Boyett, K., Danhaive, A., de Graaff, A., Endsley, R., Ji, Z., Lyu, J., Sandles, L., Saxena, A., Scholtz, J., Topping, M., Whitler, L., 2023, _The Astrophysical Journal_, [952, 74](https://doi.org/10.3847/1538-4357/acdbc6). 'JADES Imaging of GN-z11: Revealing the Morphology and Environment of a Luminous Galaxy 430 Myr after the Big Bang' (187 citations).
+
+- Tacchella, S., Johnson, B., Robertson, B., Carniani, S., D'Eugenio, F., Kumari, N., Maiolino, R., Nelson, E., Suess, K., Übler, H., Williams, C., Adebusola, A., Alberts, S., Arribas, S., Bhatawdekar, R., Bonaventura, N., Bowler, R., Bunker, A., Cameron, A., Curti, M., Egami, E., Eisenstein, D., Frye, B., Hainline, K., Helton, J., Ji, Z., Looser, T., Lyu, J., Perna, M., Rawle, T., Rieke, G., Rieke, M., Saxena, A., Sandles, L., Shivaei, I., Simmonds, C., Sun, F., Willmer, C., Willott, C., Witstok, J., 2023, _Monthly Notices of the Royal Astronomical Society_, [522, 6236](https://doi.org/10.1093/mnras/stad1408). 'JWST NIRCam + NIRSpec: interstellar medium and stellar populations of young galaxies with rising star formation and evolving gas reservoirs' (170 citations).
 
 - Eisenstein, D., Willott, C., Alberts, S., Arribas, S., Bonaventura, N., Bunker, A., Cameron, A., Carniani, S., Charlot, S., Curtis-Lake, E., D'Eugenio, F., Ferruit, P., Giardino, G., Hainline, K., Hausen, R., Jakobsen, P., Johnson, B., Maiolino, R., Rauscher, B., Rieke, M., Rieke, G., Rix, H., Robertson, B., Stark, D., Tacchella, S., Williams, C., Willmer, C., Baker, W., Baum, S., Bhatawdekar, R., Boyett, K., Chen, Z., Chevallard, J., Circosta, C., Curti, M., Danhaive, A., DeCoursey, C., Endsley, R., de Graaff, A., Dressler, A., Egami, E., Helton, J., Hviding, R., Ji, Z., Jones, G., Kumari, N., Lützgendorf, N., Laseter, I., Looser, T., Lyu, J., Maseda, M., Nelson, E., Parlanti, E., Perna, M., Puskás, D., Rawle, T., Rodríguez Del Pino, B., Rujopakarn, W., Sandles, L., Saxena, A., Scholtz, J., Sharpe, K., Shivaei, I., Silcock, M., Simmonds, C., Skarbinski, M., Smit, R., Stone, M., Suess, K., Sun, F., Tang, M., Topping, M., Übler, H., Villanueva, N., Wallace, I., Whitler, L., Witstok, J., Woodrum, C., 2023, arXiv e-prints, [2306.02465](https://doi.org/10.48550/arXiv.2306.02465). 'Overview of the JWST Advanced Deep Extragalactic Survey (JADES)' (505 citations).
 
