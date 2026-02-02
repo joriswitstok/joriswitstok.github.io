@@ -31,7 +31,7 @@ assert all([bibcode in bibcodes for bibcode in exclude_bibcodes])
 
 # Retrieve total number of publication records
 query_pub = query_all.copy()
-query_pub['q'] += " bibstem:(-jwst.prop) (-yCat) (-AAS) (-eas..conf) (-hst..prop) (-Obs)"
+query_pub['q'] += " bibstem:(-jwst.prop) (-yCat) (-AAS) (-eas..conf) (-hst..prop) (-IAUS) (-Obs)"
 query_pub["fl"] = "bibcode,author,title,bibstem,volume,page,year,doi,citation_count"
 query_pub["sort"] = "date desc,first_author asc"
 publications = requests.get(get_query_url(query_pub), headers=headers).json()
