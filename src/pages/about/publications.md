@@ -6,13 +6,13 @@ layout: '~/layouts/MarkdownLayout.astro'
 
 ## Summary
 127 publications (100 refereed), of which 9 as first author. Metrics:
-- 138083 reads, 71303 downloads, 11580 citations
+- 138208 reads, 71358 downloads, 11583 citations
 - h-index: 59, m-index: 9.8, g-index: 107
-- i10-index: 105, i100-index: 38, read10-index: 1563.9
-- tori index: 3.1, riq index: 294.0
+- i10-index: 105, i100-index: 38, read10-index: 1568.2
+- tori index: 3.1, riq index: 292.0
 
 Based on the [SAO/NASA Astrophysics Data System (ADS)](https://ui.adsabs.harvard.edu/).
-Last updated: 14 February, 2026.
+Last updated: 15 February, 2026.
 
 ## First author (9)
 
@@ -252,7 +252,7 @@ Last updated: 14 February, 2026.
 
 - Cameron, A., Saxena, A., Bunker, A., D'Eugenio, F., Carniani, S., Maiolino, R., Curtis-Lake, E., Ferruit, P., Jakobsen, P., Arribas, S., Bonaventura, N., Charlot, S., Chevallard, J., Curti, M., Looser, T., Maseda, M., Rawle, T., Rodríguez Del Pino, B., Smit, R., Übler, H., Willott, C., Witstok, J., Egami, E., Eisenstein, D., Johnson, B., Hainline, K., Rieke, M., Robertson, B., Stark, D., Tacchella, S., Williams, C., Willmer, C., Bhatawdekar, R., Bowler, R., Boyett, K., Circosta, C., Helton, J., Jones, G., Kumari, N., Ji, Z., Nelson, E., Parlanti, E., Sandles, L., Scholtz, J., Sun, F., 2023, _Astronomy and Astrophysics_, [677, A115](https://doi.org/10.1051/0004-6361/202346107). 'JADES: Probing interstellar medium conditions at z ∼ 5.5-9.5 with ultra-deep JWST/NIRSpec spectroscopy' (204 citations).
 
-- Schouws, S., Bouwens, R., Smit, R., Hodge, J., Stefanon, M., Witstok, J., Hilhorst, J., Labbé, I., Algera, H., Boogaard, L., Maseda, M., Oesch, P., Röttgering, H., van der Werf, P., 2023, _The Astrophysical Journal_, [954, 103](https://doi.org/10.3847/1538-4357/ace10c). 'ALMA as a Redshift Machine: Using [C II] to Efficiently Confirm Galaxies in the Epoch of Reionization' (41 citations).
+- Schouws, S., Bouwens, R., Smit, R., Hodge, J., Stefanon, M., Witstok, J., Hilhorst, J., Labbé, I., Algera, H., Boogaard, L., Maseda, M., Oesch, P., Röttgering, H., van der Werf, P., 2023, _The Astrophysical Journal_, [954, 103](https://doi.org/10.3847/1538-4357/ace10c). 'ALMA as a Redshift Machine: Using [C II] to Efficiently Confirm Galaxies in the Epoch of Reionization' (42 citations).
 
 - Simmonds, C., Tacchella, S., Maseda, M., Williams, C., Baker, W., Witten, C., Johnson, B., Robertson, B., Saxena, A., Sun, F., Witstok, J., Bhatawdekar, R., Boyett, K., Bunker, A., Charlot, S., Curtis-Lake, E., Egami, E., Eisenstein, D., Ji, Z., Maiolino, R., Sandles, L., Smit, R., Übler, H., Willott, C., 2023, _Monthly Notices of the Royal Astronomical Society_, [523, 5468](https://doi.org/10.1093/mnras/stad1749). 'The ionizing photon production efficiency at z ~ 6 for Lyman-alpha emitters using JEMS and MUSE' (73 citations).
 
@@ -268,8 +268,8 @@ Last updated: 14 February, 2026.
 
 - Curti, M., D'Eugenio, F., Carniani, S., Maiolino, R., Sandles, L., Witstok, J., Baker, W., Bennett, J., Piotrowska, J., Tacchella, S., Charlot, S., Nakajima, K., Maheson, G., Mannucci, F., Amiri, A., Arribas, S., Belfiore, F., Bonaventura, N., Bunker, A., Chevallard, J., Cresci, G., Curtis-Lake, E., Hayden-Pawson, C., Jones, G., Kumari, N., Laseter, I., Looser, T., Marconi, A., Maseda, M., Scholtz, J., Smit, R., Übler, H., Wallace, I., 2023, _Monthly Notices of the Royal Astronomical Society_, [518, 425](https://doi.org/10.1093/mnras/stac2737). 'The chemical enrichment in the early Universe as probed by JWST via direct metallicity measurements at z ∼ 8' (309 citations).
 
-- Katz, H., Saxena, A., Cameron, A., Carniani, S., Bunker, A., Arribas, S., Bhatawdekar, R., Bowler, R., Boyett, K., Cresci, G., Curtis-Lake, E., D'Eugenio, F., Kumari, N., Looser, T., Maiolino, R., Übler, H., Willott, C., Witstok, J., 2023, _Monthly Notices of the Royal Astronomical Society_, [518, 592](https://doi.org/10.1093/mnras/stac2657). 'First insights into the ISM at z &gt; 8 with JWST: possible physical implications of a high [O III] λ4363/[O III] λ5007' (92 citations).
+- Katz, H., Saxena, A., Cameron, A., Carniani, S., Bunker, A., Arribas, S., Bhatawdekar, R., Bowler, R., Boyett, K., Cresci, G., Curtis-Lake, E., D'Eugenio, F., Kumari, N., Looser, T., Maiolino, R., Übler, H., Willott, C., Witstok, J., 2023, _Monthly Notices of the Royal Astronomical Society_, [518, 592](https://doi.org/10.1093/mnras/stac2657). 'First insights into the ISM at z &gt; 8 with JWST: possible physical implications of a high [O III] λ4363/[O III] λ5007' (93 citations).
 
 - Robertson, B., Tacchella, S., Johnson, B., Hausen, R., Alabi, A., Boyett, K., Bunker, A., Carniani, S., Egami, E., Eisenstein, D., Hainline, K., Helton, J., Ji, Z., Kumari, N., Lyu, J., Maiolino, R., Nelson, E., Rieke, M., Shivaei, I., Sun, F., Übler, H., Williams, C., Willmer, C., Witstok, J., 2023, _The Astrophysical Journal Letters_, [942, L42](https://doi.org/10.3847/2041-8213/aca086). 'Morpheus Reveals Distant Disk Galaxy Morphologies with JWST: The First AI/ML Analysis of JWST Images' (83 citations).
 
-- Bouwens, R., Smit, R., Schouws, S., Stefanon, M., Bowler, R., Endsley, R., Gonzalez, V., Inami, H., Stark, D., Oesch, P., Hodge, J., Aravena, M., da Cunha, E., Dayal, P., de Looze, I., Ferrara, A., Fudamoto, Y., Graziani, L., Li, C., Nanayakkara, T., Pallottini, A., Schneider, R., Sommovigo, L., Topping, M., van der Werf, P., Algera, H., Barrufet, L., Hygate, A., Labbé, I., Riechers, D., Witstok, J., 2022, _The Astrophysical Journal_, [931, 160](https://doi.org/10.3847/1538-4357/ac5a4a). 'Reionization Era Bright Emission Line Survey: Selection and Characterization of Luminous Interstellar Medium Reservoirs in the z &gt; 6.5 Universe' (244 citations).
+- Bouwens, R., Smit, R., Schouws, S., Stefanon, M., Bowler, R., Endsley, R., Gonzalez, V., Inami, H., Stark, D., Oesch, P., Hodge, J., Aravena, M., da Cunha, E., Dayal, P., de Looze, I., Ferrara, A., Fudamoto, Y., Graziani, L., Li, C., Nanayakkara, T., Pallottini, A., Schneider, R., Sommovigo, L., Topping, M., van der Werf, P., Algera, H., Barrufet, L., Hygate, A., Labbé, I., Riechers, D., Witstok, J., 2022, _The Astrophysical Journal_, [931, 160](https://doi.org/10.3847/1538-4357/ac5a4a). 'Reionization Era Bright Emission Line Survey: Selection and Characterization of Luminous Interstellar Medium Reservoirs in the z &gt; 6.5 Universe' (245 citations).
