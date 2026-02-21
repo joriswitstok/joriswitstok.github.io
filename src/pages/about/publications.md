@@ -6,13 +6,13 @@ layout: '~/layouts/MarkdownLayout.astro'
 
 ## Summary
 127 publications (102 refereed), of which 9 as first author. Metrics:
-- 138654 reads, 71566 downloads, 11672 citations
+- 138799 reads, 71641 downloads, 11677 citations
 - h-index: 59, m-index: 9.8, g-index: 107
-- i10-index: 105, i100-index: 38, read10-index: 1535.1
-- tori index: 3.4, riq index: 306.0
+- i10-index: 105, i100-index: 38, read10-index: 1544.8
+- tori index: 3.1, riq index: 293.0
 
 Based on the [SAO/NASA Astrophysics Data System (ADS)](https://ui.adsabs.harvard.edu/).
-Last updated: 20 February, 2026.
+Last updated: 21 February, 2026.
 
 ## First author (9)
 
@@ -42,7 +42,7 @@ Last updated: 20 February, 2026.
 
 - Jones, G., Witstok, J., Concas, A., Laporte, N., 2024, _Monthly Notices of the Royal Astronomical Society_, [529, L1](https://doi.org/10.1093/mnrasl/slad189). 'New constraints on the molecular gas content of a z 8 galaxy from JVLA CO(J = 2-1) observations' (8 citations).
 
-- Vallini, L., Witstok, J., et al., 2024, _Monthly Notices of the Royal Astronomical Society_, [527, 10](https://doi.org/10.1093/mnras/stad3150). 'Spatially resolved Kennicutt-Schmidt relation at z ≈ 7 and its connection with the interstellar medium properties' (42 citations).
+- Vallini, L., Witstok, J., et al., 2024, _Monthly Notices of the Royal Astronomical Society_, [527, 10](https://doi.org/10.1093/mnras/stad3150). 'Spatially resolved Kennicutt-Schmidt relation at z ≈ 7 and its connection with the interstellar medium properties' (43 citations).
 
 - Pollock, C., Heintz, K., Witstok, J., et al., 2026, arXiv e-prints, [2602.11783](https://doi.org/10.48550/arXiv.2602.11783). 'Characterising Ly$α$ damping wings at the onset of reionisation: Evidence for highly efficient star formation driven by dense, neutral gas in UV-bright galaxies at $z&gt;9$'.
 
@@ -52,7 +52,7 @@ Last updated: 20 February, 2026.
 
 - Kumari, N., Smit, R., Witstok, J., et al., 2024, arXiv e-prints, [2406.11997](https://doi.org/10.48550/arXiv.2406.11997). 'JADES: Physical properties of Lyα and non-Lyα emitters at z ~ 4.8-9.6' (21 citations).
 
-- Maiolino, R., Scholtz, J., Witstok, J., et al., 2024, _Nature_, [627, 59](https://doi.org/10.1038/s41586-024-07052-5). 'A small and vigorous black hole in the early Universe' (450 citations).
+- Maiolino, R., Scholtz, J., Witstok, J., et al., 2024, _Nature_, [627, 59](https://doi.org/10.1038/s41586-024-07052-5). 'A small and vigorous black hole in the early Universe' (451 citations).
 
 - Looser, T., D'Eugenio, F., Maiolino, R., Witstok, J., et al., 2024, _Nature_, [629, 53](https://doi.org/10.1038/s41586-024-07227-0). 'A recently quenched galaxy 700 million years after the Big Bang' (186 citations).
 
@@ -122,7 +122,7 @@ Last updated: 20 February, 2026.
 
 - Algera, H., Rowland, L., Smit, R., Fisher, R., Ramambason, L., Kumari, N., Vallini, L., Inami, H., Nanayakkara, T., Stefanon, M., Aravena, M., Bakx, T., Bouwens, R., Bowler, R., Cescon, K., Chen, C., Dayal, P., De Looze, I., Ferrara, A., Fudamoto, Y., Komarova, L., van Leeuwen, I., Ormerod, K., Schouws, S., Sommovigo, L., Vijayan, A., Wang, W., van der Werf, P., Witstok, J., 2025, arXiv e-prints, [2509.16071](https://doi.org/10.48550/arXiv.2509.16071). 'REBELS-IFU: on the origin of the elevated [OIII]/[CII] ratios in the early Universe' (4 citations).
 
-- Shivaei, I., Naidu, R., Rodríguez Montero, F., Matsumoto, K., Leja, J., Matthee, J., Johnson, B., Oesch, P., Chevallard, J., Adamo, A., Bodansky, S., Bunker, A., Covelo Paz, A., Di Cesare, C., Egami, E., Furtak, L., Heintz, K., Kramarenko, I., Meyer, R., Reddy, N., Rinaldi, P., Tacchella, S., Torralba, A., Witstok, J., Wozniak, M., Xiao, M., 2025, arXiv e-prints, [2509.01795](https://doi.org/10.48550/arXiv.2509.01795). 'The Diversity and Evolution of Dust Attenuation Curves from Redshift z ~ 1 to 9' (18 citations).
+- Shivaei, I., Naidu, R., Rodriguez Montero, F., Matsumoto, K., Leja, J., Matthee, J., Johnson, B., Oesch, P., Chevallard, J., Adamo, A., Bodansky, S., Bunker, A., Covelo Paz, A., Di Cesare, C., Egami, E., Furtak, L., Heintz, K., Kramarenko, I., Meyer, R., Reddy, N., Rinaldi, P., Tacchella, S., Torralba, A., Witstok, J., Wozniak, M., Xiao, M., 2025, arXiv e-prints, [2509.01795](https://doi.org/10.48550/arXiv.2509.01795). 'The Diversity and Evolution of Dust Attenuation Curves from Redshift z ~ 1 to 9' (18 citations).
 
 - Yuan, Y., Martin-Alvarez, S., Haehnelt, M., Garel, T., Keating, L., Witstok, J., Sijacki, D., 2025, _Monthly Notices of the Royal Astronomical Society_, [542, 762](https://doi.org/10.1093/mnras/staf1252). 'Extended red wings and the visibility of reionization-epoch Lyman-α emitters' (7 citations).
 
@@ -142,7 +142,7 @@ Last updated: 20 February, 2026.
 
 - Helton, J., Alberts, S., Rieke, G., Hainline, K., Ji, Z., Rieke, M., Johnson, B., Robertson, B., Tacchella, S., Whitler, L., Baker, W., Bhatawdekar, R., Boyett, K., Bunker, A., Cargile, P., Carniani, S., Charlot, S., Chevallard, J., Curtis-Lake, E., Egami, E., Eisenstein, D., Hausen, R., Lyu, J., Maiolino, R., Nelson, E., Pérez-González, P., Rinaldi, P., Stone, M., Sun, F., Williams, C., Willmer, C., Willott, C., Witstok, J., 2025, arXiv e-prints, [2506.02099](https://doi.org/10.48550/arXiv.2506.02099). 'The Stellar Populations and Rest-Frame Colors of Star-Forming Galaxies at $z \approx 8$: Exploring the Impact of Filter Choice and Star Formation History Assumption with JADES' (5 citations).
 
-- McClymont, W., Tacchella, S., D'Eugenio, F., Witten, C., Ji, X., Smith, A., Maiolino, R., Arribas, S., Scholtz, J., Simmonds, C., Witstok, J., 2025, _Monthly Notices of the Royal Astronomical Society_, [540, 190](https://doi.org/10.1093/mnras/staf745). 'The density-bounded twilight of starbursts in the early Universe' (47 citations).
+- McClymont, W., Tacchella, S., D'Eugenio, F., Witten, C., Ji, X., Smith, A., Maiolino, R., Arribas, S., Scholtz, J., Simmonds, C., Witstok, J., 2025, _Monthly Notices of the Royal Astronomical Society_, [540, 190](https://doi.org/10.1093/mnras/staf745). 'The density-bounded twilight of starbursts in the early Universe' (48 citations).
 
 - Pollock, C., Gottumukkala, R., Heintz, K., Brammer, G., Roberts-Borsani, G., Oesch, P., Witstok, J., Arellano-Córdova, K., Cullen, F., Scholte, D., Terp, C., Rowland, L., Sneppen, A., Ito, K., Valentino, F., Matthee, J., Watson, D., Toft, S., 2025, arXiv e-prints, [2506.15779](https://doi.org/10.48550/arXiv.2506.15779). 'Novel $z\sim~10$ auroral line measurements extend the gradual offset of the FMR deep into the first Gyr of cosmic time' (28 citations).
 
@@ -206,7 +206,7 @@ Last updated: 20 February, 2026.
 
 - Terp, C., Heintz, K., Watson, D., Brammer, G., Carnall, A., Witstok, J., Smit, R., Vejlgaard, S., 2024, _Astronomy and Astrophysics_, [690, A70](https://doi.org/10.1051/0004-6361/202450375). 'Uncovering the physical origin of the prominent Lyman-α emission and absorption in GS9422 at z = 5.943' (21 citations).
 
-- Carniani, S., Hainline, K., D'Eugenio, F., Eisenstein, D., Jakobsen, P., Witstok, J., Johnson, B., Chevallard, J., Maiolino, R., Helton, J., Willott, C., Robertson, B., Alberts, S., Arribas, S., Baker, W., Bhatawdekar, R., Boyett, K., Bunker, A., Cameron, A., Cargile, P., Charlot, S., Curti, M., Curtis-Lake, E., Egami, E., Giardino, G., Isaak, K., Ji, Z., Jones, G., Kumari, N., Maseda, M., Parlanti, E., Pérez-González, P., Rawle, T., Rieke, G., Rieke, M., Del Pino, B., Saxena, A., Scholtz, J., Smit, R., Sun, F., Tacchella, S., Übler, H., Venturi, G., Williams, C., Willmer, C., 2024, _Nature_, [633, 318](https://doi.org/10.1038/s41586-024-07860-9). 'Spectroscopic confirmation of two luminous galaxies at a redshift of 14' (290 citations).
+- Carniani, S., Hainline, K., D'Eugenio, F., Eisenstein, D., Jakobsen, P., Witstok, J., Johnson, B., Chevallard, J., Maiolino, R., Helton, J., Willott, C., Robertson, B., Alberts, S., Arribas, S., Baker, W., Bhatawdekar, R., Boyett, K., Bunker, A., Cameron, A., Cargile, P., Charlot, S., Curti, M., Curtis-Lake, E., Egami, E., Giardino, G., Isaak, K., Ji, Z., Jones, G., Kumari, N., Maseda, M., Parlanti, E., Pérez-González, P., Rawle, T., Rieke, G., Rieke, M., Del Pino, B., Saxena, A., Scholtz, J., Smit, R., Sun, F., Tacchella, S., Übler, H., Venturi, G., Williams, C., Willmer, C., 2024, _Nature_, [633, 318](https://doi.org/10.1038/s41586-024-07860-9). 'Spectroscopic confirmation of two luminous galaxies at a redshift of 14' (291 citations).
 
 - D'Eugenio, F., Maiolino, R., Carniani, S., Chevallard, J., Curtis-Lake, E., Witstok, J., Charlot, S., Baker, W., Arribas, S., Boyett, K., Bunker, A., Curti, M., Eisenstein, D., Hainline, K., Ji, Z., Johnson, B., Kumari, N., Looser, T., Nakajima, K., Nelson, E., Rieke, M., Robertson, B., Scholtz, J., Smit, R., Sun, F., Venturi, G., Tacchella, S., Übler, H., Willmer, C., Willott, C., 2024, _Astronomy and Astrophysics_, [689, A152](https://doi.org/10.1051/0004-6361/202348636). 'JADES: Carbon enrichment 350 Myr after the Big Bang' (118 citations).
 
