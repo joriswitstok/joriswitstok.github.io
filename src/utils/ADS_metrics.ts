@@ -1,4 +1,4 @@
-export const latest_update = '23 February, 2026';
+export const latest_update = '24 February, 2026';
 export const n_papers_tot = 127;
 export const n_papers_ref = 102;
 export const n_reads = 139019;
