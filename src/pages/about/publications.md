@@ -5,14 +5,14 @@ layout: '~/layouts/MarkdownLayout.astro'
 ---
 
 ## Summary
-133 publications (104 refereed), of which 10 as first author. Metrics:
-- 142210 reads, 73400 downloads, 12064 citations
+132 publications (103 refereed), of which 10 as first author. Metrics:
+- 141986 reads, 73282 downloads, 12059 citations
 - h-index: 60, m-index: 10.0, g-index: 109
-- i10-index: 108, i100-index: 41, read10-index: 1575.1
+- i10-index: 108, i100-index: 41, read10-index: 1548.4
 - tori index: 3.2, riq index: 297.0
 
 Based on the [SAO/NASA Astrophysics Data System (ADS)](https://ui.adsabs.harvard.edu/).
-Last updated: 23 March, 2026.
+Last updated: 24 March, 2026.
 
 ## First author (10)
 
@@ -62,7 +62,7 @@ Last updated: 23 March, 2026.
 
 - Jones, G., Bunker, A., Saxena, A., Witstok, J., et al., 2024, _Astronomy and Astrophysics_, [683, A238](https://doi.org/10.1051/0004-6361/202347099). 'JADES: The emergence and evolution of Lyα emission and constraints on the intergalactic medium neutral fraction' (62 citations).
 
-## Other (111)
+## Other (110)
 
 - Isobe, Y., Maiolino, R., Ji, X., D'Eugenio, F., Simmonds, C., Scholtz, J., Juodžbalis, I., Saxena, A., Witstok, J., Kobayashi, C., Vanni, I., Salvadori, S., Watanabe, K., Monty, S., Belokurov, V., Feltre, A., McClymont, W., Tacchella, S., Curti, M., Übler, H., Charlot, S., Bunker, A., Chevallard, J., Curtis-Lake, E., Kumari, N., Rinaldi, P., Robertson, B., Williams, C., Willott, C., 2026, _Monthly Notices of the Royal Astronomical Society_, [547, stag123](https://doi.org/10.1093/mnras/stag123). 'JADES: the chemical enrichment pattern of distant galaxies ─ α enhancement, silicon depletion, and iron enhancement'.
 
@@ -89,8 +89,6 @@ Last updated: 23 March, 2026.
 - Hainline, K., Eisenstein, D., Whitler, L., Robertson, B., Johnson, B., Jakobsen, P., Puskas, D., Tacchella, S., Helton, J., Wu, Z., Arribas, S., Baker, W., Bunker, A., Cameron, A., Carniani, S., Carreira, C., Charlot, S., Chevallard, J., Curtis-Lake, E., D'Eugenio, F., Duan, Q., Egami, E., Hausen, R., Ji, Z., Looser, T., Maiolino, R., Mengistu, P., Perez-Gonzalez, P., Rieke, M., Rinaldi, P., Sun, F., Trussler, J., Ubler, H., Williams, C., Willmer, C., Willott, C., Witstok, J., 2026, arXiv e-prints, [2601.15959](https://doi.org/10.48550/arXiv.2601.15959). 'JWST Advanced Deep Extragalactic Survey (JADES) Data Release 5: Photometrically Selected Galaxy Candidates at z &gt; 8' (2 citations).
 
 - Heintz, K., Bennett, J., Oesch, P., Sneppen, A., Rennehan, D., Pollock, C., Witstok, J., Smit, R., Vejlgaard, S., Terp, C., Koca, U., Brammer, G., Finlator, K., Hayes, M., Sijacki, D., Naidu, R., Matthee, J., Valentino, F., Tanvir, N., Jakobsson, P., Laursen, P., Watson, D., Davé, R., Keating, L., Covelo-Paz, A., 2026, _Nature Astronomy_, [in press](https://doi.org/10.1038/s41550-025-02745-x). 'A dense web of neutral gas in a galaxy proto-cluster post-reionization'.
-
-- Isobe, Y., Maiolino, R., Ji, X., D'Eugenio, F., Simmonds, C., Scholtz, J., Juodžbalis, I., Saxena, A., Witstok, J., Kobayashi, C., Vanni, I., Salvadori, S., Watanabe, K., Monty, S., Belokurov, V., Feltre, A., McClymont, W., Tacchella, S., Curti, M., Übler, H., Charlot, S., Bunker, A., Chevallard, J., Curtis-Lake, E., Kumari, N., Rinaldi, P., Robertson, B., Williams, C., Willott, C., 2026, _Monthly Notices of the Royal Astronomical Society_, [in press](https://doi.org/10.1093/mnras/stag123). 'JADES: the chemical enrichment pattern of distant galaxies - α enhancement, silicon depletion, and iron enhancement' (5 citations).
 
 - Rusakov, V., Watson, D., Nikopoulos, G., Brammer, G., Gottumukkala, R., Harvey, T., Heintz, K., Damgaard, R., Sim, S., Sneppen, A., Vijayan, A., Adams, N., Austin, D., Conselice, C., Goolsby, C., Toft, S., Witstok, J., 2026, _Nature_, [649, 574](https://doi.org/10.1038/s41586-025-09900-4). 'Little red dots as young supermassive black holes in dense ionized cocoons' (127 citations).
 
