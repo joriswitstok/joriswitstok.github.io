@@ -6,13 +6,13 @@ layout: '~/layouts/MarkdownLayout.astro'
 
 ## Summary
 134 publications (104 refereed), of which 10 as first author. Metrics:
-- 143066 reads, 73806 downloads, 12147 citations
+- 143198 reads, 73862 downloads, 12152 citations
 - h-index: 60, m-index: 10.0, g-index: 109
-- i10-index: 108, i100-index: 41, read10-index: 1603.2
+- i10-index: 108, i100-index: 41, read10-index: 1605.1
 - tori index: 3.2, riq index: 298.0
 
 Based on the [SAO/NASA Astrophysics Data System (ADS)](https://ui.adsabs.harvard.edu/).
-Last updated: 29 March, 2026.
+Last updated: 30 March, 2026.
 
 ## First author (10)
 
@@ -26,7 +26,7 @@ Last updated: 29 March, 2026.
 
 - Witstok, J., Smit, R., Saxena, A., Jones, G., et al., 2024, _Astronomy and Astrophysics_, [682, A40](https://doi.org/10.1051/0004-6361/202347176). 'Inside the bubble: exploring the environments of reionisation-era Lyman-α emitting galaxies with JADES and FRESCO' (87 citations).
 
-- Witstok, J., Shivaei, I., Smit, R., Maiolino, R., et al., 2023, _Nature_, [621, 267](https://doi.org/10.1038/s41586-023-06413-w). 'Carbonaceous dust grains seen in the first billion years of cosmic time' (117 citations).
+- Witstok, J., Shivaei, I., Smit, R., Maiolino, R., et al., 2023, _Nature_, [621, 267](https://doi.org/10.1038/s41586-023-06413-w). 'Carbonaceous dust grains seen in the first billion years of cosmic time' (118 citations).
 
 - Witstok, J., Jones, G., Maiolino, R., Smit, R., Schneider, R., 2023, _Monthly Notices of the Royal Astronomical Society_, [523, 3119](https://doi.org/10.1093/mnras/stad1470). 'An empirical study of dust properties at the earliest epochs' (60 citations).
 
@@ -86,7 +86,7 @@ Last updated: 29 March, 2026.
 
 - Cameron, A., Carreira, C., Simmonds, C., Bunker, A., Saxena, A., Carniani, S., Charlot, S., Chevallard, J., Curtis-Lake, E., Hainline, K., Hausen, R., Ji, X., Ji, Z., Johnson, B., Rinaldi, P., Robertson, B., Scholtz, J., Silcock, M., Tacchella, S., Trussler, J., Übler, H., Williams, C., Willmer, C., Willott, C., Witstok, J., 2026, arXiv e-prints, [2601.15964](https://doi.org/10.48550/arXiv.2601.15964). 'JADES: Evolution of nitrogen abundances in star-forming galaxies from z ~ 1.5-7' (1 citation).
 
-- D'Eugenio, F., Juodžbalis, I., Ji, X., Scholtz, J., Maiolino, R., Carniani, S., Perna, M., Mazzolari, G., Übler, H., Arribas, S., Bhatawdekar, R., Bunker, A., Cresci, G., Curtis-Lake, E., Hainline, K., Inayoshi, K., Isobe, Y., Ji, Z., Johnson, B., Jones, G., Looser, T., Nelson, E., Parlanti, E., Puskás, D., Rinaldi, P., Robertson, B., Rodríguez Del Pino, B., Shivaei, I., Sun, F., Tacchella, S., Venturi, G., Volonteri, M., Williams, C., Willmer, C., Willott, C., Witstok, J., 2026, _Monthly Notices of the Royal Astronomical Society_, [545, staf2117](https://doi.org/10.1093/mnras/staf2117). 'JADES and BlackTHUNDER: rest-frame Balmer-line absorption and the local environment in a Little Red Dot at z = 5' (37 citations).
+- D'Eugenio, F., Juodžbalis, I., Ji, X., Scholtz, J., Maiolino, R., Carniani, S., Perna, M., Mazzolari, G., Übler, H., Arribas, S., Bhatawdekar, R., Bunker, A., Cresci, G., Curtis-Lake, E., Hainline, K., Inayoshi, K., Isobe, Y., Ji, Z., Johnson, B., Jones, G., Looser, T., Nelson, E., Parlanti, E., Puskás, D., Rinaldi, P., Robertson, B., Rodríguez Del Pino, B., Shivaei, I., Sun, F., Tacchella, S., Venturi, G., Volonteri, M., Williams, C., Willmer, C., Willott, C., Witstok, J., 2026, _Monthly Notices of the Royal Astronomical Society_, [545, staf2117](https://doi.org/10.1093/mnras/staf2117). 'JADES and BlackTHUNDER: rest-frame Balmer-line absorption and the local environment in a Little Red Dot at z = 5' (38 citations).
 
 - Geris, S., Maiolino, R., Isobe, Y., Scholtz, J., D'Eugenio, F., Ji, X., Juodžbalis, I., Simmonds, C., Dayal, P., Trinca, A., Schneider, R., Arribas, S., Bhatawdekar, R., Bunker, A., Carniani, S., Charlot, S., Chevallard, J., Curtis-Lake, E., Johnson, B., Parlanti, E., Rinaldi, P., Robertson, B., Tacchella, S., Übler, H., Venturi, G., Williams, C., Witstok, J., 2026, _Monthly Notices of the Royal Astronomical Society_, [545, staf1979](https://doi.org/10.1093/mnras/staf1979). 'JADES reveals a large population of low-mass black holes at high redshift' (23 citations).
 
@@ -94,7 +94,7 @@ Last updated: 29 March, 2026.
 
 - Heintz, K., Bennett, J., Oesch, P., Sneppen, A., Rennehan, D., Pollock, C., Witstok, J., Smit, R., Vejlgaard, S., Terp, C., Koca, U., Brammer, G., Finlator, K., Hayes, M., Sijacki, D., Naidu, R., Matthee, J., Valentino, F., Tanvir, N., Jakobsson, P., Laursen, P., Watson, D., Davé, R., Keating, L., Covelo-Paz, A., 2026, _Nature Astronomy_, [in press](https://doi.org/10.1038/s41550-025-02745-x). 'A dense web of neutral gas in a galaxy proto-cluster post-reionization'.
 
-- Rusakov, V., Watson, D., Nikopoulos, G., Brammer, G., Gottumukkala, R., Harvey, T., Heintz, K., Damgaard, R., Sim, S., Sneppen, A., Vijayan, A., Adams, N., Austin, D., Conselice, C., Goolsby, C., Toft, S., Witstok, J., 2026, _Nature_, [649, 574](https://doi.org/10.1038/s41586-025-09900-4). 'Little red dots as young supermassive black holes in dense ionized cocoons' (128 citations).
+- Rusakov, V., Watson, D., Nikopoulos, G., Brammer, G., Gottumukkala, R., Harvey, T., Heintz, K., Damgaard, R., Sim, S., Sneppen, A., Vijayan, A., Adams, N., Austin, D., Conselice, C., Goolsby, C., Toft, S., Witstok, J., 2026, _Nature_, [649, 574](https://doi.org/10.1038/s41586-025-09900-4). 'Little red dots as young supermassive black holes in dense ionized cocoons' (129 citations).
 
 - Scholtz, J., Silcock, M., Curtis-Lake, E., Maiolino, R., Carniani, S., D'Eugenio, F., Ji, X., Jakobsen, P., Hainline, K., Arribas, S., Baker, W., Bhatawdekar, R., Bunker, A., Charlot, S., Chevallard, J., Curti, M., Eisenstein, D., Isobe, Y., Jones, G., Parlanti, E., Pérez-González, P., Rinaldi, P., Robertson, B., Tacchella, S., Übler, H., Williams, C., Willott, C., Witstok, J., 2026, _Monthly Notices of the Royal Astronomical Society_, [545, staf2107](https://doi.org/10.1093/mnras/staf2107). 'JADES: carbon-enhanced, nitrogen-normal compact galaxy at z = 11.2' (7 citations).
 
@@ -112,7 +112,7 @@ Last updated: 29 March, 2026.
 
 - Helton, J., Morrison, J., Hainline, K., D'Eugenio, F., Rieke, G., Alberts, S., Carniani, S., Leja, J., Li, Y., Rinaldi, P., Scholtz, J., Stone, M., Willmer, C., Wu, Z., Baker, W., Bunker, A., Charlot, S., Chevallard, J., Cleri, N., Curti, M., Curtis-Lake, E., Egami, E., Eisenstein, D., Jakobsen, P., Ji, Z., Johnson, B., Kumari, N., Lin, X., Lyu, J., Maiolino, R., Maseda, M., Pérez-González, P., Rieke, M., Robertson, B., Saxena, A., Sun, F., Tacchella, S., Übler, H., Venturi, G., Williams, C., Willott, C., Witstok, J., Zhu, Y., 2025, arXiv e-prints, [2512.19695](https://doi.org/10.48550/arXiv.2512.19695). 'Ionizing Photon Production Efficiencies and Chemical Abundances at Cosmic Dawn Revealed by Ultra-Deep Rest-Frame Optical Spectroscopy of JADES-GS-z14-0' (8 citations).
 
-- Ji, X., Maiolino, R., Übler, H., Scholtz, J., D'Eugenio, F., Sun, F., Perna, M., Turner, H., Carniani, S., Arribas, S., Bennett, J., Bunker, A., Charlot, S., Cresci, G., Curti, M., Egami, E., Fabian, A., Inayoshi, K., Isobe, Y., Jones, G., Juodžbalis, I., Kumari, N., Lyu, J., Mazzolari, G., Parlanti, E., Robertson, B., Rodríguez Del Pino, B., Schneider, R., Sijacki, D., Tacchella, S., Trinca, A., Valiante, R., Venturi, G., Volonteri, M., Willott, C., Witten, C., Witstok, J., 2025, _Monthly Notices of the Royal Astronomical Society_, [544, 3900](https://doi.org/10.1093/mnras/staf1867). 'BlackTHUNDER ─ A non-stellar Balmer break in a black hole-dominated little red dot at z = 7.04' (119 citations).
+- Ji, X., Maiolino, R., Übler, H., Scholtz, J., D'Eugenio, F., Sun, F., Perna, M., Turner, H., Carniani, S., Arribas, S., Bennett, J., Bunker, A., Charlot, S., Cresci, G., Curti, M., Egami, E., Fabian, A., Inayoshi, K., Isobe, Y., Jones, G., Juodžbalis, I., Kumari, N., Lyu, J., Mazzolari, G., Parlanti, E., Robertson, B., Rodríguez Del Pino, B., Schneider, R., Sijacki, D., Tacchella, S., Trinca, A., Valiante, R., Venturi, G., Volonteri, M., Willott, C., Witten, C., Witstok, J., 2025, _Monthly Notices of the Royal Astronomical Society_, [544, 3900](https://doi.org/10.1093/mnras/staf1867). 'BlackTHUNDER ─ A non-stellar Balmer break in a black hole-dominated little red dot at z = 7.04' (120 citations).
 
 - Rinaldi, P., Pérez-González, P., Rieke, G., Lyu, J., D'Eugenio, F., Wu, Z., Carniani, S., Looser, T., Shivaei, I., Boogaard, L., Diaz-Santos, T., Colina, L., Östlin, G., Alberts, S., Álvarez-Márquez, J., Annuziatella, M., Aravena, M., Bhatawdekar, R., Bunker, A., Caputi, K., Charlot, S., Crespo Gómez, A., Curti, M., Eckart, A., Gillman, S., Hainline, K., Kumari, N., Hjorth, J., Iani, E., Inami, H., Ji, Z., Johnson, B., Jones, G., Labiano, Á., Maiolino, R., Melinder, J., Moutard, T., Peissker, F., Rieke, M., Robertson, B., Scholtz, J., Tacchella, S., van der Werf, P., Walter, F., Williams, C., Willott, C., Witstok, J., Übler, H., Zhu, Y., 2025, _The Astrophysical Journal_, [994, 86](https://doi.org/10.3847/1538-4357/ae089c). 'Deciphering the Nature of Virgil: An Obscured Active Galactic Nucleus Lurking within an Apparently Normal Lyα Emitter during Cosmic Reionization' (19 citations).
 
@@ -136,7 +136,7 @@ Last updated: 29 March, 2026.
 
 - Algera, H., Rowland, L., Smit, R., Fisher, R., Ramambason, L., Kumari, N., Vallini, L., Inami, H., Nanayakkara, T., Stefanon, M., Aravena, M., Bakx, T., Bouwens, R., Bowler, R., Cescon, K., Chen, C., Dayal, P., De Looze, I., Ferrara, A., Fudamoto, Y., Komarova, L., van Leeuwen, I., Ormerod, K., Schouws, S., Sommovigo, L., Vijayan, A., Wang, W., van der Werf, P., Witstok, J., 2025, arXiv e-prints, [2509.16071](https://doi.org/10.48550/arXiv.2509.16071). 'REBELS-IFU: on the origin of the elevated [OIII]/[CII] ratios in the early Universe' (4 citations).
 
-- Shivaei, I., Naidu, R., Rodriguez Montero, F., Matsumoto, K., Leja, J., Matthee, J., Johnson, B., Oesch, P., Chevallard, J., Adamo, A., Bodansky, S., Bunker, A., Covelo Paz, A., Di Cesare, C., Egami, E., Furtak, L., Heintz, K., Kramarenko, I., Meyer, R., Reddy, N., Rinaldi, P., Tacchella, S., Torralba, A., Witstok, J., Wozniak, M., Xiao, M., 2025, arXiv e-prints, [2509.01795](https://doi.org/10.48550/arXiv.2509.01795). 'Diversity and Evolution of Dust Attenuation Curves from Redshift z ~ 1 to 9' (22 citations).
+- Shivaei, I., Naidu, R., Rodriguez Montero, F., Matsumoto, K., Leja, J., Matthee, J., Johnson, B., Oesch, P., Chevallard, J., Adamo, A., Bodansky, S., Bunker, A., Covelo Paz, A., Di Cesare, C., Egami, E., Furtak, L., Heintz, K., Kramarenko, I., Meyer, R., Reddy, N., Rinaldi, P., Tacchella, S., Torralba, A., Witstok, J., Wozniak, M., Xiao, M., 2025, arXiv e-prints, [2509.01795](https://doi.org/10.48550/arXiv.2509.01795). 'Diversity and Evolution of Dust Attenuation Curves from Redshift z ~ 1 to 9' (23 citations).
 
 - Yuan, Y., Martin-Alvarez, S., Haehnelt, M., Garel, T., Keating, L., Witstok, J., Sijacki, D., 2025, _Monthly Notices of the Royal Astronomical Society_, [542, 762](https://doi.org/10.1093/mnras/staf1252). 'Extended red wings and the visibility of reionization-epoch Lyman-α emitters' (8 citations).
 
@@ -180,9 +180,9 @@ Last updated: 29 March, 2026.
 
 - Perna, M., Arribas, S., Lamperti, I., Circosta, C., Bertola, E., Pérez-González, P., D'Eugenio, F., Übler, H., Cresci, G., Volonteri, M., Mannucci, F., Maiolino, R., Rodríguez Del Pino, B., Böker, T., Bunker, A., Charlot, S., Willott, C., Carniani, S., Curti, M., Jones, G., Kumari, N., Marshall, M., Venturi, G., Saxena, A., Scholtz, J., Witstok, J., 2025, _Astronomy and Astrophysics_, [696, A59](https://doi.org/10.1051/0004-6361/202453430). 'GA-NIFS: High number of dual active galactic nuclei at z ∼ 3' (65 citations).
 
-- D'Eugenio, F., Cameron, A., Scholtz, J., Carniani, S., Willott, C., Curtis-Lake, E., Bunker, A., Parlanti, E., Maiolino, R., Willmer, C., Jakobsen, P., Robertson, B., Johnson, B., Tacchella, S., Cargile, P., Rawle, T., Arribas, S., Chevallard, J., Curti, M., Egami, E., Eisenstein, D., Kumari, N., Looser, T., Rieke, M., Rodríguez Del Pino, B., Saxena, A., Übler, H., Venturi, G., Witstok, J., Baker, W., Bhatawdekar, R., Bonaventura, N., Boyett, K., Charlot, S., Danhaive, A., Hainline, K., Hausen, R., Helton, J., Ji, X., Ji, Z., Jones, G., Juodžbalis, I., Maseda, M., Pérez-González, P., Perna, M., Puskás, D., Shivaei, I., Silcock, M., Simmonds, C., Smit, R., Sun, F., Villanueva, N., Williams, C., Zhu, Y., 2025, _The Astrophysical Journal Supplement Series_, [277, 4](https://doi.org/10.3847/1538-4365/ada148). 'JADES Data Release 3: NIRSpec/Microshutter Assembly Spectroscopy for 4000 Galaxies in the GOODS Fields' (241 citations).
-
 - D'Eugenio, F., Maiolino, R., Perna, M., Uebler, H., Ji, X., McClymont, W., Koudmani, S., Sijacki, D., Juodžbalis, I., Scholtz, J., Bennett, J., Bunker, A., Carniani, S., Charlot, S., Cresci, G., Curtis-Lake, E., Dalla Bontà, E., Jones, G., Lyu, J., Marconi, A., Mazzolari, G., Nelson, E., Parlanti, E., Robertson, B., Schneider, R., Simmonds, C., Tacchella, S., Venturi, G., Willott, C., Witstok, J., Witten, C., 2025, arXiv e-prints, [2503.11752](https://doi.org/10.48550/arXiv.2503.11752). 'BlackTHUNDER strikes twice: rest-frame Balmer-line absorption and high Eddington accretion rate in a Little Red Dot at $z=7.04$' (62 citations).
+
+- D'Eugenio, F., Cameron, A., Scholtz, J., Carniani, S., Willott, C., Curtis-Lake, E., Bunker, A., Parlanti, E., Maiolino, R., Willmer, C., Jakobsen, P., Robertson, B., Johnson, B., Tacchella, S., Cargile, P., Rawle, T., Arribas, S., Chevallard, J., Curti, M., Egami, E., Eisenstein, D., Kumari, N., Looser, T., Rieke, M., Rodríguez Del Pino, B., Saxena, A., Übler, H., Venturi, G., Witstok, J., Baker, W., Bhatawdekar, R., Bonaventura, N., Boyett, K., Charlot, S., Danhaive, A., Hainline, K., Hausen, R., Helton, J., Ji, X., Ji, Z., Jones, G., Juodžbalis, I., Maseda, M., Pérez-González, P., Perna, M., Puskás, D., Shivaei, I., Silcock, M., Simmonds, C., Smit, R., Sun, F., Villanueva, N., Williams, C., Zhu, Y., 2025, _The Astrophysical Journal Supplement Series_, [277, 4](https://doi.org/10.3847/1538-4365/ada148). 'JADES Data Release 3: NIRSpec/Microshutter Assembly Spectroscopy for 4000 Galaxies in the GOODS Fields' (241 citations).
 
 - Lin, Q., Yang, X., Li, A., Witstok, J., 2025, _Astronomy and Astrophysics_, [694, A84](https://doi.org/10.1051/0004-6361/202452372). 'Polycyclic aromatic hydrocarbon and the ultraviolet extinction bump at the cosmic dawn' (13 citations).
 
