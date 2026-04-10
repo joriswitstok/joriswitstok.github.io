@@ -1,4 +1,5 @@
 .all-contributorsrc
+.npmrc
 .github/dependabot.yml
 README.md
 Dockerfile

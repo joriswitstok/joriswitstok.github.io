@@ -53,7 +53,7 @@ for publication in publications["response"]["docs"]:
         continue
     pub_dict = {"ai": ["Witstok" in a for a in publication["author"]].index(True)}
 
-    pub_dict["href"] = "https://doi.org/{}".format(publication["doi"][0]) if "doi" in publication else "https://ui.adsabs.harvard.edu/abs/{}".format(publication["bibcode"])
+    pub_dict["href"] = "https://doi.org/{}".format(publication["doi"][0]) if "doi" in publication else "https://scixplorer.org/abs/{}".format(publication["bibcode"])
     if any([tr in publication["title"][0] for tr in title_replacements]):
         for tr in title_replacements:
             publication["title"][0] = publication["title"][0].replace(tr, title_replacements[tr])
