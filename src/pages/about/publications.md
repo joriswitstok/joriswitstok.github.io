@@ -6,13 +6,13 @@ layout: '~/layouts/MarkdownLayout.astro'
 
 ## Summary
 138 publications (104 refereed), of which 10 as first author. Metrics:
-- 144266 reads, 74404 downloads, 12310 citations
+- 144411 reads, 74484 downloads, 12309 citations
 - h-index: 61, m-index: 10.2, g-index: 110
-- i10-index: 109, i100-index: 41, read10-index: 1555.0
+- i10-index: 109, i100-index: 41, read10-index: 1556.4
 - tori index: 3.3, riq index: 304.0
 
 Based on the [SAO/NASA Astrophysics Data System (ADS)](https://ui.adsabs.harvard.edu/).
-Last updated: 11 April, 2026.
+Last updated: 12 April, 2026.
 
 ## First author (10)
 
@@ -150,7 +150,7 @@ Last updated: 11 April, 2026.
 
 - Ji, Z., Alberts, S., Zhu, Y., Vanzella, E., Giavalisco, M., Hainline, K., Baker, W., Bunker, A., Helton, J., Lyu, J., Rinaldi, P., Robertson, B., Simmonds, C., Tacchella, S., Williams, C., Willmer, C., Witstok, J., 2025, _The Astrophysical Journal Letters_, [988, L69](https://doi.org/10.3847/2041-8213/adf194). 'The Importance of Dust Distribution in Ionizing-photon Escape: NIRCam and MIRI Imaging of a Lyman Continuum-emitting Galaxy at z ∼ 3.8' (12 citations).
 
-- Juodžbalis, I., Marconcini, C., D'Eugenio, F., Maiolino, R., Marconi, A., Übler, H., Scholtz, J., Ji, X., Arribas, S., Bennett, J., Bromm, V., Bunker, A., Carniani, S., Charlot, S., Cresci, G., Dayal, P., Egami, E., Fabian, A., Inayoshi, K., Isobe, Y., Ivey, L., Jones, G., Koudmani, S., Laporte, N., Liu, B., Lyu, J., Mazzolari, G., Monty, S., Parlanti, E., Pérez-González, P., Perna, M., Robertson, B., Schneider, R., Sijacki, D., Tacchella, S., Trinca, A., Valiante, R., Volonteri, M., Witstok, J., Zhang, S., 2025, arXiv e-prints, [2508.21748](https://doi.org/10.48550/arXiv.2508.21748). 'A direct black hole mass measurement in a Little Red Dot at the Epoch of Reionization' (58 citations).
+- Juodžbalis, I., Marconcini, C., D'Eugenio, F., Maiolino, R., Marconi, A., Übler, H., Scholtz, J., Ji, X., Arribas, S., Bennett, J., Bromm, V., Bunker, A., Carniani, S., Charlot, S., Cresci, G., Dayal, P., Egami, E., Fabian, A., Inayoshi, K., Isobe, Y., Ivey, L., Jones, G., Koudmani, S., Laporte, N., Liu, B., Lyu, J., Mazzolari, G., Monty, S., Parlanti, E., Pérez-González, P., Perna, M., Robertson, B., Schneider, R., Sijacki, D., Tacchella, S., Trinca, A., Valiante, R., Volonteri, M., Witstok, J., Zhang, S., 2025, arXiv e-prints, [2508.21748](https://doi.org/10.48550/arXiv.2508.21748). 'A direct black hole mass measurement in a Little Red Dot at the Epoch of Reionization' (57 citations).
 
 - Isobe, Y., Maiolino, R., D'Eugenio, F., Curti, M., Ji, X., Juodžbalis, I., Scholtz, J., Feltre, A., Charlot, S., Übler, H., J. Bunker, A., Carniani, S., Curtis-Lake, E., Ji, Z., Kumari, N., Rinaldi, P., Robertson, B., Willott, C., Witstok, J., 2025, _Monthly Notices of the Royal Astronomical Society_, [541, L71](https://doi.org/10.1093/mnrasl/slaf056). 'JADES: nitrogen enhancement in high-redshift broad-line active galactic nuclei' (41 citations).
 
@@ -186,9 +186,9 @@ Last updated: 11 April, 2026.
 
 - Perna, M., Arribas, S., Lamperti, I., Circosta, C., Bertola, E., Pérez-González, P., D'Eugenio, F., Übler, H., Cresci, G., Volonteri, M., Mannucci, F., Maiolino, R., Rodríguez Del Pino, B., Böker, T., Bunker, A., Charlot, S., Willott, C., Carniani, S., Curti, M., Jones, G., Kumari, N., Marshall, M., Venturi, G., Saxena, A., Scholtz, J., Witstok, J., 2025, _Astronomy and Astrophysics_, [696, A59](https://doi.org/10.1051/0004-6361/202453430). 'GA-NIFS: High number of dual active galactic nuclei at z ∼ 3' (66 citations).
 
-- D'Eugenio, F., Maiolino, R., Perna, M., Uebler, H., Ji, X., McClymont, W., Koudmani, S., Sijacki, D., Juodžbalis, I., Scholtz, J., Bennett, J., Bunker, A., Carniani, S., Charlot, S., Cresci, G., Curtis-Lake, E., Dalla Bontà, E., Jones, G., Lyu, J., Marconi, A., Mazzolari, G., Nelson, E., Parlanti, E., Robertson, B., Schneider, R., Simmonds, C., Tacchella, S., Venturi, G., Willott, C., Witstok, J., Witten, C., 2025, arXiv e-prints, [2503.11752](https://doi.org/10.48550/arXiv.2503.11752). 'BlackTHUNDER strikes twice: rest-frame Balmer-line absorption and high Eddington accretion rate in a Little Red Dot at $z=7.04$' (64 citations).
-
 - D'Eugenio, F., Cameron, A., Scholtz, J., Carniani, S., Willott, C., Curtis-Lake, E., Bunker, A., Parlanti, E., Maiolino, R., Willmer, C., Jakobsen, P., Robertson, B., Johnson, B., Tacchella, S., Cargile, P., Rawle, T., Arribas, S., Chevallard, J., Curti, M., Egami, E., Eisenstein, D., Kumari, N., Looser, T., Rieke, M., Rodríguez Del Pino, B., Saxena, A., Übler, H., Venturi, G., Witstok, J., Baker, W., Bhatawdekar, R., Bonaventura, N., Boyett, K., Charlot, S., Danhaive, A., Hainline, K., Hausen, R., Helton, J., Ji, X., Ji, Z., Jones, G., Juodžbalis, I., Maseda, M., Pérez-González, P., Perna, M., Puskás, D., Shivaei, I., Silcock, M., Simmonds, C., Smit, R., Sun, F., Villanueva, N., Williams, C., Zhu, Y., 2025, _The Astrophysical Journal Supplement Series_, [277, 4](https://doi.org/10.3847/1538-4365/ada148). 'JADES Data Release 3: NIRSpec/Microshutter Assembly Spectroscopy for 4000 Galaxies in the GOODS Fields' (246 citations).
+
+- D'Eugenio, F., Maiolino, R., Perna, M., Uebler, H., Ji, X., McClymont, W., Koudmani, S., Sijacki, D., Juodžbalis, I., Scholtz, J., Bennett, J., Bunker, A., Carniani, S., Charlot, S., Cresci, G., Curtis-Lake, E., Dalla Bontà, E., Jones, G., Lyu, J., Marconi, A., Mazzolari, G., Nelson, E., Parlanti, E., Robertson, B., Schneider, R., Simmonds, C., Tacchella, S., Venturi, G., Willott, C., Witstok, J., Witten, C., 2025, arXiv e-prints, [2503.11752](https://doi.org/10.48550/arXiv.2503.11752). 'BlackTHUNDER strikes twice: rest-frame Balmer-line absorption and high Eddington accretion rate in a Little Red Dot at $z=7.04$' (64 citations).
 
 - Lin, Q., Yang, X., Li, A., Witstok, J., 2025, _Astronomy and Astrophysics_, [694, A84](https://doi.org/10.1051/0004-6361/202452372). 'Polycyclic aromatic hydrocarbon and the ultraviolet extinction bump at the cosmic dawn' (13 citations).
 
