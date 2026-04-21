@@ -6,13 +6,13 @@ layout: '~/layouts/MarkdownLayout.astro'
 
 ## Summary
 140 publications (106 refereed), of which 10 as first author. Metrics:
-- 145553 reads, 75040 downloads, 12431 citations
+- 145954 reads, 75267 downloads, 12438 citations
 - h-index: 61, m-index: 10.2, g-index: 111
-- i10-index: 109, i100-index: 41, read10-index: 1597.4
+- i10-index: 109, i100-index: 41, read10-index: 1630.9
 - tori index: 3.3, riq index: 301.0
 
 Based on the [SAO/NASA Astrophysics Data System (ADS)](https://ui.adsabs.harvard.edu/).
-Last updated: 20 April, 2026.
+Last updated: 21 April, 2026.
 
 ## First author (10)
 
@@ -190,9 +190,9 @@ Last updated: 20 April, 2026.
 
 - Perna, M., Arribas, S., Lamperti, I., Circosta, C., Bertola, E., Pérez-González, P., D'Eugenio, F., Übler, H., Cresci, G., Volonteri, M., Mannucci, F., Maiolino, R., Rodríguez Del Pino, B., Böker, T., Bunker, A., Charlot, S., Willott, C., Carniani, S., Curti, M., Jones, G., Kumari, N., Marshall, M., Venturi, G., Saxena, A., Scholtz, J., Witstok, J., 2025, _Astronomy and Astrophysics_, [696, A59](https://doi.org/10.1051/0004-6361/202453430). 'GA-NIFS: High number of dual active galactic nuclei at z ∼ 3' (65 citations).
 
-- D'Eugenio, F., Maiolino, R., Perna, M., Uebler, H., Ji, X., McClymont, W., Koudmani, S., Sijacki, D., Juodžbalis, I., Scholtz, J., Bennett, J., Bunker, A., Carniani, S., Charlot, S., Cresci, G., Curtis-Lake, E., Dalla Bontà, E., Inayoshi, K., Jones, G., Lyu, J., Marconi, A., Mazzolari, G., Nelson, E., Parlanti, E., Robertson, B., Schneider, R., Simmonds, C., Tacchella, S., Venturi, G., Willott, C., Witstok, J., Witten, C., 2025, arXiv e-prints, [2503.11752](https://doi.org/10.48550/arXiv.2503.11752). 'BlackTHUNDER strikes twice: rest-frame Balmer-line absorption and high Eddington accretion rate in a Little Red Dot at $z=7.04$' (65 citations).
-
 - D'Eugenio, F., Cameron, A., Scholtz, J., Carniani, S., Willott, C., Curtis-Lake, E., Bunker, A., Parlanti, E., Maiolino, R., Willmer, C., Jakobsen, P., Robertson, B., Johnson, B., Tacchella, S., Cargile, P., Rawle, T., Arribas, S., Chevallard, J., Curti, M., Egami, E., Eisenstein, D., Kumari, N., Looser, T., Rieke, M., Rodríguez Del Pino, B., Saxena, A., Übler, H., Venturi, G., Witstok, J., Baker, W., Bhatawdekar, R., Bonaventura, N., Boyett, K., Charlot, S., Danhaive, A., Hainline, K., Hausen, R., Helton, J., Ji, X., Ji, Z., Jones, G., Juodžbalis, I., Maseda, M., Pérez-González, P., Perna, M., Puskás, D., Shivaei, I., Silcock, M., Simmonds, C., Smit, R., Sun, F., Villanueva, N., Williams, C., Zhu, Y., 2025, _The Astrophysical Journal Supplement Series_, [277, 4](https://doi.org/10.3847/1538-4365/ada148). 'JADES Data Release 3: NIRSpec/Microshutter Assembly Spectroscopy for 4000 Galaxies in the GOODS Fields' (250 citations).
+
+- D'Eugenio, F., Maiolino, R., Perna, M., Uebler, H., Ji, X., McClymont, W., Koudmani, S., Sijacki, D., Juodžbalis, I., Scholtz, J., Bennett, J., Bunker, A., Carniani, S., Charlot, S., Cresci, G., Curtis-Lake, E., Dalla Bontà, E., Inayoshi, K., Jones, G., Lyu, J., Marconi, A., Mazzolari, G., Nelson, E., Parlanti, E., Robertson, B., Schneider, R., Simmonds, C., Tacchella, S., Venturi, G., Willott, C., Witstok, J., Witten, C., 2025, arXiv e-prints, [2503.11752](https://doi.org/10.48550/arXiv.2503.11752). 'BlackTHUNDER strikes twice: rest-frame Balmer-line absorption and high Eddington accretion rate in a Little Red Dot at $z=7.04$' (65 citations).
 
 - Lin, Q., Yang, X., Li, A., Witstok, J., 2025, _Astronomy and Astrophysics_, [694, A84](https://doi.org/10.1051/0004-6361/202452372). 'Polycyclic aromatic hydrocarbon and the ultraviolet extinction bump at the cosmic dawn' (13 citations).
 
