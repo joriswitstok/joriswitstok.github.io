@@ -5,14 +5,14 @@ layout: '~/layouts/MarkdownLayout.astro'
 ---
 
 ## Summary
-141 publications (108 refereed), of which 10 as first author. Metrics:
-- 149068 reads, 76777 downloads, 12690 citations
+142 publications (108 refereed), of which 10 as first author. Metrics:
+- 149138 reads, 76809 downloads, 12690 citations
 - h-index: 62, m-index: 10.3, g-index: 112
-- i10-index: 109, i100-index: 41, read10-index: 1691.8
+- i10-index: 109, i100-index: 41, read10-index: 1686.1
 - tori index: 3.5, riq index: 312.0
 
 Based on the [SAO/NASA Astrophysics Data System (ADS)](https://ui.adsabs.harvard.edu/).
-Last updated: 19 May, 2026.
+Last updated: 20 May, 2026.
 
 ## First author (10)
 
@@ -66,7 +66,7 @@ Last updated: 19 May, 2026.
 
 - Jones, G., Bunker, A., Saxena, A., Witstok, J., et al., 2024, _Astronomy and Astrophysics_, [683, A238](https://doi.org/10.1051/0004-6361/202347099). 'JADES: The emergence and evolution of Lyα emission and constraints on the intergalactic medium neutral fraction' (64 citations).
 
-## Other (117)
+## Other (118)
 
 - Saxena, A., Cameron, A., Katz, H., Bunker, A., Chevallard, J., D'Eugenio, F., Arribas, S., Bhatawdekar, R., Boyett, K., Cargile, P., Carniani, S., Charlot, S., Curti, M., Curtis-Lake, E., Hainline, K., Ji, Z., Johnson, B., Jones, G., Kumari, N., Laseter, I., Maseda, M., Robertson, B., Simmonds, C., Tacchella, S., Übler, H., Williams, C., Willott, C., Witstok, J., Zhu, Y., 2026, _Monthly Notices of the Royal Astronomical Society_, [548, stag808](https://doi.org/10.1093/mnras/stag808). 'Hitting the slopes: a spectroscopic view of UV continuum slopes of galaxies reveals a reddening at z &gt; 9.5'.
 
@@ -74,9 +74,9 @@ Last updated: 19 May, 2026.
 
 - Carniani, S., Jakobsen, P., Venturi, G., D'Eugenio, F., Looser, T., Witstok, J., Willmer, C., Ferrara, A., Wu, Z., Arribas, S., Bunker, A., Charlot, S., Chevallard, J., Curti, M., Curtis-Lake, E., Eisenstein, D., Hainline, K., Helton, J., Ji, Z., Ji, X., Johnson, B., Kohandel, M., Kumari, N., Maiolino, R., Pallottini, A., Parlanti, E., Pérez-González, P., Rieke, M., Rinaldi, P., Robertson, B., Scholtz, J., Tacchella, S., Übler, H., Willot, C., 2026, arXiv e-prints, [2604.11899](https://doi.org/10.48550/arXiv.2604.11899). 'Intense and extended CIII] emission suggests a strong outflow in JADES-GS-z14-0'.
 
-- D'Eugenio, F., Nelson, E., Eisenstein, D., Maiolino, R., Carniani, S., Scholtz, J., Curti, M., Willmer, C., Bunker, A., Helton, J., Juodžbalis, I., Sun, F., Tacchella, S., Arribas, S., Cameron, A., Charlot, S., Curtis-Lake, E., Hainline, K., Johnson, B., Robertson, B., Williams, C., Willott, C., Baker, W., Chevallard, J., Danhaive, A., Isobe, Y., Ji, X., Ji, Z., Jones, G., Kumari, N., Looser, T., Lyu, J., Parlanti, E., Perna, M., Puskás, D., Rinaldi, P., Simmonds, C., Sun, Y., Übler, H., Venturi, G., Witstok, J., Wu, Z., Zhu, Y., 2026, _Monthly Notices of the Royal Astronomical Society_, [in press](https://doi.org/10.1093/mnras/stag824). 'JADES Dark Horse: demonstrating high-multiplex observations with JWST/NIRSpec dense-shutter spectroscopy in the JADES Origins Field' (6 citations).
-
 - D'Eugenio, F., Maiolino, R., Perna, M., Übler, H., Ji, X., McClymont, W., Koudmani, S., Sijacki, D., Juodžbalis, I., Scholtz, J., Bennett, J., Bunker, A., Carniani, S., Charlot, S., Cresci, G., Curtis-Lake, E., Bontà, E., Inayoshi, K., Jones, G., Lyu, J., Marconi, A., Mazzolari, G., Nelson, E., Parlanti, E., Robertson, B., Schneider, R., Simmonds, C., Tacchella, S., Venturi, G., Willott, C., Witstok, J., Witten, C., 2026, _Monthly Notices of the Royal Astronomical Society_, [547, stag401](https://doi.org/10.1093/mnras/stag401). 'BlackTHUNDER strikes twice: Balmer-line absorption in an overmassive Little Red Dot at z = 7.04' (1 citation).
+
+- D'Eugenio, F., Nelson, E., Eisenstein, D., Maiolino, R., Carniani, S., Scholtz, J., Curti, M., Willmer, C., Bunker, A., Helton, J., Juodžbalis, I., Sun, F., Tacchella, S., Arribas, S., Cameron, A., Charlot, S., Curtis-Lake, E., Hainline, K., Johnson, B., Robertson, B., Williams, C., Willott, C., Baker, W., Chevallard, J., Danhaive, A., Isobe, Y., Ji, X., Ji, Z., Jones, G., Kumari, N., Looser, T., Lyu, J., Parlanti, E., Perna, M., Puskás, D., Rinaldi, P., Simmonds, C., Sun, Y., Übler, H., Venturi, G., Witstok, J., Wu, Z., Zhu, Y., 2026, _Monthly Notices of the Royal Astronomical Society_, [in press](https://doi.org/10.1093/mnras/stag824). 'JADES Dark Horse: demonstrating high-multiplex observations with JWST/NIRSpec dense-shutter spectroscopy in the JADES Origins Field' (6 citations).
 
 - Isobe, Y., Maiolino, R., Ji, X., D'Eugenio, F., Simmonds, C., Scholtz, J., Juodžbalis, I., Saxena, A., Witstok, J., Kobayashi, C., Vanni, I., Salvadori, S., Watanabe, K., Monty, S., Belokurov, V., Feltre, A., McClymont, W., Tacchella, S., Curti, M., Übler, H., Charlot, S., Bunker, A., Chevallard, J., Curtis-Lake, E., Kumari, N., Rinaldi, P., Robertson, B., Williams, C., Willott, C., 2026, _Monthly Notices of the Royal Astronomical Society_, [547, stag123](https://doi.org/10.1093/mnras/stag123). 'JADES: the chemical enrichment pattern of distant galaxies ─ α enhancement, silicon depletion, and iron enhancement' (8 citations).
 
@@ -225,6 +225,8 @@ Last updated: 19 May, 2026.
 - Maiolino, R., Scholtz, J., Curtis-Lake, E., Carniani, S., Baker, W., de Graaff, A., Tacchella, S., Übler, H., D'Eugenio, F., Witstok, J., Curti, M., Arribas, S., Bunker, A., Charlot, S., Chevallard, J., Eisenstein, D., Egami, E., Ji, Z., Jones, G., Lyu, J., Rawle, T., Robertson, B., Rujopakarn, W., Perna, M., Sun, F., Venturi, G., Williams, C., Willott, C., 2024, _Astronomy and Astrophysics_, [691, A145](https://doi.org/10.1051/0004-6361/202347640). 'JADES: The diverse population of infant black holes at 4 &lt; z &lt; 11: Merging, tiny, poor, but mighty' (628 citations).
 
 - Sandles, L., D'Eugenio, F., Maiolino, R., Looser, T., Arribas, S., Baker, W., Bonaventura, N., Bunker, A., Cameron, A., Carniani, S., Charlot, S., Chevallard, J., Curti, M., Curtis-Lake, E., de Graaff, A., Eisenstein, D., Hainline, K., Ji, Z., Johnson, B., Jones, G., Kumari, N., Nelson, E., Perna, M., Rawle, T., Rix, H., Robertson, B., Del Pino, B., Scholtz, J., Shivaei, I., Smit, R., Sun, F., Tacchella, S., Übler, H., Williams, C., Willott, C., Witstok, J., 2024, _Astronomy and Astrophysics_, [691, A305](https://doi.org/10.1051/0004-6361/202347119). 'JADES: Balmer decrement measurements at redshifts 4 &lt; z &lt; 7' (44 citations).
+
+- Saxena, A., Cameron, A., Katz, H., Bunker, A., Chevallard, J., D'Eugenio, F., Arribas, S., Bhatawdekar, R., Boyett, K., Cargile, P., Carniani, S., Charlot, S., Curti, M., Curtis-Lake, E., Hainline, K., Ji, Z., Johnson, B., Jones, G., Kumari, N., Laseter, I., Maseda, M., Robertson, B., Simmonds, C., Tacchella, S., Ubler, H., Williams, C., Willott, C., Witstok, J., Zhu, Y., 2024, arXiv e-prints, [2411.14532](https://doi.org/10.48550/arXiv.2411.14532). 'Hitting the slopes: A spectroscopic view of UV continuum slopes of galaxies reveals a reddening at z &gt; 9.5'.
 
 - Bunker, A., Cameron, A., Curtis-Lake, E., Jakobsen, P., Carniani, S., Curti, M., Witstok, J., Maiolino, R., D'Eugenio, F., Looser, T., Willott, C., Bonaventura, N., Hainline, K., Übler, H., Willmer, C., Saxena, A., Smit, R., Alberts, S., Arribas, S., Baker, W., Baum, S., Bhatawdekar, R., Bowler, R., Boyett, K., Charlot, S., Chen, Z., Chevallard, J., Circosta, C., DeCoursey, C., de Graaff, A., Egami, E., Eisenstein, D., Endsley, R., Ferruit, P., Giardino, G., Hausen, R., Helton, J., Hviding, R., Ji, Z., Johnson, B., Jones, G., Kumari, N., Laseter, I., Lützgendorf, N., Maseda, M., Nelson, E., Parlanti, E., Perna, M., Rauscher, B., Rawle, T., Rix, H., Rieke, M., Robertson, B., Rodríguez Del Pino, B., Sandles, L., Scholtz, J., Sharpe, K., Skarbinski, M., Stark, D., Sun, F., Tacchella, S., Topping, M., Villanueva, N., Wallace, I., Williams, C., Woodrum, C., 2024, _Astronomy and Astrophysics_, [690, A288](https://doi.org/10.1051/0004-6361/202347094). 'JADES NIRSpec initial data release for the Hubble Ultra Deep Field: Redshifts and line fluxes of distant galaxies from the deepest JWST Cycle 1 NIRSpec multi-object spectroscopy' (289 citations).
 
