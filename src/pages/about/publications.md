@@ -6,13 +6,13 @@ layout: '~/layouts/MarkdownLayout.astro'
 
 ## Summary
 140 publications (107 refereed), of which 10 as first author. Metrics:
-- 149128 reads, 76804 downloads, 12701 citations
+- 149258 reads, 76866 downloads, 12702 citations
 - h-index: 62, m-index: 10.3, g-index: 112
-- i10-index: 110, i100-index: 41, read10-index: 1648.2
+- i10-index: 110, i100-index: 41, read10-index: 1648.7
 - tori index: 3.4, riq index: 306.0
 
 Based on the [SAO/NASA Astrophysics Data System (ADS)](https://ui.adsabs.harvard.edu/).
-Last updated: 21 May, 2026.
+Last updated: 22 May, 2026.
 
 ## First author (10)
 
@@ -162,7 +162,7 @@ Last updated: 21 May, 2026.
 
 - Juodžbalis, I., Marconcini, C., D'Eugenio, F., Maiolino, R., Marconi, A., Übler, H., Scholtz, J., Ji, X., Arribas, S., Bennett, J., Bromm, V., Bunker, A., Carniani, S., Charlot, S., Cresci, G., Dayal, P., Egami, E., Fabian, A., Inayoshi, K., Isobe, Y., Ivey, L., Jones, G., Koudmani, S., Laporte, N., Liu, B., Lyu, J., Mazzolari, G., Monty, S., Parlanti, E., Pérez-González, P., Perna, M., Robertson, B., Schneider, R., Sijacki, D., Tacchella, S., Trinca, A., Valiante, R., Volonteri, M., Witstok, J., Zhang, S., 2025, arXiv e-prints, [2508.21748](https://doi.org/10.48550/arXiv.2508.21748). 'A direct black hole mass measurement in a Little Red Dot at the Epoch of Reionization' (65 citations).
 
-- Isobe, Y., Maiolino, R., D'Eugenio, F., Curti, M., Ji, X., Juodžbalis, I., Scholtz, J., Feltre, A., Charlot, S., Übler, H., J. Bunker, A., Carniani, S., Curtis-Lake, E., Ji, Z., Kumari, N., Rinaldi, P., Robertson, B., Willott, C., Witstok, J., 2025, _Monthly Notices of the Royal Astronomical Society_, [541, L71](https://doi.org/10.1093/mnrasl/slaf056). 'JADES: nitrogen enhancement in high-redshift broad-line active galactic nuclei' (43 citations).
+- Isobe, Y., Maiolino, R., D'Eugenio, F., Curti, M., Ji, X., Juodžbalis, I., Scholtz, J., Feltre, A., Charlot, S., Übler, H., J. Bunker, A., Carniani, S., Curtis-Lake, E., Ji, Z., Kumari, N., Rinaldi, P., Robertson, B., Willott, C., Witstok, J., 2025, _Monthly Notices of the Royal Astronomical Society_, [541, L71](https://doi.org/10.1093/mnrasl/slaf056). 'JADES: nitrogen enhancement in high-redshift broad-line active galactic nuclei' (44 citations).
 
 - Laseter, I., Maseda, M., Simmonds, C., Endsley, R., Stark, D., Bunker, A., Bhatawdekar, R., Boyett, K., Cameron, A., Carniani, S., Curti, M., Ji, Z., Rinaldi, P., Saxena, A., Tacchella, S., Willott, C., Witstok, J., Zhu, Y., 2025, _The Astrophysical Journal_, [988, 73](https://doi.org/10.3847/1538-4357/adddb5). 'Efficient Ionizers with Low Hβ + [O III] Equivalent Widths: JADES Spectroscopy of a Peculiar High-redshift Population' (12 citations).
 
