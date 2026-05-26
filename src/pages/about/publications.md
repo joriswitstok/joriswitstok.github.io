@@ -5,14 +5,14 @@ layout: '~/layouts/MarkdownLayout.astro'
 ---
 
 ## Summary
-139 publications (108 refereed), of which 10 as first author. Metrics:
-- 150016 reads, 77300 downloads, 12738 citations
+140 publications (109 refereed), of which 10 as first author. Metrics:
+- 149588 reads, 77071 downloads, 12688 citations
 - h-index: 62, m-index: 10.3, g-index: 112
-- i10-index: 111, i100-index: 41, read10-index: 1652.5
+- i10-index: 110, i100-index: 41, read10-index: 1636.7
 - tori index: 3.4, riq index: 306.0
 
 Based on the [SAO/NASA Astrophysics Data System (ADS)](https://ui.adsabs.harvard.edu/).
-Last updated: 25 May, 2026.
+Last updated: 26 May, 2026.
 
 ## First author (10)
 
@@ -66,9 +66,13 @@ Last updated: 25 May, 2026.
 
 - Jones, G., Bunker, A., Saxena, A., Witstok, J., et al., 2024, _Astronomy and Astrophysics_, [683, A238](https://doi.org/10.1051/0004-6361/202347099). 'JADES: The emergence and evolution of Lyα emission and constraints on the intergalactic medium neutral fraction' (64 citations).
 
-## Other (115)
+## Other (116)
+
+- Saxena, A., Cameron, A., Katz, H., Bunker, A., Chevallard, J., D'Eugenio, F., Arribas, S., Bhatawdekar, R., Boyett, K., Cargile, P., Carniani, S., Charlot, S., Curti, M., Curtis-Lake, E., Hainline, K., Ji, Z., Johnson, B., Jones, G., Kumari, N., Laseter, I., Maseda, M., Robertson, B., Simmonds, C., Tacchella, S., Übler, H., Williams, C., Willott, C., Witstok, J., Zhu, Y., 2026, _Monthly Notices of the Royal Astronomical Society_, [548, stag808](https://doi.org/10.1093/mnras/stag808). 'Hitting the slopes: a spectroscopic view of UV continuum slopes of galaxies reveals a reddening at z &gt; 9.5'.
 
 - Maiolino, R., Übler, H., D'Eugenio, F., Scholtz, J., Juodžbalis, I., Ji, X., Perna, M., Bromm, V., Dayal, P., Koudmani, S., Liu, B., Schneider, R., Sijacki, D., Valiante, R., Trinca, A., Zhang, S., Volonteri, M., Inayoshi, K., Carniani, S., Nakajima, K., Isobe, Y., Witstok, J., Jones, G., Tacchella, S., Arribas, S., Bunker, A., Cataldi, E., Charlot, S., Curti, G., Fabian, A., Katz, H., Kumari, N., Laporte, N., Mazzolari, G., Robertson, B., Sun, F., Rodriguez Del Pino, B., Venturi, G., 2026, _Monthly Notices of the Royal Astronomical Society_, [548, staf2109](https://doi.org/10.1093/mnras/staf2109). 'A black hole in a near pristine galaxy 700 Myr after the big bang' (72 citations).
+
+- Scholtz, J., Carniani, S., Parlanti, E., D'Eugenio, F., Curtis-Lake, E., Jakobsen, P., Bunker, A., Cameron, A., Arribas, S., Baker, W., Charlot, S., Chevellard, J., Circosta, C., Curti, M., Duan, Q., Eisenstein, D., Hainline, K., Ji, Z., Johnson, B., Jones, G., Kumari, N., Maiolino, R., Maseda, M., Perna, M., Pérez-González, P., Rawle, T., Rieke, M., Rinaldi, P., Robertson, B., Saxena, A., Shivaei, I., Silcock, M., Sun, Y., Rodríguez Del Pino, B., Tacchella, S., Übler, H., Venturi, G., Williams, C., Willmer, C., Willott, C., Witstok, J., 2026, _Monthly Notices of the Royal Astronomical Society_, [in press](https://doi.org/10.1093/mnras/stag939). 'JADES Data Release 4 - Paper II: Data reduction, analysis and emission-line fluxes of the complete spectroscopic sample'.
 
 - Carniani, S., Jakobsen, P., Venturi, G., D'Eugenio, F., Looser, T., Witstok, J., Willmer, C., Ferrara, A., Wu, Z., Arribas, S., Bunker, A., Charlot, S., Chevallard, J., Curti, M., Curtis-Lake, E., Eisenstein, D., Hainline, K., Helton, J., Ji, Z., Ji, X., Johnson, B., Kohandel, M., Kumari, N., Maiolino, R., Pallottini, A., Parlanti, E., Pérez-González, P., Rieke, M., Rinaldi, P., Robertson, B., Scholtz, J., Tacchella, S., Übler, H., Willot, C., 2026, arXiv e-prints, [2604.11899](https://doi.org/10.48550/arXiv.2604.11899). 'Intense and extended CIII] emission suggests a strong outflow in JADES-GS-z14-0'.
 
@@ -85,8 +89,6 @@ Last updated: 25 May, 2026.
 - Pollock, C., Gottumukkala, R., Heintz, K., Brammer, G., Roberts-Borsani, G., Oesch, P., Witstok, J., Arellano-Córdova, K., Cullen, F., Scholte, D., Terp, C., Rowland, L., Sneppen, A., Ito, K., Valentino, F., Matthee, J., Watson, D., Toft, S., 2026, _Astronomy and Astrophysics_, [708, A203](https://doi.org/10.1051/0004-6361/202556032). 'Novel z ∼ 10 auroral line measurements extend the gradual offset of the fundamental metallicity relation deep into the first gigayear of cosmic time' (34 citations).
 
 - Rinaldi, P., Hainline, K., D'Eugenio, F., Pérez-González, P., Eisenstein, D., Willmer, C., Carreira, C., Robertson, B., Johnson, B., Alberts, S., Baker, W., Bunker, A., Carniani, S., Egami, E., Helton, J., Ji, Z., Juodžbalis, I., Lin, X., Lyu, J., Ma, Z., Maiolino, R., Parlanti, E., Scholtz, J., Sun, Y., Tacchella, S., Venturi, G., Williams, C., Willott, C., Witstok, J., Wu, Z., 2026, arXiv e-prints, [2604.07138](https://doi.org/10.48550/arXiv.2604.07138). 'The Way We Tally Becomes the Tale: the Impact of Selection Strategies on the Inferred Evolution of Little Red Dots Across Cosmic Time' (1 citation).
-
-- Saxena, A., Cameron, A., Katz, H., Bunker, A., Chevallard, J., D'Eugenio, F., Arribas, S., Bhatawdekar, R., Boyett, K., Cargile, P., Carniani, S., Charlot, S., Curti, M., Curtis-Lake, E., Hainline, K., Ji, Z., Johnson, B., Jones, G., Kumari, N., Laseter, I., Maseda, M., Robertson, B., Simmonds, C., Tacchella, S., Übler, H., Williams, C., Willott, C., Witstok, J., Zhu, Y., 2026, _Monthly Notices of the Royal Astronomical Society_, [in press](https://doi.org/10.1093/mnras/stag808). 'Hitting the slopes: A spectroscopic view of UV continuum slopes of galaxies reveals a reddening at z &gt; 9.5' (50 citations).
 
 - Sneppen, A., Matthews, J., Watson, D., Cameron, A., Sim, S., Witstok, J., Brammer, G., Heintz, K., Nikopoulos, G., 2026, arXiv e-prints, [2604.09399](https://doi.org/10.48550/arXiv.2604.09399). 'Paschen Jumps in Little Red Dots: Evidence for Nebular Continua'.
 
