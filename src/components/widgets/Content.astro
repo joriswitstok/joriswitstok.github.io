@@ -1,10 +1,10 @@
 ---
-import type { Content as Props } from '~/types';
+import { Icon } from 'astro-icon/components';
+import Button from '~/components/ui/Button.astro';
 import Headline from '~/components/ui/Headline.astro';
 import WidgetWrapper from '~/components/ui/WidgetWrapper.astro';
 import Image from '~/components/common/Image.astro';
-import Button from '~/components/ui/Button.astro';
-import ItemGrid from '~/components/ui/ItemGrid.astro';
+import type { Content as Props } from '~/types';
 
 const {
   title = await Astro.slots.render('title'),
@@ -23,6 +23,15 @@ const {
   classes = {},
   bg = await Astro.slots.render('bg'),
 } = Astro.props;
+
+const columnsClass =
+  columns === 4
+    ? 'lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2'
+    : columns === 3
+      ? 'lg:grid-cols-3 sm:grid-cols-2'
+      : columns === 2
+        ? 'sm:grid-cols-2'
+        : '';
 ---
 
 <WidgetWrapper
@@ -54,19 +63,47 @@ const {
           )
         }
 
-        <ItemGrid
-          items={items}
-          columns={columns}
-          defaultIcon="tabler:check"
-          classes={{
-            container: `gap-y-4 md:gap-y-8`,
-            panel: 'max-w-none',
-            title: 'text-lg font-medium leading-6 dark:text-white ml-2 rtl:ml-0 rtl:mr-2',
-            description: 'text-muted dark:text-slate-400 ml-2 rtl:ml-0 rtl:mr-2',
-            icon: 'flex h-7 w-7 items-center justify-center rounded-full bg-green-600 dark:bg-green-700 text-gray-50 p-1',
-            action: 'text-lg font-medium leading-6 dark:text-white ml-2 rtl:ml-0 rtl:mr-2',
-          }}
-        />
+        {
+          items.length > 0 && (
+            <div class:list={['grid mx-auto gap-y-4 md:gap-y-8 gap-8', columnsClass]}>
+              {items.map(({ title: itemTitle, description, icon, callToAction }) => (
+                <div class="intersect-once motion-safe:md:opacity-0 motion-safe:md:intersect:animate-fade">
+                  <div class="flex flex-row max-w-none">
+                    <div class="flex justify-center">
+                      <Icon
+                        name={icon || 'tabler:check'}
+                        class="flex h-7 w-7 items-center justify-center rounded-full bg-green-600 dark:bg-green-700 text-gray-50 p-1 mr-2 rtl:mr-0 rtl:ml-2"
+                      />
+                    </div>
+                    <div class="mt-0.5">
+                      {itemTitle && (
+                        <h3 class="text-lg font-medium leading-6 dark:text-white ml-2 rtl:ml-0 rtl:mr-2">
+                          {itemTitle}
+                        </h3>
+                      )}
+                      {description && (
+                        <p
+                          class:list={[{ 'mt-3': itemTitle }, 'text-muted dark:text-slate-400 ml-2 rtl:ml-0 rtl:mr-2']}
+                          set:html={description}
+                        />
+                      )}
+                      {callToAction && (
+                        <div
+                          class:list={[
+                            { 'mt-3': itemTitle || description },
+                            'text-lg font-medium leading-6 dark:text-white ml-2 rtl:ml-0 rtl:mr-2',
+                          ]}
+                        >
+                          <Button variant="link" {...callToAction} />
+                        </div>
+                      )}
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          )
+        }
       </div>
       <div aria-hidden="true" class="mt-10 md:mt-0 md:basis-1/2">
         {
@@ -82,6 +119,7 @@ const {
                   widths={[400, 768]}
                   sizes="(max-width: 768px) 100vw, 432px"
                   layout="responsive"
+                  format="webp"
                   {...image}
                 />
               )}

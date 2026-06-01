@@ -3,8 +3,10 @@ import { fileURLToPath } from 'url';
 
 import { defineConfig } from 'astro/config';
 
+import { unified } from '@astrojs/markdown-remark';
+
 import sitemap from '@astrojs/sitemap';
-import tailwind from '@astrojs/tailwind';
+import tailwindcss from '@tailwindcss/vite';
 import mdx from '@astrojs/mdx';
 import partytown from '@astrojs/partytown';
 import icon from 'astro-icon';
@@ -13,7 +15,7 @@ import type { AstroIntegration } from 'astro';
 
 import astrowind from './vendor/integration';
 
-import { readingTimeRemarkPlugin, responsiveTablesRehypePlugin, lazyImagesRehypePlugin } from './src/utils/frontmatter';
+import { readingTimeRemarkPlugin, responsiveTablesRehypePlugin } from './src/utils/frontmatter';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
@@ -25,9 +27,6 @@ export default defineConfig({
   output: 'static',
 
   integrations: [
-    tailwind({
-      applyBaseStyles: false,
-    }),
     sitemap(),
     mdx(),
     icon({
@@ -72,15 +71,28 @@ export default defineConfig({
   ],
 
   image: {
+    // Astro's default Sharp service handles local images.
+    //
+    // Most remote CDN images (Unsplash, Cloudinary, Imgix…) are routed by
+    // src/components/common/Image.astro through `unpic`, which rewrites the
+    // URL with CDN-side query parameters and serves it straight from the
+    // provider — Astro never downloads it, so they don't need to be listed.
+    //
+    // `domains` only matters for remote URLs that fall through to Astro's
+    // native <Image /> (i.e. providers Unpic can't detect, like Pixabay).
+    // Listed entries are authorized to be processed by Sharp.
     domains: ['cdn.pixabay.com'],
   },
 
   markdown: {
-    remarkPlugins: [readingTimeRemarkPlugin],
-    rehypePlugins: [responsiveTablesRehypePlugin, lazyImagesRehypePlugin],
+    processor: unified({
+      remarkPlugins: [readingTimeRemarkPlugin],
+      rehypePlugins: [responsiveTablesRehypePlugin],
+    }),
   },
 
   vite: {
+    plugins: [tailwindcss()],
     resolve: {
       alias: {
         '~': path.resolve(__dirname, './src'),
