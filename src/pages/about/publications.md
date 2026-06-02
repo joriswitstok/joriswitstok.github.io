@@ -6,13 +6,13 @@ layout: '~/layouts/MarkdownLayout.astro'
 
 ## Summary
 139 publications (109 refereed), of which 10 as first author. Metrics:
-- 150936 reads, 77789 downloads, 12875 citations
+- 150912 reads, 77782 downloads, 12858 citations
 - h-index: 63, m-index: 10.5, g-index: 112
-- i10-index: 113, i100-index: 42, read10-index: 1661.9
+- i10-index: 113, i100-index: 42, read10-index: 1660.6
 - tori index: 3.4, riq index: 308.0
 
 Based on the [SAO/NASA Astrophysics Data System (ADS)](https://ui.adsabs.harvard.edu/).
-Last updated: 1 June, 2026.
+Last updated: 2 June, 2026.
 
 ## First author (10)
 
@@ -68,6 +68,8 @@ Last updated: 1 June, 2026.
 
 ## Other (115)
 
+- D'Eugenio, F., Nelson, E., Eisenstein, D., Maiolino, R., Carniani, S., Scholtz, J., Curti, M., Willmer, C., Bunker, A., Helton, J., Juodžbalis, I., Sun, F., Tacchella, S., Arribas, S., Cameron, A., Charlot, S., Curtis-Lake, E., Hainline, K., Johnson, B., Robertson, B., Williams, C., Willott, C., Baker, W., Chevallard, J., Danhaive, A., Isobe, Y., Ji, X., Ji, Z., Jones, G., Kumari, N., Looser, T., Lyu, J., Parlanti, E., Perna, M., Puskás, D., Rinaldi, P., Simmonds, C., Sun, Y., Übler, H., Venturi, G., Witstok, J., Wu, Z., Zhu, Y., 2026, _Monthly Notices of the Royal Astronomical Society_, [549, stag824](https://doi.org/10.1093/mnras/stag824). 'JADES Dark Horse: demonstrating high-multiplex observations with JWST/NIRSpec dense-shutter spectroscopy in the JADES Origins Field'.
+
 - Saxena, A., Cameron, A., Katz, H., Bunker, A., Chevallard, J., D'Eugenio, F., Arribas, S., Bhatawdekar, R., Boyett, K., Cargile, P., Carniani, S., Charlot, S., Curti, M., Curtis-Lake, E., Hainline, K., Ji, Z., Johnson, B., Jones, G., Kumari, N., Laseter, I., Maseda, M., Robertson, B., Simmonds, C., Tacchella, S., Übler, H., Williams, C., Willott, C., Witstok, J., Zhu, Y., 2026, _Monthly Notices of the Royal Astronomical Society_, [548, stag808](https://doi.org/10.1093/mnras/stag808). 'Hitting the slopes: a spectroscopic view of UV continuum slopes of galaxies reveals a reddening at z &gt; 9.5' (50 citations).
 
 - Maiolino, R., Übler, H., D'Eugenio, F., Scholtz, J., Juodžbalis, I., Ji, X., Perna, M., Bromm, V., Dayal, P., Koudmani, S., Liu, B., Schneider, R., Sijacki, D., Valiante, R., Trinca, A., Zhang, S., Volonteri, M., Inayoshi, K., Carniani, S., Nakajima, K., Isobe, Y., Witstok, J., Jones, G., Tacchella, S., Arribas, S., Bunker, A., Cataldi, E., Charlot, S., Curti, G., Fabian, A., Katz, H., Kumari, N., Laporte, N., Mazzolari, G., Robertson, B., Sun, F., Rodriguez Del Pino, B., Venturi, G., 2026, _Monthly Notices of the Royal Astronomical Society_, [548, staf2109](https://doi.org/10.1093/mnras/staf2109). 'A black hole in a near pristine galaxy 700 Myr after the big bang' (71 citations).
@@ -77,8 +79,6 @@ Last updated: 1 June, 2026.
 - Carniani, S., Jakobsen, P., Venturi, G., D'Eugenio, F., Looser, T., Witstok, J., Willmer, C., Ferrara, A., Wu, Z., Arribas, S., Bunker, A., Charlot, S., Chevallard, J., Curti, M., Curtis-Lake, E., Eisenstein, D., Hainline, K., Helton, J., Ji, Z., Ji, X., Johnson, B., Kohandel, M., Kumari, N., Maiolino, R., Pallottini, A., Parlanti, E., Pérez-González, P., Rieke, M., Rinaldi, P., Robertson, B., Scholtz, J., Tacchella, S., Übler, H., Willot, C., 2026, arXiv e-prints, [2604.11899](https://doi.org/10.48550/arXiv.2604.11899). 'Intense and extended CIII] emission suggests a strong outflow in JADES-GS-z14-0'.
 
 - D'Eugenio, F., Maiolino, R., Perna, M., Übler, H., Ji, X., McClymont, W., Koudmani, S., Sijacki, D., Juodžbalis, I., Scholtz, J., Bennett, J., Bunker, A., Carniani, S., Charlot, S., Cresci, G., Curtis-Lake, E., Bontà, E., Inayoshi, K., Jones, G., Lyu, J., Marconi, A., Mazzolari, G., Nelson, E., Parlanti, E., Robertson, B., Schneider, R., Simmonds, C., Tacchella, S., Venturi, G., Willott, C., Witstok, J., Witten, C., 2026, _Monthly Notices of the Royal Astronomical Society_, [547, stag401](https://doi.org/10.1093/mnras/stag401). 'BlackTHUNDER strikes twice: Balmer-line absorption in an overmassive Little Red Dot at z = 7.04' (2 citations).
-
-- D'Eugenio, F., Nelson, E., Eisenstein, D., Maiolino, R., Carniani, S., Scholtz, J., Curti, M., Willmer, C., Bunker, A., Helton, J., Juodžbalis, I., Sun, F., Tacchella, S., Arribas, S., Cameron, A., Charlot, S., Curtis-Lake, E., Hainline, K., Johnson, B., Robertson, B., Williams, C., Willott, C., Baker, W., Chevallard, J., Danhaive, A., Isobe, Y., Ji, X., Ji, Z., Jones, G., Kumari, N., Looser, T., Lyu, J., Parlanti, E., Perna, M., Puskás, D., Rinaldi, P., Simmonds, C., Sun, Y., Übler, H., Venturi, G., Witstok, J., Wu, Z., Zhu, Y., 2026, _Monthly Notices of the Royal Astronomical Society_, [in press](https://doi.org/10.1093/mnras/stag824). 'JADES Dark Horse: demonstrating high-multiplex observations with JWST/NIRSpec dense-shutter spectroscopy in the JADES Origins Field' (6 citations).
 
 - Isobe, Y., Maiolino, R., Ji, X., D'Eugenio, F., Simmonds, C., Scholtz, J., Juodžbalis, I., Saxena, A., Witstok, J., Kobayashi, C., Vanni, I., Salvadori, S., Watanabe, K., Monty, S., Belokurov, V., Feltre, A., McClymont, W., Tacchella, S., Curti, M., Übler, H., Charlot, S., Bunker, A., Chevallard, J., Curtis-Lake, E., Kumari, N., Rinaldi, P., Robertson, B., Williams, C., Willott, C., 2026, _Monthly Notices of the Royal Astronomical Society_, [547, stag123](https://doi.org/10.1093/mnras/stag123). 'JADES: the chemical enrichment pattern of distant galaxies ─ α enhancement, silicon depletion, and iron enhancement' (9 citations).
 
