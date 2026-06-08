@@ -6,13 +6,13 @@ layout: '~/layouts/MarkdownLayout.astro'
 
 ## Summary
 140 publications (110 refereed), of which 10 as first author. Metrics:
-- 151636 reads, 78144 downloads, 12884 citations
+- 151779 reads, 78215 downloads, 12885 citations
 - h-index: 63, m-index: 10.5, g-index: 112
-- i10-index: 113, i100-index: 42, read10-index: 1663.1
+- i10-index: 113, i100-index: 42, read10-index: 1664.1
 - tori index: 3.4, riq index: 309.0
 
 Based on the [SAO/NASA Astrophysics Data System (ADS)](https://ui.adsabs.harvard.edu/).
-Last updated: 7 June, 2026.
+Last updated: 8 June, 2026.
 
 ## First author (10)
 
@@ -120,7 +120,7 @@ Last updated: 7 June, 2026.
 
 - Hainline, K., Eisenstein, D., Whitler, L., Robertson, B., Johnson, B., Jakobsen, P., Puskas, D., Tacchella, S., Helton, J., Wu, Z., Arribas, S., Baker, W., Bunker, A., Cameron, A., Carniani, S., Carreira, C., Charlot, S., Chevallard, J., Curtis-Lake, E., D'Eugenio, F., Duan, Q., Egami, E., Hausen, R., Ji, Z., Looser, T., Maiolino, R., Mengistu, P., Perez-Gonzalez, P., Rieke, M., Rinaldi, P., Sun, F., Trussler, J., Ubler, H., Williams, C., Willmer, C., Willott, C., Witstok, J., 2026, arXiv e-prints, [2601.15959](https://doi.org/10.48550/arXiv.2601.15959). 'JWST Advanced Deep Extragalactic Survey (JADES) Data Release 5: Photometrically Selected Galaxy Candidates at z &gt; 8' (12 citations).
 
-- Rusakov, V., Watson, D., Nikopoulos, G., Brammer, G., Gottumukkala, R., Harvey, T., Heintz, K., Damgaard, R., Sim, S., Sneppen, A., Vijayan, A., Adams, N., Austin, D., Conselice, C., Goolsby, C., Toft, S., Witstok, J., 2026, _Nature_, [649, 574](https://doi.org/10.1038/s41586-025-09900-4). 'Little red dots as young supermassive black holes in dense ionized cocoons' (156 citations).
+- Rusakov, V., Watson, D., Nikopoulos, G., Brammer, G., Gottumukkala, R., Harvey, T., Heintz, K., Damgaard, R., Sim, S., Sneppen, A., Vijayan, A., Adams, N., Austin, D., Conselice, C., Goolsby, C., Toft, S., Witstok, J., 2026, _Nature_, [649, 574](https://doi.org/10.1038/s41586-025-09900-4). 'Little red dots as young supermassive black holes in dense ionized cocoons' (157 citations).
 
 - Scholtz, J., Silcock, M., Curtis-Lake, E., Maiolino, R., Carniani, S., D'Eugenio, F., Ji, X., Jakobsen, P., Hainline, K., Arribas, S., Baker, W., Bhatawdekar, R., Bunker, A., Charlot, S., Chevallard, J., Curti, M., Eisenstein, D., Isobe, Y., Jones, G., Parlanti, E., Pérez-González, P., Rinaldi, P., Robertson, B., Tacchella, S., Übler, H., Williams, C., Willott, C., Witstok, J., 2026, _Monthly Notices of the Royal Astronomical Society_, [545, staf2107](https://doi.org/10.1093/mnras/staf2107). 'JADES: carbon-enhanced, nitrogen-normal compact galaxy at z = 11.2' (9 citations).
 
@@ -284,9 +284,9 @@ Last updated: 7 June, 2026.
 
 - Simmonds, C., Tacchella, S., Maseda, M., Williams, C., Baker, W., Witten, C., Johnson, B., Robertson, B., Saxena, A., Sun, F., Witstok, J., Bhatawdekar, R., Boyett, K., Bunker, A., Charlot, S., Curtis-Lake, E., Egami, E., Eisenstein, D., Ji, Z., Maiolino, R., Sandles, L., Smit, R., Übler, H., Willott, C., 2023, _Monthly Notices of the Royal Astronomical Society_, [523, 5468](https://doi.org/10.1093/mnras/stad1749). 'The ionizing photon production efficiency at z ~ 6 for Lyman-alpha emitters using JEMS and MUSE' (79 citations).
 
-- Tacchella, S., Johnson, B., Robertson, B., Carniani, S., D'Eugenio, F., Kumari, N., Maiolino, R., Nelson, E., Suess, K., Übler, H., Williams, C., Adebusola, A., Alberts, S., Arribas, S., Bhatawdekar, R., Bonaventura, N., Bowler, R., Bunker, A., Cameron, A., Curti, M., Egami, E., Eisenstein, D., Frye, B., Hainline, K., Helton, J., Ji, Z., Looser, T., Lyu, J., Perna, M., Rawle, T., Rieke, G., Rieke, M., Saxena, A., Sandles, L., Shivaei, I., Simmonds, C., Sun, F., Willmer, C., Willott, C., Witstok, J., 2023, _Monthly Notices of the Royal Astronomical Society_, [522, 6236](https://doi.org/10.1093/mnras/stad1408). 'JWST NIRCam + NIRSpec: interstellar medium and stellar populations of young galaxies with rising star formation and evolving gas reservoirs' (180 citations).
-
 - Tacchella, S., Eisenstein, D., Hainline, K., Johnson, B., Baker, W., Helton, J., Robertson, B., Suess, K., Chen, Z., Nelson, E., Puskás, D., Sun, F., Alberts, S., Egami, E., Hausen, R., Rieke, G., Rieke, M., Shivaei, I., Williams, C., Willmer, C., Bunker, A., Cameron, A., Carniani, S., Charlot, S., Curti, M., Curtis-Lake, E., Looser, T., Maiolino, R., Maseda, M., Rawle, T., Rix, H., Smit, R., Übler, H., Willott, C., Witstok, J., Baum, S., Bhatawdekar, R., Boyett, K., Danhaive, A., de Graaff, A., Endsley, R., Ji, Z., Lyu, J., Sandles, L., Saxena, A., Scholtz, J., Topping, M., Whitler, L., 2023, _The Astrophysical Journal_, [952, 74](https://doi.org/10.3847/1538-4357/acdbc6). 'JADES Imaging of GN-z11: Revealing the Morphology and Environment of a Luminous Galaxy 430 Myr after the Big Bang' (203 citations).
+
+- Tacchella, S., Johnson, B., Robertson, B., Carniani, S., D'Eugenio, F., Kumari, N., Maiolino, R., Nelson, E., Suess, K., Übler, H., Williams, C., Adebusola, A., Alberts, S., Arribas, S., Bhatawdekar, R., Bonaventura, N., Bowler, R., Bunker, A., Cameron, A., Curti, M., Egami, E., Eisenstein, D., Frye, B., Hainline, K., Helton, J., Ji, Z., Looser, T., Lyu, J., Perna, M., Rawle, T., Rieke, G., Rieke, M., Saxena, A., Sandles, L., Shivaei, I., Simmonds, C., Sun, F., Willmer, C., Willott, C., Witstok, J., 2023, _Monthly Notices of the Royal Astronomical Society_, [522, 6236](https://doi.org/10.1093/mnras/stad1408). 'JWST NIRCam + NIRSpec: interstellar medium and stellar populations of young galaxies with rising star formation and evolving gas reservoirs' (180 citations).
 
 - Curtis-Lake, E., Carniani, S., Cameron, A., Charlot, S., Jakobsen, P., Maiolino, R., Bunker, A., Witstok, J., Smit, R., Chevallard, J., Willott, C., Ferruit, P., Arribas, S., Bonaventura, N., Curti, M., D'Eugenio, F., Franx, M., Giardino, G., Looser, T., Lützgendorf, N., Maseda, M., Rawle, T., Rix, H., Rodríguez del Pino, B., Übler, H., Sirianni, M., Dressler, A., Egami, E., Eisenstein, D., Endsley, R., Hainline, K., Hausen, R., Johnson, B., Rieke, M., Robertson, B., Shivaei, I., Stark, D., Tacchella, S., Williams, C., Willmer, C., Bhatawdekar, R., Bowler, R., Boyett, K., Chen, Z., de Graaff, A., Helton, J., Hviding, R., Jones, G., Kumari, N., Lyu, J., Nelson, E., Perna, M., Sandles, L., Saxena, A., Suess, K., Sun, F., Topping, M., Wallace, I., Whitler, L., 2023, _Nature Astronomy_, [7, 622](https://doi.org/10.1038/s41550-023-01918-w). 'Spectroscopic confirmation of four metal-poor galaxies at z = 10.3-13.2' (461 citations).
 
