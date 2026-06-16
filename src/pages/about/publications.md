@@ -5,14 +5,14 @@ layout: '~/layouts/MarkdownLayout.astro'
 ---
 
 ## Summary
-140 publications (110 refereed), of which 10 as first author. Metrics:
-- 152352 reads, 78518 downloads, 12892 citations
-- h-index: 63, m-index: 10.5, g-index: 112
-- i10-index: 113, i100-index: 42, read10-index: 1641.3
-- tori index: 3.4, riq index: 307.0
+142 publications (112 refereed), of which 10 as first author. Metrics:
+- 152488 reads, 78584 downloads, 12955 citations
+- h-index: 63, m-index: 10.5, g-index: 113
+- i10-index: 114, i100-index: 42, read10-index: 1644.6
+- tori index: 3.5, riq index: 309.0
 
 Based on the [SAO/NASA Astrophysics Data System (ADS)](https://ui.adsabs.harvard.edu/).
-Last updated: 15 June, 2026.
+Last updated: 16 June, 2026.
 
 ## First author (10)
 
@@ -66,9 +66,13 @@ Last updated: 15 June, 2026.
 
 - Jones, G., Bunker, A., Saxena, A., Witstok, J., et al., 2024, _Astronomy and Astrophysics_, [683, A238](https://doi.org/10.1051/0004-6361/202347099). 'JADES: The emergence and evolution of Lyα emission and constraints on the intergalactic medium neutral fraction' (64 citations).
 
-## Other (116)
+## Other (118)
 
 - D'Eugenio, F., Nelson, E., Eisenstein, D., Maiolino, R., Carniani, S., Scholtz, J., Curti, M., Willmer, C., Bunker, A., Helton, J., Juodžbalis, I., Sun, F., Tacchella, S., Arribas, S., Cameron, A., Charlot, S., Curtis-Lake, E., Hainline, K., Johnson, B., Robertson, B., Williams, C., Willott, C., Baker, W., Chevallard, J., Danhaive, A., Isobe, Y., Ji, X., Ji, Z., Jones, G., Kumari, N., Looser, T., Lyu, J., Parlanti, E., Perna, M., Puskás, D., Rinaldi, P., Simmonds, C., Sun, Y., Übler, H., Venturi, G., Witstok, J., Wu, Z., Zhu, Y., 2026, _Monthly Notices of the Royal Astronomical Society_, [549, stag824](https://doi.org/10.1093/mnras/stag824). 'JADES Dark Horse: demonstrating high-multiplex observations with JWST/NIRSpec dense-shutter spectroscopy in the JADES Origins Field' (6 citations).
+
+- Hainline, K., Eisenstein, D., Whitler, L., Robertson, B., Johnson, B., Jakobsen, P., Puskás, D., Tacchella, S., Helton, J., Wu, Z., Arribas, S., Baker, W., Bunker, A., Cameron, A., Carniani, S., Carreira, C., Charlot, S., Chevallard, J., Curtis-Lake, E., D'Eugenio, F., Duan, Q., Egami, E., Hausen, R., Ji, Z., Looser, T., Maiolino, R., Mengistu, P., Pérez-González, P., Rieke, M., Rinaldi, P., Sun, F., Trussler, J., Übler, H., Williams, C., Willmer, C., Willott, C., Witstok, J., 2026, _The Astrophysical Journal_, [1004, 161](https://doi.org/10.3847/1538-4357/ae710a). 'JWST Advanced Deep Extragalactic Survey Data Release 5: Photometrically Selected Galaxy Candidates at z &gt; 8'.
+
+- Nikopoulos, G., Watson, D., Sneppen, A., Rusakov, V., Heintz, K., Witstok, J., Brammer, G., 2026, _Astronomy and Astrophysics_, [710, A136](https://doi.org/10.1051/0004-6361/202557604). 'Evidence of violation of case B recombination in little red dots'.
 
 - Pollock, C., Heintz, K., Rusta, E., Watson, D., Salvadori, S., Witten, C., Witstok, J., Koutsouridou, I., Gelli, V., Oesch, P., Brammer, G., Saccardi, A., Ito, K., Gottumukkala, R., Bergholt, D., Brooksby, K., Terp, C., Valentino, F., 2026, arXiv e-prints, [2606.13078](https://scixplorer.org/abs/2026arXiv260613078P). 'Chemical signatures from the first stars embedded in metal-poor gas in galaxies at cosmic dawn'.
 
