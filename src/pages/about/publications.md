@@ -5,14 +5,14 @@ layout: '~/layouts/MarkdownLayout.astro'
 ---
 
 ## Summary
-140 publications (112 refereed), of which 10 as first author. Metrics:
-- 152075 reads, 78366 downloads, 12921 citations
-- h-index: 63, m-index: 10.5, g-index: 113
-- i10-index: 112, i100-index: 42, read10-index: 1545.8
-- tori index: 3.4, riq index: 309.0
+139 publications (112 refereed), of which 10 as first author. Metrics:
+- 151473 reads, 78009 downloads, 12853 citations
+- h-index: 62, m-index: 10.3, g-index: 112
+- i10-index: 111, i100-index: 42, read10-index: 1530.5
+- tori index: 3.4, riq index: 308.0
 
 Based on the [SAO/NASA Astrophysics Data System (ADS)](https://ui.adsabs.harvard.edu/).
-Last updated: 22 June, 2026.
+Last updated: 23 June, 2026.
 
 ## First author (10)
 
@@ -66,7 +66,7 @@ Last updated: 22 June, 2026.
 
 - Jones, G., Bunker, A., Saxena, A., Witstok, J., et al., 2024, _Astronomy and Astrophysics_, [683, A238](https://doi.org/10.1051/0004-6361/202347099). 'JADES: The emergence and evolution of Lyα emission and constraints on the intergalactic medium neutral fraction' (65 citations).
 
-## Other (116)
+## Other (115)
 
 - D'Eugenio, F., Nelson, E., Eisenstein, D., Maiolino, R., Carniani, S., Scholtz, J., Curti, M., Willmer, C., Bunker, A., Helton, J., Juodžbalis, I., Sun, F., Tacchella, S., Arribas, S., Cameron, A., Charlot, S., Curtis-Lake, E., Hainline, K., Johnson, B., Robertson, B., Williams, C., Willott, C., Baker, W., Chevallard, J., Danhaive, A., Isobe, Y., Ji, X., Ji, Z., Jones, G., Kumari, N., Looser, T., Lyu, J., Parlanti, E., Perna, M., Puskás, D., Rinaldi, P., Simmonds, C., Sun, Y., Übler, H., Venturi, G., Witstok, J., Wu, Z., Zhu, Y., 2026, _Monthly Notices of the Royal Astronomical Society_, [549, stag824](https://doi.org/10.1093/mnras/stag824). 'JADES Dark Horse: demonstrating high-multiplex observations with JWST/NIRSpec dense-shutter spectroscopy in the JADES Origins Field' (7 citations).
 
@@ -195,8 +195,6 @@ Last updated: 22 June, 2026.
 - Fudamoto, Y., Inoue, A., Bouwens, R., Inami, H., Smit, R., Stark, D., Aravena, M., Pallottini, A., Hashimoto, T., Oguri, M., Bowler, R., da Cunha, E., Dayal, P., Ferrara, A., Fujimoto, S., Heintz, K., Hygate, A., van Leeuwen, I., De Looze, I., Rowland, L., Stefanon, M., Sugahara, Y., Witstok, J., van der Werf, P., 2025, arXiv e-prints, [2504.03831](https://doi.org/10.48550/arXiv.2504.03831). 'ALMA Observations of [OI]145um and [NII]205um Emission lines from Star-Forming Galaxies at $z\sim7$' (13 citations).
 
 - Perna, M., Arribas, S., Lamperti, I., Circosta, C., Bertola, E., Pérez-González, P., D'Eugenio, F., Übler, H., Cresci, G., Volonteri, M., Mannucci, F., Maiolino, R., Rodríguez Del Pino, B., Böker, T., Bunker, A., Charlot, S., Willott, C., Carniani, S., Curti, M., Jones, G., Kumari, N., Marshall, M., Venturi, G., Saxena, A., Scholtz, J., Witstok, J., 2025, _Astronomy and Astrophysics_, [696, A59](https://doi.org/10.1051/0004-6361/202453430). 'GA-NIFS: High number of dual active galactic nuclei at z ∼ 3' (66 citations).
-
-- D'Eugenio, F., Maiolino, R., Perna, M., Uebler, H., Ji, X., McClymont, W., Koudmani, S., Sijacki, D., Juodžbalis, I., Scholtz, J., Bennett, J., Bunker, A., Carniani, S., Charlot, S., Cresci, G., Curtis-Lake, E., Dalla Bontà, E., Inayoshi, K., Jones, G., Lyu, J., Marconi, A., Mazzolari, G., Nelson, E., Parlanti, E., Robertson, B., Schneider, R., Simmonds, C., Tacchella, S., Venturi, G., Willott, C., Witstok, J., Witten, C., 2025, arXiv e-prints, [2503.11752](https://doi.org/10.48550/arXiv.2503.11752). 'BlackTHUNDER strikes twice: rest-frame Balmer-line absorption and high Eddington accretion rate in a Little Red Dot at $z=7.04$' (68 citations).
 
 - D'Eugenio, F., Cameron, A., Scholtz, J., Carniani, S., Willott, C., Curtis-Lake, E., Bunker, A., Parlanti, E., Maiolino, R., Willmer, C., Jakobsen, P., Robertson, B., Johnson, B., Tacchella, S., Cargile, P., Rawle, T., Arribas, S., Chevallard, J., Curti, M., Egami, E., Eisenstein, D., Kumari, N., Looser, T., Rieke, M., Rodríguez Del Pino, B., Saxena, A., Übler, H., Venturi, G., Witstok, J., Baker, W., Bhatawdekar, R., Bonaventura, N., Boyett, K., Charlot, S., Danhaive, A., Hainline, K., Hausen, R., Helton, J., Ji, X., Ji, Z., Jones, G., Juodžbalis, I., Maseda, M., Pérez-González, P., Perna, M., Puskás, D., Shivaei, I., Silcock, M., Simmonds, C., Smit, R., Sun, F., Villanueva, N., Williams, C., Zhu, Y., 2025, _The Astrophysical Journal Supplement Series_, [277, 4](https://doi.org/10.3847/1538-4365/ada148). 'JADES Data Release 3: NIRSpec/Microshutter Assembly Spectroscopy for 4000 Galaxies in the GOODS Fields' (258 citations).
 
