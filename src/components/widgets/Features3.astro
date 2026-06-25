@@ -1,6 +1,7 @@
 ---
+import { Icon } from 'astro-icon/components';
+import Button from '~/components/ui/Button.astro';
 import Headline from '~/components/ui/Headline.astro';
-import ItemGrid from '~/components/ui/ItemGrid.astro';
 import WidgetWrapper from '~/components/ui/WidgetWrapper.astro';
 import Image from '~/components/common/Image.astro';
 import type { Features as Props } from '~/types';
@@ -21,6 +22,15 @@ const {
   classes = {},
   bg = await Astro.slots.render('bg'),
 } = Astro.props;
+
+const columnsClass =
+  columns === 4
+    ? 'lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2'
+    : columns === 3
+      ? 'lg:grid-cols-3 sm:grid-cols-2'
+      : columns === 2
+        ? 'sm:grid-cols-2'
+        : '';
 ---
 
 <WidgetWrapper
@@ -42,10 +52,11 @@ const {
           ) : (
             <Image
               class="w-full h-80 object-cover rounded-xl mx-auto bg-gray-500 shadow-lg"
-              width="auto"
+              width={768}
               height={320}
               widths={[400, 768]}
               layout="fullWidth"
+              format="webp"
               {...image}
             />
           )}
@@ -54,17 +65,33 @@ const {
     }
   </div>
 
-  <ItemGrid
-    items={items}
-    columns={columns}
-    defaultIcon={defaultIcon}
-    classes={{
-      container: 'mt-12',
-      panel: 'max-w-full sm:max-w-md',
-      title: 'text-lg font-semibold',
-      description: 'mt-0.5',
-      icon: 'flex-shrink-0 mt-1 text-primary w-6 h-6',
-      ...((classes?.items as object) ?? {}),
-    }}
-  />
+  {
+    items.length > 0 && (
+      <div class:list={['grid mx-auto gap-8 md:gap-y-12 mt-12', columnsClass]}>
+        {items.map(({ title: itemTitle, description, icon, callToAction }) => (
+          <div class="intersect-once motion-safe:md:opacity-0 motion-safe:md:intersect:animate-fade">
+            <div class="flex flex-row max-w-full sm:max-w-md">
+              {(icon || defaultIcon) && (
+                <div class="flex justify-center">
+                  <Icon
+                    name={icon || defaultIcon}
+                    class="flex-shrink-0 mt-1 mr-2 rtl:mr-0 rtl:ml-2 w-6 h-6 text-primary"
+                  />
+                </div>
+              )}
+              <div class="mt-0.5">
+                {itemTitle && <h3 class="text-lg font-semibold">{itemTitle}</h3>}
+                {description && <p class:list={[{ 'mt-0.5': itemTitle }, 'text-muted']} set:html={description} />}
+                {callToAction && (
+                  <div class:list={[{ 'mt-3': itemTitle || description }]}>
+                    <Button variant="link" {...callToAction} />
+                  </div>
+                )}
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+    )
+  }
 </WidgetWrapper>
