@@ -8,11 +8,11 @@ layout: '~/layouts/MarkdownLayout.astro'
 140 publications (114 refereed), of which 10 as first author. Metrics:
 - 151184 reads, 77838 downloads, 12840 citations
 - h-index: 62, m-index: 10.3, g-index: 112
-- i10-index: 110, i100-index: 42, read10-index: 1490.4
+- i10-index: 110, i100-index: 42, read10-index: 1482.1
 - tori index: 3.4, riq index: 308.0
 
 Based on the [SAO/NASA Astrophysics Data System (ADS)](https://ui.adsabs.harvard.edu/).
-Last updated: 27 June, 2026.
+Last updated: 28 June, 2026.
 
 ## First author (10)
 
@@ -156,7 +156,7 @@ Last updated: 27 June, 2026.
 
 - Sokoliuk, O., Webb, J., Lanzetta, K., Shara, M., Gromoll, S., Bolton, J., Carswell, R., Galaz, G., Ledoux, C., Lo Curto, G., Smette, A., Valls-Gabaud, D., von der Linden, A., Walter, F., Witstok, J., 2025, arXiv e-prints, [2510.07259](https://doi.org/10.48550/arXiv.2510.07259). 'The cosmic web's Lyman-$α$ glow at $z \approx 2.5$; varying hydrodynamic models, dust, and wide-field, narrow-band imaging detection' (2 citations).
 
-- Whitler, L., Stark, D., Topping, M., Robertson, B., Rieke, M., Hainline, K., Endsley, R., Chen, Z., Baker, W., Bhatawdekar, R., Bunker, A., Carniani, S., Charlot, S., Chevallard, J., Curtis-Lake, E., Egami, E., Eisenstein, D., Helton, J., Ji, Z., Johnson, B., Pérez-González, P., Rinaldi, P., Tacchella, S., Williams, C., Willmer, C., Willott, C., Witstok, J., 2025, _The Astrophysical Journal_, [992, 63](https://doi.org/10.3847/1538-4357/adfddc). 'The z ≳ 9 Galaxy UV Luminosity Function from the JWST Advanced Deep Extragalactic Survey: Insights into Early Galaxy Evolution and Reionization' (103 citations).
+- Whitler, L., Stark, D., Topping, M., Robertson, B., Rieke, M., Hainline, K., Endsley, R., Chen, Z., Baker, W., Bhatawdekar, R., Bunker, A., Carniani, S., Charlot, S., Chevallard, J., Curtis-Lake, E., Egami, E., Eisenstein, D., Helton, J., Ji, Z., Johnson, B., Pérez-González, P., Rinaldi, P., Tacchella, S., Williams, C., Willmer, C., Willott, C., Witstok, J., 2025, _The Astrophysical Journal_, [992, 63](https://doi.org/10.3847/1538-4357/adfddc). 'The z ≳ 9 Galaxy UV Luminosity Function from the JWST Advanced Deep Extragalactic Survey: Insights into Early Galaxy Evolution and Reionization' (104 citations).
 
 - Wu, Z., Eisenstein, D., Johnson, B., Jakobsen, P., Alberts, S., Arribas, S., Baker, W., Bunker, A., Carniani, S., Charlot, S., Chevallard, J., Curti, M., Curtis-Lake, E., D'Eugenio, F., Hainline, K., Helton, J., Hsiao, T., Ji, X., Ji, Z., Looser, T., Rieke, G., Rinaldi, P., Robertson, B., Scholtz, J., Sun, F., Tacchella, S., Trussler, J., Williams, C., Willmer, C., Willott, C., Witstok, J., Zhu, Y., 2025, _The Astrophysical Journal_, [992, 212](https://doi.org/10.3847/1538-4357/ae01a1). 'JADES-GS-z14-1: A Compact, Faint Galaxy at z ≈ 14 with Weak Metal Lines from Extremely Deep JWST MIRI, NIRCam, and NIRSpec Observations' (15 citations).
 
