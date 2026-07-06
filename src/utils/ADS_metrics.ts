@@ -1,7 +1,7 @@
-export const latest_update = '5 July, 2026';
-export const n_papers_tot = 143;
+export const latest_update = '6 July, 2026';
+export const n_papers_tot = 142;
 export const n_papers_ref = 115;
-export const n_reads = 150822;
-export const n_downloads = 77660;
-export const n_citations = 12800;
+export const n_reads = 150617;
+export const n_downloads = 77513;
+export const n_citations = 12789;
 export const h_index = 62;

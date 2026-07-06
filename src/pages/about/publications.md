@@ -5,14 +5,14 @@ layout: '~/layouts/MarkdownLayout.astro'
 ---
 
 ## Summary
-143 publications (115 refereed), of which 10 as first author. Metrics:
-- 150822 reads, 77660 downloads, 12800 citations
+142 publications (115 refereed), of which 10 as first author. Metrics:
+- 150617 reads, 77513 downloads, 12789 citations
 - h-index: 62, m-index: 10.3, g-index: 112
-- i10-index: 109, i100-index: 42, read10-index: 1418.7
+- i10-index: 108, i100-index: 42, read10-index: 1402.5
 - tori index: 3.4, riq index: 308.0
 
 Based on the [SAO/NASA Astrophysics Data System (ADS)](https://ui.adsabs.harvard.edu/).
-Last updated: 5 July, 2026.
+Last updated: 6 July, 2026.
 
 ## First author (10)
 
@@ -68,7 +68,7 @@ Last updated: 5 July, 2026.
 
 - Jones, G., Bunker, A., Saxena, A., Witstok, J., et al., 2024, _Astronomy and Astrophysics_, [683, A238](https://doi.org/10.1051/0004-6361/202347099). 'JADES: The emergence and evolution of Lyα emission and constraints on the intergalactic medium neutral fraction' (65 citations).
 
-## Other (118)
+## Other (117)
 
 - Scholtz, J., Carniani, S., Parlanti, E., D'Eugenio, F., Curtis-Lake, E., Jakobsen, P., Bunker, A., Cameron, A., Arribas, S., Baker, W., Charlot, S., Chevellard, J., Circosta, C., Curti, M., Duan, Q., Eisenstein, D., Hainline, K., Ji, Z., Johnson, B., Jones, G., Kumari, N., Maiolino, R., Maseda, M., Perna, M., Pérez-González, P., Rawle, T., Rieke, M., Rinaldi, P., Robertson, B., Saxena, A., Shivaei, I., Silcock, M., Sun, Y., Rodríguez Del Pino, B., Tacchella, S., Übler, H., Venturi, G., Williams, C., Willmer, C., Willott, C., Witstok, J., 2026, _Monthly Notices of the Royal Astronomical Society_, [549, stag939](https://doi.org/10.1093/mnras/stag939). 'JADES Data Release 4 ─ Paper II. Data reduction, analysis, and emission-line fluxes of the complete spectroscopic sample' (44 citations).
 
@@ -147,8 +147,6 @@ Last updated: 5 July, 2026.
 - Algera, H., Weaver, J., Bakx, T., Aravena, M., Bouwens, R., Cescon, K., Chen, C., da Cunha, E., Dayal, P., Faisst, A., Ferrara, A., Fujimoto, S., Hashimoto, T., Heintz, K., Herrera-Camus, R., Hodge, J., Inami, H., Inoue, A., Matthee, J., Meyer, R., Mizukoshi, S., Mondal, C., Nanayakkara, T., Oesch, P., Pallottini, A., Röttgering, H., Rowland, L., Schouws, S., Smit, R., Sommovigo, L., Stark, D., Sugahara, Y., Vallini, L., Vijarnwannaluk, B., van der Werf, P., Werner, N., Witstok, J., Xiao, M., 2025, arXiv e-prints, [2512.14486](https://doi.org/10.48550/arXiv.2512.14486). 'A first systematic study of [OIII] 88$μ$m at $z&gt;8$: two luminous oxygen lines and a powerful ionized outflow in the first 600 million years' (7 citations).
 
 - Eisenstein, D., Johnson, B., Robertson, B., Tacchella, S., Hainline, K., Jakobsen, P., Maiolino, R., Bonaventura, N., Bunker, A., Cameron, A., Cargile, P., Curtis-Lake, E., Hausen, R., Puskás, D., Rieke, M., Sun, F., Willmer, C., Willott, C., Alberts, S., Arribas, S., Baker, W., Baum, S., Bhatawdekar, R., Carniani, S., Charlot, S., Chen, Z., Chevallard, J., Curti, M., DeCoursey, C., D'Eugenio, F., de Graaff, A., Egami, E., Helton, J., Ji, Z., Jones, G., Kumari, N., Lützgendorf, N., Laseter, I., Looser, T., Lyu, J., Maseda, M., Nelson, E., Parlanti, E., Rauscher, B., Rawle, T., Rieke, G., Rix, H., Rujopakarn, W., Sandles, L., Saxena, A., Scholtz, J., Sharpe, K., Shivaei, I., Simmonds, C., Smit, R., Topping, M., Übler, H., Venturi, G., Williams, C., Witstok, J., Woodrum, C., 2025, _The Astrophysical Journal Supplement Series_, [281, 50](https://doi.org/10.3847/1538-4365/ae1137). 'The JADES Origins Field: A New JWST Deep Field in the JADES Second NIRCam Data Release' (252 citations).
-
-- Helton, J., Morrison, J., Hainline, K., D'Eugenio, F., Rieke, G., Alberts, S., Carniani, S., Leja, J., Li, Y., Rinaldi, P., Scholtz, J., Stone, M., Willmer, C., Wu, Z., Baker, W., Bunker, A., Charlot, S., Chevallard, J., Cleri, N., Curti, M., Curtis-Lake, E., Egami, E., Eisenstein, D., Jakobsen, P., Ji, Z., Johnson, B., Kumari, N., Lin, X., Lyu, J., Maiolino, R., Maseda, M., Pérez-González, P., Rieke, M., Robertson, B., Saxena, A., Sun, F., Tacchella, S., Übler, H., Venturi, G., Williams, C., Willott, C., Witstok, J., Zhu, Y., 2025, arXiv e-prints, [2512.19695](https://doi.org/10.48550/arXiv.2512.19695). 'Ionizing Photon Production Efficiencies and Chemical Abundances at Cosmic Dawn Revealed by Ultra-Deep Rest-Frame Optical Spectroscopy of JADES-GS-z14-0' (11 citations).
 
 - Ji, X., Maiolino, R., Übler, H., Scholtz, J., D'Eugenio, F., Sun, F., Perna, M., Turner, H., Carniani, S., Arribas, S., Bennett, J., Bunker, A., Charlot, S., Cresci, G., Curti, M., Egami, E., Fabian, A., Inayoshi, K., Isobe, Y., Jones, G., Juodžbalis, I., Kumari, N., Lyu, J., Mazzolari, G., Parlanti, E., Robertson, B., Rodríguez Del Pino, B., Schneider, R., Sijacki, D., Tacchella, S., Trinca, A., Valiante, R., Venturi, G., Volonteri, M., Willott, C., Witten, C., Witstok, J., 2025, _Monthly Notices of the Royal Astronomical Society_, [544, 3900](https://doi.org/10.1093/mnras/staf1867). 'BlackTHUNDER ─ A non-stellar Balmer break in a black hole-dominated little red dot at z = 7.04' (146 citations).
 
