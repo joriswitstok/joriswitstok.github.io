@@ -6,13 +6,13 @@ layout: '~/layouts/MarkdownLayout.astro'
 
 ## Summary
 143 publications (116 refereed), of which 10 as first author. Metrics:
-- 150617 reads, 77513 downloads, 12789 citations
-- h-index: 62, m-index: 10.3, g-index: 112
-- i10-index: 108, i100-index: 42, read10-index: 1387.7
-- tori index: 3.4, riq index: 308.0
+- 154876 reads, 79671 downloads, 13335 citations
+- h-index: 64, m-index: 10.7, g-index: 114
+- i10-index: 119, i100-index: 43, read10-index: 1619.9
+- tori index: 3.7, riq index: 319.0
 
 Based on the [SAO/NASA Astrophysics Data System (ADS)](https://ui.adsabs.harvard.edu/).
-Last updated: 8 July, 2026.
+Last updated: 9 July, 2026.
 
 ## First author (10)
 
@@ -82,9 +82,9 @@ Last updated: 8 July, 2026.
 
 - Koller, M., Maiolino, R., Übler, H., Duan, Q., Scholtz, J., Arribas, S., Baker, W., Carniani, S., Charlot, S., Curti, M., Graziani, L., Jones, G., McClymont, W., Perna, M., Del Pino, B., Tacchella, S., Venditti, A., Venturi, G., Witstok, J., 2026, _Monthly Notices of the Royal Astronomical Society_, [in press](https://doi.org/10.1093/mnras/stag1206). 'Metal Mayhem at Z ~ 7-10: Diversity and Evolution of Gas-Phase Metallicity Gradients'.
 
-- Nikopoulos, G., Watson, D., Sneppen, A., Rusakov, V., Heintz, K., Witstok, J., Brammer, G., 2026, _Astronomy and Astrophysics_, [710, A136](https://doi.org/10.1051/0004-6361/202557604). 'Evidence of violation of case B recombination in little red dots' (25 citations).
-
 - Nikopoulos, G., Watson, D., Pollock, C., Sneppen, A., Heintz, K., Witstok, J., Brammer, G., 2026, arXiv e-prints, [2606.31515](https://doi.org/10.48550/arXiv.2606.31515). 'The metallicities of little red dot host galaxies: LRDs are metal poor, but not pristine'.
+
+- Nikopoulos, G., Watson, D., Sneppen, A., Rusakov, V., Heintz, K., Witstok, J., Brammer, G., 2026, _Astronomy and Astrophysics_, [710, A136](https://doi.org/10.1051/0004-6361/202557604). 'Evidence of violation of case B recombination in little red dots' (25 citations).
 
 - Pollock, C., Heintz, K., Rusta, E., Watson, D., Salvadori, S., Witten, C., Witstok, J., Koutsouridou, I., Gelli, V., Oesch, P., Brammer, G., Saccardi, A., Ito, K., Gottumukkala, R., Bergholt, D., Brooksby, K., Terp, C., Valentino, F., 2026, arXiv e-prints, [2606.13078](https://doi.org/10.48550/arXiv.2606.13078). 'Chemical signatures from the first stars embedded in metal-poor gas in galaxies at cosmic dawn' (2 citations).
 
