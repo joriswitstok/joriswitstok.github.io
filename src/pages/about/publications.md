@@ -5,7 +5,7 @@ layout: '~/layouts/MarkdownLayout.astro'
 ---
 
 ## Summary
-142 publications (118 refereed), of which 10 as first author. Metrics:
+143 publications (120 refereed), of which 10 as first author. Metrics:
 - 157041 reads, 80584 downloads, 13524 citations
 - h-index: 64, m-index: 10.7, g-index: 115
 - i10-index: 119, i100-index: 44, read10-index: 1629.5
@@ -68,9 +68,11 @@ Last updated: 27 July, 2026.
 
 - Jones, G., Bunker, A., Saxena, A., Witstok, J., et al., 2024, _Astronomy and Astrophysics_, [683, A238](https://doi.org/10.1051/0004-6361/202347099). 'JADES: The emergence and evolution of Lyα emission and constraints on the intergalactic medium neutral fraction' (65 citations).
 
-## Other (117)
+## Other (118)
 
 - Helton, J., Alberts, S., Rieke, G., Hainline, K., Ji, Z., Rieke, M., Johnson, B., Robertson, B., Tacchella, S., Whitler, L., Baker, W., Bhatawdekar, R., Boyett, K., Bunker, A., Cargile, P., Carniani, S., Charlot, S., Chevallard, J., Curtis-Lake, E., Egami, E., Eisenstein, D., Hausen, R., Lyu, J., Maiolino, R., Nelson, E., Pérez-González, P., Rinaldi, P., Stone, M., Sun, F., Williams, C., Willmer, C., Willott, C., Witstok, J., 2026, _The Astrophysical Journal_, [1006, 43](https://doi.org/10.3847/1538-4357/ae5dcd). 'The Stellar Populations and Rest-frame Colors of Star-forming Galaxies at z ≍ 8: Exploring the Impact of Filter Choice and Star Formation History Assumption with JADES' (8 citations).
+
+- Pascalau, R., D'Eugenio, F., Maiolino, R., Duan, Q., Isobe, Y., Arribas, S., Bunker, A., Charlot, S., Perna, M., Rodríguez Del Pino, B., Übler, H., Bertola, E., Böker, T., Carniani, S., Coe, D., Cresci, G., Curti, M., Hsiao, T., Ivey, L., Jones, G., Lamperti, I., Parlanti, E., Scholtz, J., Tacchella, S., Ulivi, L., Venturi, G., Witstok, J., Zamora, S., 2026, _Monthly Notices of the Royal Astronomical Society_, [in press](https://doi.org/10.1093/mnras/stag1369). 'GA-NIFS: Dissecting The Alchemised: JWST reveals turbulent metal-poor gas fuelling a co-spatial starburst in a complex system at z = 10.17'.
 
 - Scholtz, J., Carniani, S., Parlanti, E., D'Eugenio, F., Curtis-Lake, E., Jakobsen, P., Bunker, A., Cameron, A., Arribas, S., Baker, W., Charlot, S., Chevellard, J., Circosta, C., Curti, M., Duan, Q., Eisenstein, D., Hainline, K., Ji, Z., Johnson, B., Jones, G., Kumari, N., Maiolino, R., Maseda, M., Perna, M., Pérez-González, P., Rawle, T., Rieke, M., Rinaldi, P., Robertson, B., Saxena, A., Shivaei, I., Silcock, M., Sun, Y., Rodríguez Del Pino, B., Tacchella, S., Übler, H., Venturi, G., Williams, C., Willmer, C., Willott, C., Witstok, J., 2026, _Monthly Notices of the Royal Astronomical Society_, [549, stag939](https://doi.org/10.1093/mnras/stag939). 'JADES Data Release 4 ─ Paper II. Data reduction, analysis, and emission-line fluxes of the complete spectroscopic sample' (46 citations).
 
