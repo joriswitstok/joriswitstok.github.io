@@ -6,13 +6,13 @@ layout: '~/layouts/MarkdownLayout.astro'
 
 ## Summary
 142 publications (120 refereed), of which 10 as first author. Metrics:
-- 157525 reads, 80828 downloads, 13615 citations
+- 157610 reads, 80881 downloads, 13615 citations
 - h-index: 64, m-index: 10.7, g-index: 115
-- i10-index: 119, i100-index: 44, read10-index: 1619.7
+- i10-index: 119, i100-index: 44, read10-index: 1617.2
 - tori index: 3.7, riq index: 319.0
 
 Based on the [SAO/NASA Astrophysics Data System (ADS)](https://ui.adsabs.harvard.edu/).
-Last updated: 1 August, 2026.
+Last updated: 2 August, 2026.
 
 ## First author (10)
 
@@ -56,7 +56,7 @@ Last updated: 1 August, 2026.
 
 - Kumari, N., Smit, R., Witstok, J., et al., 2024, arXiv e-prints, [2406.11997](https://doi.org/10.48550/arXiv.2406.11997). 'JADES: Physical properties of Lyα and non-Lyα emitters at z ~ 4.8-9.6' (22 citations).
 
-- Maiolino, R., Scholtz, J., Witstok, J., et al., 2024, _Nature_, [627, 59](https://doi.org/10.1038/s41586-024-07052-5). 'A small and vigorous black hole in the early Universe' (510 citations).
+- Maiolino, R., Scholtz, J., Witstok, J., et al., 2024, _Nature_, [627, 59](https://doi.org/10.1038/s41586-024-07052-5). 'A small and vigorous black hole in the early Universe' (511 citations).
 
 - Otaki, K., Schneider, R., Bianchi, S., Witstok, J., et al., 2026, arXiv e-prints, [2604.26750](https://doi.org/10.48550/arXiv.2604.26750). 'Dust enrichment from core-collapse supernovae and extinction curves in the high-redshift universe'.
 
@@ -288,9 +288,9 @@ Last updated: 1 August, 2026.
 
 - Simmonds, C., Tacchella, S., Maseda, M., Williams, C., Baker, W., Witten, C., Johnson, B., Robertson, B., Saxena, A., Sun, F., Witstok, J., Bhatawdekar, R., Boyett, K., Bunker, A., Charlot, S., Curtis-Lake, E., Egami, E., Eisenstein, D., Ji, Z., Maiolino, R., Sandles, L., Smit, R., Übler, H., Willott, C., 2023, _Monthly Notices of the Royal Astronomical Society_, [523, 5468](https://doi.org/10.1093/mnras/stad1749). 'The ionizing photon production efficiency at z ~ 6 for Lyman-alpha emitters using JEMS and MUSE' (79 citations).
 
-- Tacchella, S., Johnson, B., Robertson, B., Carniani, S., D'Eugenio, F., Kumari, N., Maiolino, R., Nelson, E., Suess, K., Übler, H., Williams, C., Adebusola, A., Alberts, S., Arribas, S., Bhatawdekar, R., Bonaventura, N., Bowler, R., Bunker, A., Cameron, A., Curti, M., Egami, E., Eisenstein, D., Frye, B., Hainline, K., Helton, J., Ji, Z., Looser, T., Lyu, J., Perna, M., Rawle, T., Rieke, G., Rieke, M., Saxena, A., Sandles, L., Shivaei, I., Simmonds, C., Sun, F., Willmer, C., Willott, C., Witstok, J., 2023, _Monthly Notices of the Royal Astronomical Society_, [522, 6236](https://doi.org/10.1093/mnras/stad1408). 'JWST NIRCam + NIRSpec: interstellar medium and stellar populations of young galaxies with rising star formation and evolving gas reservoirs' (186 citations).
-
 - Tacchella, S., Eisenstein, D., Hainline, K., Johnson, B., Baker, W., Helton, J., Robertson, B., Suess, K., Chen, Z., Nelson, E., Puskás, D., Sun, F., Alberts, S., Egami, E., Hausen, R., Rieke, G., Rieke, M., Shivaei, I., Williams, C., Willmer, C., Bunker, A., Cameron, A., Carniani, S., Charlot, S., Curti, M., Curtis-Lake, E., Looser, T., Maiolino, R., Maseda, M., Rawle, T., Rix, H., Smit, R., Übler, H., Willott, C., Witstok, J., Baum, S., Bhatawdekar, R., Boyett, K., Danhaive, A., de Graaff, A., Endsley, R., Ji, Z., Lyu, J., Sandles, L., Saxena, A., Scholtz, J., Topping, M., Whitler, L., 2023, _The Astrophysical Journal_, [952, 74](https://doi.org/10.3847/1538-4357/acdbc6). 'JADES Imaging of GN-z11: Revealing the Morphology and Environment of a Luminous Galaxy 430 Myr after the Big Bang' (207 citations).
+
+- Tacchella, S., Johnson, B., Robertson, B., Carniani, S., D'Eugenio, F., Kumari, N., Maiolino, R., Nelson, E., Suess, K., Übler, H., Williams, C., Adebusola, A., Alberts, S., Arribas, S., Bhatawdekar, R., Bonaventura, N., Bowler, R., Bunker, A., Cameron, A., Curti, M., Egami, E., Eisenstein, D., Frye, B., Hainline, K., Helton, J., Ji, Z., Looser, T., Lyu, J., Perna, M., Rawle, T., Rieke, G., Rieke, M., Saxena, A., Sandles, L., Shivaei, I., Simmonds, C., Sun, F., Willmer, C., Willott, C., Witstok, J., 2023, _Monthly Notices of the Royal Astronomical Society_, [522, 6236](https://doi.org/10.1093/mnras/stad1408). 'JWST NIRCam + NIRSpec: interstellar medium and stellar populations of young galaxies with rising star formation and evolving gas reservoirs' (186 citations).
 
 - Curtis-Lake, E., Carniani, S., Cameron, A., Charlot, S., Jakobsen, P., Maiolino, R., Bunker, A., Witstok, J., Smit, R., Chevallard, J., Willott, C., Ferruit, P., Arribas, S., Bonaventura, N., Curti, M., D'Eugenio, F., Franx, M., Giardino, G., Looser, T., Lützgendorf, N., Maseda, M., Rawle, T., Rix, H., Rodríguez del Pino, B., Übler, H., Sirianni, M., Dressler, A., Egami, E., Eisenstein, D., Endsley, R., Hainline, K., Hausen, R., Johnson, B., Rieke, M., Robertson, B., Shivaei, I., Stark, D., Tacchella, S., Williams, C., Willmer, C., Bhatawdekar, R., Bowler, R., Boyett, K., Chen, Z., de Graaff, A., Helton, J., Hviding, R., Jones, G., Kumari, N., Lyu, J., Nelson, E., Perna, M., Sandles, L., Saxena, A., Suess, K., Sun, F., Topping, M., Wallace, I., Whitler, L., 2023, _Nature Astronomy_, [7, 622](https://doi.org/10.1038/s41550-023-01918-w). 'Spectroscopic confirmation of four metal-poor galaxies at z = 10.3-13.2' (480 citations).
 
@@ -302,4 +302,4 @@ Last updated: 1 August, 2026.
 
 - Robertson, B., Tacchella, S., Johnson, B., Hausen, R., Alabi, A., Boyett, K., Bunker, A., Carniani, S., Egami, E., Eisenstein, D., Hainline, K., Helton, J., Ji, Z., Kumari, N., Lyu, J., Maiolino, R., Nelson, E., Rieke, M., Shivaei, I., Sun, F., Übler, H., Williams, C., Willmer, C., Witstok, J., 2023, _The Astrophysical Journal Letters_, [942, L42](https://doi.org/10.3847/2041-8213/aca086). 'Morpheus Reveals Distant Disk Galaxy Morphologies with JWST: The First AI/ML Analysis of JWST Images' (90 citations).
 
-- Bouwens, R., Smit, R., Schouws, S., Stefanon, M., Bowler, R., Endsley, R., Gonzalez, V., Inami, H., Stark, D., Oesch, P., Hodge, J., Aravena, M., da Cunha, E., Dayal, P., de Looze, I., Ferrara, A., Fudamoto, Y., Graziani, L., Li, C., Nanayakkara, T., Pallottini, A., Schneider, R., Sommovigo, L., Topping, M., van der Werf, P., Algera, H., Barrufet, L., Hygate, A., Labbé, I., Riechers, D., Witstok, J., 2022, _The Astrophysical Journal_, [931, 160](https://doi.org/10.3847/1538-4357/ac5a4a). 'Reionization Era Bright Emission Line Survey: Selection and Characterization of Luminous Interstellar Medium Reservoirs in the z &gt; 6.5 Universe' (262 citations).
+- Bouwens, R., Smit, R., Schouws, S., Stefanon, M., Bowler, R., Endsley, R., Gonzalez, V., Inami, H., Stark, D., Oesch, P., Hodge, J., Aravena, M., da Cunha, E., Dayal, P., de Looze, I., Ferrara, A., Fudamoto, Y., Graziani, L., Li, C., Nanayakkara, T., Pallottini, A., Schneider, R., Sommovigo, L., Topping, M., van der Werf, P., Algera, H., Barrufet, L., Hygate, A., Labbé, I., Riechers, D., Witstok, J., 2022, _The Astrophysical Journal_, [931, 160](https://doi.org/10.3847/1538-4357/ac5a4a). 'Reionization Era Bright Emission Line Survey: Selection and Characterization of Luminous Interstellar Medium Reservoirs in the z &gt; 6.5 Universe' (261 citations).
