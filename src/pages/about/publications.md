@@ -6,13 +6,13 @@ layout: '~/layouts/MarkdownLayout.astro'
 
 ## Summary
 142 publications (122 refereed), of which 10 as first author. Metrics:
-- 157429 reads, 80754 downloads, 13671 citations
+- 157429 reads, 80754 downloads, 13670 citations
 - h-index: 64, m-index: 10.7, g-index: 116
-- i10-index: 120, i100-index: 44, read10-index: 1582.7
+- i10-index: 120, i100-index: 44, read10-index: 1575.5
 - tori index: 3.8, riq index: 326.0
 
 Based on the [SAO/NASA Astrophysics Data System (ADS)](https://ui.adsabs.harvard.edu/).
-Last updated: 6 August, 2026.
+Last updated: 7 August, 2026.
 
 ## First author (10)
 
@@ -300,6 +300,6 @@ Last updated: 6 August, 2026.
 
 - Katz, H., Saxena, A., Cameron, A., Carniani, S., Bunker, A., Arribas, S., Bhatawdekar, R., Bowler, R., Boyett, K., Cresci, G., Curtis-Lake, E., D'Eugenio, F., Kumari, N., Looser, T., Maiolino, R., Übler, H., Willott, C., Witstok, J., 2023, _Monthly Notices of the Royal Astronomical Society_, [518, 592](https://doi.org/10.1093/mnras/stac2657). 'First insights into the ISM at z &gt; 8 with JWST: possible physical implications of a high [O III] λ4363/[O III] λ5007' (97 citations).
 
-- Robertson, B., Tacchella, S., Johnson, B., Hausen, R., Alabi, A., Boyett, K., Bunker, A., Carniani, S., Egami, E., Eisenstein, D., Hainline, K., Helton, J., Ji, Z., Kumari, N., Lyu, J., Maiolino, R., Nelson, E., Rieke, M., Shivaei, I., Sun, F., Übler, H., Williams, C., Willmer, C., Witstok, J., 2023, _The Astrophysical Journal Letters_, [942, L42](https://doi.org/10.3847/2041-8213/aca086). 'Morpheus Reveals Distant Disk Galaxy Morphologies with JWST: The First AI/ML Analysis of JWST Images' (90 citations).
+- Robertson, B., Tacchella, S., Johnson, B., Hausen, R., Alabi, A., Boyett, K., Bunker, A., Carniani, S., Egami, E., Eisenstein, D., Hainline, K., Helton, J., Ji, Z., Kumari, N., Lyu, J., Maiolino, R., Nelson, E., Rieke, M., Shivaei, I., Sun, F., Übler, H., Williams, C., Willmer, C., Witstok, J., 2023, _The Astrophysical Journal Letters_, [942, L42](https://doi.org/10.3847/2041-8213/aca086). 'Morpheus Reveals Distant Disk Galaxy Morphologies with JWST: The First AI/ML Analysis of JWST Images' (89 citations).
 
 - Bouwens, R., Smit, R., Schouws, S., Stefanon, M., Bowler, R., Endsley, R., Gonzalez, V., Inami, H., Stark, D., Oesch, P., Hodge, J., Aravena, M., da Cunha, E., Dayal, P., de Looze, I., Ferrara, A., Fudamoto, Y., Graziani, L., Li, C., Nanayakkara, T., Pallottini, A., Schneider, R., Sommovigo, L., Topping, M., van der Werf, P., Algera, H., Barrufet, L., Hygate, A., Labbé, I., Riechers, D., Witstok, J., 2022, _The Astrophysical Journal_, [931, 160](https://doi.org/10.3847/1538-4357/ac5a4a). 'Reionization Era Bright Emission Line Survey: Selection and Characterization of Luminous Interstellar Medium Reservoirs in the z &gt; 6.5 Universe' (262 citations).
