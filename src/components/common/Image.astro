@@ -7,18 +7,16 @@
  *     CDN-side parameters via `transformUrl` from `unpic` and emitted as a
  *     plain <img> served straight from the source. No download, no Sharp.
  *   • Local image (ESM import or `~/assets/...` path) → delegated to Astro's
- *     native <Image /> from `astro:assets`, which optimizes through Sharp.
+ *     native <Image /> from `astro:assets`, which optimizes through Sharp and
+ *     emits responsive `srcset` + styles for the chosen `layout` (enabled by
+ *     `image.responsiveStyles` in astro.config.ts).
  *
- * Layout modes (control how the image fills its container):
- *   • `constrained` (default) — image scales down to fit, never above its own
- *     pixel dimensions. Heroes, brand logos, blog thumbnails.
- *   • `responsive` — image always 100% of container width, height auto from
- *     aspect ratio. Side-by-side feature illustrations.
- *   • `fullWidth` — image spans the container width, fixed pixel height.
- *     Full-bleed banners.
- *   • `fixed` — exact pixel dimensions, no scaling. Avatars and icons.
- *   • `cover` — fills the parent (max 100%) and crops with object-fit.
- *     Absolutely-positioned overlays (cards, step illustrations).
+ * Layout modes (native Astro values, plus `cover`):
+ *   • `constrained` (default) — scales down to fit, never above intrinsic size.
+ *   • `full-width` — spans the container width, maintaining aspect ratio.
+ *   • `fixed` — exact pixel dimensions, no scaling.
+ *   • `cover` — fills the parent and crops with object-fit (overlays).
+ *   • `none` — no layout styles; control sizing via classes.
  *
  * Accessibility:
  *   `alt` is required. Pass `alt=""` explicitly for purely decorative images.
@@ -29,7 +27,7 @@ import type { HTMLAttributes } from 'astro/types';
 import { transformUrl, parseUrl } from 'unpic';
 import { findImage } from '~/utils/images';
 
-type Layout = 'constrained' | 'responsive' | 'fullWidth' | 'fixed' | 'cover';
+type Layout = 'constrained' | 'full-width' | 'fixed' | 'cover' | 'none';
 type Format = 'avif' | 'jpeg' | 'jpg' | 'png' | 'webp';
 
 interface Props extends Omit<HTMLAttributes<'img'>, 'src' | 'width' | 'height'> {
@@ -84,45 +82,43 @@ if (resolved && typeof resolved === 'object' && 'width' in resolved && 'height' 
 
 const aspectRatio = w && h ? w / h : undefined;
 
-// --- Layout → inline style mapping -----------------------------------------
-const px = (v?: number) => (v == null ? undefined : `${v}px`);
-const declarations: Array<[string, string | undefined]> = [
-  ['object-fit', 'cover'],
-  ['object-position', 'center'],
-];
+// --- Local images: native <Image layout> ----------------------------------
+// `cover` has no native layout equivalent; render it as `none` plus an
+// object-fit style (the usage's own classes usually cover this too).
+const nativeLayout = layout === 'cover' ? 'none' : layout;
+const localStyle =
+  [layout === 'cover' ? 'object-fit:cover;width:100%;height:100%' : undefined, rest.style].filter(Boolean).join(';') ||
+  undefined;
 
-switch (layout) {
-  case 'fixed':
-    declarations.push(['width', px(w)], ['height', px(h)], ['object-position', 'top left']);
-    break;
-  case 'constrained':
-    declarations.push(
-      ['max-width', px(w)],
-      ['max-height', px(h)],
-      ['aspect-ratio', aspectRatio ? `${aspectRatio}` : undefined],
-      ['width', '100%']
-    );
-    break;
-  case 'fullWidth':
-    declarations.push(['width', '100%'], ['height', px(h)]);
-    break;
-  case 'responsive':
-    declarations.push(
-      ['width', '100%'],
-      ['height', 'auto'],
-      ['aspect-ratio', aspectRatio ? `${aspectRatio}` : undefined]
-    );
-    break;
-  case 'cover':
-    declarations.push(['max-width', '100%'], ['max-height', '100%']);
-    break;
-}
-
-const layoutStyle = declarations
-  .filter(([, value]) => value)
-  .map(([key, value]) => `${key}:${value}`)
-  .join(';');
-const finalStyle = layoutStyle + (rest.style ? `;${rest.style}` : '');
+// --- CDN images: emit an equivalent minimal style --------------------------
+// The native <Image /> emits responsive styles for its layout, but the raw
+// CDN <img> does not, so we mirror the layout intent with a small style.
+const cdnLayoutStyle = (): string => {
+  const decls: string[] = [];
+  switch (layout) {
+    case 'fixed':
+      if (w) decls.push(`width:${w}px`);
+      if (h) decls.push(`height:${h}px`);
+      break;
+    case 'full-width':
+      decls.push('width:100%');
+      if (aspectRatio) decls.push(`aspect-ratio:${aspectRatio}`);
+      break;
+    case 'cover':
+      decls.push('width:100%', 'height:100%', 'object-fit:cover');
+      break;
+    case 'none':
+      break;
+    case 'constrained':
+    default:
+      decls.push('width:100%');
+      if (w) decls.push(`max-width:${w}px`);
+      if (aspectRatio) decls.push(`aspect-ratio:${aspectRatio}`);
+      break;
+  }
+  return decls.join(';');
+};
+const cdnStyle = isCdnUrl ? [cdnLayoutStyle(), rest.style].filter(Boolean).join(';') || undefined : undefined;
 
 // --- CDN-side srcset -------------------------------------------------------
 const buildCdnUrl = (variantWidth?: number, variantHeight?: number): string | undefined =>
@@ -169,7 +165,7 @@ const cdnSrcSet =
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
       {...rest}
-      style={finalStyle}
+      style={cdnStyle}
     />
   ) : (
     /* The native <Image /> typing is overly strict for our forwarding wrapper;
@@ -184,7 +180,8 @@ const cdnSrcSet =
           alt,
           widths,
           format,
-          style: finalStyle,
+          layout: nativeLayout,
+          style: localStyle,
         } as unknown as Parameters<typeof AstroImage>[0])}
       />
     )

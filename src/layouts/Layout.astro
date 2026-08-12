@@ -1,6 +1,8 @@
 ---
 import '~/assets/styles/tailwind.css';
 
+import { Font } from 'astro:assets';
+
 import { I18N } from 'astrowind:config';
 
 import CommonMeta from '~/components/common/CommonMeta.astro';
@@ -10,7 +12,7 @@ import ApplyColorMode from '~/components/common/ApplyColorMode.astro';
 import Metadata from '~/components/common/Metadata.astro';
 import SiteVerification from '~/components/common/SiteVerification.astro';
 import Analytics from '~/components/common/Analytics.astro';
-import BasicScripts from '~/components/common/BasicScripts.astro';
+import Intersect from '~/components/common/Intersect.astro';
 
 // Comment the line below to disable View Transitions
 import { ClientRouter } from 'astro:transitions';
@@ -30,6 +32,7 @@ const { language, textDirection } = I18N;
   <head>
     <CommonMeta />
     <Favicons />
+    <Font cssVariable="--font-inter" preload />
     <CustomStyles />
     <ApplyColorMode />
     <Metadata {...metadata} />
@@ -45,6 +48,6 @@ const { language, textDirection } = I18N;
   <body class="antialiased text-default bg-page tracking-tight">
     <slot />
 
-    <BasicScripts />
+    <Intersect />
   </body>
 </html>

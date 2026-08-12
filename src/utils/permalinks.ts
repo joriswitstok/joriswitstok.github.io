@@ -102,37 +102,3 @@ export const getAsset = (path: string): string =>
 
 /** */
 const definitivePermalink = (permalink: string): string => createPath(BASE_PATHNAME, permalink);
-
-/** */
-type MenuHref = { type?: string; url?: string };
-
-/** */
-export const applyGetPermalinks = (menu: unknown = {}): unknown => {
-  if (Array.isArray(menu)) {
-    return menu.map((item) => applyGetPermalinks(item));
-  } else if (typeof menu === 'object' && menu !== null) {
-    const result: Record<string, unknown> = {};
-    for (const [key, value] of Object.entries(menu)) {
-      if (key === 'href') {
-        if (typeof value === 'string') {
-          result[key] = getPermalink(value);
-        } else if (typeof value === 'object' && value !== null) {
-          const href = value as MenuHref;
-          if (href.type === 'home') {
-            result[key] = getHomePermalink();
-          } else if (href.type === 'blog') {
-            result[key] = getBlogPermalink();
-          } else if (href.type === 'asset') {
-            result[key] = getAsset(href.url ?? '');
-          } else if (href.url) {
-            result[key] = getPermalink(href.url, href.type);
-          }
-        }
-      } else {
-        result[key] = applyGetPermalinks(value);
-      }
-    }
-    return result;
-  }
-  return menu;
-};

@@ -1,7 +1,7 @@
 import path from 'path';
 import { fileURLToPath } from 'url';
 
-import { defineConfig } from 'astro/config';
+import { defineConfig, fontProviders } from 'astro/config';
 
 import { unified } from '@astrojs/markdown-remark';
 
@@ -25,6 +25,28 @@ const whenExternalScripts = (items: (() => AstroIntegration) | (() => AstroInteg
 
 export default defineConfig({
   output: 'static',
+
+  // Prefetch links as they enter the viewport for snappier navigations
+  // (works together with <ClientRouter />, which enables prefetch by default).
+  prefetch: {
+    prefetchAll: true,
+    defaultStrategy: 'viewport',
+  },
+
+  // Native Fonts API: self-hosts + subsets + preloads Inter and generates
+  // metric-adjusted fallbacks. Injected via <Font /> in Layout.astro and
+  // consumed through the `--font-inter` CSS variable in CustomStyles.astro.
+  fonts: [
+    {
+      provider: fontProviders.fontsource(),
+      name: 'Inter',
+      cssVariable: '--font-inter',
+      weights: ['100 900'],
+      styles: ['normal'],
+      subsets: ['latin'],
+      fallbacks: ['sans-serif'],
+    },
+  ],
 
   integrations: [
     sitemap(),
@@ -53,7 +75,11 @@ export default defineConfig({
     ),
 
     compress({
-      CSS: true,
+      // csso off on purpose: its parser doesn't understand the media range
+      // syntax Tailwind v4 emits for breakpoints (`@media (width>=48rem)`) and
+      // silently drops every one of those blocks — the site then renders as if
+      // all `md:`/`lg:` classes were missing. lightningcss parses it correctly.
+      CSS: { csso: false, lightningcss: { minify: true } },
       HTML: {
         'html-minifier-terser': {
           removeAttributeQuotes: false,
@@ -82,6 +108,11 @@ export default defineConfig({
     // native <Image /> (i.e. providers Unpic can't detect, like Pixabay).
     // Listed entries are authorized to be processed by Sharp.
     domains: ['cdn.pixabay.com'],
+
+    // Emit responsive styles for the native <Image layout=…> used by
+    // src/components/common/Image.astro (local images). Utility classes on
+    // each usage still win, since these styles use low-specificity selectors.
+    responsiveStyles: true,
   },
 
   markdown: {
