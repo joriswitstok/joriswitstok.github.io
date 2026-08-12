@@ -21,8 +21,34 @@ const {
 
 {
   !(UI.theme && UI.theme.endsWith(':only')) && (
-    <button type="button" class={className} aria-label={label} data-aw-toggle-color-scheme>
-      <Icon name={iconName} class={iconClass} />
-    </button>
+    <aw-theme-toggle>
+      <button type="button" class={className} aria-label={label} data-aw-toggle-color-scheme>
+        <Icon name={iconName} class={iconClass} />
+      </button>
+    </aw-theme-toggle>
   )
 }
+
+<style>
+  aw-theme-toggle {
+    display: contents;
+  }
+</style>
+
+<script>
+  class AwThemeToggle extends HTMLElement {
+    connectedCallback() {
+      this.querySelector('[data-aw-toggle-color-scheme]')?.addEventListener('click', () => {
+        const isDark = document.documentElement.classList.toggle('dark');
+        localStorage.theme = isDark ? 'dark' : 'light';
+        // Let the reveal-on-scroll controller drop its stagger delay so the
+        // theme change doesn't flicker mid-animation (see REF #643).
+        document.dispatchEvent(new CustomEvent('aw:theme-change'));
+      });
+    }
+  }
+
+  if (!customElements.get('aw-theme-toggle')) {
+    customElements.define('aw-theme-toggle', AwThemeToggle);
+  }
+</script>

@@ -2,9 +2,9 @@
 
 ## Project Overview
 
-AstroWind is a free, open-source website template built with **Astro v6** and **Tailwind CSS v4**. It generates a fully static site optimized for performance, SEO, and accessibility.
+AstroWind is a free, open-source website template built with **Astro v7** and **Tailwind CSS v4**. It generates a fully static site optimized for performance, SEO, and accessibility.
 
-**Stack:** Astro v6 | Tailwind CSS v4 | TypeScript 5.9 | MDX | Sharp
+**Stack:** Astro v7 | Tailwind CSS v4 | TypeScript 5.9 | MDX | Sharp
 
 ## Quick Reference
 
@@ -27,11 +27,11 @@ src/
   assets/styles/tailwind.css   # Tailwind v4 config (themes, utilities, plugins)
   components/
     common/        # Shared: Image, Metadata, Analytics, ToggleTheme
-    ui/            # Primitives: Button, Headline, WidgetWrapper, ItemGrid
+    ui/            # Primitives: Button, Form, Headline, Timeline, WidgetWrapper
     widgets/       # Page sections: Hero, Features, Pricing, Header, Footer
     blog/          # Blog: SinglePost, List, Pagination, Tags
     CustomStyles.astro  # CSS variables for colors and fonts
-  content.config.ts    # Content Collections schema (Astro v6 location)
+  content.config.ts    # Content Collections schema (Astro 5+ location)
   data/post/           # Blog posts (.md, .mdx)
   layouts/             # Layout.astro, PageLayout.astro, MarkdownLayout.astro
   pages/               # File-based routing
@@ -75,7 +75,7 @@ Components use `twMerge` from `tailwind-merge` v3 for conditional class composit
 
 ## Content Collections
 
-Defined in `src/content.config.ts` using the Astro v6 Content Layer API with `glob()` loader. Posts are in `src/data/post/` as `.md` or `.mdx` files.
+Defined in `src/content.config.ts` using Astro's Content Layer API with `glob()` loader. Posts are in `src/data/post/` as `.md` or `.mdx` files.
 
 Post frontmatter: `title` (required), `publishDate`, `updateDate`, `draft`, `excerpt`, `image`, `category`, `tags`, `author`, `metadata`.
 
@@ -96,6 +96,18 @@ Post frontmatter: `title` (required), `publishDate`, `updateDate`, `draft`, `exc
 - Allowed domains (for providers Unpic can't detect, processed by Sharp): `cdn.pixabay.com`
 
 Hero images use `loading="eager"` and `fetchpriority="high"`.
+
+## Fonts
+
+Fonts are handled by Astro's native **Fonts API**, configured in `astro.config.ts` under the `fonts` key (provider, family, `cssVariable`) and injected via the `<Font />` component in `src/layouts/Layout.astro`. Astro self-hosts, subsets, preloads, and generates metric-adjusted fallbacks. To change the typeface, edit the `fonts` entry and point `--aw-font-*` in `CustomStyles.astro` at the new `cssVariable`.
+
+## Third-party Scripts (Partytown)
+
+`@astrojs/partytown` is wired as an **opt-in** in `astro.config.ts`, gated behind `const hasExternalScripts = false`. Set it to `true` to offload third-party scripts (e.g. Google Analytics via `analytics.vendors.googleAnalytics.partytown`) to a web worker. It is disabled by default so the base template ships no external scripts.
+
+## Content Security Policy
+
+Astro's native CSP is intentionally **not** enabled in this version: it is incompatible with `<ClientRouter />` view transitions (shipped on by default) and would break the arbitrary third-party scripts a template user typically adds. CSP is deferred to AstroWind v2, where the component model (and optional SSR) make it clean and opt-in.
 
 ## Verification Checklist
 
