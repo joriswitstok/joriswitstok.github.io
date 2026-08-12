@@ -5,14 +5,14 @@ layout: '~/layouts/MarkdownLayout.astro'
 ---
 
 ## Summary
-143 publications (122 refereed), of which 10 as first author. Metrics:
-- 157430 reads, 80567 downloads, 13658 citations
+142 publications (122 refereed), of which 10 as first author. Metrics:
+- 157430 reads, 80567 downloads, 13664 citations
 - h-index: 64, m-index: 10.7, g-index: 116
-- i10-index: 120, i100-index: 44, read10-index: 2050.3
-- tori index: 4.2, riq index: 341.0
+- i10-index: 120, i100-index: 44, read10-index: 2041.1
+- tori index: 4.2, riq index: 342.0
 
 Based on the [SAO/NASA Astrophysics Data System (ADS)](https://ui.adsabs.harvard.edu/).
-Last updated: 11 August, 2026.
+Last updated: 12 August, 2026.
 
 ## First author (10)
 
@@ -68,9 +68,9 @@ Last updated: 11 August, 2026.
 
 - Jones, G., Bunker, A., Saxena, A., Witstok, J., et al., 2024, _Astronomy and Astrophysics_, [683, A238](https://doi.org/10.1051/0004-6361/202347099). 'JADES: The emergence and evolution of Lyα emission and constraints on the intergalactic medium neutral fraction' (65 citations).
 
-## Other (118)
+## Other (117)
 
-- Pascalau, R., D'Eugenio, F., Maiolino, R., Duan, Q., Isobe, Y., Arribas, S., Bunker, A., Charlot, S., Perna, M., Rodríguez Del Pino, B., Übler, H., Bertola, E., Böker, T., Carniani, S., Coe, D., Cresci, G., Curti, M., Hsiao, T., Ivey, L., Jones, G., Lamperti, I., Parlanti, E., Scholtz, J., Tacchella, S., Ulivi, L., Venturi, G., Witstok, J., Zamora, S., 2026, _Monthly Notices of the Royal Astronomical Society_, [551, stag1369](https://doi.org/10.1093/mnras/stag1369). 'GA-NIFS: dissecting the alchemised: JWST reveals turbulent metal-poor gas fuelling a cospatial starburst in a complex system at z = 10.17'.
+- Pascalau, R., D'Eugenio, F., Maiolino, R., Duan, Q., Isobe, Y., Arribas, S., Bunker, A., Charlot, S., Perna, M., Rodríguez Del Pino, B., Übler, H., Bertola, E., Böker, T., Carniani, S., Coe, D., Cresci, G., Curti, M., Hsiao, T., Ivey, L., Jones, G., Lamperti, I., Parlanti, E., Scholtz, J., Tacchella, S., Ulivi, L., Venturi, G., Witstok, J., Zamora, S., 2026, _Monthly Notices of the Royal Astronomical Society_, [551, stag1369](https://doi.org/10.1093/mnras/stag1369). 'GA-NIFS: dissecting the alchemised: JWST reveals turbulent metal-poor gas fuelling a cospatial starburst in a complex system at z = 10.17' (4 citations).
 
 - Algera, H., Weaver, J., Bakx, T., Aravena, M., Bouwens, R., Cescon, K., Chen, C., da Cunha, E., Dayal, P., Faisst, A., Ferrara, A., Fujimoto, S., Hashimoto, T., Heintz, K., Herrera-Camus, R., Hodge, J., Inami, H., Inoue, A., Matthee, J., Meyer, R., Mizukoshi, S., Mondal, C., Nanayakkara, T., Oesch, P., Pallottini, A., Röttgering, H., Rowland, L., Schouws, S., Smit, R., Sommovigo, L., Stark, D., Sugahara, Y., Vallini, L., Vijarnwannaluk, B., van der Werf, P., Werner, N., Witstok, J., Xiao, M., 2026, OJAp, [9, 65333](https://doi.org/10.33232/001c.165333). 'A first systematic study of [OIII] 88 μ m at z &gt; 8 : two luminous oxygen lines and a powerful ionized outflow in the first 600 million years' (7 citations).
 
@@ -133,8 +133,6 @@ Last updated: 11 August, 2026.
 - Bakx, T., Algera, H., Jolly, J., Esmerian, C., Knudsen, K., Sommovigo, L., Witstok, J., Carniani, S., Chen, J., Eales, S., Ferrara, A., Fudamoto, Y., Hagimoto, M., Hashimoto, T., Inami, H., Inoue, A., Khouri, T., Mitsuhashi, I., Nyman, G., Olander, G., Serjeant, S., Smit, R., Yoon, I., Zavala, J., Aalto, S., Casey, C., Tamura, Y., Vlemmings, W., 2026, _Monthly Notices of the Royal Astronomical Society_, [546, staf2284](https://doi.org/10.1093/mnras/staf2284). 'Probing infrared eXcess to investigate early-Universe dust (PIXIEDust)' (7 citations).
 
 - Ji, Z., Williams, C., Suess, K., Tacchella, S., Johnson, B., Robertson, B., Alberts, S., Baker, W., Baum, S., Bhatawdekar, R., Bonaventura, N., Boyett, K., Bunker, A., Carniani, S., Charlot, S., Chen, Z., Chevallard, J., Curtis-Lake, E., D'Eugenio, F., de Graaff, A., DeCoursey, C., Egami, E., Eisenstein, D., Hainline, K., Hausen, R., Helton, J., Looser, T., Lyu, J., Maiolino, R., Maseda, M., Nelson, E., Rieke, G., Rieke, M., Rix, H., Sandles, L., Sun, F., Übler, H., Willmer, C., Willott, C., Witstok, J., 2026, _The Astrophysical Journal_, [998, 239](https://doi.org/10.3847/1538-4357/ae3b2a). 'JADES: Rest-frame UV-to-NIR Size Evolution of Massive Quiescent Galaxies from Redshift z = 5 to z = 0.5' (50 citations).
-
-- Pascalau, R., D'Eugenio, F., Maiolino, R., Duan, Q., Isobe, Y., Arribas, S., Bunker, A., Charlot, S., Perna, M., Rodriguez Del Pino, B., Ubler, H., Bertola, E., Boker, T., Carniani, S., Coe, D., Cresci, G., Curti, M., Hsiao, T., Ivey, L., Jones, G., Lamperti, I., Parlanti, E., Scholtz, J., Tacchella, S., Ulivi, L., Venturi, G., Witstok, J., Zamora, S., 2026, arXiv e-prints, [2603.00232](https://doi.org/10.48550/arXiv.2603.00232). 'GA-NIFS: Dissecting The Alchemised: JWST reveals turbulent metal-poor gas fuelling a co-spatial starburst in a complex system at $z=10.17$'.
 
 - Pérez-González, P., Barro, G., Carniani, S., D'Eugenio, F., Rieke, G., Tripodi, R., Bunker, A., Ji, X., Marques-Chaves, R., Schaerer, D., Venturi, G., Arévalo-González, F., Arribas, S., Rinaldi, P., Rodríguez Del Pino, B., Witstok, J., Bhatawdekar, R., Boogaard, L., Charlot, S., Chevallard, J., Costantin, L., Curti, M., Curtis-Lake, E., Daddi, E., Davis, K., Dickinson, M., Donnan, C., Donnan, F., Dunlop, J., Eisenstein, D., Ferguson, H., Fernández Aranda, R., Finkelstein, S., Fujimoto, S., Gandolfi, G., Giavalisco, M., Grogin, N., Hamed, M., Hirschmann, M., Kartaltepe, J., Kocevski, D., Koekemoer, A., Leung, G., Lofaro, C., Lucas, R., McLeod, D., Melinder, J., Östlin, G., Papovich, C., Pentericci, L., Pérez-Díaz, B., Rieke, M., Scholtz, J., Somerville, R., Stanton, T., Stevenson, S., Shivaei, I., Tacchella, S., Trump, J., Übler, H., Wang, X., Williams, C., Willmer, C., Yung, L., Zhu, Y., 2026, arXiv e-prints, [2602.20247](https://doi.org/10.48550/arXiv.2602.20247). 'Little Red Dots: One Photometric Tag Concealing Diverse Spectroscopic Flavors of Massive Star Formation and Black Hole Activity' (25 citations).
 
