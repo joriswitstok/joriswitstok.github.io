@@ -5,14 +5,14 @@ layout: '~/layouts/MarkdownLayout.astro'
 ---
 
 ## Summary
-143 publications (123 refereed), of which 10 as first author. Metrics:
-- 157430 reads, 80567 downloads, 13737 citations
+142 publications (123 refereed), of which 10 as first author. Metrics:
+- 156965 reads, 80311 downloads, 13708 citations
 - h-index: 64, m-index: 10.7, g-index: 116
-- i10-index: 120, i100-index: 44, read10-index: 1987.9
+- i10-index: 119, i100-index: 44, read10-index: 1966.5
 - tori index: 3.8, riq index: 326.0
 
 Based on the [SAO/NASA Astrophysics Data System (ADS)](https://ui.adsabs.harvard.edu/).
-Last updated: 18 August, 2026.
+Last updated: 19 August, 2026.
 
 ## First author (10)
 
@@ -68,7 +68,7 @@ Last updated: 18 August, 2026.
 
 - Jones, G., Bunker, A., Saxena, A., Witstok, J., et al., 2024, _Astronomy and Astrophysics_, [683, A238](https://doi.org/10.1051/0004-6361/202347099). 'JADES: The emergence and evolution of Lyα emission and constraints on the intergalactic medium neutral fraction' (65 citations).
 
-## Other (118)
+## Other (117)
 
 - Pascalau, R., D'Eugenio, F., Maiolino, R., Duan, Q., Isobe, Y., Arribas, S., Bunker, A., Charlot, S., Perna, M., Rodríguez Del Pino, B., Übler, H., Bertola, E., Böker, T., Carniani, S., Coe, D., Cresci, G., Curti, M., Hsiao, T., Ivey, L., Jones, G., Lamperti, I., Parlanti, E., Scholtz, J., Tacchella, S., Ulivi, L., Venturi, G., Witstok, J., Zamora, S., 2026, _Monthly Notices of the Royal Astronomical Society_, [551, stag1369](https://doi.org/10.1093/mnras/stag1369). 'GA-NIFS: dissecting the alchemised: JWST reveals turbulent metal-poor gas fuelling a cospatial starburst in a complex system at z = 10.17' (4 citations).
 
@@ -169,8 +169,6 @@ Last updated: 18 August, 2026.
 - Wu, Z., Eisenstein, D., Johnson, B., Jakobsen, P., Alberts, S., Arribas, S., Baker, W., Bunker, A., Carniani, S., Charlot, S., Chevallard, J., Curti, M., Curtis-Lake, E., D'Eugenio, F., Hainline, K., Helton, J., Hsiao, T., Ji, X., Ji, Z., Looser, T., Rieke, G., Rinaldi, P., Robertson, B., Scholtz, J., Sun, F., Tacchella, S., Trussler, J., Williams, C., Willmer, C., Willott, C., Witstok, J., Zhu, Y., 2025, _The Astrophysical Journal_, [992, 212](https://doi.org/10.3847/1538-4357/ae01a1). 'JADES-GS-z14-1: A Compact, Faint Galaxy at z ≈ 14 with Weak Metal Lines from Extremely Deep JWST MIRI, NIRCam, and NIRSpec Observations' (18 citations).
 
 - Algera, H., Rowland, L., Smit, R., Fisher, R., Ramambason, L., Kumari, N., Vallini, L., Inami, H., Nanayakkara, T., Stefanon, M., Aravena, M., Bakx, T., Bouwens, R., Bowler, R., Cescon, K., Chen, C., Dayal, P., De Looze, I., Ferrara, A., Fudamoto, Y., Komarova, L., van Leeuwen, I., Ormerod, K., Schouws, S., Sommovigo, L., Vijayan, A., Wang, W., van der Werf, P., Witstok, J., 2025, arXiv e-prints, [2509.16071](https://doi.org/10.48550/arXiv.2509.16071). 'REBELS-IFU: on the origin of the elevated [OIII]/[CII] ratios in the early Universe' (6 citations).
-
-- Shivaei, I., Naidu, R., Rodriguez Montero, F., Matsumoto, K., Leja, J., Matthee, J., Johnson, B., Oesch, P., Chevallard, J., Adamo, A., Bodansky, S., Bunker, A., Covelo Paz, A., Di Cesare, C., Egami, E., Furtak, L., Heintz, K., Kramarenko, I., Meyer, R., Reddy, N., Rinaldi, P., Tacchella, S., Torralba, A., Witstok, J., Wozniak, M., Xiao, M., 2025, arXiv e-prints, [2509.01795](https://doi.org/10.48550/arXiv.2509.01795). 'Diversity and Evolution of Dust Attenuation Curves from Redshift z ~ 1 to 9' (29 citations).
 
 - Yuan, Y., Martin-Alvarez, S., Haehnelt, M., Garel, T., Keating, L., Witstok, J., Sijacki, D., 2025, _Monthly Notices of the Royal Astronomical Society_, [542, 762](https://doi.org/10.1093/mnras/staf1252). 'Extended red wings and the visibility of reionization-epoch Lyman-α emitters' (11 citations).
 
