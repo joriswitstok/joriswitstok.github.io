@@ -5,14 +5,14 @@ layout: '~/layouts/MarkdownLayout.astro'
 ---
 
 ## Summary
-142 publications (123 refereed), of which 10 as first author. Metrics:
-- 156965 reads, 80311 downloads, 13763 citations
+143 publications (122 refereed), of which 10 as first author. Metrics:
+- 156956 reads, 80306 downloads, 13763 citations
 - h-index: 64, m-index: 10.7, g-index: 116
-- i10-index: 120, i100-index: 44, read10-index: 1933.0
+- i10-index: 120, i100-index: 44, read10-index: 1924.4
 - tori index: 4.0, riq index: 334.0
 
 Based on the [SAO/NASA Astrophysics Data System (ADS)](https://ui.adsabs.harvard.edu/).
-Last updated: 23 August, 2026.
+Last updated: 24 August, 2026.
 
 ## First author (10)
 
@@ -68,7 +68,9 @@ Last updated: 23 August, 2026.
 
 - Jones, G., Bunker, A., Saxena, A., Witstok, J., et al., 2024, _Astronomy and Astrophysics_, [683, A238](https://doi.org/10.1051/0004-6361/202347099). 'JADES: The emergence and evolution of Lyα emission and constraints on the intergalactic medium neutral fraction' (65 citations).
 
-## Other (117)
+## Other (118)
+
+- Koller, M., Maiolino, R., Übler, H., Duan, Q., Scholtz, J., Arribas, S., Baker, W., Carniani, S., Charlot, S., Curti, M., Graziani, L., Jones, G., McClymont, W., Perna, M., Rodríguez Del Pino, B., Tacchella, S., Venditti, A., Venturi, G., Witstok, J., 2026, _Monthly Notices of the Royal Astronomical Society_, [551, stag1206](https://doi.org/10.1093/mnras/stag1206). 'Metal mayhem at z ~ 7-10: diversity and evolution of gas-phase metallicity gradients'.
 
 - Pascalau, R., D'Eugenio, F., Maiolino, R., Duan, Q., Isobe, Y., Arribas, S., Bunker, A., Charlot, S., Perna, M., Rodríguez Del Pino, B., Übler, H., Bertola, E., Böker, T., Carniani, S., Coe, D., Cresci, G., Curti, M., Hsiao, T., Ivey, L., Jones, G., Lamperti, I., Parlanti, E., Scholtz, J., Tacchella, S., Ulivi, L., Venturi, G., Witstok, J., Zamora, S., 2026, _Monthly Notices of the Royal Astronomical Society_, [551, stag1369](https://doi.org/10.1093/mnras/stag1369). 'GA-NIFS: dissecting the alchemised: JWST reveals turbulent metal-poor gas fuelling a cospatial starburst in a complex system at z = 10.17' (4 citations).
 
@@ -92,9 +94,9 @@ Last updated: 23 August, 2026.
 
 - Koller, M., Maiolino, R., Übler, H., Duan, Q., Scholtz, J., Arribas, S., Baker, W., Carniani, S., Charlot, S., Curti, M., Graziani, L., Jones, G., McClymont, W., Perna, M., Del Pino, B., Tacchella, S., Venditti, A., Venturi, G., Witstok, J., 2026, _Monthly Notices of the Royal Astronomical Society_, [in press](https://doi.org/10.1093/mnras/stag1206). 'Metal Mayhem at Z ~ 7-10: Diversity and Evolution of Gas-Phase Metallicity Gradients'.
 
-- Nikopoulos, G., Watson, D., Sneppen, A., Rusakov, V., Heintz, K., Witstok, J., Brammer, G., 2026, _Astronomy and Astrophysics_, [710, A136](https://doi.org/10.1051/0004-6361/202557604). 'Evidence of violation of case B recombination in little red dots' (28 citations).
-
 - Nikopoulos, G., Watson, D., Pollock, C., Sneppen, A., Heintz, K., Witstok, J., Brammer, G., 2026, arXiv e-prints, [2606.31515](https://doi.org/10.48550/arXiv.2606.31515). 'The metallicities of little red dot host galaxies: LRDs are metal poor, but not pristine' (1 citation).
+
+- Nikopoulos, G., Watson, D., Sneppen, A., Rusakov, V., Heintz, K., Witstok, J., Brammer, G., 2026, _Astronomy and Astrophysics_, [710, A136](https://doi.org/10.1051/0004-6361/202557604). 'Evidence of violation of case B recombination in little red dots' (28 citations).
 
 - Pollock, C., Heintz, K., Rusta, E., Watson, D., Salvadori, S., Witten, C., Witstok, J., Koutsouridou, I., Gelli, V., Oesch, P., Brammer, G., Saccardi, A., Ito, K., Gottumukkala, R., Bergholt, D., Brooksby, K., Terp, C., Valentino, F., 2026, arXiv e-prints, [2606.13078](https://doi.org/10.48550/arXiv.2606.13078). 'Chemical signatures from the first stars embedded in metal-poor gas in galaxies at cosmic dawn' (2 citations).
 
