@@ -5,14 +5,14 @@ layout: '~/layouts/MarkdownLayout.astro'
 ---
 
 ## Summary
-141 publications (124 refereed), of which 10 as first author. Metrics:
-- 156847 reads, 80249 downloads, 13766 citations
+142 publications (124 refereed), of which 10 as first author. Metrics:
+- 156847 reads, 80249 downloads, 13768 citations
 - h-index: 64, m-index: 10.7, g-index: 116
-- i10-index: 120, i100-index: 44, read10-index: 1890.1
+- i10-index: 120, i100-index: 44, read10-index: 1882.3
 - tori index: 4.4, riq index: 349.0
 
 Based on the [SAO/NASA Astrophysics Data System (ADS)](https://ui.adsabs.harvard.edu/).
-Last updated: 29 August, 2026.
+Last updated: 30 August, 2026.
 
 ## First author (10)
 
@@ -68,11 +68,13 @@ Last updated: 29 August, 2026.
 
 - Jones, G., Bunker, A., Saxena, A., Witstok, J., et al., 2024, _Astronomy and Astrophysics_, [683, A238](https://doi.org/10.1051/0004-6361/202347099). 'JADES: The emergence and evolution of Lyα emission and constraints on the intergalactic medium neutral fraction' (66 citations).
 
-## Other (116)
+## Other (117)
 
 - Koller, M., Maiolino, R., Übler, H., Duan, Q., Scholtz, J., Arribas, S., Baker, W., Carniani, S., Charlot, S., Curti, M., Graziani, L., Jones, G., McClymont, W., Perna, M., Rodríguez Del Pino, B., Tacchella, S., Venditti, A., Venturi, G., Witstok, J., 2026, _Monthly Notices of the Royal Astronomical Society_, [551, stag1206](https://doi.org/10.1093/mnras/stag1206). 'Metal mayhem at z ~ 7-10: diversity and evolution of gas-phase metallicity gradients' (3 citations).
 
 - Pascalau, R., D'Eugenio, F., Maiolino, R., Duan, Q., Isobe, Y., Arribas, S., Bunker, A., Charlot, S., Perna, M., Rodríguez Del Pino, B., Übler, H., Bertola, E., Böker, T., Carniani, S., Coe, D., Cresci, G., Curti, M., Hsiao, T., Ivey, L., Jones, G., Lamperti, I., Parlanti, E., Scholtz, J., Tacchella, S., Ulivi, L., Venturi, G., Witstok, J., Zamora, S., 2026, _Monthly Notices of the Royal Astronomical Society_, [551, stag1369](https://doi.org/10.1093/mnras/stag1369). 'GA-NIFS: dissecting the alchemised: JWST reveals turbulent metal-poor gas fuelling a cospatial starburst in a complex system at z = 10.17' (4 citations).
+
+- Cameron, A., Carreira, C., Simmonds, C., Bunker, A., Saxena, A., Carniani, S., Charlot, S., Chevallard, J., Curtis-Lake, E., Hainline, K., Hausen, R., Ji, X., Ji, Z., Johnson, B., Rinaldi, P., Robertson, B., Scholtz, J., Silcock, M., Tacchella, S., Trussler, J., Übler, H., Williams, C., Willmer, C., Willott, C., Witstok, J., 2026, _Monthly Notices of the Royal Astronomical Society_, [in press](https://doi.org/10.1093/mnras/stag1575). 'JADES: Evolution of nitrogen abundances in star-forming galaxies from z ~ 1.5 - 7'.
 
 - Shivaei, I., Naidu, R., Rodríguez Montero, F., Matsumoto, K., Leja, J., Matthee, J., Johnson, B., Oesch, P., Chevallard, J., Adamo, A., Bodansky, S., Bunker, A., Covelo Paz, A., Di Cesare, C., Egami, E., Furtak, L., Heintz, K., Kramarenko, I., Meyer, R., Reddy, N., Rinaldi, P., Tacchella, S., Torralba, A., Witstok, J., Wozniak, M., Xiao, M., 2026, _Astronomy and Astrophysics_, [712, A132](https://doi.org/10.1051/0004-6361/202557064). 'Diversity and evolution of dust-attenuation curves from redshift z ∼ 1 to 9' (30 citations).
 
@@ -186,7 +188,7 @@ Last updated: 29 August, 2026.
 
 - Tacchella, S., McClymont, W., Scholtz, J., Maiolino, R., Ji, X., Villanueva, N., Charlot, S., D'Eugenio, F., Helton, J., Williams, C., Witstok, J., Bhatawdekar, R., Carniani, S., Chevallard, J., Curti, M., Hainline, K., Ji, Z., Johnson, B., Leja, J., Li, Y., Maseda, M., Puskás, D., Rieke, M., Robertson, B., Shivaei, I., Silcock, M., Simmonds, C., Übler, H., Willmer, C., Willott, C., 2025, _Monthly Notices of the Royal Astronomical Society_, [540, 851](https://doi.org/10.1093/mnras/staf718). 'Resolving the nature and putative nebular emission of GS9422: an obscured AGN without exotic stars' (52 citations).
 
-- Baker, W., D'Eugenio, F., Maiolino, R., Bunker, A., Simmonds, C., Tacchella, S., Witstok, J., Arribas, S., Carniani, S., Charlot, S., Chevallard, J., Curti, M., Curtis-Lake, E., Jones, G., Kumari, N., Rinaldi, P., Robertson, B., Williams, C., Willott, C., Zhu, Y., 2025, _Astronomy and Astrophysics_, [697, A90](https://doi.org/10.1051/0004-6361/202553766). 'Zapped then napped? A rapidly quenched remnant leaker candidate with a steep spectroscopic β<SUB>UV</SUB> slope at z = 8.5' (46 citations).
+- Baker, W., D'Eugenio, F., Maiolino, R., Bunker, A., Simmonds, C., Tacchella, S., Witstok, J., Arribas, S., Carniani, S., Charlot, S., Chevallard, J., Curti, M., Curtis-Lake, E., Jones, G., Kumari, N., Rinaldi, P., Robertson, B., Williams, C., Willott, C., Zhu, Y., 2025, _Astronomy and Astrophysics_, [697, A90](https://doi.org/10.1051/0004-6361/202553766). 'Zapped then napped? A rapidly quenched remnant leaker candidate with a steep spectroscopic β<SUB>UV</SUB> slope at z = 8.5' (47 citations).
 
 - Helton, J., Rieke, G., Alberts, S., Wu, Z., Eisenstein, D., Hainline, K., Carniani, S., Ji, Z., Baker, W., Bhatawdekar, R., Bunker, A., Cargile, P., Charlot, S., Chevallard, J., D'Eugenio, F., Egami, E., Johnson, B., Jones, G., Lyu, J., Maiolino, R., Pérez-González, P., Rieke, M., Robertson, B., Saxena, A., Scholtz, J., Shivaei, I., Sun, F., Tacchella, S., Whitler, L., Williams, C., Willmer, C., Willott, C., Witstok, J., Zhu, Y., 2025, _Nature Astronomy_, [9, 729](https://doi.org/10.1038/s41550-025-02503-z). 'Photometric detection at 7.7 μm of a galaxy beyond redshift 14 with JWST/MIRI' (66 citations).
 
@@ -206,7 +208,7 @@ Last updated: 29 August, 2026.
 
 - Witten, C., McClymont, W., Laporte, N., Roberts-Borsani, G., Sijacki, D., Tacchella, S., Simmonds, C., Katz, H., Ellis, R., Witstok, J., Maiolino, R., Ji, X., Hayes, B., Looser, T., D'Eugenio, F., 2025, _Monthly Notices of the Royal Astronomical Society_, [537, 112](https://doi.org/10.1093/mnras/staf001). 'Rising from the ashes: evidence of old stellar populations and rejuvenation events in the very early Universe' (59 citations).
 
-- Baker, W., Tacchella, S., Johnson, B., Nelson, E., Suess, K., D'Eugenio, F., Curti, M., de Graaff, A., Ji, Z., Maiolino, R., Robertson, B., Scholtz, J., Alberts, S., Arribas, S., Boyett, K., Bunker, A., Carniani, S., Charlot, S., Chen, Z., Chevallard, J., Curtis-Lake, E., Danhaive, A., DeCoursey, C., Egami, E., Eisenstein, D., Endsley, R., Hausen, R., Helton, J., Kumari, N., Looser, T., Maseda, M., Puskás, D., Rieke, M., Sandles, L., Sun, F., Übler, H., Williams, C., Willmer, C., Witstok, J., 2025, _Nature Astronomy_, [9, 141](https://doi.org/10.1038/s41550-024-02384-8). 'A core in a star-forming disc as evidence of inside-out growth in the early Universe' (81 citations).
+- Baker, W., Tacchella, S., Johnson, B., Nelson, E., Suess, K., D'Eugenio, F., Curti, M., de Graaff, A., Ji, Z., Maiolino, R., Robertson, B., Scholtz, J., Alberts, S., Arribas, S., Boyett, K., Bunker, A., Carniani, S., Charlot, S., Chen, Z., Chevallard, J., Curtis-Lake, E., Danhaive, A., DeCoursey, C., Egami, E., Eisenstein, D., Endsley, R., Hausen, R., Helton, J., Kumari, N., Looser, T., Maseda, M., Puskás, D., Rieke, M., Sandles, L., Sun, F., Übler, H., Williams, C., Willmer, C., Witstok, J., 2025, _Nature Astronomy_, [9, 141](https://doi.org/10.1038/s41550-024-02384-8). 'A core in a star-forming disc as evidence of inside-out growth in the early Universe' (82 citations).
 
 - Heintz, K., Brammer, G., Watson, D., Oesch, P., Keating, L., Hayes, M., Abdurro'uf, Arellano-Córdova, K., Carnall, A., Christiansen, C., Cullen, F., Davé, R., Dayal, P., Ferrara, A., Finlator, K., Fynbo, J., Flury, S., Gelli, V., Gillman, S., Gottumukkala, R., Gould, K., Greve, T., Hardin, S., Hsiao, T., Hutter, A., Jakobsson, P., Killi, M., Khosravaninezhad, N., Laursen, P., Lee, M., Magdis, G., Matthee, J., Naidu, R., Narayanan, D., Pollock, C., Prescott, M., Rusakov, V., Shuntov, M., Sneppen, A., Smit, R., Tanvir, N., Terp, C., Toft, S., Valentino, F., Vijayan, A., Weaver, J., Wise, J., Witstok, J., 2025, _Astronomy and Astrophysics_, [693, A60](https://doi.org/10.1051/0004-6361/202450243). 'The JWST-PRIMAL archival survey: A JWST/NIRSpec reference sample for the physical properties and Lyman-α absorption and emission of ∼600 galaxies at z = 5.0 − 13.4' (187 citations).
 
