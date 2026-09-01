@@ -19,6 +19,10 @@ pnpm-debug.log*
 # macOS-specific files
 .DS_Store
 
+# pnpm-specific files: pnpm is supported for local use (see .pnpmrc), but
+# package-lock.json is the tracked lockfile and npm is what CI, Docker and
+# the deploy targets run. Committing these would let the two trees diverge.
 pnpm-lock.yaml
+pnpm-workspace.yaml
 
 .astro
