@@ -14,10 +14,31 @@ import compress from 'astro-compress';
 import type { AstroIntegration } from 'astro';
 
 import astrowind from './vendor/integration';
+import loadConfig from './vendor/integration/utils/loadConfig';
 
 import { readingTimeRemarkPlugin, responsiveTablesRehypePlugin } from './src/utils/frontmatter';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
+
+// Blog taxonomy sections marked `robots.index: false` in `src/config.yaml` are
+// kept out of the sitemap. Listing a URL that we then ask crawlers not to index
+// spends crawl budget on nothing and sends two contradictory signals at once.
+// The prefixes are derived from the config instead of hardcoded because these
+// pathnames are meant to be renamed (see the comments in `src/config.yaml`).
+interface BlogSectionConfig {
+  isEnabled?: boolean;
+  pathname?: string;
+  robots?: { index?: boolean };
+}
+
+const themeConfig = (await loadConfig('src/config.yaml')) as {
+  apps?: { blog?: Record<string, BlogSectionConfig> };
+};
+
+const noindexTaxonomyPaths = ['category', 'tag']
+  .map((section) => themeConfig?.apps?.blog?.[section])
+  .filter((section): section is BlogSectionConfig => Boolean(section?.isEnabled) && section?.robots?.index === false)
+  .map((section) => `/${(section.pathname ?? '').replace(/^\/+|\/+$/g, '')}/`);
 
 const hasExternalScripts = false;
 const whenExternalScripts = (items: (() => AstroIntegration) | (() => AstroIntegration)[] = []) =>
@@ -49,7 +70,9 @@ export default defineConfig({
   ],
 
   integrations: [
-    sitemap(),
+    sitemap({
+      filter: (page) => !noindexTaxonomyPaths.some((prefix) => new URL(page).pathname.startsWith(prefix)),
+    }),
     mdx(),
     icon({
       include: {
