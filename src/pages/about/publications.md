@@ -9,7 +9,7 @@ layout: '~/layouts/MarkdownLayout.astro'
 - 156847 reads, 80249 downloads, 13766 citations
 - h-index: 64, m-index: 10.7, g-index: 116
 - i10-index: 120, i100-index: 44, read10-index: 1866.9
-- tori index: 4.1, riq index: 337.0
+- tori index: 4.1, riq index: 335.0
 
 Based on the [SAO/NASA Astrophysics Data System (ADS)](https://ui.adsabs.harvard.edu/).
 Last updated: 1 September, 2026.
