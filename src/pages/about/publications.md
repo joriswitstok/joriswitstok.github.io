@@ -6,13 +6,13 @@ layout: '~/layouts/MarkdownLayout.astro'
 
 ## Summary
 141 publications (125 refereed), of which 10 as first author. Metrics:
-- 161080 reads, 82424 downloads, 13751 citations
+- 161219 reads, 82498 downloads, 13751 citations
 - h-index: 64, m-index: 10.7, g-index: 116
-- i10-index: 120, i100-index: 44, read10-index: 3729.9
+- i10-index: 120, i100-index: 44, read10-index: 3747.7
 - tori index: 4.8, riq index: 364.0
 
 Based on the [SAO/NASA Astrophysics Data System (ADS)](https://ui.adsabs.harvard.edu/).
-Last updated: 9 September, 2026.
+Last updated: 10 September, 2026.
 
 ## First author (10)
 
@@ -94,9 +94,9 @@ Last updated: 9 September, 2026.
 
 - Helton, J., Morrison, J., Hainline, K., D'Eugenio, F., Rieke, G., Alberts, S., Carniani, S., Leja, J., Li, Y., Rinaldi, P., Scholtz, J., Stone, M., Willmer, C., Wu, Z., Baker, W., Bunker, A., Charlot, S., Chevallard, J., Cleri, N., Curti, M., Curtis-Lake, E., Egami, E., Eisenstein, D., Jakobsen, P., Ji, Z., Johnson, B., Kumari, N., Lin, X., Lyu, J., Maiolino, R., Maseda, M., Pérez-González, P., Rieke, M., Robertson, B., Saxena, A., Sun, F., Tacchella, S., Übler, H., Venturi, G., Williams, C., Willott, C., Witstok, J., Zhu, Y., 2026, _The Astrophysical Journal Letters_, [1004, L30](https://doi.org/10.3847/2041-8213/ae7446). 'Ionizing Photon Production Efficiencies and Chemical Abundances at Cosmic Dawn Revealed by Ultradeep Rest-frame Optical Spectroscopy of JADES-GS-z14-0' (13 citations).
 
-- Nikopoulos, G., Watson, D., Sneppen, A., Rusakov, V., Heintz, K., Witstok, J., Brammer, G., 2026, _Astronomy and Astrophysics_, [710, A136](https://doi.org/10.1051/0004-6361/202557604). 'Evidence of violation of case B recombination in little red dots' (28 citations).
-
 - Nikopoulos, G., Watson, D., Pollock, C., Sneppen, A., Heintz, K., Witstok, J., Brammer, G., 2026, arXiv e-prints, [2606.31515](https://doi.org/10.48550/arXiv.2606.31515). 'The metallicities of little red dot host galaxies: LRDs are metal poor, but not pristine' (1 citation).
+
+- Nikopoulos, G., Watson, D., Sneppen, A., Rusakov, V., Heintz, K., Witstok, J., Brammer, G., 2026, _Astronomy and Astrophysics_, [710, A136](https://doi.org/10.1051/0004-6361/202557604). 'Evidence of violation of case B recombination in little red dots' (28 citations).
 
 - Pollock, C., Heintz, K., Rusta, E., Watson, D., Salvadori, S., Witten, C., Witstok, J., Koutsouridou, I., Gelli, V., Oesch, P., Brammer, G., Saccardi, A., Ito, K., Gottumukkala, R., Bergholt, D., Brooksby, K., Terp, C., Valentino, F., 2026, arXiv e-prints, [2606.13078](https://doi.org/10.48550/arXiv.2606.13078). 'Chemical signatures from the first stars embedded in metal-poor gas in galaxies at cosmic dawn' (2 citations).
 
