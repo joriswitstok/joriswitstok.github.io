@@ -6,13 +6,13 @@ layout: '~/layouts/MarkdownLayout.astro'
 
 ## Summary
 143 publications (126 refereed), of which 10 as first author. Metrics:
-- 161602 reads, 82692 downloads, 13773 citations
-- h-index: 64, m-index: 10.7, g-index: 116
-- i10-index: 120, i100-index: 44, read10-index: 3743.6
-- tori index: 4.2, riq index: 340.0
+- 161857 reads, 82872 downloads, 13879 citations
+- h-index: 64, m-index: 10.7, g-index: 117
+- i10-index: 120, i100-index: 44, read10-index: 3771.7
+- tori index: 4.1, riq index: 339.0
 
 Based on the [SAO/NASA Astrophysics Data System (ADS)](https://ui.adsabs.harvard.edu/).
-Last updated: 16 September, 2026.
+Last updated: 17 September, 2026.
 
 ## First author (10)
 
@@ -46,7 +46,7 @@ Last updated: 16 September, 2026.
 
 - Vallini, L., Witstok, J., et al., 2024, _Monthly Notices of the Royal Astronomical Society_, [527, 10](https://doi.org/10.1093/mnras/stad3150). 'Spatially resolved Kennicutt-Schmidt relation at z ≈ 7 and its connection with the interstellar medium properties' (48 citations).
 
-- Ormerod, K., Smit, R., Witstok, J., et al., 2026, arXiv e-prints, [2609.12203](https://scixplorer.org/abs/2026arXiv260912203O). 'NOEMA probes the [CII] and dust content in a 2175Å UV Bump Galaxy at $z=7.1$'.
+- Ormerod, K., Smit, R., Witstok, J., et al., 2026, arXiv e-prints, [2609.12203](https://doi.org/10.48550/arXiv.2609.12203). 'NOEMA probes the [CII] and dust content in a 2175Å UV Bump Galaxy at $z=7.1$'.
 
 - Pollock, C., Heintz, K., Witstok, J., et al., 2026, _Astronomy and Astrophysics_, [711, A298](https://doi.org/10.1051/0004-6361/202659423). 'Characterising Lyα damping wings at the onset of reionisation: Evidence for highly efficient star formation driven by dense, neutral gas in UV-bright galaxies at z &gt; 9' (5 citations).
 
