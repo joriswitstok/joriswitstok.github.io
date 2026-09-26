@@ -5,14 +5,14 @@ layout: '~/layouts/MarkdownLayout.astro'
 ---
 
 ## Summary
-143 publications (126 refereed), of which 10 as first author. Metrics:
+144 publications (126 refereed), of which 10 as first author. Metrics:
 - 162052 reads, 82957 downloads, 13868 citations
 - h-index: 64, m-index: 10.7, g-index: 117
-- i10-index: 120, i100-index: 44, read10-index: 3685.1
+- i10-index: 120, i100-index: 44, read10-index: 3671.4
 - tori index: 4.2, riq index: 341.0
 
 Based on the [SAO/NASA Astrophysics Data System (ADS)](https://ui.adsabs.harvard.edu/).
-Last updated: 25 September, 2026.
+Last updated: 26 September, 2026.
 
 ## First author (10)
 
@@ -70,9 +70,11 @@ Last updated: 25 September, 2026.
 
 - Jones, G., Bunker, A., Saxena, A., Witstok, J., et al., 2024, _Astronomy and Astrophysics_, [683, A238](https://doi.org/10.1051/0004-6361/202347099). 'JADES: The emergence and evolution of Lyα emission and constraints on the intergalactic medium neutral fraction' (67 citations).
 
-## Other (117)
+## Other (118)
 
 - Koller, M., Maiolino, R., Übler, H., Duan, Q., Scholtz, J., Arribas, S., Baker, W., Carniani, S., Charlot, S., Curti, M., Graziani, L., Jones, G., McClymont, W., Perna, M., Rodríguez Del Pino, B., Tacchella, S., Venditti, A., Venturi, G., Witstok, J., 2026, _Monthly Notices of the Royal Astronomical Society_, [551, stag1206](https://doi.org/10.1093/mnras/stag1206). 'Metal mayhem at z ~ 7-10: diversity and evolution of gas-phase metallicity gradients' (3 citations).
+
+- Kumari, N., Smit, R., Leitherer, C., Álvarez-Márquez, J., Ormerod, K., Witstok, J., Madden, S., Hayes, M., 2026, arXiv e-prints, [2609.30003](https://scixplorer.org/abs/2026arXiv260930003K). 'The JWST and ALMA view of local dwarf Pox 186: Evidence of stripped binaries driving a hard radiation field and little cold molecular gas resulting in high star-formation efficiency'.
 
 - Pascalau, R., D'Eugenio, F., Maiolino, R., Duan, Q., Isobe, Y., Arribas, S., Bunker, A., Charlot, S., Perna, M., Rodríguez Del Pino, B., Übler, H., Bertola, E., Böker, T., Carniani, S., Coe, D., Cresci, G., Curti, M., Hsiao, T., Ivey, L., Jones, G., Lamperti, I., Parlanti, E., Scholtz, J., Tacchella, S., Ulivi, L., Venturi, G., Witstok, J., Zamora, S., 2026, _Monthly Notices of the Royal Astronomical Society_, [551, stag1369](https://doi.org/10.1093/mnras/stag1369). 'GA-NIFS: dissecting the alchemised: JWST reveals turbulent metal-poor gas fuelling a cospatial starburst in a complex system at z = 10.17' (5 citations).
 
