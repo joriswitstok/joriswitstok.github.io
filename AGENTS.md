@@ -6,6 +6,10 @@ AstroWind is a free, open-source website template built with **Astro v7** and **
 
 **Stack:** Astro v7 | Tailwind CSS v4 | TypeScript 5.9 | MDX | Sharp
 
+## Skills
+
+Before implementing a project-specific task (disabling the blog, Open Graph images, base paths, CMS, deployments, header customisation…), check `.agents/skills/` for an existing skill and follow it.
+
 ## Quick Reference
 
 | Command           | Purpose                             |
@@ -16,7 +20,7 @@ AstroWind is a free, open-source website template built with **Astro v7** and **
 | `npm run check`   | Run astro check + ESLint + Prettier |
 | `npm run fix`     | Auto-fix ESLint + Prettier issues   |
 
-**Node.js requirement:** >= 22.12.0
+**Node.js requirement:** >= 22.22.3
 
 ## Architecture
 
@@ -28,7 +32,7 @@ src/
   components/
     common/        # Shared: Image, Metadata, Analytics, ToggleTheme
     ui/            # Primitives: Button, Form, Headline, Timeline, WidgetWrapper
-    widgets/       # Page sections: Hero, Features, Pricing, Header, Footer
+    widgets/       # Page sections: Hero, Features, Bento, Pricing, Comparison, FAQs, Team, Gallery…
     blog/          # Blog: SinglePost, List, Pagination, Tags
     CustomStyles.astro  # CSS variables for colors and fonts
   content.config.ts    # Content Collections schema (Astro 5+ location)
@@ -116,3 +120,4 @@ After changes, always verify:
 1. `npm run build` succeeds
 2. `npm run check` passes (astro check + ESLint + Prettier)
 3. Visual check in browser: homepage, blog, dark mode, mobile menu
+4. Structured data describes the site it is on: the `WebSite` / `Organization` block in `src/pages/index.astro` is built only from `config.yaml`; anything you add there must be true for your site

@@ -3,6 +3,15 @@
 // layout; it observes elements using the `intersect` Tailwind variants and
 // staggers their reveal. The custom-element lifecycle re-runs it on each
 // client-side navigation, so no manual `astro:after-swap` wiring is needed.
+//
+// Rules that keep the reveal snappy:
+// - The stagger is computed per observer batch (the elements that enter
+//   together) and capped, so a fast scroll or an anchor jump never queues
+//   seconds of delay.
+// - An element counts as visible only when it actually intersects, so
+//   off-screen elements are never animated ahead of time.
+// - Only one level fades: a section whose children animate on their own is
+//   revealed at once, so items are not dimmed by a fading parent.
 ---
 
 <aw-intersect aria-hidden="true"></aw-intersect>
@@ -15,12 +24,23 @@
 
 <script>
   /* Inspired by: https://github.com/heidkaemper/tailwindcss-intersect */
+  const SELECTOR = [
+    '[class*=" intersect:"]',
+    '[class*=":intersect:"]',
+    '[class^="intersect:"]',
+    '[class="intersect"]',
+    '[class*=" intersect "]',
+    '[class^="intersect "]',
+    '[class$=" intersect"]',
+  ].join(',');
+
+  const STAGGER_MS = 60;
+  const STAGGER_MAX_STEPS = 4;
+
   class AwIntersect extends HTMLElement {
     private observer: IntersectionObserver | null = null;
     private elements: HTMLElement[] = [];
     private thresholds = new WeakMap<Element, number>();
-    private animationCounter = 0;
-    private readonly delayBetweenAnimations = 100;
     private onThemeChange = () => this.removeAnimationDelay();
 
     connectedCallback() {
@@ -45,73 +65,52 @@
 
     private start() {
       this.observer?.disconnect();
-      this.animationCounter = 0;
+      this.elements = Array.from(document.querySelectorAll<HTMLElement>(SELECTOR));
 
-      const selectors = [
-        '[class*=" intersect:"]',
-        '[class*=":intersect:"]',
-        '[class^="intersect:"]',
-        '[class="intersect"]',
-        '[class*=" intersect "]',
-        '[class^="intersect "]',
-        '[class$=" intersect"]',
-      ];
-
-      this.elements = Array.from(document.querySelectorAll<HTMLElement>(selectors.join(',')));
-
+      const observed: HTMLElement[] = [];
       this.elements.forEach((el) => {
+        if (el.querySelector(SELECTOR)) {
+          // Container with animated children: show it at once, its children
+          // carry the animation.
+          el.style.animationDuration = '0s';
+          el.setAttribute('data-animated', 'true');
+          return;
+        }
         el.setAttribute('no-intersect', '');
         this.thresholds.set(el, this.getThreshold(el));
+        observed.push(el);
       });
 
       const callback: IntersectionObserverCallback = (entries) => {
-        entries.forEach((entry) => {
-          requestAnimationFrame(() => {
-            const target = entry.target as HTMLElement;
-            const threshold = this.thresholds.get(target) ?? 0;
+        let index = 0;
+        for (const entry of entries) {
+          const target = entry.target as HTMLElement;
+          const threshold = this.thresholds.get(target) ?? 0;
+          const once = target.classList.contains('intersect-once');
+          const visible = entry.isIntersecting && entry.intersectionRatio >= threshold;
 
-            if (target.classList.contains('intersect-no-queue')) {
-              if (entry.isIntersecting) {
-                target.removeAttribute('no-intersect');
-                if (target.classList.contains('intersect-once')) this.observer?.unobserve(target);
-              } else {
-                target.setAttribute('no-intersect', '');
-              }
-              return;
-            }
-
-            if (entry.intersectionRatio >= threshold) {
-              if (!target.hasAttribute('data-animated')) {
-                target.removeAttribute('no-intersect');
-                target.setAttribute('data-animated', 'true');
-                target.style.animationDuration = '';
-
-                const delay = this.animationCounter * this.delayBetweenAnimations;
-                this.animationCounter++;
-
-                target.style.transitionDelay = `${delay}ms`;
-                target.style.animationDelay = `${delay}ms`;
-
-                if (target.classList.contains('intersect-once')) this.observer?.unobserve(target);
-              }
-            } else {
-              target.setAttribute('no-intersect', '');
-              target.removeAttribute('data-animated');
-              target.style.transitionDelay = '';
-              target.style.animationDelay = '';
-              target.style.animationDuration = '';
-
-              this.animationCounter = 0;
-            }
-          });
-        });
+          if (visible) {
+            if (target.hasAttribute('data-animated')) continue;
+            const delay = target.classList.contains('intersect-no-queue')
+              ? 0
+              : Math.min(index++, STAGGER_MAX_STEPS) * STAGGER_MS;
+            target.removeAttribute('no-intersect');
+            target.setAttribute('data-animated', 'true');
+            target.style.animationDuration = '';
+            target.style.animationDelay = `${delay}ms`;
+            target.style.transitionDelay = `${delay}ms`;
+            if (once) this.observer?.unobserve(target);
+          } else if (!once) {
+            target.setAttribute('no-intersect', '');
+            target.removeAttribute('data-animated');
+            target.style.animationDelay = '';
+            target.style.transitionDelay = '';
+          }
+        }
       };
 
       this.observer = new IntersectionObserver(callback, { threshold: [0, 0.25, 0.5, 0.99] });
-
-      this.elements.forEach((el) => {
-        if (!el.hasAttribute('data-animated')) this.observer?.observe(el);
-      });
+      observed.forEach((el) => this.observer?.observe(el));
     }
 
     /*

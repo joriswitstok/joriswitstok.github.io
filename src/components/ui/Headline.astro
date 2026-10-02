@@ -24,12 +24,15 @@ const {
       )}
       {title && (
         <h2
-          class={twMerge('font-bold leading-tighter tracking-tighter font-heading text-heading text-3xl', titleClass)}
+          class={twMerge(
+            'font-bold leading-tighter tracking-tighter font-heading text-heading text-3xl text-balance',
+            titleClass
+          )}
           set:html={title}
         />
       )}
 
-      {subtitle && <p class={twMerge('mt-4 text-muted', subtitleClass)} set:html={subtitle} />}
+      {subtitle && <p class={twMerge('mt-4 text-muted text-pretty', subtitleClass)} set:html={subtitle} />}
     </div>
   )
 }

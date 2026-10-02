@@ -14,31 +14,10 @@ import compress from 'astro-compress';
 import type { AstroIntegration } from 'astro';
 
 import astrowind from './vendor/integration';
-import loadConfig from './vendor/integration/utils/loadConfig';
 
 import { readingTimeRemarkPlugin, responsiveTablesRehypePlugin } from './src/utils/frontmatter';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-
-// Blog taxonomy sections marked `robots.index: false` in `src/config.yaml` are
-// kept out of the sitemap. Listing a URL that we then ask crawlers not to index
-// spends crawl budget on nothing and sends two contradictory signals at once.
-// The prefixes are derived from the config instead of hardcoded because these
-// pathnames are meant to be renamed (see the comments in `src/config.yaml`).
-interface BlogSectionConfig {
-  isEnabled?: boolean;
-  pathname?: string;
-  robots?: { index?: boolean };
-}
-
-const themeConfig = (await loadConfig('src/config.yaml')) as {
-  apps?: { blog?: Record<string, BlogSectionConfig> };
-};
-
-const noindexTaxonomyPaths = ['category', 'tag']
-  .map((section) => themeConfig?.apps?.blog?.[section])
-  .filter((section): section is BlogSectionConfig => Boolean(section?.isEnabled) && section?.robots?.index === false)
-  .map((section) => `/${(section.pathname ?? '').replace(/^\/+|\/+$/g, '')}/`);
 
 const hasExternalScripts = false;
 const whenExternalScripts = (items: (() => AstroIntegration) | (() => AstroIntegration)[] = []) =>
@@ -70,11 +49,11 @@ export default defineConfig({
   ],
 
   integrations: [
-    sitemap({
-      filter: (page) => !noindexTaxonomyPaths.some((prefix) => new URL(page).pathname.startsWith(prefix)),
-    }),
+    sitemap(),
     mdx(),
     icon({
+      // Local SVG icons (used as <Icon name="file-name" />) live next to the other assets.
+      iconDir: 'src/assets/icons',
       include: {
         tabler: ['*'],
         'flat-color-icons': [
@@ -130,7 +109,8 @@ export default defineConfig({
     // `domains` only matters for remote URLs that fall through to Astro's
     // native <Image /> (i.e. providers Unpic can't detect, like Pixabay).
     // Listed entries are authorized to be processed by Sharp.
-    domains: ['cdn.pixabay.com'],
+    // Unsplash is listed so post covers can be rendered as real 1200×626 Open Graph images.
+    domains: ['cdn.pixabay.com', 'images.unsplash.com'],
 
     // Emit responsive styles for the native <Image layout=…> used by
     // src/components/common/Image.astro (local images). Utility classes on
@@ -143,6 +123,10 @@ export default defineConfig({
       remarkPlugins: [readingTimeRemarkPlugin],
       rehypePlugins: [responsiveTablesRehypePlugin],
     }),
+    shikiConfig: {
+      // Code blocks follow the site theme; see the `.astro-code` rules in tailwind.css.
+      themes: { light: 'github-light', dark: 'github-dark' },
+    },
   },
 
   vite: {
