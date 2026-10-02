@@ -43,9 +43,12 @@ const { language, textDirection } = I18N;
 
     <!-- Comment the line below to disable View Transitions -->
     <ClientRouter fallback="swap" />
+
+    <!-- Extra head content from pages: structured data, rel=prev/next, … -->
+    <slot name="head" />
   </head>
 
-  <body class="antialiased text-default bg-page tracking-tight">
+  <body class="antialiased text-default bg-page tracking-tight min-h-screen flex flex-col">
     <slot />
 
     <Intersect />

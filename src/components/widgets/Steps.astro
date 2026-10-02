@@ -3,6 +3,7 @@ import WidgetWrapper from '~/components/ui/WidgetWrapper.astro';
 import Timeline from '~/components/ui/Timeline.astro';
 import Headline from '~/components/ui/Headline.astro';
 import Image from '~/components/common/Image.astro';
+import Button from '~/components/ui/Button.astro';
 import type { Steps as Props } from '~/types';
 
 const {
@@ -10,6 +11,7 @@ const {
   subtitle = await Astro.slots.render('subtitle'),
   tagline = await Astro.slots.render('tagline'),
   items = [],
+  callToAction = await Astro.slots.render('callToAction'),
   image = await Astro.slots.render('image'),
   isReversed = false,
 
@@ -34,6 +36,19 @@ const {
         }}
       />
       <Timeline items={items} classes={classes?.items as Record<string, never>} />
+      {
+        typeof callToAction === 'string' ? (
+          <Fragment set:html={callToAction} />
+        ) : (
+          callToAction &&
+          callToAction.text &&
+          callToAction.href && (
+            <div class="mt-8">
+              <Button variant="primary" {...callToAction} class="w-auto" />
+            </div>
+          )
+        )
+      }
     </div>
     {
       image && (

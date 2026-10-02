@@ -8,6 +8,7 @@ const {
   title = await Astro.slots.render('title'),
   subtitle = await Astro.slots.render('subtitle'),
   tagline,
+  badge,
 
   content = await Astro.slots.render('content'),
   actions = await Astro.slots.render('actions'),
@@ -16,6 +17,11 @@ const {
   id,
   bg = await Astro.slots.render('bg'),
 } = Astro.props;
+
+// `image.aspect: 'auto'` shows the picture whole (transparent illustrations);
+// the default crops it to the hero frame.
+const { aspect: imageAspect, ...imageProps } = typeof image === 'object' && image ? image : { src: '', alt: '' };
+const imageWhole = imageAspect === 'auto';
 ---
 
 <section class="relative md:-mt-[76px] not-prose" {...id ? { id } : {}}>
@@ -26,8 +32,15 @@ const {
   </div>
   <div class="relative max-w-7xl mx-auto px-4 sm:px-6">
     <div class="pt-0 md:pt-[76px] pointer-events-none"></div>
-    <div class="py-12 md:py-20 lg:py-0 lg:flex lg:items-center lg:h-screen lg:gap-8">
+    <div class="py-12 md:py-20 lg:py-16 lg:flex lg:items-center lg:min-h-[calc(100vh-5rem)] lg:gap-8">
       <div class="basis-1/2 text-center lg:text-left pb-10 md:pb-16 mx-auto">
+        {
+          badge && (
+            <span class="inline-block mb-4 rounded-full border border-primary/30 bg-primary/10 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-primary dark:bg-primary/25 dark:text-blue-200 intersect-once intersect-quarter motion-safe:md:opacity-0 motion-safe:md:intersect:animate-fade">
+              {badge}
+            </span>
+          )
+        }
         {
           tagline && (
             <p
@@ -39,7 +52,7 @@ const {
         {
           title && (
             <h1
-              class="text-5xl md:text-6xl font-bold leading-tighter tracking-tighter mb-4 font-heading dark:text-gray-200 intersect-once motion-safe:md:intersect:animate-fade motion-safe:md:opacity-0 intersect-quarter"
+              class="text-5xl md:text-6xl font-bold leading-tighter tracking-tighter mb-4 font-heading text-heading intersect-once motion-safe:md:intersect:animate-fade motion-safe:md:opacity-0 intersect-quarter"
               set:html={title}
             />
           )
@@ -80,14 +93,17 @@ const {
                 <Fragment set:html={image} />
               ) : (
                 <Image
-                  class="mx-auto rounded-md w-full"
+                  class:list={[
+                    'mx-auto',
+                    imageWhole ? 'w-auto max-h-[32rem] object-contain md:max-h-[44rem]' : 'rounded-md w-full',
+                  ]}
                   widths={[400, 768, 1024, 2040]}
                   sizes="(max-width: 767px) 400px, (max-width: 1023px) 768px, (max-width: 2039px) 1024px, 2040px"
                   loading="eager"
-                  width={600}
-                  height={600}
+                  fetchpriority="high"
+                  {...(imageWhole ? { inferSize: true, layout: 'none' } : { width: 600, height: 600 })}
                   format="webp"
-                  {...image}
+                  {...imageProps}
                 />
               )}
             </div>

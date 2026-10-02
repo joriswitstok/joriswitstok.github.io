@@ -1,6 +1,6 @@
 {
   "name": "@arthelokyo/astrowind",
-  "version": "1.0.0-beta.65",
+  "version": "1.0.0-beta.66",
   "description": "AstroWind: A free template using Astro 7 and Tailwind CSS v4. Astro starter theme.",
   "type": "module",
   "private": true,
@@ -27,7 +27,7 @@
     "@astro-community/astro-embed-youtube": "^0.5.10",
     "@astrojs/rss": "^4.0.19",
     "@astrojs/sitemap": "^3.7.3",
-    "astro": "^7.2.9",
+    "astro": "^7.3.1",
     "astro-icon": "^1.1.5",
     "astro-seo": "^1.2.0",
     "limax": "4.2.3",
@@ -36,8 +36,8 @@
   },
   "devDependencies": {
     "@astrojs/check": "^0.9.10",
-    "@astrojs/markdown-remark": "^7.2.4",
-    "@astrojs/mdx": "^7.0.5",
+    "@astrojs/markdown-remark": "^7.3.0",
+    "@astrojs/mdx": "^8.0.0",
     "@astrojs/partytown": "^2.1.7",
     "@eslint/js": "^10.0.1",
     "@iconify-json/flat-color-icons": "^1.2.3",
@@ -70,10 +70,12 @@
     "yaml": ">=2.8.3",
     "astro-compress": {
       "sharp": "^0.35.3",
-      "svgo": "^4.0.2"
+      "svgo": "^4.1.0"
     },
     "postcss": {
       "nanoid": "^3.3.18"
-    }
+    },
+    "deepmerge-ts": ">=8.0.2",
+    "fast-uri": "^3.1.6"
   }
 }

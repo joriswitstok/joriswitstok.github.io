@@ -8,7 +8,7 @@ public_folder: '/_astro'
 collections:
   - name: 'post'
     label: 'Post'
-    folder: 'src/content/post'
+    folder: 'src/data/post'
     create: true
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }

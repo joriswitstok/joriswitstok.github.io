@@ -72,12 +72,15 @@ export default ({ config: _themeConfig = 'src/config.yaml' } = {}): AstroIntegra
         cfg = config;
       },
 
-      'astro:build:done': async ({ logger }) => {
+      'astro:build:done': async ({ dir, logger }) => {
         const buildLogger = logger.fork('astrowind');
         buildLogger.info('Updating `robots.txt` with `sitemap-index.xml` ...');
 
         try {
-          const outDir = cfg.outDir;
+          // `dir` is the directory that gets deployed as static assets. With a
+          // fully static build it equals `outDir`; when an adapter renders some
+          // pages on demand it is `outDir/client`, so `cfg.outDir` would miss it.
+          const outDir = dir;
           const publicDir = cfg.publicDir;
           const sitemapName = 'sitemap-index.xml';
           const sitemapFile = new URL(sitemapName, outDir);
@@ -106,9 +109,8 @@ export default ({ config: _themeConfig = 'src/config.yaml' } = {}): AstroIntegra
               });
             }
           }
-          // eslint-disable-next-line @typescript-eslint/no-unused-vars
         } catch (error) {
-          /* empty */
+          buildLogger.warn(`Could not update robots.txt: ${error instanceof Error ? error.message : String(error)}`);
         }
       },
     },
