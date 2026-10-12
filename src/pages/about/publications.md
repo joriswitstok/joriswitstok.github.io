@@ -5,14 +5,14 @@ layout: '~/layouts/MarkdownLayout.astro'
 ---
 
 ## Summary
-148 publications (127 refereed), of which 10 as first author. Metrics:
-- 164207 reads, 84022 downloads, 14207 citations
+149 publications (128 refereed), of which 10 as first author. Metrics:
+- 164510 reads, 84074 downloads, 14205 citations
 - h-index: 64, m-index: 10.7, g-index: 118
-- i10-index: 122, i100-index: 44, read10-index: 3520.3
+- i10-index: 122, i100-index: 44, read10-index: 3797.7
 - tori index: 4.3, riq index: 346.0
 
 Based on the [SAO/NASA Astrophysics Data System (ADS)](https://ui.adsabs.harvard.edu/).
-Last updated: 11 October, 2026.
+Last updated: 12 October, 2026.
 
 ## First author (10)
 
@@ -74,9 +74,11 @@ Last updated: 11 October, 2026.
 
 - Jones, G., Bunker, A., Saxena, A., Witstok, J., et al., 2024, _Astronomy and Astrophysics_, [683, A238](https://doi.org/10.1051/0004-6361/202347099). 'JADES: The emergence and evolution of Lyα emission and constraints on the intergalactic medium neutral fraction' (69 citations).
 
-## Other (120)
+## Other (121)
 
 - Cameron, A., Carreira, C., Simmonds, C., Bunker, A., Saxena, A., Carniani, S., Charlot, S., Chevallard, J., Curtis-Lake, E., Hainline, K., Hausen, R., Ji, X., Ji, Z., Johnson, B., Rinaldi, P., Robertson, B., Scholtz, J., Silcock, M., Tacchella, S., Trussler, J., Übler, H., Williams, C., Willmer, C., Willott, C., Witstok, J., 2026, _Monthly Notices of the Royal Astronomical Society_, [552, stag1575](https://doi.org/10.1093/mnras/stag1575). 'JADES: evolution of nitrogen abundances in star-forming galaxies from z ~ 1.5-7'.
+
+- Heintz, K., Watson, D., Valentino, F., Gottumukkala, R., Narayanan, D., Yates, R., Terp, C., Nezhad, N., Weaver, J., Witstok, J., Brammer, G., Andersen, A., Sneppen, A., Pollock, C., Algera, H., Rowland, L., Oesch, P., Magdis, G., Nikopoulos, G., Knudsen, K., 2026, OJAp, [9, 72038](https://doi.org/10.33232/001c.172038). 'Evidence for inefficient dust production in a massive, metal-rich galaxy at z=7.13 uncovered by JWST and ALMA'.
 
 - Puskás, D., Tacchella, S., Simmonds, C., Jones, G., Juodžbalis, I., Scholtz, J., Baker, W., Bunker, A., Carniani, S., Curtis-Lake, E., Duan, Q., Eisenstein, D., Hainline, K., Johnson, B., Maiolino, R., Rieke, M., Robertson, B., Williams, C., Witstok, J., 2026, _Monthly Notices of the Royal Astronomical Society_, [552, stag1698](https://doi.org/10.1093/mnras/stag1698). 'Mergers lighting the early Universe: modest star formation enhancement without evidence for AGN or Lyα triggering'.
 
@@ -250,11 +252,11 @@ Last updated: 11 October, 2026.
 
 - Terp, C., Heintz, K., Watson, D., Brammer, G., Carnall, A., Witstok, J., Smit, R., Vejlgaard, S., 2024, _Astronomy and Astrophysics_, [690, A70](https://doi.org/10.1051/0004-6361/202450375). 'Uncovering the physical origin of the prominent Lyman-α emission and absorption in GS9422 at z = 5.943' (21 citations).
 
-- Carniani, S., Hainline, K., D'Eugenio, F., Eisenstein, D., Jakobsen, P., Witstok, J., Johnson, B., Chevallard, J., Maiolino, R., Helton, J., Willott, C., Robertson, B., Alberts, S., Arribas, S., Baker, W., Bhatawdekar, R., Boyett, K., Bunker, A., Cameron, A., Cargile, P., Charlot, S., Curti, M., Curtis-Lake, E., Egami, E., Giardino, G., Isaak, K., Ji, Z., Jones, G., Kumari, N., Maseda, M., Parlanti, E., Pérez-González, P., Rawle, T., Rieke, G., Rieke, M., Del Pino, B., Saxena, A., Scholtz, J., Smit, R., Sun, F., Tacchella, S., Übler, H., Venturi, G., Williams, C., Willmer, C., 2024, _Nature_, [633, 318](https://doi.org/10.1038/s41586-024-07860-9). 'Spectroscopic confirmation of two luminous galaxies at a redshift of 14' (363 citations).
+- Carniani, S., Hainline, K., D'Eugenio, F., Eisenstein, D., Jakobsen, P., Witstok, J., Johnson, B., Chevallard, J., Maiolino, R., Helton, J., Willott, C., Robertson, B., Alberts, S., Arribas, S., Baker, W., Bhatawdekar, R., Boyett, K., Bunker, A., Cameron, A., Cargile, P., Charlot, S., Curti, M., Curtis-Lake, E., Egami, E., Giardino, G., Isaak, K., Ji, Z., Jones, G., Kumari, N., Maseda, M., Parlanti, E., Pérez-González, P., Rawle, T., Rieke, G., Rieke, M., Del Pino, B., Saxena, A., Scholtz, J., Smit, R., Sun, F., Tacchella, S., Übler, H., Venturi, G., Williams, C., Willmer, C., 2024, _Nature_, [633, 318](https://doi.org/10.1038/s41586-024-07860-9). 'Spectroscopic confirmation of two luminous galaxies at a redshift of 14' (362 citations).
 
 - D'Eugenio, F., Maiolino, R., Carniani, S., Chevallard, J., Curtis-Lake, E., Witstok, J., Charlot, S., Baker, W., Arribas, S., Boyett, K., Bunker, A., Curti, M., Eisenstein, D., Hainline, K., Ji, Z., Johnson, B., Kumari, N., Looser, T., Nakajima, K., Nelson, E., Rieke, M., Robertson, B., Scholtz, J., Smit, R., Sun, F., Venturi, G., Tacchella, S., Übler, H., Willmer, C., Willott, C., 2024, _Astronomy and Astrophysics_, [689, A152](https://doi.org/10.1051/0004-6361/202348636). 'JADES: Carbon enrichment 350 Myr after the Big Bang' (131 citations).
 
-- Endsley, R., Stark, D., Whitler, L., Topping, M., Johnson, B., Robertson, B., Tacchella, S., Alberts, S., Baker, W., Bhatawdekar, R., Boyett, K., Bunker, A., Cameron, A., Carniani, S., Charlot, S., Chen, Z., Chevallard, J., Curtis-Lake, E., Danhaive, A., Egami, E., Eisenstein, D., Hainline, K., Helton, J., Ji, Z., Looser, T., Maiolino, R., Nelson, E., Puskás, D., Rieke, G., Rieke, M., Rix, H., Sandles, L., Saxena, A., Simmonds, C., Smit, R., Sun, F., Williams, C., Willmer, C., Willott, C., Witstok, J., 2024, _Monthly Notices of the Royal Astronomical Society_, [533, 1111](https://doi.org/10.1093/mnras/stae1857). 'The star-forming and ionizing properties of dwarf z 6-9 galaxies in JADES: insights on bursty star formation and ionized bubble growth' (223 citations).
+- Endsley, R., Stark, D., Whitler, L., Topping, M., Johnson, B., Robertson, B., Tacchella, S., Alberts, S., Baker, W., Bhatawdekar, R., Boyett, K., Bunker, A., Cameron, A., Carniani, S., Charlot, S., Chen, Z., Chevallard, J., Curtis-Lake, E., Danhaive, A., Egami, E., Eisenstein, D., Hainline, K., Helton, J., Ji, Z., Looser, T., Maiolino, R., Nelson, E., Puskás, D., Rieke, G., Rieke, M., Rix, H., Sandles, L., Saxena, A., Simmonds, C., Smit, R., Sun, F., Williams, C., Willmer, C., Willott, C., Witstok, J., 2024, _Monthly Notices of the Royal Astronomical Society_, [533, 1111](https://doi.org/10.1093/mnras/stae1857). 'The star-forming and ionizing properties of dwarf z 6-9 galaxies in JADES: insights on bursty star formation and ionized bubble growth' (222 citations).
 
 - Maseda, M., de Graaff, A., Franx, M., Rix, H., Carniani, S., Laseter, I., Dudzevičiūtė, U., Rawle, T., Parlanti, E., Arribas, S., Bunker, A., Cameron, A., Charlot, S., Curti, M., D'Eugenio, F., Jones, G., Kumari, N., Maiolino, R., Übler, H., Saxena, A., Smit, R., Willott, C., Witstok, J., 2024, _Astronomy and Astrophysics_, [689, A73](https://doi.org/10.1051/0004-6361/202449914). 'The NIRSpec Wide GTO Survey' (54 citations).
 
