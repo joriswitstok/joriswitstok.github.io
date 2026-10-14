@@ -5,7 +5,7 @@ layout: '~/layouts/MarkdownLayout.astro'
 ---
 
 ## Summary
-145 publications (128 refereed), of which 10 as first author. Metrics:
+145 publications (127 refereed), of which 10 as first author. Metrics:
 - 164400 reads, 84111 downloads, 14213 citations
 - h-index: 64, m-index: 10.7, g-index: 118
 - i10-index: 122, i100-index: 44, read10-index: 3517.7

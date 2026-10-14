@@ -32,7 +32,8 @@ assert all([bibcode in bibcodes for bibcode in exclude_bibcodes])
 
 # Retrieve total number of publication records
 query_pub = query_all.copy()
-query_pub['q'] += " bibstem:(-jwst.prop) (-yCat) (-AAS) (-eas..conf) (-hst..prop) (-IAUS) (-Obs)"
+# Leave out proposals, catalogues, abstracts, and the PhD thesis (not a publication)
+query_pub['q'] += " bibstem:(-jwst.prop) (-yCat) (-AAS) (-eas..conf) (-hst..prop) (-IAUS) (-Obs) (-PhDT)"
 query_pub["fl"] = "bibcode,author,title,bibstem,volume,page,year,doi,citation_count,doctype,pubdate,identifier"
 query_pub["sort"] = "date desc,first_author asc"
 publications = requests.get(get_query_url(query_pub), headers=headers).json()
@@ -135,7 +136,8 @@ with open("./src/data/publications.json", mode='w') as f:
 # Retrieve total number of refereed publications
 query_ref = query_all.copy()
 query_ref["fl"] = "bibcode"
-query_ref['q'] += " property:refereed"
+# ADS flags PhD theses as refereed: leave out
+query_ref['q'] += " property:refereed -bibstem:PhDT"
 publications_ref = requests.get(get_query_url(query_ref), headers=headers).json()
 n_papers_ref = publications_ref["response"]["numFound"]
 for publication in publications_ref["response"]["docs"]:
