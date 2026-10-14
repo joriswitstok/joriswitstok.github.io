@@ -5,8 +5,8 @@ layout: '~/layouts/MarkdownLayout.astro'
 ---
 
 ## Summary
-148 publications (128 refereed), of which 10 as first author. Metrics:
-- 164399 reads, 84110 downloads, 14213 citations
+145 publications (128 refereed), of which 10 as first author. Metrics:
+- 164400 reads, 84111 downloads, 14213 citations
 - h-index: 64, m-index: 10.7, g-index: 118
 - i10-index: 122, i100-index: 44, read10-index: 3517.7
 - tori index: 4.4, riq index: 348.0
@@ -18,7 +18,7 @@ Last updated: 14 October, 2026.
 
 - Witstok, J., Carniani, S., Jakobsen, P., Bunker, A., et al., 2026, arXiv e-prints, [2603.18775](https://doi.org/10.48550/arXiv.2603.18775). 'An OASIS of Lyman-$α$ within a neutral intergalactic desert: reaffirmed line and blue continuum reveal efficient ionising agents at $z = 13$' (2 citations).
 
-- Witstok, J., Smit, R., Baker, W., Rinaldi, P., et al., 2026, OJAp, [9, 55261](https://doi.org/10.33232/001c.155261). 'On the origins of oxygen: ALMA and JWST characterise the multi-phase, metal-enriched, star-bursting medium within a 'normal' z &gt; 11 galaxy' (21 citations).
+- Witstok, J., Smit, R., Baker, W., Rinaldi, P., et al., 2026, _The Open Journal of Astrophysics_, [9, 55261](https://doi.org/10.33232/001c.155261). 'On the origins of oxygen: ALMA and JWST characterise the multi-phase, metal-enriched, star-bursting medium within a 'normal' z &gt; 11 galaxy' (21 citations).
 
 - Witstok, J., Jakobsen, P., Maiolino, R., Helton, J., et al., 2025, _Nature_, [639, 897](https://doi.org/10.1038/s41586-025-08779-5). 'Witnessing the onset of reionization through Lyman-α emission at redshift 13' (122 citations).
 
@@ -36,7 +36,7 @@ Last updated: 14 October, 2026.
 
 - Witstok, J., Puchwein, E., Kulkarni, G., Smit, R., Haehnelt, M., 2021, _Astronomy and Astrophysics_, [650, A98](https://doi.org/10.1051/0004-6361/202040187). 'Prospects for observing the low-density cosmic web in Lyman-α emission' (24 citations).
 
-## Major contributions (18)
+## Major contributions (17)
 
 - Helton, J., Witstok, J., et al., 2026, arXiv e-prints, [2609.38080](https://doi.org/10.48550/arXiv.2609.38080). 'Discovery of the Lyman-$α$ Forest in a Star-Forming Galaxy at $z \approx 7.57$: Implications for the Timing and Topology of Cosmic Reionization'.
 
@@ -48,15 +48,13 @@ Last updated: 14 October, 2026.
 
 - Vallini, L., Witstok, J., et al., 2024, _Monthly Notices of the Royal Astronomical Society_, [527, 10](https://doi.org/10.1093/mnras/stad3150). 'Spatially resolved Kennicutt-Schmidt relation at z ≈ 7 and its connection with the interstellar medium properties' (48 citations).
 
-- Woodrum, C., Shivaei, I., Witstok, J., et al., 2026, _The Astrophysical Journal_, [1009, 207](https://doi.org/10.3847/1538-4357/ae9f4d). 'JADES: The Star Formation and Dust Reddening Properties of Galaxies at 3 &lt; z &lt; 7'.
+- Woodrum, C., Shivaei, I., Witstok, J., et al., 2026, _The Astrophysical Journal_, [1009, 207](https://doi.org/10.3847/1538-4357/ae9f4d). 'JADES: The Star Formation and Dust Reddening Properties of Galaxies at 3 &lt; z &lt; 7' (11 citations).
 
 - Ormerod, K., Smit, R., Witstok, J., et al., 2026, arXiv e-prints, [2609.12203](https://doi.org/10.48550/arXiv.2609.12203). 'NOEMA probes the [CII] and dust content in a 2175Å UV Bump Galaxy at $z=7.1$'.
 
 - Pollock, C., Heintz, K., Witstok, J., et al., 2026, _Astronomy and Astrophysics_, [711, A298](https://doi.org/10.1051/0004-6361/202659423). 'Characterising Lyα damping wings at the onset of reionisation: Evidence for highly efficient star formation driven by dense, neutral gas in UV-bright galaxies at z &gt; 9' (5 citations).
 
 - Heintz, K., Pollock, C., Witstok, J., et al., 2026, arXiv e-prints, [2606.30787](https://doi.org/10.48550/arXiv.2606.30787). 'JWST spectroscopy of galaxies at $z&gt;10$: Damped Ly$α$ absorbers reveal efficient star formation and hidden redshift biases'.
-
-- Woodrum, C., Shivaei, I., Witstok, J., et al., 2025, arXiv e-prints, [2510.00235](https://doi.org/10.48550/arXiv.2510.00235). 'JADES: The Star Formation and Dust Attenuation Properties of Galaxies at 3&lt;z&lt;7' (11 citations).
 
 - Heintz, K., Pollock, C., Witstok, J., et al., 2025, _The Astrophysical Journal Letters_, [987, L2](https://doi.org/10.3847/2041-8213/ade393). 'Dissecting the Massive Pristine, Neutral Gas Reservoir of a Remarkably Bright Galaxy at z = 14.179' (18 citations).
 
@@ -74,13 +72,13 @@ Last updated: 14 October, 2026.
 
 - Jones, G., Bunker, A., Saxena, A., Witstok, J., et al., 2024, _Astronomy and Astrophysics_, [683, A238](https://doi.org/10.1051/0004-6361/202347099). 'JADES: The emergence and evolution of Lyα emission and constraints on the intergalactic medium neutral fraction' (69 citations).
 
-## Other (120)
+## Other (118)
 
 - Cameron, A., Carreira, C., Simmonds, C., Bunker, A., Saxena, A., Carniani, S., Charlot, S., Chevallard, J., Curtis-Lake, E., Hainline, K., Hausen, R., Ji, X., Ji, Z., Johnson, B., Rinaldi, P., Robertson, B., Scholtz, J., Silcock, M., Tacchella, S., Trussler, J., Übler, H., Williams, C., Willmer, C., Willott, C., Witstok, J., 2026, _Monthly Notices of the Royal Astronomical Society_, [552, stag1575](https://doi.org/10.1093/mnras/stag1575). 'JADES: evolution of nitrogen abundances in star-forming galaxies from z ~ 1.5-7' (8 citations).
 
-- Heintz, K., Watson, D., Valentino, F., Gottumukkala, R., Narayanan, D., Yates, R., Terp, C., Nezhad, N., Weaver, J., Witstok, J., Brammer, G., Andersen, A., Sneppen, A., Pollock, C., Algera, H., Rowland, L., Oesch, P., Magdis, G., Nikopoulos, G., Knudsen, K., 2026, OJAp, [9, 72038](https://doi.org/10.33232/001c.172038). 'Evidence for inefficient dust production in a massive, metal-rich galaxy at z=7.13 uncovered by JWST and ALMA'.
+- Heintz, K., Watson, D., Valentino, F., Gottumukkala, R., Narayanan, D., Yates, R., Terp, C., Nezhad, N., Weaver, J., Witstok, J., Brammer, G., Andersen, A., Sneppen, A., Pollock, C., Algera, H., Rowland, L., Oesch, P., Magdis, G., Nikopoulos, G., Knudsen, K., 2026, _The Open Journal of Astrophysics_, [9, 72038](https://doi.org/10.33232/001c.172038). 'Evidence for inefficient dust production in a massive, metal-rich galaxy at z=7.13 uncovered by JWST and ALMA' (9 citations).
 
-- Puskás, D., Tacchella, S., Simmonds, C., Jones, G., Juodžbalis, I., Scholtz, J., Baker, W., Bunker, A., Carniani, S., Curtis-Lake, E., Duan, Q., Eisenstein, D., Hainline, K., Johnson, B., Maiolino, R., Rieke, M., Robertson, B., Williams, C., Witstok, J., 2026, _Monthly Notices of the Royal Astronomical Society_, [552, stag1698](https://doi.org/10.1093/mnras/stag1698). 'Mergers lighting the early Universe: modest star formation enhancement without evidence for AGN or Lyα triggering'.
+- Puskás, D., Tacchella, S., Simmonds, C., Jones, G., Juodžbalis, I., Scholtz, J., Baker, W., Bunker, A., Carniani, S., Curtis-Lake, E., Duan, Q., Eisenstein, D., Hainline, K., Johnson, B., Maiolino, R., Rieke, M., Robertson, B., Williams, C., Witstok, J., 2026, _Monthly Notices of the Royal Astronomical Society_, [552, stag1698](https://doi.org/10.1093/mnras/stag1698). 'Mergers lighting the early Universe: modest star formation enhancement without evidence for AGN or Lyα triggering' (12 citations).
 
 - Koller, M., Maiolino, R., Übler, H., Duan, Q., Scholtz, J., Arribas, S., Baker, W., Carniani, S., Charlot, S., Curti, M., Graziani, L., Jones, G., McClymont, W., Perna, M., Rodríguez Del Pino, B., Tacchella, S., Venditti, A., Venturi, G., Witstok, J., 2026, _Monthly Notices of the Royal Astronomical Society_, [551, stag1206](https://doi.org/10.1093/mnras/stag1206). 'Metal mayhem at z ~ 7-10: diversity and evolution of gas-phase metallicity gradients' (3 citations).
 
@@ -92,7 +90,7 @@ Last updated: 14 October, 2026.
 
 - Shivaei, I., Naidu, R., Rodríguez Montero, F., Matsumoto, K., Leja, J., Matthee, J., Johnson, B., Oesch, P., Chevallard, J., Adamo, A., Bodansky, S., Bunker, A., Covelo Paz, A., Di Cesare, C., Egami, E., Furtak, L., Heintz, K., Kramarenko, I., Meyer, R., Reddy, N., Rinaldi, P., Tacchella, S., Torralba, A., Witstok, J., Wozniak, M., Xiao, M., 2026, _Astronomy and Astrophysics_, [712, A132](https://doi.org/10.1051/0004-6361/202557064). 'Diversity and evolution of dust-attenuation curves from redshift z ∼ 1 to 9' (35 citations).
 
-- Algera, H., Weaver, J., Bakx, T., Aravena, M., Bouwens, R., Cescon, K., Chen, C., da Cunha, E., Dayal, P., Faisst, A., Ferrara, A., Fujimoto, S., Hashimoto, T., Heintz, K., Herrera-Camus, R., Hodge, J., Inami, H., Inoue, A., Matthee, J., Meyer, R., Mizukoshi, S., Mondal, C., Nanayakkara, T., Oesch, P., Pallottini, A., Röttgering, H., Rowland, L., Schouws, S., Smit, R., Sommovigo, L., Stark, D., Sugahara, Y., Vallini, L., Vijarnwannaluk, B., van der Werf, P., Werner, N., Witstok, J., Xiao, M., 2026, OJAp, [9, 65333](https://doi.org/10.33232/001c.165333). 'A first systematic study of [OIII] 88 μ m at z &gt; 8 : two luminous oxygen lines and a powerful ionized outflow in the first 600 million years' (7 citations).
+- Algera, H., Weaver, J., Bakx, T., Aravena, M., Bouwens, R., Cescon, K., Chen, C., da Cunha, E., Dayal, P., Faisst, A., Ferrara, A., Fujimoto, S., Hashimoto, T., Heintz, K., Herrera-Camus, R., Hodge, J., Inami, H., Inoue, A., Matthee, J., Meyer, R., Mizukoshi, S., Mondal, C., Nanayakkara, T., Oesch, P., Pallottini, A., Röttgering, H., Rowland, L., Schouws, S., Smit, R., Sommovigo, L., Stark, D., Sugahara, Y., Vallini, L., Vijarnwannaluk, B., van der Werf, P., Werner, N., Witstok, J., Xiao, M., 2026, _The Open Journal of Astrophysics_, [9, 65333](https://doi.org/10.33232/001c.165333). 'A first systematic study of [OIII] 88 μ m at z &gt; 8 : two luminous oxygen lines and a powerful ionized outflow in the first 600 million years' (7 citations).
 
 - Helton, J., Alberts, S., Rieke, G., Hainline, K., Ji, Z., Rieke, M., Johnson, B., Robertson, B., Tacchella, S., Whitler, L., Baker, W., Bhatawdekar, R., Boyett, K., Bunker, A., Cargile, P., Carniani, S., Charlot, S., Chevallard, J., Curtis-Lake, E., Egami, E., Eisenstein, D., Hausen, R., Lyu, J., Maiolino, R., Nelson, E., Pérez-González, P., Rinaldi, P., Stone, M., Sun, F., Williams, C., Willmer, C., Willott, C., Witstok, J., 2026, _The Astrophysical Journal_, [1006, 43](https://doi.org/10.3847/1538-4357/ae5dcd). 'The Stellar Populations and Rest-frame Colors of Star-forming Galaxies at z ≍ 8: Exploring the Impact of Filter Choice and Star Formation History Assumption with JADES' (8 citations).
 
@@ -108,9 +106,9 @@ Last updated: 14 October, 2026.
 
 - Helton, J., Morrison, J., Hainline, K., D'Eugenio, F., Rieke, G., Alberts, S., Carniani, S., Leja, J., Li, Y., Rinaldi, P., Scholtz, J., Stone, M., Willmer, C., Wu, Z., Baker, W., Bunker, A., Charlot, S., Chevallard, J., Cleri, N., Curti, M., Curtis-Lake, E., Egami, E., Eisenstein, D., Jakobsen, P., Ji, Z., Johnson, B., Kumari, N., Lin, X., Lyu, J., Maiolino, R., Maseda, M., Pérez-González, P., Rieke, M., Robertson, B., Saxena, A., Sun, F., Tacchella, S., Übler, H., Venturi, G., Williams, C., Willott, C., Witstok, J., Zhu, Y., 2026, _The Astrophysical Journal Letters_, [1004, L30](https://doi.org/10.3847/2041-8213/ae7446). 'Ionizing Photon Production Efficiencies and Chemical Abundances at Cosmic Dawn Revealed by Ultradeep Rest-frame Optical Spectroscopy of JADES-GS-z14-0' (16 citations).
 
-- Nikopoulos, G., Watson, D., Sneppen, A., Rusakov, V., Heintz, K., Witstok, J., Brammer, G., 2026, _Astronomy and Astrophysics_, [710, A136](https://doi.org/10.1051/0004-6361/202557604). 'Evidence of violation of case B recombination in little red dots' (30 citations).
-
 - Nikopoulos, G., Watson, D., Pollock, C., Sneppen, A., Heintz, K., Witstok, J., Brammer, G., 2026, arXiv e-prints, [2606.31515](https://doi.org/10.48550/arXiv.2606.31515). 'The metallicities of little red dot host galaxies: LRDs are metal poor, but not pristine' (1 citation).
+
+- Nikopoulos, G., Watson, D., Sneppen, A., Rusakov, V., Heintz, K., Witstok, J., Brammer, G., 2026, _Astronomy and Astrophysics_, [710, A136](https://doi.org/10.1051/0004-6361/202557604). 'Evidence of violation of case B recombination in little red dots' (30 citations).
 
 - Pollock, C., Heintz, K., Rusta, E., Watson, D., Salvadori, S., Witten, C., Witstok, J., Koutsouridou, I., Gelli, V., Oesch, P., Brammer, G., Saccardi, A., Ito, K., Gottumukkala, R., Bergholt, D., Brooksby, K., Terp, C., Valentino, F., 2026, arXiv e-prints, [2606.13078](https://doi.org/10.48550/arXiv.2606.13078). 'Chemical signatures from the first stars embedded in metal-poor gas in galaxies at cosmic dawn' (4 citations).
 
@@ -169,10 +167,6 @@ Last updated: 14 October, 2026.
 - Ji, X., Maiolino, R., Übler, H., Scholtz, J., D'Eugenio, F., Sun, F., Perna, M., Turner, H., Carniani, S., Arribas, S., Bennett, J., Bunker, A., Charlot, S., Cresci, G., Curti, M., Egami, E., Fabian, A., Inayoshi, K., Isobe, Y., Jones, G., Juodžbalis, I., Kumari, N., Lyu, J., Mazzolari, G., Parlanti, E., Robertson, B., Rodríguez Del Pino, B., Schneider, R., Sijacki, D., Tacchella, S., Trinca, A., Valiante, R., Venturi, G., Volonteri, M., Willott, C., Witten, C., Witstok, J., 2025, _Monthly Notices of the Royal Astronomical Society_, [544, 3900](https://doi.org/10.1093/mnras/staf1867). 'BlackTHUNDER ─ A non-stellar Balmer break in a black hole-dominated little red dot at z = 7.04' (162 citations).
 
 - Rinaldi, P., Pérez-González, P., Rieke, G., Lyu, J., D'Eugenio, F., Wu, Z., Carniani, S., Looser, T., Shivaei, I., Boogaard, L., Diaz-Santos, T., Colina, L., Östlin, G., Alberts, S., Álvarez-Márquez, J., Annuziatella, M., Aravena, M., Bhatawdekar, R., Bunker, A., Caputi, K., Charlot, S., Crespo Gómez, A., Curti, M., Eckart, A., Gillman, S., Hainline, K., Kumari, N., Hjorth, J., Iani, E., Inami, H., Ji, Z., Johnson, B., Jones, G., Labiano, Á., Maiolino, R., Melinder, J., Moutard, T., Peissker, F., Rieke, M., Robertson, B., Scholtz, J., Tacchella, S., van der Werf, P., Walter, F., Williams, C., Willott, C., Witstok, J., Übler, H., Zhu, Y., 2025, _The Astrophysical Journal_, [994, 86](https://doi.org/10.3847/1538-4357/ae089c). 'Deciphering the Nature of Virgil: An Obscured Active Galactic Nucleus Lurking within an Apparently Normal Lyα Emitter during Cosmic Reionization' (26 citations).
-
-- Heintz, K., Watson, D., Valentino, F., Gottumukkala, R., Narayanan, D., Yates, R., Terp, C., Nezhad, N., Weaver, J., Witstok, J., Brammer, G., Andersen, A., Sneppen, A., Pollock, C., Algera, H., Rowland, L., Oesch, P., Magdis, G., Nikopoulos, G., Knudsen, K., 2025, arXiv e-prints, [2510.07936](https://doi.org/10.48550/arXiv.2510.07936). 'Evidence for inefficient dust production in a massive, metal-rich galaxy at $z=7.13$ uncovered by JWST and ALMA' (9 citations).
-
-- Puskás, D., Tacchella, S., Simmonds, C., Jones, G., Juodžbalis, I., Scholtz, J., Baker, W., Bunker, A., Carniani, S., Curtis-Lake, E., Duan, Q., Eisenstein, D., Hainline, K., Johnson, B., Maiolino, R., Rieke, M., Robertson, B., Williams, C., Witstok, J., 2025, arXiv e-prints, [2510.14743](https://doi.org/10.48550/arXiv.2510.14743). 'Mergers lighting the early Universe: enhanced star formation, AGN triggering, and Ly$α$ emission in close pairs at $z=3-9$' (12 citations).
 
 - Sokoliuk, O., Webb, J., Lanzetta, K., Shara, M., Gromoll, S., Bolton, J., Carswell, R., Galaz, G., Ledoux, C., Lo Curto, G., Smette, A., Valls-Gabaud, D., von der Linden, A., Walter, F., Witstok, J., 2025, arXiv e-prints, [2510.07259](https://doi.org/10.48550/arXiv.2510.07259). 'The cosmic web's Lyman-$α$ glow at $z \approx 2.5$; hydrodynamic models, dust, and wide-field, narrow-band detection' (1 citation).
 

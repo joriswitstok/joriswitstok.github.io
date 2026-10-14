@@ -2,6 +2,7 @@
 import argparse
 import requests
 from urllib.parse import urlencode
+import re, difflib
 import json
 from datetime import date
 current_date = date.today().strftime("%-d %B, %Y")
@@ -32,10 +33,55 @@ assert all([bibcode in bibcodes for bibcode in exclude_bibcodes])
 # Retrieve total number of publication records
 query_pub = query_all.copy()
 query_pub['q'] += " bibstem:(-jwst.prop) (-yCat) (-AAS) (-eas..conf) (-hst..prop) (-IAUS) (-Obs)"
-query_pub["fl"] = "bibcode,author,title,bibstem,volume,page,year,doi,citation_count"
+query_pub["fl"] = "bibcode,author,title,bibstem,volume,page,year,doi,citation_count,doctype,pubdate,identifier"
 query_pub["sort"] = "date desc,first_author asc"
 publications = requests.get(get_query_url(query_pub), headers=headers).json()
 n_papers_tot = publications["response"]["numFound"]
+
+# Merge arXiv e-prints that ADS has not (yet) linked to their published version, which would otherwise be double counted:
+# a duplicate is identified by the same first author, a largely overlapping author list, and a sufficiently similar title
+def normalise_title(title):
+    # Strip HTML entities and tags, LaTeX commands, and any remaining punctuation before comparing titles
+    return " ".join(re.sub(r"&[a-z]+;|</?[A-Za-z]+>|\\[A-Za-z]+|[^A-Za-z0-9 ]", " ", title.lower()).split())
+surnames = lambda authors: [a.split(",")[0].strip().lower() for a in authors]
+
+def merge_duplicate_eprints(docs, min_title_similarity=0.5, min_author_overlap=0.8):
+    # Published records that ADS has already linked to an arXiv e-print cannot have an unlinked duplicate
+    published = [d for d in docs if d["doctype"] != "eprint" and not any(i.startswith("arXiv:") for i in d.get("identifier", []))]
+    matches = {}
+    for eprint in [d for d in docs if d["doctype"] == "eprint"]:
+        candidates = []
+        for pub in published:
+            if pub["pubdate"] < eprint["pubdate"] or surnames(pub["author"])[0] != surnames(eprint["author"])[0]:
+                continue
+            authors_eprint, authors_pub = set(surnames(eprint["author"])), set(surnames(pub["author"]))
+            author_overlap = len(authors_eprint & authors_pub) / len(authors_eprint | authors_pub)
+            title_similarity = difflib.SequenceMatcher(None, normalise_title(eprint["title"][0]), normalise_title(pub["title"][0])).ratio()
+            if author_overlap >= min_author_overlap and title_similarity >= min_title_similarity:
+                candidates.append((title_similarity, author_overlap, pub["bibcode"]))
+        if candidates:
+            matches[eprint["bibcode"]] = max(candidates)
+    
+    # Only keep the best-matching e-print for each published record
+    best_matches = {}
+    for eprint_bibcode, (title_similarity, author_overlap, pub_bibcode) in matches.items():
+        if pub_bibcode not in best_matches or (title_similarity, author_overlap) > best_matches[pub_bibcode][1:]:
+            best_matches[pub_bibcode] = (eprint_bibcode, title_similarity, author_overlap)
+    
+    # Add the citations of the e-print to the published record (as ADS does when linking them) and drop the e-print
+    merged = {}
+    for pub in docs:
+        if pub["bibcode"] in best_matches:
+            eprint_bibcode, title_similarity, author_overlap = best_matches[pub["bibcode"]]
+            eprint = next(d for d in docs if d["bibcode"] == eprint_bibcode)
+            pub["citation_count"] = pub.get("citation_count", 0) + eprint.get("citation_count", 0)
+            merged[eprint_bibcode] = pub["bibcode"]
+            print("Merged e-print {} into {} (title similarity {:.2f}, author overlap {:.2f}, {:d} citations)".format(eprint_bibcode, pub["bibcode"], title_similarity, author_overlap, pub["citation_count"]))
+    
+    return [d for d in docs if d["bibcode"] not in merged], merged
+
+publications["response"]["docs"], merged_eprints = merge_duplicate_eprints(publications["response"]["docs"])
+n_papers_tot -= len(merged_eprints)
 
 pub_dicts = {}
 first_author_bibcodes = []
@@ -44,7 +90,7 @@ major_contr_bibcodes = []
 title_replacements = {"z   ": "z ~ ", r"$\alpha$": 'α'}
 journal_bibstems = {"arXiv": "arXiv e-prints", "A&A": "_Astronomy and Astrophysics_", "ARA&A": "_Annual Review of Astronomy and Astrophysics_",
                     "ApJ": "_The Astrophysical Journal_", "ApJL": "_The Astrophysical Journal Letters_", "ApJS": "_The Astrophysical Journal Supplement Series_",
-                    "NatAs": "_Nature Astronomy_", "Natur": "_Nature_", "MNRAS": "_Monthly Notices of the Royal Astronomical Society_",
+                    "NatAs": "_Nature Astronomy_", "Natur": "_Nature_", "MNRAS": "_Monthly Notices of the Royal Astronomical Society_", "OJAp": "_The Open Journal of Astrophysics_",
                     "PASP": "_Publications of the Astronomical Society of the Pacific_",}
 trim_first_names = lambda authors: [", ".join([a if ai == 0 else a[0] + '.' for ai, a in enumerate(a.split(", "))]) for a in authors]
 for publication in publications["response"]["docs"]:
