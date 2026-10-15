@@ -8,7 +8,10 @@ from datetime import date
 current_date = date.today().strftime("%-d %B, %Y")
 
 exclude_bibcodes = ["2024Natur.630E...2M", "2025MNRAS.538..280U"]
-exclude_major_contr_bibcodes = ["2025ApJ...988L...5N"]
+# Papers to leave out of or add to the "major contributions" section, overriding the author-position criterion below
+exclude_major_contr_bibcodes = ["2025ApJ...988L...5N", "2026arXiv260426750O", "2026A&A...711A.298P", "2026arXiv260630787H",
+                                "2025ApJ...987L...2H", "2024A&A...683A.238J", "2024MNRAS.529L...1J", "2024arXiv240611997K"]
+include_major_contr_bibcodes = ["2024Natur.633..318C", "2023NatAs...7..622C"]
 
 # Retrieve API token as argument
 parser = argparse.ArgumentParser()
@@ -28,7 +31,7 @@ query_all.update(rows=n_records)
 query_bib = query_all.copy()
 query_bib["fl"] = "bibcode"
 bibcodes = [r["bibcode"] for r in requests.get(get_query_url(query_bib), headers=headers).json()["response"]["docs"]]
-assert all([bibcode in bibcodes for bibcode in exclude_bibcodes])
+assert all([bibcode in bibcodes for bibcode in exclude_bibcodes + exclude_major_contr_bibcodes + include_major_contr_bibcodes])
 
 # Retrieve total number of publication records
 query_pub = query_all.copy()
@@ -111,7 +114,8 @@ for publication in publications["response"]["docs"]:
     
     if pub_dict["ai"] == 0:
         first_author_bibcodes.append(publication["bibcode"])
-    elif pub_dict["ai"] < 3 or (pub_dict["ai"] < 5 and len(publication["author"]) > 5) and publication["bibcode"] not in exclude_major_contr_bibcodes:
+    elif publication["bibcode"] in include_major_contr_bibcodes or \
+        ((pub_dict["ai"] < 3 or (pub_dict["ai"] < 5 and len(publication["author"]) > 5)) and publication["bibcode"] not in exclude_major_contr_bibcodes):
         major_contr_bibcodes.append(publication["bibcode"])
     
     if pub_dict["ai"] < 5 and len(publication["author"]) > 5:
