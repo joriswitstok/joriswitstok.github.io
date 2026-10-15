@@ -32,8 +32,11 @@ assert all([bibcode in bibcodes for bibcode in exclude_bibcodes])
 
 # Retrieve total number of publication records
 query_pub = query_all.copy()
-# Leave out proposals, catalogues, abstracts, and the PhD thesis (not a publication)
-query_pub['q'] += " bibstem:(-jwst.prop) (-yCat) (-AAS) (-eas..conf) (-hst..prop) (-IAUS) (-Obs) (-PhDT)"
+# Leave out proposals, catalogues, abstracts, and the PhD thesis (not a publication); each term needs its own
+# "-bibstem:" prefix, since in "bibstem:(-A) (-B)" only the first term is restricted to the bibstem field and
+# the others exclude any record merely mentioning e.g. "AAS" or "Obs" in its full text
+exclude_bibstems = ["jwst.prop", "yCat", "AAS", "eas..conf", "hst..prop", "IAUS", "Obs", "PhDT"]
+query_pub['q'] += " " + " ".join("-bibstem:" + s for s in exclude_bibstems)
 query_pub["fl"] = "bibcode,author,title,bibstem,volume,page,year,doi,citation_count,doctype,pubdate,identifier"
 query_pub["sort"] = "date desc,first_author asc"
 publications = requests.get(get_query_url(query_pub), headers=headers).json()
