@@ -97,9 +97,11 @@ major_contr_bibcodes = []
 title_replacements = {"z   ": "z ~ ", r"$\alpha$": 'α'}
 journal_bibstems = {"arXiv": "arXiv e-prints", "A&A": "_Astronomy and Astrophysics_", "ARA&A": "_Annual Review of Astronomy and Astrophysics_",
                     "ApJ": "_The Astrophysical Journal_", "ApJL": "_The Astrophysical Journal Letters_", "ApJS": "_The Astrophysical Journal Supplement Series_",
-                    "NatAs": "_Nature Astronomy_", "Natur": "_Nature_", "MNRAS": "_Monthly Notices of the Royal Astronomical Society_", "OJAp": "_The Open Journal of Astrophysics_",
+                    "NatAs": "_Nature Astronomy_", "Natur": "_Nature_", "Sci": "_Science_",
+                    "MNRAS": "_Monthly Notices of the Royal Astronomical Society_", "OJAp": "_The Open Journal of Astrophysics_",
                     "PASP": "_Publications of the Astronomical Society of the Pacific_",}
 trim_first_names = lambda authors: [", ".join([a if ai == 0 else a[0] + '.' for ai, a in enumerate(a.split(", "))]) for a in authors]
+max_listed_authors = 5
 for publication in publications["response"]["docs"]:
     if publication["bibcode"] in exclude_bibcodes:
         n_papers_tot -= 1
@@ -118,10 +120,15 @@ for publication in publications["response"]["docs"]:
         ((pub_dict["ai"] < 3 or (pub_dict["ai"] < 5 and len(publication["author"]) > 5)) and publication["bibcode"] not in exclude_major_contr_bibcodes):
         major_contr_bibcodes.append(publication["bibcode"])
     
-    if pub_dict["ai"] < 5 and len(publication["author"]) > 5:
-        pub_dict["authors"] = ", ".join(trim_first_names(publication["author"][slice(None, 4 if pub_dict["ai"] == 0 else pub_dict["ai"]+1)])) + ", et al."
+    # Author list: up to and including my name (the first four names on first-author papers), followed by "et al." if
+    # names are left out; if I am beyond the first few authors, only the first author is given
+    n_listed = 4 if pub_dict["ai"] == 0 else pub_dict["ai"]+1
+    if n_listed > max_listed_authors:
+        pub_dict["authors"] = trim_first_names(publication["author"][:1])[0] + ", et al. (incl. J. Witstok)"
     else:
-        pub_dict["authors"] = ", ".join(trim_first_names(publication["author"]))
+        pub_dict["authors"] = ", ".join(trim_first_names(publication["author"][:n_listed]))
+        if len(publication["author"]) > n_listed:
+            pub_dict["authors"] += ", et al."
     pub_dict["year"] = publication["year"]
     if publication["bibstem"][0] in journal_bibstems:
         pub_dict["journal"] = journal_bibstems[publication["bibstem"][0]]
