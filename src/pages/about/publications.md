@@ -6,13 +6,13 @@ layout: '~/layouts/MarkdownLayout.astro'
 
 ## Summary
 153 publications (127 refereed), of which 10 as first author. Metrics:
-- 164659 reads, 84237 downloads, 14327 citations
-- h-index: 64, m-index: 10.7, g-index: 119
-- i10-index: 123, i100-index: 44, read10-index: 3544.1
-- tori index: 4.5, riq index: 354.0
+- 164704 reads, 84262 downloads, 14307 citations
+- h-index: 64, m-index: 10.7, g-index: 118
+- i10-index: 123, i100-index: 44, read10-index: 3541.5
+- tori index: 4.4, riq index: 351.0
 
 Based on the [SAO/NASA Astrophysics Data System (ADS)](https://ui.adsabs.harvard.edu/).
-Last updated: 17 October, 2026.
+Last updated: 18 October, 2026.
 
 ## First author (10)
 
@@ -66,17 +66,17 @@ Last updated: 17 October, 2026.
 
 ## Other (130)
 
-- Algera, H., et al. (incl. J. Witstok), 2026, arXiv e-prints, [2610.21460](https://scixplorer.org/abs/2026arXiv261021460A). 'Dust at cosmic dawn: unveiling the onset of dust and obscured star formation at $z\gtrsim8$'.
+- Algera, H., et al. (incl. J. Witstok), 2026, arXiv e-prints, [2610.21460](https://doi.org/10.48550/arXiv.2610.21460). 'Dust at cosmic dawn: unveiling the onset of dust and obscured star formation at $z\gtrsim8$'.
 
-- Cameron, A., et al. (incl. J. Witstok), 2026, _Monthly Notices of the Royal Astronomical Society_, [552, stag1575](https://doi.org/10.1093/mnras/stag1575). 'JADES: evolution of nitrogen abundances in star-forming galaxies from z ~ 1.5-7'.
+- Cameron, A., et al. (incl. J. Witstok), 2026, _Monthly Notices of the Royal Astronomical Society_, [552, stag1575](https://doi.org/10.1093/mnras/stag1575). 'JADES: evolution of nitrogen abundances in star-forming galaxies from z ~ 1.5-7' (8 citations).
 
-- Gottumukkala, R., et al. (incl. J. Witstok), 2026, arXiv e-prints, [2610.15901](https://scixplorer.org/abs/2026arXiv261015901G). 'The DAWN JWST Archive: A spectroscopically-informed population study of the physical properties of galaxies at z>2'.
+- Gottumukkala, R., et al. (incl. J. Witstok), 2026, arXiv e-prints, [2610.15901](https://doi.org/10.48550/arXiv.2610.15901). 'The DAWN JWST Archive: A spectroscopically-informed population study of the physical properties of galaxies at z&gt;2'.
 
 - Heintz, K., et al. (incl. J. Witstok), 2026, _The Open Journal of Astrophysics_, [9, 72038](https://doi.org/10.33232/001c.172038). 'Evidence for inefficient dust production in a massive, metal-rich galaxy at z=7.13 uncovered by JWST and ALMA' (9 citations).
 
 - Puskás, D., et al. (incl. J. Witstok), 2026, _Monthly Notices of the Royal Astronomical Society_, [552, stag1698](https://doi.org/10.1093/mnras/stag1698). 'Mergers lighting the early Universe: modest star formation enhancement without evidence for AGN or Lyα triggering' (12 citations).
 
-- Vallini, L., et al. (incl. J. Witstok), 2026, arXiv e-prints, [2610.20733](https://scixplorer.org/abs/2026arXiv261020733V). 'The dawn of the first galaxies'.
+- Vallini, L., et al. (incl. J. Witstok), 2026, arXiv e-prints, [2610.20733](https://doi.org/10.48550/arXiv.2610.20733). 'The dawn of the first galaxies'.
 
 - Koller, M., et al. (incl. J. Witstok), 2026, _Monthly Notices of the Royal Astronomical Society_, [551, stag1206](https://doi.org/10.1093/mnras/stag1206). 'Metal mayhem at z ~ 7-10: diversity and evolution of gas-phase metallicity gradients' (3 citations).
 
@@ -110,9 +110,9 @@ Last updated: 17 October, 2026.
 
 - Helton, J., et al. (incl. J. Witstok), 2026, _The Astrophysical Journal Letters_, [1004, L30](https://doi.org/10.3847/2041-8213/ae7446). 'Ionizing Photon Production Efficiencies and Chemical Abundances at Cosmic Dawn Revealed by Ultradeep Rest-frame Optical Spectroscopy of JADES-GS-z14-0' (16 citations).
 
-- Nikopoulos, G., et al. (incl. J. Witstok), 2026, arXiv e-prints, [2606.31515](https://doi.org/10.48550/arXiv.2606.31515). 'The metallicities of little red dot host galaxies: LRDs are metal poor, but not pristine' (2 citations).
-
 - Nikopoulos, G., et al. (incl. J. Witstok), 2026, _Astronomy and Astrophysics_, [710, A136](https://doi.org/10.1051/0004-6361/202557604). 'Evidence of violation of case B recombination in little red dots' (31 citations).
+
+- Nikopoulos, G., et al. (incl. J. Witstok), 2026, arXiv e-prints, [2606.31515](https://doi.org/10.48550/arXiv.2606.31515). 'The metallicities of little red dot host galaxies: LRDs are metal poor, but not pristine' (2 citations).
 
 - Pollock, C., et al. (incl. J. Witstok), 2026, arXiv e-prints, [2606.13078](https://doi.org/10.48550/arXiv.2606.13078). 'Chemical signatures from the first stars embedded in metal-poor gas in galaxies at cosmic dawn' (4 citations).
 
