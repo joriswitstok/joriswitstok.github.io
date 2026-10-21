@@ -6,13 +6,13 @@ layout: '~/layouts/MarkdownLayout.astro'
 
 ## Summary
 153 publications (127 refereed), of which 10 as first author. Metrics:
-- 165070 reads, 84348 downloads, 14360 citations
+- 164895 reads, 84358 downloads, 14368 citations
 - h-index: 64, m-index: 10.7, g-index: 119
-- i10-index: 124, i100-index: 44, read10-index: 3806.9
-- tori index: 4.8, riq index: 363.0
+- i10-index: 124, i100-index: 44, read10-index: 3557.7
+- tori index: 61.8, riq index: 1309.0
 
 Based on the [SAO/NASA Astrophysics Data System (ADS)](https://ui.adsabs.harvard.edu/).
-Last updated: 20 October, 2026.
+Last updated: 21 October, 2026.
 
 ## First author (10)
 
@@ -68,7 +68,7 @@ Last updated: 20 October, 2026.
 
 - Algera, H., et al. (incl. J. Witstok), 2026, arXiv e-prints, [2610.21460](https://doi.org/10.48550/arXiv.2610.21460). 'Dust at cosmic dawn: unveiling the onset of dust and obscured star formation at $z\gtrsim8$'.
 
-- Cameron, A., et al. (incl. J. Witstok), 2026, _Monthly Notices of the Royal Astronomical Society_, [552, stag1575](https://doi.org/10.1093/mnras/stag1575). 'JADES: evolution of nitrogen abundances in star-forming galaxies from z ~ 1.5-7'.
+- Cameron, A., et al. (incl. J. Witstok), 2026, _Monthly Notices of the Royal Astronomical Society_, [552, stag1575](https://doi.org/10.1093/mnras/stag1575). 'JADES: evolution of nitrogen abundances in star-forming galaxies from z ~ 1.5-7' (8 citations).
 
 - Gottumukkala, R., et al. (incl. J. Witstok), 2026, arXiv e-prints, [2610.15901](https://doi.org/10.48550/arXiv.2610.15901). 'The DAWN JWST Archive: A spectroscopically-informed population study of the physical properties of galaxies at z&gt;2'.
 
@@ -312,9 +312,9 @@ Last updated: 20 October, 2026.
 
 - Simmonds, C., et al. (incl. J. Witstok), 2023, _Monthly Notices of the Royal Astronomical Society_, [523, 5468](https://doi.org/10.1093/mnras/stad1749). 'The ionizing photon production efficiency at z ~ 6 for Lyman-alpha emitters using JEMS and MUSE' (83 citations).
 
-- Tacchella, S., et al. (incl. J. Witstok), 2023, _The Astrophysical Journal_, [952, 74](https://doi.org/10.3847/1538-4357/acdbc6). 'JADES Imaging of GN-z11: Revealing the Morphology and Environment of a Luminous Galaxy 430 Myr after the Big Bang' (212 citations).
-
 - Tacchella, S., et al. (incl. J. Witstok), 2023, _Monthly Notices of the Royal Astronomical Society_, [522, 6236](https://doi.org/10.1093/mnras/stad1408). 'JWST NIRCam + NIRSpec: interstellar medium and stellar populations of young galaxies with rising star formation and evolving gas reservoirs' (190 citations).
+
+- Tacchella, S., et al. (incl. J. Witstok), 2023, _The Astrophysical Journal_, [952, 74](https://doi.org/10.3847/1538-4357/acdbc6). 'JADES Imaging of GN-z11: Revealing the Morphology and Environment of a Luminous Galaxy 430 Myr after the Big Bang' (212 citations).
 
 - Robertson, B., et al. (incl. J. Witstok), 2023, _Nature Astronomy_, [7, 611](https://doi.org/10.1038/s41550-023-01921-1). 'Identification and properties of intense star-forming galaxies at redshifts z &gt; 10' (319 citations).
 
