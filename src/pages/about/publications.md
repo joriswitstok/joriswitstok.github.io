@@ -6,13 +6,13 @@ layout: '~/layouts/MarkdownLayout.astro'
 
 ## Summary
 153 publications (127 refereed), of which 10 as first author. Metrics:
-- 164929 reads, 84379 downloads, 14368 citations
+- 165008 reads, 84424 downloads, 14403 citations
 - h-index: 64, m-index: 10.7, g-index: 119
-- i10-index: 124, i100-index: 44, read10-index: 3573.0
-- tori index: 88.0, riq index: 1563.0
+- i10-index: 124, i100-index: 44, read10-index: 3586.0
+- tori index: 4.8, riq index: 364.0
 
 Based on the [SAO/NASA Astrophysics Data System (ADS)](https://ui.adsabs.harvard.edu/).
-Last updated: 21 October, 2026.
+Last updated: 22 October, 2026.
 
 ## First author (10)
 
@@ -298,13 +298,13 @@ Last updated: 21 October, 2026.
 
 - Sun, F., et al. (incl. J. Witstok), 2024, _The Astrophysical Journal_, [961, 69](https://doi.org/10.3847/1538-4357/ad07e3). 'JADES: Resolving the Stellar Component and Filamentary Overdense Environment of Hubble Space Telescope (HST)-dark Submillimeter Galaxy HDF850.1 at z = 5.18' (71 citations).
 
-- Rieke, M., et al. (incl. J. Witstok), 2023, _The Astrophysical Journal Supplement Series_, [269, 16](https://doi.org/10.3847/1538-4365/acf44d). 'JADES Initial Data Release for the Hubble Ultra Deep Field: Revealing the Faint Infrared Sky with Deep JWST NIRCam Imaging' (331 citations).
+- Rieke, M., et al. (incl. J. Witstok), 2023, _The Astrophysical Journal Supplement Series_, [269, 16](https://doi.org/10.3847/1538-4365/acf44d). 'JADES Initial Data Release for the Hubble Ultra Deep Field: Revealing the Faint Infrared Sky with Deep JWST NIRCam Imaging' (333 citations).
 
 - Saxena, A., et al. (incl. J. Witstok), 2023, _Astronomy and Astrophysics_, [678, A68](https://doi.org/10.1051/0004-6361/202346245). 'JADES: Discovery of extremely high equivalent width Lyman-α emission from a faint galaxy within an ionized bubble at z = 7.3' (98 citations).
 
-- Williams, C., et al. (incl. J. Witstok), 2023, _The Astrophysical Journal Supplement Series_, [268, 64](https://doi.org/10.3847/1538-4365/acf130). 'JEMS: A Deep Medium-band Imaging Survey in the Hubble Ultra Deep Field with JWST NIRCam and NIRISS' (222 citations).
+- Williams, C., et al. (incl. J. Witstok), 2023, _The Astrophysical Journal Supplement Series_, [268, 64](https://doi.org/10.3847/1538-4365/acf130). 'JEMS: A Deep Medium-band Imaging Survey in the Hubble Ultra Deep Field with JWST NIRCam and NIRISS' (223 citations).
 
-- Bunker, A., et al. (incl. J. Witstok), 2023, _Astronomy and Astrophysics_, [677, A88](https://doi.org/10.1051/0004-6361/202346159). 'JADES NIRSpec Spectroscopy of GN-z11: Lyman-α emission and possible enhanced nitrogen abundance in a z = 10.60 luminous galaxy' (568 citations).
+- Bunker, A., et al. (incl. J. Witstok), 2023, _Astronomy and Astrophysics_, [677, A88](https://doi.org/10.1051/0004-6361/202346159). 'JADES NIRSpec Spectroscopy of GN-z11: Lyman-α emission and possible enhanced nitrogen abundance in a z = 10.60 luminous galaxy' (569 citations).
 
 - Cameron, A., et al. (incl. J. Witstok), 2023, _Astronomy and Astrophysics_, [677, A115](https://doi.org/10.1051/0004-6361/202346107). 'JADES: Probing interstellar medium conditions at z ∼ 5.5-9.5 with ultra-deep JWST/NIRSpec spectroscopy' (226 citations).
 
