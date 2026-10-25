@@ -6,13 +6,13 @@ layout: '~/layouts/MarkdownLayout.astro'
 
 ## Summary
 154 publications (127 refereed), of which 10 as first author. Metrics:
-- 165144 reads, 84506 downloads, 14892 citations
-- h-index: 66, m-index: 11.0, g-index: 121
-- i10-index: 124, i100-index: 47, read10-index: 3611.9
-- tori index: 4.5, riq index: 353.0
+- 165307 reads, 84612 downloads, 15814 citations
+- h-index: 68, m-index: 11.3, g-index: 125
+- i10-index: 133, i100-index: 50, read10-index: 3638.0
+- tori index: 5.3, riq index: 383.0
 
 Based on the [SAO/NASA Astrophysics Data System (ADS)](https://ui.adsabs.harvard.edu/).
-Last updated: 24 October, 2026.
+Last updated: 25 October, 2026.
 
 ## First author (10)
 
@@ -314,9 +314,9 @@ Last updated: 24 October, 2026.
 
 - Simmonds, C., et al. (incl. J. Witstok), 2023, _Monthly Notices of the Royal Astronomical Society_, [523, 5468](https://doi.org/10.1093/mnras/stad1749). 'The ionizing photon production efficiency at z ~ 6 for Lyman-alpha emitters using JEMS and MUSE' (83 citations).
 
-- Tacchella, S., et al. (incl. J. Witstok), 2023, _Monthly Notices of the Royal Astronomical Society_, [522, 6236](https://doi.org/10.1093/mnras/stad1408). 'JWST NIRCam + NIRSpec: interstellar medium and stellar populations of young galaxies with rising star formation and evolving gas reservoirs' (191 citations).
-
 - Tacchella, S., et al. (incl. J. Witstok), 2023, _The Astrophysical Journal_, [952, 74](https://doi.org/10.3847/1538-4357/acdbc6). 'JADES Imaging of GN-z11: Revealing the Morphology and Environment of a Luminous Galaxy 430 Myr after the Big Bang' (212 citations).
+
+- Tacchella, S., et al. (incl. J. Witstok), 2023, _Monthly Notices of the Royal Astronomical Society_, [522, 6236](https://doi.org/10.1093/mnras/stad1408). 'JWST NIRCam + NIRSpec: interstellar medium and stellar populations of young galaxies with rising star formation and evolving gas reservoirs' (191 citations).
 
 - Robertson, B., et al. (incl. J. Witstok), 2023, _Nature Astronomy_, [7, 611](https://doi.org/10.1038/s41550-023-01921-1). 'Identification and properties of intense star-forming galaxies at redshifts z &gt; 10' (319 citations).
 
