@@ -8,11 +8,11 @@ layout: '~/layouts/MarkdownLayout.astro'
 154 publications (127 refereed), of which 10 as first author. Metrics:
 - 165577 reads, 84751 downloads, 15908 citations
 - h-index: 69, m-index: 11.5, g-index: 125
-- i10-index: 133, i100-index: 51, read10-index: 3662.6
+- i10-index: 133, i100-index: 51, read10-index: 3650.5
 - tori index: 5.3, riq index: 384.0
 
 Based on the [SAO/NASA Astrophysics Data System (ADS)](https://ui.adsabs.harvard.edu/).
-Last updated: 29 October, 2026.
+Last updated: 30 October, 2026.
 
 ## First author (10)
 
@@ -314,9 +314,9 @@ Last updated: 29 October, 2026.
 
 - Simmonds, C., et al. (incl. J. Witstok), 2023, _Monthly Notices of the Royal Astronomical Society_, [523, 5468](https://doi.org/10.1093/mnras/stad1749). 'The ionizing photon production efficiency at z ~ 6 for Lyman-alpha emitters using JEMS and MUSE' (88 citations).
 
-- Tacchella, S., et al. (incl. J. Witstok), 2023, _Monthly Notices of the Royal Astronomical Society_, [522, 6236](https://doi.org/10.1093/mnras/stad1408). 'JWST NIRCam + NIRSpec: interstellar medium and stellar populations of young galaxies with rising star formation and evolving gas reservoirs' (198 citations).
-
 - Tacchella, S., et al. (incl. J. Witstok), 2023, _The Astrophysical Journal_, [952, 74](https://doi.org/10.3847/1538-4357/acdbc6). 'JADES Imaging of GN-z11: Revealing the Morphology and Environment of a Luminous Galaxy 430 Myr after the Big Bang' (225 citations).
+
+- Tacchella, S., et al. (incl. J. Witstok), 2023, _Monthly Notices of the Royal Astronomical Society_, [522, 6236](https://doi.org/10.1093/mnras/stad1408). 'JWST NIRCam + NIRSpec: interstellar medium and stellar populations of young galaxies with rising star formation and evolving gas reservoirs' (198 citations).
 
 - Robertson, B., et al. (incl. J. Witstok), 2023, _Nature Astronomy_, [7, 611](https://doi.org/10.1038/s41550-023-01921-1). 'Identification and properties of intense star-forming galaxies at redshifts z &gt; 10' (328 citations).
 
