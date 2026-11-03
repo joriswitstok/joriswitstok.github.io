@@ -5,14 +5,14 @@ layout: '~/layouts/MarkdownLayout.astro'
 ---
 
 ## Summary
-154 publications (127 refereed), of which 10 as first author. Metrics:
-- 165795 reads, 84867 downloads, 16119 citations
+156 publications (127 refereed), of which 10 as first author. Metrics:
+- 165982 reads, 84867 downloads, 16168 citations
 - h-index: 69, m-index: 11.5, g-index: 126
-- i10-index: 134, i100-index: 51, read10-index: 3669.4
-- tori index: 5.4, riq index: 388.0
+- i10-index: 135, i100-index: 51, read10-index: 3879.8
+- tori index: 5.5, riq index: 389.0
 
 Based on the [SAO/NASA Astrophysics Data System (ADS)](https://ui.adsabs.harvard.edu/).
-Last updated: 2 November, 2026.
+Last updated: 3 November, 2026.
 
 ## First author (10)
 
@@ -20,13 +20,13 @@ Last updated: 2 November, 2026.
 
 - Witstok, J., Smit, R., Baker, W., Rinaldi, P., et al., 2026, _The Open Journal of Astrophysics_, [9, 55261](https://doi.org/10.33232/001c.155261). 'On the origins of oxygen: ALMA and JWST characterise the multi-phase, metal-enriched, star-bursting medium within a 'normal' z &gt; 11 galaxy' (30 citations).
 
-- Witstok, J., Jakobsen, P., Maiolino, R., Helton, J., et al., 2025, _Nature_, [639, 897](https://doi.org/10.1038/s41586-025-08779-5). 'Witnessing the onset of reionization through Lyman-α emission at redshift 13' (138 citations).
+- Witstok, J., Jakobsen, P., Maiolino, R., Helton, J., et al., 2025, _Nature_, [639, 897](https://doi.org/10.1038/s41586-025-08779-5). 'Witnessing the onset of reionization through Lyman-α emission at redshift 13' (139 citations).
 
 - Witstok, J., Maiolino, R., Smit, R., Jones, G., et al., 2025, _Monthly Notices of the Royal Astronomical Society_, [536, 27](https://doi.org/10.1093/mnras/stae2535). 'JADES: primaeval Lyman α emitting galaxies reveal early sites of reionization out to redshift z ~ 9' (69 citations).
 
 - Witstok, J., Smit, R., Saxena, A., Jones, G., et al., 2024, _Astronomy and Astrophysics_, [682, A40](https://doi.org/10.1051/0004-6361/202347176). 'Inside the bubble: exploring the environments of reionisation-era Lyman-α emitting galaxies with JADES and FRESCO' (102 citations).
 
-- Witstok, J., Shivaei, I., Smit, R., Maiolino, R., et al., 2023, _Nature_, [621, 267](https://doi.org/10.1038/s41586-023-06413-w). 'Carbonaceous dust grains seen in the first billion years of cosmic time' (149 citations).
+- Witstok, J., Shivaei, I., Smit, R., Maiolino, R., et al., 2023, _Nature_, [621, 267](https://doi.org/10.1038/s41586-023-06413-w). 'Carbonaceous dust grains seen in the first billion years of cosmic time' (150 citations).
 
 - Witstok, J., Jones, G., Maiolino, R., Smit, R., et al., 2023, _Monthly Notices of the Royal Astronomical Society_, [523, 3119](https://doi.org/10.1093/mnras/stad1470). 'An empirical study of dust properties at the earliest epochs' (78 citations).
 
@@ -40,7 +40,7 @@ Last updated: 2 November, 2026.
 
 - Helton, J., Witstok, J., et al., 2026, arXiv e-prints, [2609.38080](https://doi.org/10.48550/arXiv.2609.38080). 'Discovery of the Lyman-$α$ Forest in a Star-Forming Galaxy at $z \approx 7.57$: Implications for the Timing and Topology of Cosmic Reionization' (2 citations).
 
-- Ormerod, K., Witstok, J., et al., 2025, _Monthly Notices of the Royal Astronomical Society_, [542, 1136](https://doi.org/10.1093/mnras/staf1228). 'Detection of the 2175 Å UV bump at z &gt; 7: evidence for rapid dust evolution in a merging reionization-era galaxy' (35 citations).
+- Ormerod, K., Witstok, J., et al., 2025, _Monthly Notices of the Royal Astronomical Society_, [542, 1136](https://doi.org/10.1093/mnras/staf1228). 'Detection of the 2175 Å UV bump at z &gt; 7: evidence for rapid dust evolution in a merging reionization-era galaxy' (36 citations).
 
 - Curti, M., Witstok, J., et al., 2025, _Astronomy and Astrophysics_, [697, A89](https://doi.org/10.1051/0004-6361/202451410). 'JADES: The star formation and chemical enrichment history of a luminous galaxy at z ∼ 9.43 probed by ultra-deep JWST/NIRSpec spectroscopy' (106 citations).
 
@@ -52,7 +52,7 @@ Last updated: 2 November, 2026.
 
 - Ormerod, K., Smit, R., Witstok, J., et al., 2026, arXiv e-prints, [2609.12203](https://doi.org/10.48550/arXiv.2609.12203). 'NOEMA probes the [CII] and dust content in a 2175Å UV Bump Galaxy at $z=7.1$' (1 citation).
 
-- Maiolino, R., Scholtz, J., Witstok, J., et al., 2024, _Nature_, [627, 59](https://doi.org/10.1038/s41586-024-07052-5). 'A small and vigorous black hole in the early Universe' (582 citations).
+- Maiolino, R., Scholtz, J., Witstok, J., et al., 2024, _Nature_, [627, 59](https://doi.org/10.1038/s41586-024-07052-5). 'A small and vigorous black hole in the early Universe' (583 citations).
 
 - Maiolino, R., Übler, H., Perna, M., Witstok, J., et al., 2026, arXiv e-prints, [2603.20362](https://doi.org/10.48550/arXiv.2603.20362). 'The search for Population III: Confirmation of a HeII emitter with no metal lines at z=10.6' (32 citations).
 
@@ -60,11 +60,11 @@ Last updated: 2 November, 2026.
 
 - Kumari, N., Smit, R., Leitherer, C., Witstok, J., et al., 2024, _Monthly Notices of the Royal Astronomical Society_, [529, 781](https://doi.org/10.1093/mnras/stae252). 'A study of extreme C III]1908 &amp; [O III]88/[C II]157 emission in Pox 186: implications for JWST+ALMA (FUV + FIR) studies of distant galaxies' (21 citations).
 
-- Carniani, S., et al. (incl. J. Witstok), 2024, _Nature_, [633, 318](https://doi.org/10.1038/s41586-024-07860-9). 'Spectroscopic confirmation of two luminous galaxies at a redshift of 14' (411 citations).
+- Carniani, S., et al. (incl. J. Witstok), 2024, _Nature_, [633, 318](https://doi.org/10.1038/s41586-024-07860-9). 'Spectroscopic confirmation of two luminous galaxies at a redshift of 14' (413 citations).
 
-- Curtis-Lake, E., et al. (incl. J. Witstok), 2023, _Nature Astronomy_, [7, 622](https://doi.org/10.1038/s41550-023-01918-w). 'Spectroscopic confirmation of four metal-poor galaxies at z = 10.3-13.2' (526 citations).
+- Curtis-Lake, E., et al. (incl. J. Witstok), 2023, _Nature Astronomy_, [7, 622](https://doi.org/10.1038/s41550-023-01918-w). 'Spectroscopic confirmation of four metal-poor galaxies at z = 10.3-13.2' (528 citations).
 
-## Other (131)
+## Other (133)
 
 - Algera, H., et al. (incl. J. Witstok), 2026, arXiv e-prints, [2610.21460](https://doi.org/10.48550/arXiv.2610.21460). 'Dust at cosmic dawn: unveiling the onset of dust and obscured star formation at $z\gtrsim8$'.
 
@@ -75,6 +75,10 @@ Last updated: 2 November, 2026.
 - Gottumukkala, R., et al. (incl. J. Witstok), 2026, arXiv e-prints, [2610.15901](https://doi.org/10.48550/arXiv.2610.15901). 'The DAWN JWST Archive: A spectroscopically-informed population study of the physical properties of galaxies at z&gt;2'.
 
 - Heintz, K., et al. (incl. J. Witstok), 2026, _The Open Journal of Astrophysics_, [9, 72038](https://doi.org/10.33232/001c.172038). 'Evidence for inefficient dust production in a massive, metal-rich galaxy at z=7.13 uncovered by JWST and ALMA' (13 citations).
+
+- Looser, T., et al. (incl. J. Witstok), 2026, arXiv e-prints, [2610.41490](https://scixplorer.org/abs/2026arXiv261041490L). 'OASIS II: The Ionized Gas Traces Feedback-Driven Declines into the Quiet Side of Bursty Star Formation at z > 4'.
+
+- Looser, T., et al. (incl. J. Witstok), 2026, arXiv e-prints, [2610.41489](https://scixplorer.org/abs/2026arXiv261041489L). 'OASIS I: Spectroscopy of Mini-Quenched and Lulling Galaxies Constrains the Quiet Side of Bursty Star Formation at z > 4'.
 
 - Puskás, D., et al. (incl. J. Witstok), 2026, _Monthly Notices of the Royal Astronomical Society_, [552, stag1698](https://doi.org/10.1093/mnras/stag1698). 'Mergers lighting the early Universe: modest star formation enhancement without evidence for AGN or Lyα triggering' (19 citations).
 
@@ -88,13 +92,13 @@ Last updated: 2 November, 2026.
 
 - Wu, Z., et al. (incl. J. Witstok), 2026, arXiv e-prints, [2609.35423](https://doi.org/10.48550/arXiv.2609.35423). 'Source--Line Associations in JWST/NIRSpec Dense-Shutter Spectroscopy'.
 
-- Shivaei, I., et al. (incl. J. Witstok), 2026, _Astronomy and Astrophysics_, [712, A132](https://doi.org/10.1051/0004-6361/202557064). 'Diversity and evolution of dust-attenuation curves from redshift z ∼ 1 to 9' (52 citations).
+- Shivaei, I., et al. (incl. J. Witstok), 2026, _Astronomy and Astrophysics_, [712, A132](https://doi.org/10.1051/0004-6361/202557064). 'Diversity and evolution of dust-attenuation curves from redshift z ∼ 1 to 9' (53 citations).
 
 - Trussler, J., et al. (incl. J. Witstok), 2026, _Monthly Notices of the Royal Astronomical Society_, [550, stag1360](https://doi.org/10.1093/mnras/stag1360). 'Out of oxygen: extremely metal-poor galaxy candidates identified at 2.5 &lt; z &lt; 6.5 with deep JADES medium-band imaging' (8 citations).
 
 - Algera, H., et al. (incl. J. Witstok), 2026, _The Open Journal of Astrophysics_, [9, 65333](https://doi.org/10.33232/001c.165333). 'A first systematic study of [OIII] 88 μ m at z &gt; 8 : two luminous oxygen lines and a powerful ionized outflow in the first 600 million years' (15 citations).
 
-- Helton, J., et al. (incl. J. Witstok), 2026, _The Astrophysical Journal_, [1006, 43](https://doi.org/10.3847/1538-4357/ae5dcd). 'The Stellar Populations and Rest-frame Colors of Star-forming Galaxies at z ≍ 8: Exploring the Impact of Filter Choice and Star Formation History Assumption with JADES' (9 citations).
+- Helton, J., et al. (incl. J. Witstok), 2026, _The Astrophysical Journal_, [1006, 43](https://doi.org/10.3847/1538-4357/ae5dcd). 'The Stellar Populations and Rest-frame Colors of Star-forming Galaxies at z ≍ 8: Exploring the Impact of Filter Choice and Star Formation History Assumption with JADES' (10 citations).
 
 - Pollock, C., Heintz, K., Witstok, J., et al., 2026, _Astronomy and Astrophysics_, [711, A298](https://doi.org/10.1051/0004-6361/202659423). 'Characterising Lyα damping wings at the onset of reionisation: Evidence for highly efficient star formation driven by dense, neutral gas in UV-bright galaxies at z &gt; 9' (9 citations).
 
@@ -112,9 +116,9 @@ Last updated: 2 November, 2026.
 
 - Helton, J., et al. (incl. J. Witstok), 2026, _The Astrophysical Journal Letters_, [1004, L30](https://doi.org/10.3847/2041-8213/ae7446). 'Ionizing Photon Production Efficiencies and Chemical Abundances at Cosmic Dawn Revealed by Ultradeep Rest-frame Optical Spectroscopy of JADES-GS-z14-0' (24 citations).
 
-- Nikopoulos, G., et al. (incl. J. Witstok), 2026, _Astronomy and Astrophysics_, [710, A136](https://doi.org/10.1051/0004-6361/202557604). 'Evidence of violation of case B recombination in little red dots' (44 citations).
-
 - Nikopoulos, G., et al. (incl. J. Witstok), 2026, arXiv e-prints, [2606.31515](https://doi.org/10.48550/arXiv.2606.31515). 'The metallicities of little red dot host galaxies: LRDs are metal poor, but not pristine' (11 citations).
+
+- Nikopoulos, G., et al. (incl. J. Witstok), 2026, _Astronomy and Astrophysics_, [710, A136](https://doi.org/10.1051/0004-6361/202557604). 'Evidence of violation of case B recombination in little red dots' (44 citations).
 
 - Pollock, C., et al. (incl. J. Witstok), 2026, arXiv e-prints, [2606.13078](https://doi.org/10.48550/arXiv.2606.13078). 'Chemical signatures from the first stars embedded in metal-poor gas in galaxies at cosmic dawn' (10 citations).
 
@@ -122,9 +126,9 @@ Last updated: 2 November, 2026.
 
 - Saxena, A., et al. (incl. J. Witstok), 2026, _Monthly Notices of the Royal Astronomical Society_, [548, stag808](https://doi.org/10.1093/mnras/stag808). 'Hitting the slopes: a spectroscopic view of UV continuum slopes of galaxies reveals a reddening at z &gt; 9.5' (62 citations).
 
-- Juodžbalis, I., et al. (incl. J. Witstok), 2026, _Nature_, [653, 1017](https://doi.org/10.1038/s41586-026-10579-4). 'A direct black-hole mass measurement in a little red dot at high redshift' (130 citations).
+- Juodžbalis, I., et al. (incl. J. Witstok), 2026, _Nature_, [653, 1017](https://doi.org/10.1038/s41586-026-10579-4). 'A direct black-hole mass measurement in a little red dot at high redshift' (131 citations).
 
-- Maiolino, R., et al. (incl. J. Witstok), 2026, _Monthly Notices of the Royal Astronomical Society_, [548, staf2109](https://doi.org/10.1093/mnras/staf2109). 'A black hole in a near pristine galaxy 700 Myr after the big bang' (115 citations).
+- Maiolino, R., et al. (incl. J. Witstok), 2026, _Monthly Notices of the Royal Astronomical Society_, [548, staf2109](https://doi.org/10.1093/mnras/staf2109). 'A black hole in a near pristine galaxy 700 Myr after the big bang' (116 citations).
 
 - Carniani, S., et al. (incl. J. Witstok), 2026, arXiv e-prints, [2604.11899](https://doi.org/10.48550/arXiv.2604.11899). 'Intense and extended CIII] emission suggests a strong outflow in JADES-GS-z14-0' (2 citations).
 
@@ -142,7 +146,7 @@ Last updated: 2 November, 2026.
 
 - Sneppen, A., et al. (incl. J. Witstok), 2026, arXiv e-prints, [2604.09399](https://doi.org/10.48550/arXiv.2604.09399). 'Paschen Jumps in Little Red Dots: Evidence for Nebular Continua' (19 citations).
 
-- Eisenstein, D., et al. (incl. J. Witstok), 2026, _The Astrophysical Journal Supplement Series_, [283, 6](https://doi.org/10.3847/1538-4365/ae3163). 'Overview of the JWST Advanced Deep Extragalactic Survey (JADES)' (715 citations).
+- Eisenstein, D., et al. (incl. J. Witstok), 2026, _The Astrophysical Journal Supplement Series_, [283, 6](https://doi.org/10.3847/1538-4365/ae3163). 'Overview of the JWST Advanced Deep Extragalactic Survey (JADES)' (718 citations).
 
 - Heintz, K., et al. (incl. J. Witstok), 2026, _Nature Astronomy_, [10, 448](https://doi.org/10.1038/s41550-025-02745-x). 'A dense web of neutral gas in a galaxy proto-cluster post-reionization' (18 citations).
 
@@ -154,7 +158,7 @@ Last updated: 2 November, 2026.
 
 - Bakx, T., et al. (incl. J. Witstok), 2026, _Monthly Notices of the Royal Astronomical Society_, [546, staf2284](https://doi.org/10.1093/mnras/staf2284). 'Probing infrared eXcess to investigate early-Universe dust (PIXIEDust)' (14 citations).
 
-- Ji, Z., et al. (incl. J. Witstok), 2026, _The Astrophysical Journal_, [998, 239](https://doi.org/10.3847/1538-4357/ae3b2a). 'JADES: Rest-frame UV-to-NIR Size Evolution of Massive Quiescent Galaxies from Redshift z = 5 to z = 0.5' (52 citations).
+- Ji, Z., et al. (incl. J. Witstok), 2026, _The Astrophysical Journal_, [998, 239](https://doi.org/10.3847/1538-4357/ae3b2a). 'JADES: Rest-frame UV-to-NIR Size Evolution of Massive Quiescent Galaxies from Redshift z = 5 to z = 0.5' (53 citations).
 
 - Pérez-González, P., et al. (incl. J. Witstok), 2026, arXiv e-prints, [2602.20247](https://doi.org/10.48550/arXiv.2602.20247). 'Little Red Dots: One Photometric Tag Concealing Diverse Spectroscopic Flavors of Massive Star Formation and Black Hole Activity' (69 citations).
 
@@ -162,23 +166,23 @@ Last updated: 2 November, 2026.
 
 - Geris, S., et al. (incl. J. Witstok), 2026, _Monthly Notices of the Royal Astronomical Society_, [545, staf1979](https://doi.org/10.1093/mnras/staf1979). 'JADES reveals a large population of low-mass black holes at high redshift' (49 citations).
 
-- Rusakov, V., et al. (incl. J. Witstok), 2026, _Nature_, [649, 574](https://doi.org/10.1038/s41586-025-09900-4). 'Little red dots as young supermassive black holes in dense ionized cocoons' (278 citations).
+- Rusakov, V., et al. (incl. J. Witstok), 2026, _Nature_, [649, 574](https://doi.org/10.1038/s41586-025-09900-4). 'Little red dots as young supermassive black holes in dense ionized cocoons' (279 citations).
 
 - Scholtz, J., et al. (incl. J. Witstok), 2026, _Monthly Notices of the Royal Astronomical Society_, [545, staf2107](https://doi.org/10.1093/mnras/staf2107). 'JADES: carbon-enhanced, nitrogen-normal compact galaxy at z = 11.2' (17 citations).
 
-- Sneppen, A., et al. (incl. J. Witstok), 2026, arXiv e-prints, [2601.18864](https://doi.org/10.48550/arXiv.2601.18864). 'Inside the cocoon: a comprehensive explanation of the spectra of Little Red Dots' (73 citations).
+- Sneppen, A., et al. (incl. J. Witstok), 2026, arXiv e-prints, [2601.18864](https://doi.org/10.48550/arXiv.2601.18864). 'Inside the cocoon: a comprehensive explanation of the spectra of Little Red Dots' (74 citations).
 
 - Sun, F., et al. (incl. J. Witstok), 2026, arXiv e-prints, [2601.15961](https://doi.org/10.48550/arXiv.2601.15961). 'JADES: Discovery of Large Reservoirs of Small Dust Grains in the Circumgalactic Medium of Massive Galaxies at $z\sim3.5$ through Deep JWST/NIRCam Imaging and Grism Spectroscopy' (14 citations).
 
-- Eisenstein, D., et al. (incl. J. Witstok), 2025, _The Astrophysical Journal Supplement Series_, [281, 50](https://doi.org/10.3847/1538-4365/ae1137). 'The JADES Origins Field: A New JWST Deep Field in the JADES Second NIRCam Data Release' (290 citations).
+- Eisenstein, D., et al. (incl. J. Witstok), 2025, _The Astrophysical Journal Supplement Series_, [281, 50](https://doi.org/10.3847/1538-4365/ae1137). 'The JADES Origins Field: A New JWST Deep Field in the JADES Second NIRCam Data Release' (292 citations).
 
-- Ji, X., et al. (incl. J. Witstok), 2025, _Monthly Notices of the Royal Astronomical Society_, [544, 3900](https://doi.org/10.1093/mnras/staf1867). 'BlackTHUNDER ─ A non-stellar Balmer break in a black hole-dominated little red dot at z = 7.04' (206 citations).
+- Ji, X., et al. (incl. J. Witstok), 2025, _Monthly Notices of the Royal Astronomical Society_, [544, 3900](https://doi.org/10.1093/mnras/staf1867). 'BlackTHUNDER ─ A non-stellar Balmer break in a black hole-dominated little red dot at z = 7.04' (207 citations).
 
 - Rinaldi, P., et al. (incl. J. Witstok), 2025, _The Astrophysical Journal_, [994, 86](https://doi.org/10.3847/1538-4357/ae089c). 'Deciphering the Nature of Virgil: An Obscured Active Galactic Nucleus Lurking within an Apparently Normal Lyα Emitter during Cosmic Reionization' (29 citations).
 
 - Sokoliuk, O., et al. (incl. J. Witstok), 2025, arXiv e-prints, [2510.07259](https://doi.org/10.48550/arXiv.2510.07259). 'The cosmic web's Lyman-$α$ glow at $z \approx 2.5$; hydrodynamic models, dust, and wide-field, narrow-band detection' (1 citation).
 
-- Whitler, L., et al. (incl. J. Witstok), 2025, _The Astrophysical Journal_, [992, 63](https://doi.org/10.3847/1538-4357/adfddc). 'The z ≳ 9 Galaxy UV Luminosity Function from the JWST Advanced Deep Extragalactic Survey: Insights into Early Galaxy Evolution and Reionization' (134 citations).
+- Whitler, L., et al. (incl. J. Witstok), 2025, _The Astrophysical Journal_, [992, 63](https://doi.org/10.3847/1538-4357/adfddc). 'The z ≳ 9 Galaxy UV Luminosity Function from the JWST Advanced Deep Extragalactic Survey: Insights into Early Galaxy Evolution and Reionization' (136 citations).
 
 - Wu, Z., et al. (incl. J. Witstok), 2025, _The Astrophysical Journal_, [992, 212](https://doi.org/10.3847/1538-4357/ae01a1). 'JADES-GS-z14-1: A Compact, Faint Galaxy at z ≈ 14 with Weak Metal Lines from Extremely Deep JWST MIRI, NIRCam, and NIRSpec Observations' (23 citations).
 
@@ -208,7 +212,7 @@ Last updated: 2 November, 2026.
 
 - Helton, J., et al. (incl. J. Witstok), 2025, _Nature Astronomy_, [9, 729](https://doi.org/10.1038/s41550-025-02503-z). 'Photometric detection at 7.7 μm of a galaxy beyond redshift 14 with JWST/MIRI' (74 citations).
 
-- Looser, T., et al. (incl. J. Witstok), 2025, _Astronomy and Astrophysics_, [697, A88](https://doi.org/10.1051/0004-6361/202347102). 'JADES: Differing assembly histories of galaxies: Observational evidence for bursty star formation histories and (mini-)quenching in the first billion years of the Universe' (179 citations).
+- Looser, T., et al. (incl. J. Witstok), 2025, _Astronomy and Astrophysics_, [697, A88](https://doi.org/10.1051/0004-6361/202347102). 'JADES: Differing assembly histories of galaxies: Observational evidence for bursty star formation histories and (mini-)quenching in the first billion years of the Universe' (180 citations).
 
 - Scholtz, J., et al. (incl. J. Witstok), 2025, _Monthly Notices of the Royal Astronomical Society_, [539, 2463](https://doi.org/10.1093/mnras/staf518). 'GA-NIFS: ISM properties and metal enrichment in a merger-driven starburst during the epoch of reionization probed with JWST and ALMA' (39 citations).
 
@@ -220,7 +224,7 @@ Last updated: 2 November, 2026.
 
 - D'Eugenio, F., et al. (incl. J. Witstok), 2025, _The Astrophysical Journal Supplement Series_, [277, 4](https://doi.org/10.3847/1538-4365/ada148). 'JADES Data Release 3: NIRSpec/Microshutter Assembly Spectroscopy for 4000 Galaxies in the GOODS Fields' (307 citations).
 
-- Lin, Q., Yang, X., Li, A., Witstok, J., 2025, _Astronomy and Astrophysics_, [694, A84](https://doi.org/10.1051/0004-6361/202452372). 'Polycyclic aromatic hydrocarbon and the ultraviolet extinction bump at the cosmic dawn' (22 citations).
+- Lin, Q., Yang, X., Li, A., Witstok, J., 2025, _Astronomy and Astrophysics_, [694, A84](https://doi.org/10.1051/0004-6361/202452372). 'Polycyclic aromatic hydrocarbon and the ultraviolet extinction bump at the cosmic dawn' (23 citations).
 
 - Witten, C., et al. (incl. J. Witstok), 2025, _Monthly Notices of the Royal Astronomical Society_, [537, 112](https://doi.org/10.1093/mnras/staf001). 'Rising from the ashes: evidence of old stellar populations and rejuvenation events in the very early Universe' (64 citations).
 
@@ -230,35 +234,35 @@ Last updated: 2 November, 2026.
 
 - Jones, G., et al. (incl. J. Witstok), 2025, _Monthly Notices of the Royal Astronomical Society_, [536, 2355](https://doi.org/10.1093/mnras/stae2670). 'JADES: measuring reionization properties using Lyman-alpha emission' (62 citations).
 
-- Boyett, K., et al. (incl. J. Witstok), 2024, _Monthly Notices of the Royal Astronomical Society_, [535, 1796](https://doi.org/10.1093/mnras/stae2430). 'Extreme emission line galaxies detected in JADES JWST/NIRSpec - I. Inferred galaxy properties' (129 citations).
+- Boyett, K., et al. (incl. J. Witstok), 2024, _Monthly Notices of the Royal Astronomical Society_, [535, 1796](https://doi.org/10.1093/mnras/stae2430). 'Extreme emission line galaxies detected in JADES JWST/NIRSpec - I. Inferred galaxy properties' (130 citations).
 
 - Hainline, K., et al. (incl. J. Witstok), 2024, _The Astrophysical Journal_, [976, 160](https://doi.org/10.3847/1538-4357/ad8447). 'Searching for Emission Lines at z &gt; 11: The Role of Damped Lyα and Hints About the Escape of Ionizing Photons' (80 citations).
 
-- Juodžbalis, I., et al. (incl. J. Witstok), 2024, _Nature_, [636, 594](https://doi.org/10.1038/s41586-024-08210-5). 'A dormant overmassive black hole in the early Universe' (165 citations).
+- Juodžbalis, I., et al. (incl. J. Witstok), 2024, _Nature_, [636, 594](https://doi.org/10.1038/s41586-024-08210-5). 'A dormant overmassive black hole in the early Universe' (166 citations).
 
-- Nelson, E., et al. (incl. J. Witstok), 2024, _The Astrophysical Journal Letters_, [976, L27](https://doi.org/10.3847/2041-8213/ad7b17). 'Ionized Gas Kinematics with FRESCO: An Extended, Massive, Rapidly Rotating Galaxy at z = 5.4' (54 citations).
+- Nelson, E., et al. (incl. J. Witstok), 2024, _The Astrophysical Journal Letters_, [976, L27](https://doi.org/10.3847/2041-8213/ad7b17). 'Ionized Gas Kinematics with FRESCO: An Extended, Massive, Rapidly Rotating Galaxy at z = 5.4' (55 citations).
 
-- Simmonds, C., et al. (incl. J. Witstok), 2024, _Monthly Notices of the Royal Astronomical Society_, [535, 2998](https://doi.org/10.1093/mnras/stae2537). 'Ionizing properties of galaxies in JADES for a stellar mass complete sample: resolving the cosmic ionizing photon budget crisis at the Epoch of Reionization' (128 citations).
+- Simmonds, C., et al. (incl. J. Witstok), 2024, _Monthly Notices of the Royal Astronomical Society_, [535, 2998](https://doi.org/10.1093/mnras/stae2537). 'Ionizing properties of galaxies in JADES for a stellar mass complete sample: resolving the cosmic ionizing photon budget crisis at the Epoch of Reionization' (129 citations).
 
 - Tripodi, R., et al. (incl. J. Witstok), 2024, _Astronomy and Astrophysics_, [692, A184](https://doi.org/10.1051/0004-6361/202449980). 'Spatially resolved emission lines in galaxies at 4 ≤ z &lt; 10 from the JADES survey: Evidence for enhanced central star formation' (38 citations).
 
 - Juodžbalis, I., et al. (incl. J. Witstok), 2024, _Monthly Notices of the Royal Astronomical Society_, [535, 853](https://doi.org/10.1093/mnras/stae2367). 'JADES - the Rosetta stone of JWST-discovered AGN: deciphering the intriguing nature of early AGN' (169 citations).
 
-- Maiolino, R., et al. (incl. J. Witstok), 2024, _Astronomy and Astrophysics_, [691, A145](https://doi.org/10.1051/0004-6361/202347640). 'JADES: The diverse population of infant black holes at 4 &lt; z &lt; 11: Merging, tiny, poor, but mighty' (794 citations).
+- Maiolino, R., et al. (incl. J. Witstok), 2024, _Astronomy and Astrophysics_, [691, A145](https://doi.org/10.1051/0004-6361/202347640). 'JADES: The diverse population of infant black holes at 4 &lt; z &lt; 11: Merging, tiny, poor, but mighty' (796 citations).
 
 - Sandles, L., et al. (incl. J. Witstok), 2024, _Astronomy and Astrophysics_, [691, A305](https://doi.org/10.1051/0004-6361/202347119). 'JADES: Balmer decrement measurements at redshifts 4 &lt; z &lt; 7' (56 citations).
 
-- Bunker, A., et al. (incl. J. Witstok), 2024, _Astronomy and Astrophysics_, [690, A288](https://doi.org/10.1051/0004-6361/202347094). 'JADES NIRSpec initial data release for the Hubble Ultra Deep Field: Redshifts and line fluxes of distant galaxies from the deepest JWST Cycle 1 NIRSpec multi-object spectroscopy' (350 citations).
+- Bunker, A., et al. (incl. J. Witstok), 2024, _Astronomy and Astrophysics_, [690, A288](https://doi.org/10.1051/0004-6361/202347094). 'JADES NIRSpec initial data release for the Hubble Ultra Deep Field: Redshifts and line fluxes of distant galaxies from the deepest JWST Cycle 1 NIRSpec multi-object spectroscopy' (351 citations).
 
-- Helton, J., et al. (incl. J. Witstok), 2024, _The Astrophysical Journal_, [974, 41](https://doi.org/10.3847/1538-4357/ad6867). 'Identification of High-redshift Galaxy Overdensities in GOODS-N and GOODS-S' (84 citations).
+- Helton, J., et al. (incl. J. Witstok), 2024, _The Astrophysical Journal_, [974, 41](https://doi.org/10.3847/1538-4357/ad6867). 'Identification of High-redshift Galaxy Overdensities in GOODS-N and GOODS-S' (85 citations).
 
-- Shivaei, I., et al. (incl. J. Witstok), 2024, _Astronomy and Astrophysics_, [690, A89](https://doi.org/10.1051/0004-6361/202449579). 'A new census of dust and polycyclic aromatic hydrocarbons at z = 0.7─2 with JWST MIRI' (76 citations).
+- Shivaei, I., et al. (incl. J. Witstok), 2024, _Astronomy and Astrophysics_, [690, A89](https://doi.org/10.1051/0004-6361/202449579). 'A new census of dust and polycyclic aromatic hydrocarbons at z = 0.7─2 with JWST MIRI' (78 citations).
 
 - Terp, C., et al. (incl. J. Witstok), 2024, _Astronomy and Astrophysics_, [690, A70](https://doi.org/10.1051/0004-6361/202450375). 'Uncovering the physical origin of the prominent Lyman-α emission and absorption in GS9422 at z = 5.943' (22 citations).
 
 - D'Eugenio, F., et al. (incl. J. Witstok), 2024, _Astronomy and Astrophysics_, [689, A152](https://doi.org/10.1051/0004-6361/202348636). 'JADES: Carbon enrichment 350 Myr after the Big Bang' (137 citations).
 
-- Endsley, R., et al. (incl. J. Witstok), 2024, _Monthly Notices of the Royal Astronomical Society_, [533, 1111](https://doi.org/10.1093/mnras/stae1857). 'The star-forming and ionizing properties of dwarf z 6-9 galaxies in JADES: insights on bursty star formation and ionized bubble growth' (238 citations).
+- Endsley, R., et al. (incl. J. Witstok), 2024, _Monthly Notices of the Royal Astronomical Society_, [533, 1111](https://doi.org/10.1093/mnras/stae1857). 'The star-forming and ionizing properties of dwarf z 6-9 galaxies in JADES: insights on bursty star formation and ionized bubble growth' (237 citations).
 
 - Maseda, M., et al. (incl. J. Witstok), 2024, _Astronomy and Astrophysics_, [689, A73](https://doi.org/10.1051/0004-6361/202449914). 'The NIRSpec Wide GTO Survey' (70 citations).
 
@@ -266,7 +270,7 @@ Last updated: 2 November, 2026.
 
 - Maiolino, R., et al. (incl. J. Witstok), 2024, _Astronomy and Astrophysics_, [687, A67](https://doi.org/10.1051/0004-6361/202347087). 'JADES. Possible Population III signatures at z = 10.6 in the halo of GN-z11' (145 citations).
 
-- Robertson, B., et al. (incl. J. Witstok), 2024, _The Astrophysical Journal_, [970, 31](https://doi.org/10.3847/1538-4357/ad463d). 'Earliest Galaxies in the JADES Origins Field: Luminosity Function and Cosmic Star Formation Rate Density 300 Myr after the Big Bang' (215 citations).
+- Robertson, B., et al. (incl. J. Witstok), 2024, _The Astrophysical Journal_, [970, 31](https://doi.org/10.3847/1538-4357/ad463d). 'Earliest Galaxies in the JADES Origins Field: Luminosity Function and Cosmic Star Formation Rate Density 300 Myr after the Big Bang' (216 citations).
 
 - Scholtz, J., et al. (incl. J. Witstok), 2024, _Astronomy and Astrophysics_, [687, A283](https://doi.org/10.1051/0004-6361/202347187). 'GN-z11: The environment of an active galactic nucleus at z = 10.603. New insights into the most distant Lyα detection' (87 citations).
 
@@ -278,13 +282,13 @@ Last updated: 2 November, 2026.
 
 - Carniani, S., et al. (incl. J. Witstok), 2024, _Astronomy and Astrophysics_, [685, A99](https://doi.org/10.1051/0004-6361/202347230). 'JADES: The incidence rate and properties of galactic outflows in low-mass galaxies across 3 &lt; z &lt; 9' (129 citations).
 
-- Curti, M., et al. (incl. J. Witstok), 2024, _Astronomy and Astrophysics_, [684, A75](https://doi.org/10.1051/0004-6361/202346698). 'JADES: Insights into the low-mass end of the mass-metallicity-SFR relation at 3 &lt; z &lt; 10 from deep JWST/NIRSpec spectroscopy' (375 citations).
+- Curti, M., et al. (incl. J. Witstok), 2024, _Astronomy and Astrophysics_, [684, A75](https://doi.org/10.1051/0004-6361/202346698). 'JADES: Insights into the low-mass end of the mass-metallicity-SFR relation at 3 &lt; z &lt; 10 from deep JWST/NIRSpec spectroscopy' (376 citations).
 
 - Saxena, A., et al. (incl. J. Witstok), 2024, _Astronomy and Astrophysics_, [684, A84](https://doi.org/10.1051/0004-6361/202347132). 'JADES: The production and escape of ionizing photons from faint Lyman-alpha emitters in the epoch of reionization' (146 citations).
 
 - Topping, M., et al. (incl. J. Witstok), 2024, _Monthly Notices of the Royal Astronomical Society_, [529, 4087](https://doi.org/10.1093/mnras/stae800). 'The UV continuum slopes of early star-forming galaxies in JADES' (152 citations).
 
-- Hainline, K., et al. (incl. J. Witstok), 2024, _The Astrophysical Journal_, [964, 71](https://doi.org/10.3847/1538-4357/ad1ee4). 'The Cosmos in Its Infancy: JADES Galaxy Candidates at z &gt; 8 in GOODS-S and GOODS-N' (241 citations).
+- Hainline, K., et al. (incl. J. Witstok), 2024, _The Astrophysical Journal_, [964, 71](https://doi.org/10.3847/1538-4357/ad1ee4). 'The Cosmos in Its Infancy: JADES Galaxy Candidates at z &gt; 8 in GOODS-S and GOODS-N' (243 citations).
 
 - Jones, G., Witstok, J., et al., 2024, _Monthly Notices of the Royal Astronomical Society_, [529, L1](https://doi.org/10.1093/mnrasl/slad189). 'New constraints on the molecular gas content of a z 8 galaxy from JVLA CO(J = 2-1) observations' (10 citations).
 
@@ -300,27 +304,27 @@ Last updated: 2 November, 2026.
 
 - Sun, F., et al. (incl. J. Witstok), 2024, _The Astrophysical Journal_, [961, 69](https://doi.org/10.3847/1538-4357/ad07e3). 'JADES: Resolving the Stellar Component and Filamentary Overdense Environment of Hubble Space Telescope (HST)-dark Submillimeter Galaxy HDF850.1 at z = 5.18' (77 citations).
 
-- Rieke, M., et al. (incl. J. Witstok), 2023, _The Astrophysical Journal Supplement Series_, [269, 16](https://doi.org/10.3847/1538-4365/acf44d). 'JADES Initial Data Release for the Hubble Ultra Deep Field: Revealing the Faint Infrared Sky with Deep JWST NIRCam Imaging' (358 citations).
+- Rieke, M., et al. (incl. J. Witstok), 2023, _The Astrophysical Journal Supplement Series_, [269, 16](https://doi.org/10.3847/1538-4365/acf44d). 'JADES Initial Data Release for the Hubble Ultra Deep Field: Revealing the Faint Infrared Sky with Deep JWST NIRCam Imaging' (359 citations).
 
 - Saxena, A., et al. (incl. J. Witstok), 2023, _Astronomy and Astrophysics_, [678, A68](https://doi.org/10.1051/0004-6361/202346245). 'JADES: Discovery of extremely high equivalent width Lyman-α emission from a faint galaxy within an ionized bubble at z = 7.3' (101 citations).
 
-- Williams, C., et al. (incl. J. Witstok), 2023, _The Astrophysical Journal Supplement Series_, [268, 64](https://doi.org/10.3847/1538-4365/acf130). 'JEMS: A Deep Medium-band Imaging Survey in the Hubble Ultra Deep Field with JWST NIRCam and NIRISS' (236 citations).
+- Williams, C., et al. (incl. J. Witstok), 2023, _The Astrophysical Journal Supplement Series_, [268, 64](https://doi.org/10.3847/1538-4365/acf130). 'JEMS: A Deep Medium-band Imaging Survey in the Hubble Ultra Deep Field with JWST NIRCam and NIRISS' (238 citations).
 
-- Bunker, A., et al. (incl. J. Witstok), 2023, _Astronomy and Astrophysics_, [677, A88](https://doi.org/10.1051/0004-6361/202346159). 'JADES NIRSpec Spectroscopy of GN-z11: Lyman-α emission and possible enhanced nitrogen abundance in a z = 10.60 luminous galaxy' (625 citations).
+- Bunker, A., et al. (incl. J. Witstok), 2023, _Astronomy and Astrophysics_, [677, A88](https://doi.org/10.1051/0004-6361/202346159). 'JADES NIRSpec Spectroscopy of GN-z11: Lyman-α emission and possible enhanced nitrogen abundance in a z = 10.60 luminous galaxy' (626 citations).
 
 - Cameron, A., et al. (incl. J. Witstok), 2023, _Astronomy and Astrophysics_, [677, A115](https://doi.org/10.1051/0004-6361/202346107). 'JADES: Probing interstellar medium conditions at z ∼ 5.5-9.5 with ultra-deep JWST/NIRSpec spectroscopy' (240 citations).
 
 - Schouws, S., et al. (incl. J. Witstok), 2023, _The Astrophysical Journal_, [954, 103](https://doi.org/10.3847/1538-4357/ace10c). 'ALMA as a Redshift Machine: Using [C II] to Efficiently Confirm Galaxies in the Epoch of Reionization' (47 citations).
 
-- Simmonds, C., et al. (incl. J. Witstok), 2023, _Monthly Notices of the Royal Astronomical Society_, [523, 5468](https://doi.org/10.1093/mnras/stad1749). 'The ionizing photon production efficiency at z ~ 6 for Lyman-alpha emitters using JEMS and MUSE' (88 citations).
-
-- Tacchella, S., et al. (incl. J. Witstok), 2023, _Monthly Notices of the Royal Astronomical Society_, [522, 6236](https://doi.org/10.1093/mnras/stad1408). 'JWST NIRCam + NIRSpec: interstellar medium and stellar populations of young galaxies with rising star formation and evolving gas reservoirs' (200 citations).
+- Simmonds, C., et al. (incl. J. Witstok), 2023, _Monthly Notices of the Royal Astronomical Society_, [523, 5468](https://doi.org/10.1093/mnras/stad1749). 'The ionizing photon production efficiency at z ~ 6 for Lyman-alpha emitters using JEMS and MUSE' (89 citations).
 
 - Tacchella, S., et al. (incl. J. Witstok), 2023, _The Astrophysical Journal_, [952, 74](https://doi.org/10.3847/1538-4357/acdbc6). 'JADES Imaging of GN-z11: Revealing the Morphology and Environment of a Luminous Galaxy 430 Myr after the Big Bang' (227 citations).
 
-- Robertson, B., et al. (incl. J. Witstok), 2023, _Nature Astronomy_, [7, 611](https://doi.org/10.1038/s41550-023-01921-1). 'Identification and properties of intense star-forming galaxies at redshifts z &gt; 10' (330 citations).
+- Tacchella, S., et al. (incl. J. Witstok), 2023, _Monthly Notices of the Royal Astronomical Society_, [522, 6236](https://doi.org/10.1093/mnras/stad1408). 'JWST NIRCam + NIRSpec: interstellar medium and stellar populations of young galaxies with rising star formation and evolving gas reservoirs' (202 citations).
 
-- Curti, M., et al. (incl. J. Witstok), 2023, _Monthly Notices of the Royal Astronomical Society_, [518, 425](https://doi.org/10.1093/mnras/stac2737). 'The chemical enrichment in the early Universe as probed by JWST via direct metallicity measurements at z ∼ 8' (367 citations).
+- Robertson, B., et al. (incl. J. Witstok), 2023, _Nature Astronomy_, [7, 611](https://doi.org/10.1038/s41550-023-01921-1). 'Identification and properties of intense star-forming galaxies at redshifts z &gt; 10' (333 citations).
+
+- Curti, M., et al. (incl. J. Witstok), 2023, _Monthly Notices of the Royal Astronomical Society_, [518, 425](https://doi.org/10.1093/mnras/stac2737). 'The chemical enrichment in the early Universe as probed by JWST via direct metallicity measurements at z ∼ 8' (368 citations).
 
 - Katz, H., et al. (incl. J. Witstok), 2023, _Monthly Notices of the Royal Astronomical Society_, [518, 592](https://doi.org/10.1093/mnras/stac2657). 'First insights into the ISM at z &gt; 8 with JWST: possible physical implications of a high [O III] λ4363/[O III] λ5007' (100 citations).
 
