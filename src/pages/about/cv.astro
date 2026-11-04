@@ -6,8 +6,13 @@ import Steps2 from '~/components/widgets/Steps2.astro';
 import Features3 from '~/components/widgets/Features3.astro';
 import Stats from '~/components/widgets/Stats.astro';
 import Layout from '~/layouts/PageLayout.astro';
-import { latest_update, n_papers_tot, n_papers_ref, n_citations, h_index } from '~/utils/ADS_metrics';
+import { latest_update, n_papers_tot, n_papers_ref, n_papers_first, n_citations, h_index } from '~/utils/ADS_metrics';
 import { getPermalink } from '~/utils/permalinks';
+
+// Rounded-down figures for prose, so that they stay valid as the ADS record is updated
+const roundDown = (n: number, step: number) => Math.floor(n / step) * step;
+const n_papers_rounded = roundDown(n_papers_tot, 10).toLocaleString('en-GB');
+const n_citations_rounded = roundDown(n_citations, 1000).toLocaleString('en-GB');
 
 let ADS_descr = 'See <a class="text-sky-700" href='.concat(getPermalink("/about/publications"), '>publication record</a> for more details.');
 ADS_descr = ADS_descr.concat(' Based on the <a href="https://ui.adsabs.harvard.edu/" target="_blank">SAO/NASA Astrophysics Data System</a>');
@@ -105,22 +110,22 @@ const metadata = {
         icon: 'tabler:certificate-2',
       },
       {
-        title: `Distinction <br /> <span class="font-normal">Sidney Sussex College, University of Cambridge</span> <br /> <span class="text-sm font-normal">2023</span>`,
+        title: `Distinction <br /> <span class="font-normal">Sidney Sussex College, University of Cambridge</span> <br /> <span class="text-sm font-normal">2018</span>`,
         description: `Awarded a Distinction in Master of Advanced Study (MASt) in Astrophysics.`,
         icon: 'tabler:certificate-2',
       },
       {
-        title: `Cum laude (2x) <br /> <span class="font-normal">University of Leiden</span> <br /> <span class="text-sm font-normal">2023</span>`,
+        title: `Cum laude (2x) <br /> <span class="font-normal">University of Leiden</span> <br /> <span class="text-sm font-normal">2017</span>`,
         description: `Graduated <em>cum laude</em> in Bachelor of Science in Physics and Astronomy.`,
         icon: 'tabler:certificate-2',
       },
       {
-        title: `Honours College <br /> <span class="font-normal">University of Leiden</span> <br /> <span class="text-sm font-normal">2023</span>`,
+        title: `Honours College <br /> <span class="font-normal">University of Leiden</span> <br /> <span class="text-sm font-normal">2017</span>`,
         description: `Successfully completed Honours College: Beta and Life Sciences.`,
         icon: 'tabler:certificate-2',
       },
       {
-        title: `Summa cum laude <br /> <span class="font-normal">Gemeentelijk Gymnasium Hilversum</span> <br /> <span class="text-sm font-normal">2023</span>`,
+        title: `Summa cum laude <br /> <span class="font-normal">Gemeentelijk Gymnasium Hilversum</span> <br /> <span class="text-sm font-normal">2014</span>`,
         description: `Graduated <em>summa cum laude</em> in VWO Gymnasium.`,
         icon: 'tabler:certificate-2',
       },
@@ -134,6 +139,11 @@ const metadata = {
     id="selected-publications"
     title="Selected Publications"
     items={[
+      {
+        title: `<a href="https://scixplorer.org/abs/2026arXiv260318775W/abstract" target="_blank">An OASIS of Lyman-α within a neutral intergalactic desert: reaffirmed line and blue continuum reveal efficient ionising agents at z = 13</a>`,
+        description: `<a href="https://scixplorer.org/abs/2026arXiv260318775W/abstract" target="_blank">Witstok, J., Carniani, S., Jakobsen, P., et al., 2026, arXiv e-prints, 2603.18775</a>`,
+        icon: 'tabler:notebook',
+      },
       {
         title: `<a href="https://scixplorer.org/abs/2026OJAp....955261W/abstract" target="_blank">On the origins of oxygen: ALMA and JWST characterise the multi-phase, metal-enriched, star-bursting medium within a 'normal' z > 11 galaxy</a>`,
         description: `<a href="https://scixplorer.org/abs/2026OJAp....955261W/abstract" target="_blank">Witstok, J., Smit, R., Baker, W. M., et al., 2026, The Open Journal of Astrophysics, 9, 55261</a>`,
@@ -165,8 +175,8 @@ const metadata = {
         icon: 'tabler:notebook',
       },
       {
-        title: `<a href="https://scixplorer.org/abs/2025MNRAS.tmp.1180O/abstract" target="_blank">Detection of the 2175Å UV Bump at z > 7: Evidence for Rapid Dust Evolution in a Merging Reionisation-Era Galaxy</a>`,
-        description: `<a href="https://scixplorer.org/abs/2025MNRAS.tmp.1180O/abstract" target="_blank">Ormerod, K., Witstok, J., et al., 2025, A&A, 697, A89</a>`,
+        title: `<a href="https://scixplorer.org/abs/2025MNRAS.542.1136O/abstract" target="_blank">Detection of the 2175Å UV bump at z > 7: evidence for rapid dust evolution in a merging reionization-era galaxy</a>`,
+        description: `<a href="https://scixplorer.org/abs/2025MNRAS.542.1136O/abstract" target="_blank">Ormerod, K., Witstok, J., et al., 2025, MNRAS, 542, 1136</a>`,
         icon: 'tabler:notebook',
       },
       {
@@ -204,13 +214,28 @@ const metadata = {
     title="Successful Observing Proposals"
     items={[
       {
-        title: `A neutral stance: towards completing our view of the ISM in the earliest galaxies`,
-        description: `Principal Investigator of ALMA program 2025.1.00418.S`,
+        title: `Large Unified Modern Infrastructure (LUMI) project Deic-KU-L5-2026-036`,
+        description: `Co-PI of Danish e-Infrastructure Cooperation (DeiC) project Deic-KU-L5-2026-036.`,
+        icon: 'tabler:cpu',
+      },
+      {
+        title: `Benchmarking Luminous UV-Emitting Monsters Observed from Oxygen to Nitrogen: Ionizing Sources and ISM Conditions of z=8-15 Blue Monsters`,
+        description: `Co-PI of JWST programme 12267.`,
+        icon: 'tabler:telescope',
+      },
+      {
+        title: `Connecting the (Little Red) Dots: a unique z ~ 2.5 QSO as a blueprint for JWST's enigmas?`,
+        description: `Co-PI of ESO programme 117.29UL.001.`,
         icon: 'tabler:telescope',
       },
       {
         title: `Reionization revealed: ALMA anatomizes an enigmatic ionizing source within a galaxy at redshift 13`,
-        description: `Principal Investigator of ALMA program 2025.1.00147.S`,
+        description: `Principal Investigator of ALMA program 2025.1.00147.S, 2026.1.00390.S`,
+        icon: 'tabler:telescope',
+      },
+      {
+        title: `A neutral stance: towards completing our view of the ISM in the earliest galaxies`,
+        description: `Principal Investigator of ALMA program 2025.1.00418.S`,
         icon: 'tabler:telescope',
       },
       {
@@ -235,7 +260,7 @@ const metadata = {
       },
       {
         title: `Various observing proposals`,
-        description: `Co-Investigator on 30+ observing programs with James Webb Space Telescope, ALMA, and the Very Large Telescope`,
+        description: `Co-Investigator on 40+ observing programs with James Webb Space Telescope, ALMA, and the Very Large Telescope`,
         icon: 'tabler:telescope',
       },
     ]}
@@ -249,12 +274,17 @@ const metadata = {
     title="Selected Talks & Presentations"
     items={[
       {
-        title: `Star Forming Galaxies in the Reionization Epoch <br /> <span class="font-normal">Ishigaki, Japan</span> <br /> <span class="text-sm font-normal">2025</span>`,
+        title: `Miracles of the Early Universe II <br /> <span class="font-normal">Geneva, Switzerland</span> <br /> <span class="text-sm font-normal">2026</span>`,
+        description: `Invited speaker at the Miracles of the Early Universe II meeting.`,
+        icon: 'tabler:podium',
+      },
+      {
+        title: `Star Forming Galaxies in the Reionization Epoch <br /> <span class="font-normal">Ishigaki, Japan</span> <br /> <span class="text-sm font-normal">2026</span>`,
         description: `Invited speaker at the Star Forming Galaxies in the Reionization Epoch workshop.`,
         icon: 'tabler:podium',
       },
       {
-        title: `University of South Africa <br /> <span class="font-normal">Virtual</span> <br /> <span class="text-sm font-normal">2025</span>`,
+        title: `University of South Africa <br /> <span class="font-normal">Virtual</span> <br /> <span class="text-sm font-normal">2026</span>`,
         description: `Invited seminar at the University of South Africa.`,
         icon: 'tabler:podium',
       },
@@ -274,6 +304,16 @@ const metadata = {
         icon: 'tabler:podium',
       },
       {
+        title: `12th International Asian Congress <br /> <span class="font-normal">Torun, Poland</span> <br /> <span class="text-sm font-normal">2025</span>`,
+        description: `Invited speaker at the 12th International Asian Congress.`,
+        icon: 'tabler:podium',
+      },
+      {
+        title: `Saint Mary's University <br /> <span class="font-normal">Virtual</span> <br /> <span class="text-sm font-normal">2025</span>`,
+        description: `Invited colloquium at Saint Mary's University.`,
+        icon: 'tabler:podium',
+      },
+      {
         title: `Chalmers University <br /> <span class="font-normal">Gothenburg, Sweden</span> <br /> <span class="text-sm font-normal">2025</span>`,
         description: `Invited colloquium at Chalmers University.`,
         icon: 'tabler:podium',
@@ -285,11 +325,11 @@ const metadata = {
       },
       {
         title: `University of Groningen <br /> <span class="font-normal">Groningen, NL</span> <br /> <span class="text-sm font-normal">2024</span>`,
-        description: `Invited seminar at the Kapteyn Astronmical Institute.`,
+        description: `Invited seminar at the Kapteyn Astronomical Institute.`,
         icon: 'tabler:podium',
       },
       {
-        title: `Harvard University <br /> <span class="font-normal">Cambridge, USA</span> <br /> <span class="text-sm font-normal">2024</span>`,
+        title: `Harvard University <br /> <span class="font-normal">Virtual</span> <br /> <span class="text-sm font-normal">2024</span>`,
         description: `Invited seminar at the High Energy Astrophysics Division (HEAD) at the Center for Astrophysics (CfA).`,
         icon: 'tabler:podium',
       },
@@ -299,7 +339,7 @@ const metadata = {
         icon: 'tabler:podium',
       },
       {
-        title: `Cardiff University <br /> <span class="font-normal">Cardiff, UK</span> <br /> <span class="text-sm font-normal">2024</span>`,
+        title: `Cardiff University <br /> <span class="font-normal">Virtual</span> <br /> <span class="text-sm font-normal">2024</span>`,
         description: `Invited seminar at Cardiff University.`,
         icon: 'tabler:podium',
       },
@@ -319,12 +359,12 @@ const metadata = {
         icon: 'tabler:podium',
       },
       {
-        title: `Complutense University <br /> <span class="font-normal">Madrid, Spain</span> <br /> <span class="text-sm font-normal">2023</span>`,
+        title: `Complutense University <br /> <span class="font-normal">Virtual</span> <br /> <span class="text-sm font-normal">2023</span>`,
         description: `Invited seminar at Complutense University.`,
         icon: 'tabler:podium',
       },
       {
-        title: `American Astronomical Society Bi-Annual Meeting <br /> <span class="font-normal">Albuqueque, USA</span> <br /> <span class="text-sm font-normal">2023</span>`,
+        title: `American Astronomical Society Bi-Annual Meeting <br /> <span class="font-normal">Albuquerque, USA</span> <br /> <span class="text-sm font-normal">2023</span>`,
         description: `Invited speaker at the 242nd meeting of the American Astronomical Society.`,
         icon: 'tabler:podium',
       },
@@ -349,7 +389,7 @@ const metadata = {
     title="Teaching & Supervision"
     items={[
       {
-        title: `Niels Bohr Institute, University of Copenhagen <br /> <span class="text-sm font-normal">2025</span>`,
+        title: `Niels Bohr Institute, University of Copenhagen <br /> <span class="text-sm font-normal">2025 - 2026</span>`,
         description: `Teaching one-week project-based graduate course Gravitational Dynamics and Galaxy Formation.`,
         icon: 'tabler:chalkboard',
       },
@@ -411,19 +451,19 @@ const metadata = {
     items={[
       {
         title: 'Written Communication',
-        description: 'Proven track record in scientific literature (author on 90 publications totalling over 5000 citations).',
+        description: `Proven track record in scientific literature (author on ${n_papers_rounded}+ publications, ${n_papers_first} as first author, totalling ${n_citations_rounded}+ citations; h-index of ${h_index}).`,
       },
       {
         title: 'Leadership',
-        description: 'Principal Investigator of multiple successful ALMA observing programs (30 hours), Co-Chair of the Richard Hills memorial conference committee.',
+        description: '(Co-)Principal Investigator of 11 JWST, ALMA, and HST observing programmes (150+ hours), Co-Chair of the Charting Cosmic Dawn (2026), From Dust till Dawn (Lorentz Center, 2026), and Richard Hills Memorial (2024) conference committees.',
       },
       {
         title: 'Network & Collaboration',
-        description: 'Associate Member of the James Webb Space Telescope NIRSpec instrument team (allocated 800+ hours GTO time).',
+        description: 'Associate Member of the James Webb Space Telescope NIRSpec instrument team (allocated 800+ hours GTO time), member of the PHOENIX ALMA and BlackTHUNDER JWST Large Programme collaborations, Full Member of the Euclid Consortium.',
       },
       {
         title: 'Communication & Services',
-        description: 'Presented scientific results at 20 international conferences, helped organize several, served on multiple departmental committees, developed publicly available codes, acted as referee for major journals (<em>Nature</em>, MNRAS, ApJ).',
+        description: 'Presented scientific results at 14 invited seminars, colloquia as well as invited and contributed talks at 40 international conferences, helped organize several, served on multiple departmental committees, developed publicly available codes, acted as referee for major journals (<em>Nature</em>, <em>Nature Astronomy</em>, MNRAS, ApJ, A&amp;A) and panellist on the JWST Cycle 6 Time Allocation Committee.',
       },
       {
         title: 'Mathematical and Statistical Modelling',
@@ -435,7 +475,7 @@ const metadata = {
       },
       {
         title: 'Computing & Programming',
-        description: 'Highly proficient at Python (NumPy, SciPy, mpi4py, Matplotlib), UNIX, bash, LaTeX, git (6+ years’ working experience); familiar with C++, SQL, HTML, machine-learning methods.',
+        description: 'Highly proficient at Python (NumPy, SciPy, JAX, NumPyro, mpi4py, Matplotlib), UNIX, bash, LaTeX, git (10+ years’ working experience); familiar with C++, SQL, HTML, machine-learning methods.',
       },
       {
         title: 'Training & Instructing',

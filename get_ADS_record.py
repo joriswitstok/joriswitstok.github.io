@@ -174,6 +174,7 @@ with open("./src/utils/ADS_metrics.ts", mode='w') as file:
     file.write("export const latest_update = '{}';".format(current_date))
     file.write("\nexport const n_papers_tot = {:d};".format(n_papers_tot))
     file.write("\nexport const n_papers_ref = {:d};".format(n_papers_ref))
+    file.write("\nexport const n_papers_first = {:d};".format(len(first_author_bibcodes)))
     file.write("\nexport const n_reads = {:d};".format(n_reads))
     file.write("\nexport const n_downloads = {:d};".format(n_downloads))
     file.write("\nexport const n_citations = {:d};".format(n_citations))
