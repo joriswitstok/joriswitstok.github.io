@@ -82,9 +82,9 @@ Last updated: 9 November, 2026.
 
 - Heintz, K., et al. (incl. J. Witstok), 2026, _The Open Journal of Astrophysics_, [9, 72038](https://doi.org/10.33232/001c.172038). 'Evidence for inefficient dust production in a massive, metal-rich galaxy at z=7.13 uncovered by JWST and ALMA' (14 citations).
 
-- Looser, T., et al. (incl. J. Witstok), 2026, arXiv e-prints, [2610.41489](https://scixplorer.org/abs/2026arXiv261041489L). 'OASIS I: Spectroscopy of Mini-Quenched and Lulling Galaxies Constrains the Quiet Side of Bursty Star Formation at z > 4'.
-
 - Looser, T., et al. (incl. J. Witstok), 2026, arXiv e-prints, [2610.41490](https://scixplorer.org/abs/2026arXiv261041490L). 'OASIS II: The Ionized Gas Traces Feedback-Driven Declines into the Quiet Side of Bursty Star Formation at z > 4'.
+
+- Looser, T., et al. (incl. J. Witstok), 2026, arXiv e-prints, [2610.41489](https://scixplorer.org/abs/2026arXiv261041489L). 'OASIS I: Spectroscopy of Mini-Quenched and Lulling Galaxies Constrains the Quiet Side of Bursty Star Formation at z > 4'.
 
 - Puskás, D., et al. (incl. J. Witstok), 2026, _Monthly Notices of the Royal Astronomical Society_, [552, stag1698](https://doi.org/10.1093/mnras/stag1698). 'Mergers lighting the early Universe: modest star formation enhancement without evidence for AGN or Lyα triggering' (17 citations).
 
