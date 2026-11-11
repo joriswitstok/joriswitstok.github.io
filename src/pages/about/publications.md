@@ -8,11 +8,11 @@ layout: '~/layouts/MarkdownLayout.astro'
 159 publications (127 refereed), of which 10 as first author. Metrics:
 - 165352 reads, 84551 downloads, 16018 citations
 - h-index: 69, m-index: 11.5, g-index: 125
-- i10-index: 135, i100-index: 50, read10-index: 3813.4
+- i10-index: 135, i100-index: 50, read10-index: 3801.3
 - tori index: 6.1, riq index: 411.0
 
 Based on the [SAO/NASA Astrophysics Data System (ADS)](https://ui.adsabs.harvard.edu/).
-Last updated: 10 November, 2026.
+Last updated: 11 November, 2026.
 
 ## First author (10)
 
@@ -82,9 +82,9 @@ Last updated: 10 November, 2026.
 
 - Heintz, K., et al. (incl. J. Witstok), 2026, _The Open Journal of Astrophysics_, [9, 72038](https://doi.org/10.33232/001c.172038). 'Evidence for inefficient dust production in a massive, metal-rich galaxy at z=7.13 uncovered by JWST and ALMA' (14 citations).
 
-- Looser, T., et al. (incl. J. Witstok), 2026, arXiv e-prints, [2610.41490](https://scixplorer.org/abs/2026arXiv261041490L). 'OASIS II: The Ionized Gas Traces Feedback-Driven Declines into the Quiet Side of Bursty Star Formation at z > 4'.
-
 - Looser, T., et al. (incl. J. Witstok), 2026, arXiv e-prints, [2610.41489](https://scixplorer.org/abs/2026arXiv261041489L). 'OASIS I: Spectroscopy of Mini-Quenched and Lulling Galaxies Constrains the Quiet Side of Bursty Star Formation at z > 4'.
+
+- Looser, T., et al. (incl. J. Witstok), 2026, arXiv e-prints, [2610.41490](https://scixplorer.org/abs/2026arXiv261041490L). 'OASIS II: The Ionized Gas Traces Feedback-Driven Declines into the Quiet Side of Bursty Star Formation at z > 4'.
 
 - Puskás, D., et al. (incl. J. Witstok), 2026, _Monthly Notices of the Royal Astronomical Society_, [552, stag1698](https://doi.org/10.1093/mnras/stag1698). 'Mergers lighting the early Universe: modest star formation enhancement without evidence for AGN or Lyα triggering' (17 citations).
 
@@ -122,9 +122,9 @@ Last updated: 10 November, 2026.
 
 - Helton, J., et al. (incl. J. Witstok), 2026, _The Astrophysical Journal Letters_, [1004, L30](https://doi.org/10.3847/2041-8213/ae7446). 'Ionizing Photon Production Efficiencies and Chemical Abundances at Cosmic Dawn Revealed by Ultradeep Rest-frame Optical Spectroscopy of JADES-GS-z14-0' (24 citations).
 
-- Nikopoulos, G., et al. (incl. J. Witstok), 2026, _Astronomy and Astrophysics_, [710, A136](https://doi.org/10.1051/0004-6361/202557604). 'Evidence of violation of case B recombination in little red dots' (40 citations).
-
 - Nikopoulos, G., et al. (incl. J. Witstok), 2026, arXiv e-prints, [2606.31515](https://doi.org/10.48550/arXiv.2606.31515). 'The metallicities of little red dot host galaxies: LRDs are metal poor, but not pristine' (12 citations).
+
+- Nikopoulos, G., et al. (incl. J. Witstok), 2026, _Astronomy and Astrophysics_, [710, A136](https://doi.org/10.1051/0004-6361/202557604). 'Evidence of violation of case B recombination in little red dots' (40 citations).
 
 - Pollock, C., et al. (incl. J. Witstok), 2026, arXiv e-prints, [2606.13078](https://doi.org/10.48550/arXiv.2606.13078). 'Chemical signatures from the first stars embedded in metal-poor gas in galaxies at cosmic dawn' (10 citations).
 
@@ -296,9 +296,9 @@ Last updated: 10 November, 2026.
 
 - Hainline, K., et al. (incl. J. Witstok), 2024, _The Astrophysical Journal_, [964, 71](https://doi.org/10.3847/1538-4357/ad1ee4). 'The Cosmos in Its Infancy: JADES Galaxy Candidates at z &gt; 8 in GOODS-S and GOODS-N' (241 citations).
 
-- Jones, G., Witstok, J., et al., 2024, _Monthly Notices of the Royal Astronomical Society_, [529, L1](https://doi.org/10.1093/mnrasl/slad189). 'New constraints on the molecular gas content of a z 8 galaxy from JVLA CO(J = 2-1) observations' (10 citations).
-
 - Jones, G., Bunker, A., Saxena, A., Witstok, J., et al., 2024, _Astronomy and Astrophysics_, [683, A238](https://doi.org/10.1051/0004-6361/202347099). 'JADES: The emergence and evolution of Lyα emission and constraints on the intergalactic medium neutral fraction' (77 citations).
+
+- Jones, G., Witstok, J., et al., 2024, _Monthly Notices of the Royal Astronomical Society_, [529, L1](https://doi.org/10.1093/mnrasl/slad189). 'New constraints on the molecular gas content of a z 8 galaxy from JVLA CO(J = 2-1) observations' (10 citations).
 
 - Helton, J., et al. (incl. J. Witstok), 2024, _The Astrophysical Journal_, [962, 124](https://doi.org/10.3847/1538-4357/ad0da7). 'The JWST Advanced Deep Extragalactic Survey: Discovery of an Extreme Galaxy Overdensity at z = 5.4 with JWST/NIRCam in GOODS-S' (83 citations).
 
