@@ -102,6 +102,9 @@ journal_bibstems = {"arXiv": "arXiv e-prints", "A&A": "_Astronomy and Astrophysi
                     "PASP": "_Publications of the Astronomical Society of the Pacific_",}
 trim_first_names = lambda authors: [", ".join([a if ai == 0 else a[0] + '.' for ai, a in enumerate(a.split(", "))]) for a in authors]
 max_listed_authors = 5
+# Collaboration papers whose first "author" is the collaboration itself (e.g. "Community, Genesis" -> "Community, G., et al."):
+# map the author name as listed by ADS to the name to be shown instead
+collaborations = {"Community, Genesis": "Genesis Community"}
 for publication in publications["response"]["docs"]:
     if publication["bibcode"] in exclude_bibcodes:
         n_papers_tot -= 1
@@ -123,7 +126,9 @@ for publication in publications["response"]["docs"]:
     # Author list: up to and including my name (the first four names on first-author papers), followed by "et al." if
     # names are left out; if I am beyond the first few authors, only the first author is given
     n_listed = 4 if pub_dict["ai"] == 0 else pub_dict["ai"]+1
-    if n_listed > max_listed_authors:
+    if publication["author"][0] in collaborations:
+        pub_dict["authors"] = collaborations[publication["author"][0]] + " (incl. J. Witstok)"
+    elif n_listed > max_listed_authors:
         pub_dict["authors"] = trim_first_names(publication["author"][:1])[0] + ", et al. (incl. J. Witstok)"
     else:
         pub_dict["authors"] = ", ".join(trim_first_names(publication["author"][:n_listed]))
