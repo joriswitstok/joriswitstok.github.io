@@ -6,13 +6,13 @@ layout: '~/layouts/MarkdownLayout.astro'
 
 ## Summary
 160 publications (127 refereed), of which 10 as first author. Metrics:
-- 167382 reads, 85698 downloads, 16134 citations
+- 167444 reads, 85724 downloads, 16136 citations
 - h-index: 69, m-index: 11.5, g-index: 126
-- i10-index: 135, i100-index: 50, read10-index: 4636.8
-- tori index: 5.9, riq index: 405.0
+- i10-index: 135, i100-index: 50, read10-index: 4636.6
+- tori index: 5.8, riq index: 402.0
 
 Based on the [SAO/NASA Astrophysics Data System (ADS)](https://ui.adsabs.harvard.edu/).
-Last updated: 17 November, 2026.
+Last updated: 18 November, 2026.
 
 ## First author (10)
 
@@ -124,9 +124,9 @@ Last updated: 17 November, 2026.
 
 - Helton, J., et al. (incl. J. Witstok), 2026, _The Astrophysical Journal Letters_, [1004, L30](https://doi.org/10.3847/2041-8213/ae7446). 'Ionizing Photon Production Efficiencies and Chemical Abundances at Cosmic Dawn Revealed by Ultradeep Rest-frame Optical Spectroscopy of JADES-GS-z14-0' (28 citations).
 
-- Nikopoulos, G., et al. (incl. J. Witstok), 2026, arXiv e-prints, [2606.31515](https://doi.org/10.48550/arXiv.2606.31515). 'The metallicities of little red dot host galaxies: LRDs are metal poor, but not pristine' (12 citations).
-
 - Nikopoulos, G., et al. (incl. J. Witstok), 2026, _Astronomy and Astrophysics_, [710, A136](https://doi.org/10.1051/0004-6361/202557604). 'Evidence of violation of case B recombination in little red dots' (40 citations).
+
+- Nikopoulos, G., et al. (incl. J. Witstok), 2026, arXiv e-prints, [2606.31515](https://doi.org/10.48550/arXiv.2606.31515). 'The metallicities of little red dot host galaxies: LRDs are metal poor, but not pristine' (12 citations).
 
 - Pollock, C., et al. (incl. J. Witstok), 2026, arXiv e-prints, [2606.13078](https://doi.org/10.48550/arXiv.2606.13078). 'Chemical signatures from the first stars embedded in metal-poor gas in galaxies at cosmic dawn' (11 citations).
 
@@ -230,7 +230,7 @@ Last updated: 17 November, 2026.
 
 - Perna, M., et al. (incl. J. Witstok), 2025, _Astronomy and Astrophysics_, [696, A59](https://doi.org/10.1051/0004-6361/202453430). 'GA-NIFS: High number of dual active galactic nuclei at z ∼ 3' (85 citations).
 
-- D'Eugenio, F., et al. (incl. J. Witstok), 2025, _The Astrophysical Journal Supplement Series_, [277, 4](https://doi.org/10.3847/1538-4365/ada148). 'JADES Data Release 3: NIRSpec/Microshutter Assembly Spectroscopy for 4000 Galaxies in the GOODS Fields' (309 citations).
+- D'Eugenio, F., et al. (incl. J. Witstok), 2025, _The Astrophysical Journal Supplement Series_, [277, 4](https://doi.org/10.3847/1538-4365/ada148). 'JADES Data Release 3: NIRSpec/Microshutter Assembly Spectroscopy for 4000 Galaxies in the GOODS Fields' (310 citations).
 
 - Lin, Q., Yang, X., Li, A., Witstok, J., 2025, _Astronomy and Astrophysics_, [694, A84](https://doi.org/10.1051/0004-6361/202452372). 'Polycyclic aromatic hydrocarbon and the ultraviolet extinction bump at the cosmic dawn' (23 citations).
 
@@ -326,9 +326,9 @@ Last updated: 17 November, 2026.
 
 - Simmonds, C., et al. (incl. J. Witstok), 2023, _Monthly Notices of the Royal Astronomical Society_, [523, 5468](https://doi.org/10.1093/mnras/stad1749). 'The ionizing photon production efficiency at z ~ 6 for Lyman-alpha emitters using JEMS and MUSE' (87 citations).
 
-- Tacchella, S., et al. (incl. J. Witstok), 2023, _The Astrophysical Journal_, [952, 74](https://doi.org/10.3847/1538-4357/acdbc6). 'JADES Imaging of GN-z11: Revealing the Morphology and Environment of a Luminous Galaxy 430 Myr after the Big Bang' (230 citations).
-
 - Tacchella, S., et al. (incl. J. Witstok), 2023, _Monthly Notices of the Royal Astronomical Society_, [522, 6236](https://doi.org/10.1093/mnras/stad1408). 'JWST NIRCam + NIRSpec: interstellar medium and stellar populations of young galaxies with rising star formation and evolving gas reservoirs' (198 citations).
+
+- Tacchella, S., et al. (incl. J. Witstok), 2023, _The Astrophysical Journal_, [952, 74](https://doi.org/10.3847/1538-4357/acdbc6). 'JADES Imaging of GN-z11: Revealing the Morphology and Environment of a Luminous Galaxy 430 Myr after the Big Bang' (230 citations).
 
 - Robertson, B., et al. (incl. J. Witstok), 2023, _Nature Astronomy_, [7, 611](https://doi.org/10.1038/s41550-023-01921-1). 'Identification and properties of intense star-forming galaxies at redshifts z &gt; 10' (330 citations).
 
