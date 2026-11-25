@@ -8,11 +8,11 @@ layout: '~/layouts/MarkdownLayout.astro'
 160 publications (127 refereed), of which 10 as first author. Metrics:
 - 167739 reads, 85966 downloads, 16371 citations
 - h-index: 71, m-index: 11.8, g-index: 127
-- i10-index: 137, i100-index: 51, read10-index: 4630.7
+- i10-index: 137, i100-index: 51, read10-index: 4616.6
 - tori index: 5.8, riq index: 400.0
 
 Based on the [SAO/NASA Astrophysics Data System (ADS)](https://ui.adsabs.harvard.edu/).
-Last updated: 24 November, 2026.
+Last updated: 25 November, 2026.
 
 ## First author (10)
 
@@ -124,9 +124,9 @@ Last updated: 24 November, 2026.
 
 - Helton, J., et al. (incl. J. Witstok), 2026, _The Astrophysical Journal Letters_, [1004, L30](https://doi.org/10.3847/2041-8213/ae7446). 'Ionizing Photon Production Efficiencies and Chemical Abundances at Cosmic Dawn Revealed by Ultradeep Rest-frame Optical Spectroscopy of JADES-GS-z14-0' (29 citations).
 
-- Nikopoulos, G., et al. (incl. J. Witstok), 2026, _Astronomy and Astrophysics_, [710, A136](https://doi.org/10.1051/0004-6361/202557604). 'Evidence of violation of case B recombination in little red dots' (43 citations).
-
 - Nikopoulos, G., et al. (incl. J. Witstok), 2026, arXiv e-prints, [2606.31515](https://doi.org/10.48550/arXiv.2606.31515). 'The metallicities of little red dot host galaxies: LRDs are metal poor, but not pristine' (13 citations).
+
+- Nikopoulos, G., et al. (incl. J. Witstok), 2026, _Astronomy and Astrophysics_, [710, A136](https://doi.org/10.1051/0004-6361/202557604). 'Evidence of violation of case B recombination in little red dots' (43 citations).
 
 - Pollock, C., et al. (incl. J. Witstok), 2026, arXiv e-prints, [2606.13078](https://doi.org/10.48550/arXiv.2606.13078). 'Chemical signatures from the first stars embedded in metal-poor gas in galaxies at cosmic dawn' (11 citations).
 
@@ -298,9 +298,9 @@ Last updated: 24 November, 2026.
 
 - Hainline, K., et al. (incl. J. Witstok), 2024, _The Astrophysical Journal_, [964, 71](https://doi.org/10.3847/1538-4357/ad1ee4). 'The Cosmos in Its Infancy: JADES Galaxy Candidates at z &gt; 8 in GOODS-S and GOODS-N' (243 citations).
 
-- Jones, G., Witstok, J., et al., 2024, _Monthly Notices of the Royal Astronomical Society_, [529, L1](https://doi.org/10.1093/mnrasl/slad189). 'New constraints on the molecular gas content of a z 8 galaxy from JVLA CO(J = 2-1) observations' (10 citations).
-
 - Jones, G., Bunker, A., Saxena, A., Witstok, J., et al., 2024, _Astronomy and Astrophysics_, [683, A238](https://doi.org/10.1051/0004-6361/202347099). 'JADES: The emergence and evolution of Lyα emission and constraints on the intergalactic medium neutral fraction' (77 citations).
+
+- Jones, G., Witstok, J., et al., 2024, _Monthly Notices of the Royal Astronomical Society_, [529, L1](https://doi.org/10.1093/mnrasl/slad189). 'New constraints on the molecular gas content of a z 8 galaxy from JVLA CO(J = 2-1) observations' (10 citations).
 
 - Helton, J., et al. (incl. J. Witstok), 2024, _The Astrophysical Journal_, [962, 124](https://doi.org/10.3847/1538-4357/ad0da7). 'The JWST Advanced Deep Extragalactic Survey: Discovery of an Extreme Galaxy Overdensity at z = 5.4 with JWST/NIRCam in GOODS-S' (84 citations).
 
